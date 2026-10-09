@@ -1,126 +1,70 @@
 ---
 name: review-implementation-plan
-description: Use when a user asks to review, critique, or check an implementation plan before building, including a milestone plan or a plan of tasks for coding agents.
+description: Review an implementation plan before building. Use when a user asks to review, critique, or check their plan, including tasks for coding agents.
 ---
 
 # Review an implementation plan
 
-Review whether the author considered realistic options, gave reasons for the
-choices, and addressed the requirements for the work being planned. The reader
-is the plan's author, who needs concrete gaps to resolve before implementation.
-Return a Markdown review with blocking gaps, issues, and three questions. Give
-no score.
+Help the author find decisions and gaps that would cause problems during the
+build. Review the reasoning, not whether the author chose your preferred tools.
 
-## Establish the review scope
+## Read the context
 
-Read the plan and the requirements, acceptance criteria, and repository rules
-that govern it. Use relevant code to verify claims about an existing system.
-If the plan or its requirements cannot be found, ask for the missing input.
-When requirements are unavailable, state that requirement coverage could not
-be checked and review the decisions the plan does contain.
+Read the plan and the relevant requirements, acceptance criteria, and repository
+instructions. Check existing code when a finding depends on how it works. Ask
+for the plan if you cannot find it. If requirements are unavailable, say that
+you could not check coverage and review what is available.
 
-Respect the requested milestone or slice. Later work is relevant only where
-it constrains a decision delivered in this slice. A design choice can prepare
-for later work without requiring that work to be built now.
+Keep the review within the requested scope and level of detail. Apply only the
+criteria that affect this work. Do not turn optional features or later work
+into requirements, or demand a redesign for a small change.
 
-Use a supplied review rubric when there is one. For **PaperClaw**, read
-[references/paperclaw-rubric.md](references/paperclaw-rubric.md) and select only
-the criteria listed for the requested milestone: M1, M2, or later milestones.
-Ask which milestone to use if it is unclear. M3's speed and code review task
-is not the rubric's “later milestones” feature scope; ask which criteria the
-author wants checked for that task. Preserve the rubric's required and
-optional labels and criterion IDs. Its model budget and PDF examples apply
-to PaperClaw only.
+## Check the decisions
 
-For other projects, use the checks below where they affect the requested
-work. Mark a criterion required when an explicit requirement makes it
-necessary. Explain the source of that requirement. Optional omitted features
-are not gaps. Identify a design omission that prevents implementation with
-its concrete consequence, even when no supplied rubric marks it required.
+- **Requirements:** Does the plan cover the intended behavior and define what
+  success looks like? Are exclusions and assumptions clear?
+- **Choices and complexity:** For significant new choices, does it compare
+  realistic options and explain the trade-offs? Consider a simpler or cheaper
+  option where one is credible. Check what dependencies, accounts, and services
+  add, including installation and maintenance effort.
+- **Data flow:** When data crosses components or is stored, can you follow it
+  from input to output? Check formats, storage, and retrieval needs. A small
+  sketch can expose gaps between components.
+- **Unknowns:** Which assumptions could change the design? Does the plan name a
+  small experiment or measurement to resolve them before costly work begins?
+- **Limits and failures:** For batch work, external calls, or persistent changes,
+  check input limits, partial failure, retries, interruption, and recovery.
+  What does the user see when something fails?
+- **Cost and time:** For expensive or repeated operations, check a representative
+  workload, compute or service charges, and elapsed time. Verify arithmetic and
+  units. Look for reuse of results and explain cost versus quality trade-offs.
+- **Model usage:** When the product uses models, check which model does each
+  job and why, including cheaper or non-model options. Check input selection,
+  token budgets, overflow behavior, and how output quality is assessed.
+- **Execution and validation:** Is the first useful slice clear, with observable
+  done checks? Match tests to the risks and acceptance criteria. For model
+  outputs, distinguish saved, reviewed fixtures from live quality evaluations
+  and consider their cost. When work is delegated, check task boundaries,
+  dependencies, shared-file conflicts, and the context each worker receives.
 
-## Read the decisions
-
-| Level | Meaning |
-| --- | --- |
-| Missing | The plan does not address the criterion, or explicitly violates it. |
-| Mentioned | It names a choice but gives insufficient reasons or trade-offs. |
-| Reasoned | It compares realistic options, chooses one, and explains the trade-offs relevant to this work. |
-| Not applicable | An optional or out-of-scope criterion is omitted. |
-
-Apply criterion-specific guidance from a supplied rubric before these defaults.
-Cite what the plan actually says. If it is silent, say “Not addressed” and
-identify the relevant section, if there is one. Do not invent a quote or infer
-a decision from a library name. A common choice needs a reason; an unusual
-choice can be well reasoned. Length is not evidence of sound decisions.
-
-Consider a simpler or cheaper realistic option when it changes a significant
-trade-off. Explain why the plan should consider it without prescribing your
-preferred stack. A review tests the reasoning; the author decides the design.
-
-## Check the applicable criteria
-
-- **Requirement coverage:** Map the proposed behavior to the requirements
-  and acceptance criteria for this slice. Check exclusions, conflicting
-  assumptions, interfaces, and existing behavior the change must preserve.
-- **Complexity and dependencies:** Check language, libraries, accounts,
-  external services, deployment, installation, maintenance, upgrades, and
-  backups. Look for a reason for each significant component and comparison
-  with a simpler option where one is realistic.
-- **Data flow and storage:** Follow input through processing, persistence,
-  and output. Check boundaries, data formats, querying needs, and partial
-  failures. For work spanning several components, a compact sketch should
-  show how data moves and where external calls occur.
-- **Uncertainties:** Look for specific unknowns and small prototypes or tests
-  that resolve them before the plan commits to a costly decision.
-- **Limits and failures:** Check realistic input sizes, resource caps,
-  progress, interruption, recovery, retries, and what the user sees when
-  work fails. Apply these checks to the operations this slice delivers.
-- **Cost:** Check compute, service charges, and time for representative
-  operations. Verify the arithmetic, units, workload assumptions, and cost
-  versus quality trade-offs. Identify assumptions that need measurement.
-- **Model usage, when present:** Check the model for each job, cheaper
-  alternatives, input selection, token budgets, overflow behavior, and
-  reuse of prior results. Evaluate budgets against the task's requirements
-  and evidence; a model's maximum context is not a quality guarantee.
-- **Task execution:** Check that tasks have goals, affected files or
-  components, dependencies, and observable done checks. If delegation is
-  planned, check that parallel tasks avoid conflicting writes, each agent
-  receives the decisions it needs, and failed tasks have a recovery path.
-- **Validation:** Check representative fixtures, acceptance checks, failure
-  cases, and commands with expected results. When models are used, consider
-  saved, reviewed outputs for routine tests and explain when live calls or
-  evals are needed and what they cost.
-
-Verify factual claims that materially affect a finding using the available
-repository or authoritative documentation. For current prices and model
-capabilities, use dated authoritative sources when available. Otherwise
-label them unverified and check the arithmetic using the plan's stated rates.
-Distinguish a missing explanation from a demonstrably incorrect decision.
+A named choice without a reason needs explanation. A reasoned choice connects
+options and trade-offs to the requirements. Do not reward length or require
+alternatives for routine decisions that do not materially affect the work.
 
 ## Return the review
 
-Start with the plan and scope reviewed, including unavailable inputs. Then
-use this order:
+State the scope reviewed and any unavailable inputs, then report:
 
-1. **Blocking gaps:** Every required criterion rated missing, and any other
-   evidenced omission or contradiction that prevents implementation. Give
-   each criterion ID or name and its concrete consequence. Write “None”
-   when there are none.
-2. **Issues:** Every applicable criterion below reasoned, ordered by impact
-   on the build. Include its ID or name, level, exact plan evidence or
-   “Not addressed,” the gap, and what a reasoned answer would need to
-   explain. Include blocking criteria here with their full evidence.
-   Suggest the comparison or check needed without writing a replacement
-   plan. Write “None” when there are none.
-3. **Questions for the author:** Three specific questions about the least
-   reasoned decisions. If the applicable decisions are already reasoned,
-   ask about their assumptions, trade-offs, or validation evidence.
+1. **Blocking gaps:** Omissions or contradictions that prevent implementation
+   or meeting an explicit requirement. Explain the consequence. Write “None”
+   if there are none.
+2. **Issues:** Other applicable gaps, ordered by impact. For each finding,
+   cite the plan's wording or location, explain what is missing or unsupported,
+   and suggest the decision, comparison, or check needed. Do not repeat blockers.
+3. **Questions for the author:** Three specific questions about the most
+   consequential decisions, assumptions, or validation evidence.
 
-For example, if a plan says “Use a hosted database” without a rationale:
-
-> **Metadata storage: Mentioned.** “Use a hosted database.” The plan does
-> not compare it with local storage or explain the account, network, and
-> maintenance costs. A reasoned answer would compare those options against
-> the required query patterns and deployment environment.
-
-Review only. Edit the plan or start implementation when the user asks for it.
+Give no score. If the plan is silent, say so; do not invent its intent.
+Distinguish missing explanations from incorrect decisions. Verify factual
+claims that drive findings, or label them unverified. Review only unless the
+user also asks you to edit the plan or implement it.

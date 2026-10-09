@@ -108,7 +108,7 @@
       "keywords": [
         "implementation-plan",
         "plan-review",
-        "milestones",
+        "planning",
         "agentic-engineering"
       ],
       "source": "./plugins/review-implementation-plan",
