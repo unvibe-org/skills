@@ -1,0 +1,17 @@
+{
+  "name": "review-implementation-plan",
+  "description": "Reviews implementation plans for reasoned decisions, blocking gaps, and verifiable tasks",
+  "version": "1.0.0",
+  "author": {
+    "name": "unvibe",
+    "email": "hello@unvibe.org"
+  },
+  "repository": "https://github.com/unvibe-org/skills",
+  "license": "MIT",
+  "keywords": [
+    "implementation-plan",
+    "plan-review",
+    "milestones",
+    "agentic-engineering"
+  ]
+}

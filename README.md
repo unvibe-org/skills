@@ -49,3 +49,14 @@ Grades a repository on how well it's set up for agentic engineering — strict t
 ```bash
 npx skills add unvibe-org/skills --skill vibe-check-agentic-engineering
 ```
+
+### review-implementation-plan
+
+Reviews implementation plans for requirement coverage, reasoned design choices,
+cost, failure handling, and verifiable tasks. Reports blocking gaps, issues,
+and three questions for the author, without a score. Includes a PaperClaw
+rubric for milestone reviews.
+
+```bash
+npx skills add unvibe-org/skills --skill review-implementation-plan
+```
