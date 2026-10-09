@@ -47,13 +47,22 @@ into requirements, or demand a redesign for a small change.
   and consider their cost. When work is delegated, check task boundaries,
   dependencies, shared-file conflicts, and the context each worker receives.
 
-A named choice without a reason needs explanation. A reasoned choice connects
-options and trade-offs to the requirements. Do not reward length or require
-alternatives for routine decisions that do not materially affect the work.
+## How each criterion is read
+
+| Level | Meaning |
+| --- | --- |
+| **Missing** | The plan does not address an applicable criterion. |
+| **Mentioned** | The plan names a choice but does not explain why. |
+| **Reasoned** | The plan explains the choice and relevant trade-offs, comparing realistic alternatives where they matter. |
+| **Not applicable** | The criterion does not apply to the work being planned. |
+
+Do not reward length or require alternatives for routine decisions that do not
+materially affect the work.
 
 ## Return the review
 
-State the scope reviewed and any unavailable inputs, then report:
+State the scope reviewed and any unavailable inputs. Use the criterion names
+and levels above for findings. Organize the review as follows:
 
 1. **Blocking gaps:** Omissions or contradictions that prevent implementation
    or meeting an explicit requirement. Explain the consequence. Write “None”
