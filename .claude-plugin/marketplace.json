@@ -20,7 +20,11 @@
       },
       "source": "./plugins/better-rust",
       "category": "languages",
-      "keywords": ["rust", "code-quality", "best-practices"]
+      "keywords": [
+        "rust",
+        "code-quality",
+        "best-practices"
+      ]
     },
     {
       "name": "review-agents-md",
@@ -32,7 +36,13 @@
       },
       "source": "./plugins/review-agents-md",
       "category": "workflow",
-      "keywords": ["agents-md", "claude-md", "context", "code-quality", "best-practices"]
+      "keywords": [
+        "agents-md",
+        "claude-md",
+        "context",
+        "code-quality",
+        "best-practices"
+      ]
     },
     {
       "name": "better-skill-names",
@@ -44,11 +54,16 @@
       },
       "source": "./plugins/better-skill-names",
       "category": "workflow",
-      "keywords": ["agent-skills", "naming", "skill-authoring", "best-practices"]
+      "keywords": [
+        "agent-skills",
+        "naming",
+        "skill-authoring",
+        "best-practices"
+      ]
     },
     {
       "name": "bootstrap-project",
-      "description": "Bootstraps a fresh repo for agentic engineering — language-agnostic scaffold with strict tooling, lefthook hooks, one-command bring-up, and a hand-written AGENTS.md",
+      "description": "Bootstraps a fresh repo for agentic engineering \u2014 language-agnostic scaffold with strict tooling, lefthook hooks, one-command bring-up, and a hand-written AGENTS.md",
       "version": "1.0.0",
       "author": {
         "name": "unvibe",
@@ -56,11 +71,17 @@
       },
       "source": "./plugins/bootstrap-project",
       "category": "workflow",
-      "keywords": ["bootstrap", "scaffold", "init", "project-setup", "best-practices"]
+      "keywords": [
+        "bootstrap",
+        "scaffold",
+        "init",
+        "project-setup",
+        "best-practices"
+      ]
     },
     {
       "name": "vibe-check-agentic-engineering",
-      "description": "Grades a repository on how well it's set up for agentic engineering — produces a Vibe Score 0-100 with verdict and HTML report",
+      "description": "Grades a repository on how well it's set up for agentic engineering \u2014 produces a Vibe Score 0-100 with verdict and HTML report",
       "version": "1.0.0",
       "author": {
         "name": "unvibe",
@@ -68,7 +89,30 @@
       },
       "source": "./plugins/vibe-check-agentic-engineering",
       "category": "workflow",
-      "keywords": ["agentic-engineering", "vibe-check", "code-quality", "best-practices", "evaluation"]
+      "keywords": [
+        "agentic-engineering",
+        "vibe-check",
+        "code-quality",
+        "best-practices",
+        "evaluation"
+      ]
+    },
+    {
+      "name": "review-implementation-plan",
+      "description": "Reviews implementation plans for reasoned decisions, blocking gaps, and verifiable tasks",
+      "version": "1.0.0",
+      "author": {
+        "name": "unvibe",
+        "email": "hello@unvibe.org"
+      },
+      "keywords": [
+        "implementation-plan",
+        "plan-review",
+        "planning",
+        "agentic-engineering"
+      ],
+      "source": "./plugins/review-implementation-plan",
+      "category": "workflow"
     }
   ]
 }
