@@ -34,7 +34,21 @@ into requirements, or demand a redesign for a small change.
   small experiment or measurement to resolve them before costly work begins?
 - **Limits and failures:** For batch work, external calls, or persistent changes,
   check input limits, partial failure, retries, interruption, and recovery.
-  What does the user see when something fails?
+  What does the user see when something fails? For stored data, check what
+  happens when it is read back damaged, edited by hand, or written by an older
+  version.
+- **Concurrency and shared state:** When the work touches files, databases, or
+  other shared state, does the plan say whether two runs can overlap, including
+  a rebuild during a write or a scheduled job? Either it rules overlap out and
+  says how that is enforced, or it names the mechanism (unique temporary names,
+  a lock, one atomic step that settles conflicts).
+- **Specified artifacts:** Implementers copy schemas, SQL, code, and
+  configuration from a plan exactly. Review them as code: indexes for every
+  lookup and foreign key the plan describes, constraints, types, and whether
+  they hold at the stated scale.
+- **Consistency:** Does each responsibility (a check, a write, a decision)
+  belong to exactly one stage? Compare the diagram, the prose, and the build
+  steps. A check placed in two stages gets built twice or not at all.
 - **Cost and time:** For expensive or repeated operations, check a representative
   workload, compute or service charges, and elapsed time. Verify arithmetic and
   units. Look for reuse of results and explain cost versus quality trade-offs.
@@ -42,10 +56,12 @@ into requirements, or demand a redesign for a small change.
   job and why, including cheaper or non-model options. Check input selection,
   token budgets, overflow behavior, and how output quality is assessed.
 - **Execution and validation:** Is the first useful slice clear, with observable
-  done checks? Match tests to the risks and acceptance criteria. For model
-  outputs, distinguish saved, reviewed fixtures from live quality evaluations
-  and consider their cost. When work is delegated, check task boundaries,
-  dependencies, shared-file conflicts, and the context each worker receives.
+  done checks? Is each done check concrete enough that two implementers would
+  verify it the same way? A done check must not change tracked files. Match
+  tests to the risks and acceptance criteria. For model outputs, distinguish
+  saved, reviewed fixtures from live quality evaluations and consider their
+  cost. When work is delegated, check task boundaries, dependencies,
+  shared-file conflicts, and the context each worker receives.
 
 ## How each criterion is read
 
