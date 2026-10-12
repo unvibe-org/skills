@@ -34,7 +34,9 @@ into requirements, or demand a redesign for a small change.
   small experiment or measurement to resolve them before costly work begins?
 - **Limits and failures:** For batch work, external calls, or persistent changes,
   check input limits, partial failure, retries, interruption, and recovery.
-  What does the user see when something fails? For stored data, check what
+  What does the user see when something fails? After a failure or a partial
+  result, can the user retry with the same command, and does a re-run report
+  the earlier failure rather than success? For stored data, check what
   happens when it is read back damaged, edited by hand, or written by an older
   version.
 - **Concurrency and shared state:** When the work touches files, databases, or
