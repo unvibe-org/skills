@@ -1,6 +1,6 @@
 ---
 name: scion-like-git
-description: Use before any git command that creates or moves commits, branches, or refs: commit, push, merge, rebase, amend, reset, stash, new branches, worktrees. Also use when about to rewrite anything already on origin, park uncommitted work, or hand off with unpushed commits.
+description: "Use before any git command that creates or moves commits, branches, or refs (commit, push, merge, rebase, amend, reset, stash, new branches, worktrees). Also use when about to rewrite anything already on origin, park uncommitted work, or hand off with unpushed commits."
 ---
 
 # Scion-like Git
