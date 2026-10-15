@@ -1,7 +1,7 @@
 {
   "name": "bootstrap-project",
   "description": "Bootstraps a fresh repository for agentic engineering — language-agnostic. Picks toolchain, scaffolds layout, wires pre-commit hooks, generates a hand-written AGENTS.md, and produces one-command bring-up.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "unvibe",
     "email": "hello@unvibe.org"
