@@ -103,7 +103,7 @@ The user must reach a working state with **one command** after `git clone`. Add 
 
 Document those two commands at the top of the README.
 
-## AGENTS.md (or CLAUDE.md)
+## AGENTS.md
 
 Generate a **hand-written** file — never an `/init`-style dump. ≤80 lines on day one. Include only:
 
@@ -116,9 +116,7 @@ Add a `## Layout` or `## Source of truth` section *only* once the project has st
 
 Do **not** include: a checklist of what the formatter/linter does, a file-tree dump, generic engineering advice, or anything restated from the manifest. The `review-agents-md` skill exists to delete that content; don't generate it in the first place.
 
-Default to `AGENTS.md`. Use `CLAUDE.md` only if the user explicitly asks for Claude-specific context.
-
-If running inside a Claude Code environment, also create a `CLAUDE.md` symlink pointing to `AGENTS.md` (`ln -s AGENTS.md CLAUDE.md`), so Claude Code's default discovery picks up the same file. Skip if `CLAUDE.md` already exists.
+Write `AGENTS.md` only. Claude Code reads it like every other agent, so do not create a `CLAUDE.md`. If the user says a tool really needs one, make it a symlink to `AGENTS.md` (`ln -s AGENTS.md CLAUDE.md`), never a second file.
 
 ## Verification before handoff
 
