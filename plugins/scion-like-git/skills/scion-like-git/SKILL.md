@@ -5,119 +5,77 @@ description: "Use before any git command that creates or moves commits, branches
 
 # Scion-like Git
 
-Anthropic's Scion creates every commit on the server, keeps history as an
-append-only log, treats checkouts as disposable, and keeps shared refs to a
-minimum. Scion is not public. These rules give Git and GitHub the same shape:
-**the clone is a cache, origin is the repository.** Anything that exists only
-in the clone does not exist.
+Origin is the repository. The clone is a disposable cache, and anything that
+exists only in the clone does not exist.
 
-Apply the operating rules in every repository. If
-`git config --get scion-like-git.configured` prints nothing, read
-`references/setup.md`, run it once, then carry on with the task.
+If `git config --get scion-like-git.configured` prints nothing, run
+`references/setup.md` once first.
 
-## Operating rules
+## Every task
 
-### 1. Commit means push
+1. **Start a branch** from a freshly fetched `origin/main`, or continue on the
+   task's own branch if it already has one. Name a new branch the way
+   the repository names branches (`CONTRIBUTING.md`, `AGENTS.md`, recent
+   branches on origin), or else `<type>/<slug>`, such as `fix/empty-cart-total`.
+   If the working copy already holds other work, start in a new worktree:
 
-`git commit` and `git push` are one step. Run them together, every time.
-Before handing off, `git log @{u}..` must print nothing. An unpushed commit
-at hand-off is unfinished work.
+   ```sh
+   git fetch && git worktree add --no-track -b <branch> ../<branch-with-dashes> origin/main
+   ```
 
-### 2. Commits on origin are never rewritten
+   `--no-track` keeps a plain `git push` from going to `main`.
 
-A commit that has reached origin is final, on every branch, not only `main`.
-Do not amend, rebase, squash, reset, or force-push over it. Fix forward with a
-new commit.
+2. **Commit and push together.** Each verified step is one small commit whose
+   subject says what it is for. Stage your files by name:
 
-This rule is about what is on origin, not about how carefully you rewrite it.
-`--force-with-lease`, a backup branch, an identical tree, a single-author
-branch, and "the reviewer asked for it" do not make a rewrite allowed. Other
-agents, CI, review comments, and the next session hold the old hashes.
+   ```sh
+   git add <your files> && git commit -m "<type>: <intent>" && git push
+   ```
 
-Commits that are not yet on origin are yours: amend and rebase them freely
-before the push that makes them final.
+   Open a pull request with the first push, as a draft if needed. Formatting,
+   renames, and generated code get their own commits.
 
-Satisfy the request behind a rewrite with an allowed mechanism:
+3. **Finish clean.** After merge, delete the branch and the worktree. Without
+   pull requests, run `git push origin <branch>:main`, then delete the branch
+   on origin and locally. End with this block. If a line cannot be true, the
+   work is not finished.
+
+   ```
+   Branch: <name>, pushed, PR #<n> (<draft | ready>) | merged to main (no PRs)
+   Unpushed commits: none
+   Stashes / local-only branches: none
+   Other people's uncommitted changes: <paths> left untouched | none
+   Worktree: <path> (remove after merge) | removed
+   ```
+
+## When it comes up
+
+**Changing something already on origin.** Commits on origin are final, on
+every branch. Do not amend, rebase, squash, reset, or force-push them. Care
+does not change this: `--force-with-lease`, a backup branch, an identical
+tree, a single author, or a reviewer's request still make it a rewrite.
+Commits not yet pushed are yours to amend.
 
 | Request | Do this instead |
 |---|---|
-| Fix a typo or wording in a pushed commit message | Put the correct text in the PR title and description, and say the commit message stays |
-| "Squash these wip commits before I review" | Write the PR description as the one good message, and enable squash on merge |
-| Undo a pushed change | `git revert`, a new commit |
-| Bring the branch up to date with `main` | `git merge origin/main`, or GitHub's "Update branch" |
-| Any of the above, and the requester (user or reviewer) insists on a rewrite | Say rule 2 and the reason, then do it only after that same person repeats the request |
+| Fix a pushed commit message | Correct text in the PR title and description |
+| Squash wip commits before review | PR description as the message, squash on merge |
+| Undo a pushed change | `git revert` |
+| Update the branch from `main` | `git merge origin/main` |
+| The same person repeats the request after hearing this rule | Do the rewrite |
 
-### 3. The working copy is disposable
+**Switching tasks mid-work.** Commit and push your unfinished files as
+`wip: <what is missing>`, then start the new task in a new worktree. Never
+`git stash`. Resume on top of the wip commit.
 
-If the directory were deleted now, none of your work may be lost. No
-stashes, no uncommitted work carried across tasks, no local-only branches, no
-backup branches that exist nowhere but this clone.
+**Changes you did not make.** Your work is the files you created or changed
+for your task. Anything else in the working copy belongs to someone else.
+Leave it untouched, do not commit, stash, or discard it, and list it in the
+hand-off.
 
-Your work is the files you created or changed for your task. Any other change
-in the working copy belongs to someone else, such as another session or the
-user. Leave it exactly as it is: do not commit, stash, discard, move, or
-overwrite it, and list it in the hand-off. This rule is about your work only.
+## Red flags
 
-Parking work, when a task is interrupted, stages your files by name:
-
-```sh
-git add <your files> && git commit -m "wip: <what is half done and what is missing>" && git push
-```
-
-Then do the new task in a fresh worktree:
-
-```sh
-git fetch && git worktree add --no-track -b <task> ../<task> origin/main
-```
-
-`--no-track` matters: without it the new branch tracks `origin/main` and a
-plain `git push` goes to the wrong place. Never `git stash` and never do two
-tasks in one working copy. When the parked task resumes, continue on top of
-the wip commit; resuming a task's own branch is not reusing a branch.
-
-### 4. One short-lived branch per task
-
-Create every task branch from a freshly fetched `origin/main`. Name it the
-way the repository already names branches (see `CONTRIBUTING.md`,
-`AGENTS.md`, or recent branches on origin). If there is no convention, use a
-conventional-commit type and a short slug: `fix/empty-cart-total`,
-`feat/coupons`, `chore/bump-deps`. Push it with the first commit, and open a
-pull request at once, as a draft if needed. Delete the branch when the PR
-merges. Never reuse a branch. The only long-lived refs are `main` and release
-branches.
-
-If the repository has no pull requests (no GitHub, a bare remote), push the
-task branch first, then fast-forward `main` from it with
-`git push origin <task>:main`, then delete it on both sides:
-`git push origin --delete <task>` and, once
-`git merge-base --is-ancestor <task> origin/main` passes, `git branch -D <task>`.
-
-### 5. Small commits that state their intent
-
-Commit each verified step as soon as it is done. The subject line says what
-the change is for. Mechanical changes (formatting, renames, generated code)
-get their own commits, and ideally their own PRs. If the repository wants one
-commit per PR, let GitHub squash on merge.
-
-## Red flags, stop and reread rule 2 or 3
-
-- "It's only a feature branch" / "I'm the only author"
-- "I'll use force-with-lease, so it's safe" / "I made a backup branch first"
-- "The code is identical, only the message changes"
-- "The reviewer / user asked for exactly this"
-- "Stash is the usual way to set this aside" / "it's only a few lines"
+- "It's only a feature branch" / "force-with-lease makes it safe"
+- "Only the message changes" / "the reviewer asked for exactly this"
+- "Stash is quicker" / "I'll push at the end"
 - "Nothing may be lost, so I'll commit these other files too"
-- "I'll push once the tests pass" / "I'll push at the end"
-
-## Hand-off
-
-End every piece of work with this block. If a line cannot be true, the work
-is not finished.
-
-```
-Branch: <name>, pushed, PR #<n> (<draft | ready>)
-Unpushed commits: none
-Stashes / local-only branches: none
-Other people's uncommitted changes: <paths> left untouched | none
-Worktree: <path> (remove after merge) | removed
-```
