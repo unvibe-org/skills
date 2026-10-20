@@ -61,14 +61,3 @@ to the scope and requirements of the work.
 ```bash
 npx skills add unvibe-org/skills --skill review-implementation-plan
 ```
-
-### scion-like-git
-
-Makes Git and GitHub behave like Anthropic's Scion for agent-driven work on
-normal-sized repos. Five operating rules (commit means push, append-only
-history, disposable worktrees, one short-lived branch per task, small commits
-that state intent) plus a one-time repository setup.
-
-```bash
-npx skills add unvibe-org/skills --skill scion-like-git
-```
