@@ -49,14 +49,19 @@ Satisfy the request behind a rewrite with an allowed mechanism:
 
 ### 3. The working copy is disposable
 
-If the directory were deleted now, nothing may be lost. No stashes, no
-uncommitted work carried across tasks, no local-only branches, no backup
-branches that exist nowhere but this clone.
+If the directory were deleted now, none of your work may be lost. No
+stashes, no uncommitted work carried across tasks, no local-only branches, no
+backup branches that exist nowhere but this clone.
 
-Parking work, when a task is interrupted:
+Your work is the files you created or changed for your task. Any other change
+in the working copy belongs to someone else, such as another session or the
+user. Leave it exactly as it is: do not commit, stash, discard, move, or
+overwrite it, and list it in the hand-off. This rule is about your work only.
+
+Parking work, when a task is interrupted, stages your files by name:
 
 ```sh
-git add -A && git commit -m "wip: <what is half done and what is missing>" && git push
+git add <your files> && git commit -m "wip: <what is half done and what is missing>" && git push
 ```
 
 Then do the new task in a fresh worktree:
@@ -72,8 +77,11 @@ the wip commit; resuming a task's own branch is not reusing a branch.
 
 ### 4. One short-lived branch per task
 
-Create every task branch from a freshly fetched `origin/main`, name it after
-the task (`fix/empty-cart-total`), push it with the first commit, and open a
+Create every task branch from a freshly fetched `origin/main`. Name it the
+way the repository already names branches (see `CONTRIBUTING.md`,
+`AGENTS.md`, or recent branches on origin). If there is no convention, use a
+conventional-commit type and a short slug: `fix/empty-cart-total`,
+`feat/coupons`, `chore/bump-deps`. Push it with the first commit, and open a
 pull request at once, as a draft if needed. Delete the branch when the PR
 merges. Never reuse a branch. The only long-lived refs are `main` and release
 branches.
@@ -98,6 +106,7 @@ commit per PR, let GitHub squash on merge.
 - "The code is identical, only the message changes"
 - "The reviewer / user asked for exactly this"
 - "Stash is the usual way to set this aside" / "it's only a few lines"
+- "Nothing may be lost, so I'll commit these other files too"
 - "I'll push once the tests pass" / "I'll push at the end"
 
 ## Hand-off
@@ -109,5 +118,6 @@ is not finished.
 Branch: <name>, pushed, PR #<n> (<draft | ready>)
 Unpushed commits: none
 Stashes / local-only branches: none
+Other people's uncommitted changes: <paths> left untouched | none
 Worktree: <path> (remove after merge) | removed
 ```
