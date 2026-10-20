@@ -11,8 +11,8 @@ minimum. Scion is not public. These rules give Git and GitHub the same shape:
 **the clone is a cache, origin is the repository.** Anything that exists only
 in the clone does not exist.
 
-Apply the operating rules in every repository. If `AGENTS.md` (or
-`CLAUDE.md`) has no `## Source control` section, read
+Apply the operating rules in every repository. If
+`git config --get scion-like-git.configured` prints nothing, read
 `references/setup.md`, run it once, then carry on with the task.
 
 ## Operating rules
