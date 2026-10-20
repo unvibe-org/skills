@@ -12,8 +12,8 @@ minimum. Scion is not public. These rules give Git and GitHub the same shape:
 in the clone does not exist.
 
 Apply the operating rules in every repository. If `AGENTS.md` (or
-`CLAUDE.md`) has no `## Source control` section, run **Setup** once, then
-carry on with the task.
+`CLAUDE.md`) has no `## Source control` section, read
+`references/setup.md`, run it once, then carry on with the task.
 
 ## Operating rules
 
@@ -99,22 +99,6 @@ commit per PR, let GitHub squash on merge.
 - "The reviewer / user asked for exactly this"
 - "Stash is the usual way to set this aside" / "it's only a few lines"
 - "I'll push once the tests pass" / "I'll push at the end"
-
-## Setup
-
-Run once per repository. Say what each step changes and skip what the user
-declines.
-
-1. `git config push.autoSetupRemote true && git config fetch.prune true`
-2. With admin rights, and after asking:
-   `gh api -X PATCH repos/{owner}/{repo} -f delete_branch_on_merge=true`,
-   and a ruleset on `main` that blocks force pushes.
-3. Add a `## Source control` section to `AGENTS.md` (or `CLAUDE.md`) with the
-   five rules, one line each. Merge into an existing section rather than
-   duplicating.
-4. Report local state that breaks the rules and offer to fix each item:
-   `git log --branches --not --remotes --oneline`, `git stash list`,
-   `git branch -vv | grep -v '\['`. Delete nothing without confirmation.
 
 ## Hand-off
 
