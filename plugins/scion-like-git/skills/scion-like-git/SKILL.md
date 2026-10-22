@@ -37,16 +37,10 @@ If `git config --get scion-like-git.configured` prints nothing, run
 
 3. **Finish clean.** After merge, delete the branch and the worktree. Without
    pull requests, run `git push origin <branch>:main`, then delete the branch
-   on origin and locally. End with this block. If a line cannot be true, the
-   work is not finished.
-
-   ```
-   Branch: <name>, pushed, PR #<n> (<draft | ready>) | merged to main (no PRs)
-   Unpushed commits: none
-   Stashes / local-only branches: none
-   Other people's uncommitted changes: <paths> left untouched | none
-   Worktree: <path> (remove after merge) | removed
-   ```
+   on origin and locally. The work is finished when nothing you made exists
+   only in the clone: no unpushed commits, stashes, or local-only branches.
+   Do not report the branch state. The user's terminal, IDE, and harness
+   already show it.
 
 ## When it comes up
 

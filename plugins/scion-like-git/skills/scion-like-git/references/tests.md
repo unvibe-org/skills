@@ -199,3 +199,5 @@ treat a single `tax-work` branch as a convention.
 - Only Opus 5.5 was tested.
 - The last two wording changes (continuing on a task's existing branch, and
   the hand-off line for repositories without pull requests) were not re-run.
+- The status block that step 3 used to require at the end of a task was
+  removed after these tests, without a re-run.
