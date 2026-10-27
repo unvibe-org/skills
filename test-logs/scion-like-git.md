@@ -1,8 +1,8 @@
 # Tests for scion-like-git
 
 This file records how the skill was tested while it was written. It is for
-people maintaining the skill. `SKILL.md` does not point to it, so agents using
-the skill never load it.
+people maintaining the skill. It lives outside the plugin folder, so it is
+not installed with the skill and agents using the skill never load it.
 
 The method follows the RED, GREEN, REFACTOR cycle from the superpowers
 `writing-skills` skill:
