@@ -23,13 +23,14 @@ runs on request, with `/review-results`.
 3. Check each finding against the files. A finding is valid when the file it
    cites says what the finding claims. Decline a finding you can disprove, and
    say why in the report.
-4. Sort each valid finding into one of the two groups below.
-5. For each finding in the first group, search the repo for every other place
+4. Sort each valid finding into "What you fix without asking" or "What you
+   bring to the user" below.
+5. For each finding you fix without asking, search the repo for every other place
    with the same problem. A skill's name lives in its plugin directory, its
    skill directory, the `SKILL.md` frontmatter, `plugin.json`,
    `marketplace.json`, and the README. A rule often lives in both `SKILL.md`
    and one of its references.
-6. Fix the first group in every place you found, in one commit. Push it and
+6. Fix those findings in every place you found, in one commit. Push it and
    start the next round.
 
 ## What you fix without asking
@@ -52,7 +53,8 @@ runs on request, with `/review-results`.
 
 ## When the loop stops
 
-- The verdict is `mergeable`.
+- The verdict is `mergeable`. Check this in step 2. Nits alone never start a
+  round; fix them only alongside findings that need one.
 - Three fix rounds have run.
 - The same finding comes back after you fixed it.
 - Only findings for the user are left.
