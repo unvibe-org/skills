@@ -1,7 +1,8 @@
 set -euo pipefail
 git init -q --bare origin.git
-git clone -q origin.git work 2>/dev/null
+git init -q work
 cd work
+git remote add origin "$(cd .. && pwd)/origin.git"
 git config user.name tester
 git config user.email t@example.com
 git config push.autoSetupRemote true
