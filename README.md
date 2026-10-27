@@ -81,8 +81,8 @@ npx skills add unvibe-org/skills --skill review-implementation-plan  # other har
 
 ### scion-like-git
 
-Makes Git and GitHub behave like Anthropic's Scion for agent-driven work on
-normal-sized repos. Five operating rules (commit means push, append-only
+Git rules for coding agents on normal-sized repos, inspired by Scion, the
+source control system Anthropic built for agent-scale work. Five operating rules (commit means push, append-only
 history, disposable worktrees, one short-lived branch per task, small commits
 that state intent) plus a one-time repository setup.
 

@@ -1,7 +1,7 @@
 {
   "name": "scion-like-git",
-  "description": "Makes Git and GitHub behave like Anthropic's Scion for agent-driven work: commit means push, append-only history, disposable worktrees, short-lived branches, small commits with intent.",
-  "version": "1.0.0",
+  "description": "Git rules for coding agents, inspired by Scion: commit means push, append-only history, disposable worktrees, short-lived branches, small commits with intent.",
+  "version": "1.1.0",
   "author": {
     "name": "unvibe",
     "email": "hello@unvibe.org"
