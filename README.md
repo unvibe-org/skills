@@ -26,7 +26,6 @@ Pick one of the two. Installing a skill both ways loads it twice.
 Guidance for writing idiomatic Rust that works with the borrow checker and type system instead of around them.
 
 ```bash
-/plugin install better-rust@unvibe-org  # Claude Code
 npx skills add unvibe-org/skills --skill better-rust  # other harnesses
 ```
 
@@ -35,7 +34,6 @@ npx skills add unvibe-org/skills --skill better-rust  # other harnesses
 Reviews `AGENTS.md` / `CLAUDE.md` context files against best practices and reports concrete cuts, rewrites, and additions.
 
 ```bash
-/plugin install review-agents-md@unvibe-org  # Claude Code
 npx skills add unvibe-org/skills --skill review-agents-md  # other harnesses
 ```
 
@@ -44,7 +42,6 @@ npx skills add unvibe-org/skills --skill review-agents-md  # other harnesses
 Audits, critiques, and proposes names for agent skills — validates hard rules, flags style issues, and surfaces inconsistencies across a skill collection.
 
 ```bash
-/plugin install better-skill-names@unvibe-org  # Claude Code
 npx skills add unvibe-org/skills --skill better-skill-names  # other harnesses
 ```
 
@@ -53,7 +50,6 @@ npx skills add unvibe-org/skills --skill better-skill-names  # other harnesses
 Bootstraps a fresh repo for agentic engineering. Asks three questions (language, project kind, external boundaries) and scaffolds a strict toolchain, lefthook pre-commit hooks, one-command bring-up, and a hand-written `AGENTS.md` — small enough to grow into, never something to delete. Architecture is the user's call, not the scaffold's.
 
 ```bash
-/plugin install bootstrap-project@unvibe-org  # Claude Code
 npx skills add unvibe-org/skills --skill bootstrap-project  # other harnesses
 ```
 
@@ -62,7 +58,6 @@ npx skills add unvibe-org/skills --skill bootstrap-project  # other harnesses
 Grades a repository on how well it's set up for agentic engineering — strict types, one-command bring-up, pre-commit hooks, dead-code guardrails, doc/code drift checks, agent-runnable end-to-end tests, parallel review panels, blast-radius friction, and agent-tuned tooling. Produces a Vibe Score 0-100 with verdict.
 
 ```bash
-/plugin install vibe-check-agentic-engineering@unvibe-org  # Claude Code
 npx skills add unvibe-org/skills --skill vibe-check-agentic-engineering  # other harnesses
 ```
 
@@ -75,7 +70,6 @@ and three questions for the author, without a score. Applies criteria according
 to the scope and requirements of the work.
 
 ```bash
-/plugin install review-implementation-plan@unvibe-org  # Claude Code
 npx skills add unvibe-org/skills --skill review-implementation-plan  # other harnesses
 ```
 
@@ -88,6 +82,5 @@ short-lived branch per task, small commits that state intent) plus a one-time
 repository setup. Not affiliated with Anthropic.
 
 ```bash
-/plugin install scion-like-git@unvibe-org  # Claude Code
 npx skills add unvibe-org/skills --skill scion-like-git  # other harnesses
 ```
