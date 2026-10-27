@@ -48,7 +48,7 @@ In Claude Code:
 
 ```sh
 /plugin marketplace add unvibe-org/skills
-/plugin install scion-like-git@skills
+/plugin install scion-like-git@unvibe-org
 ```
 
 For other harnesses:
