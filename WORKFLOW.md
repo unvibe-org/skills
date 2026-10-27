@@ -23,13 +23,14 @@ runs on request, with `/review-results`.
 3. Check each finding against the files. A finding is valid when the file it
    cites says what the finding claims. Decline a finding you can disprove, and
    say why in the report.
-4. For each valid finding, search the repo for every other place with the same
-   problem, and fix all of them in this round. A skill's name lives in its
-   plugin directory, its skill directory, the `SKILL.md` frontmatter,
-   `plugin.json`, `marketplace.json`, and the README. A rule often lives in
-   both `SKILL.md` and one of its references.
-5. Sort each finding into one of the two groups below.
-6. Fix the first group in one commit, push it, and start the next round.
+4. Sort each valid finding into one of the two groups below.
+5. For each finding in the first group, search the repo for every other place
+   with the same problem. A skill's name lives in its plugin directory, its
+   skill directory, the `SKILL.md` frontmatter, `plugin.json`,
+   `marketplace.json`, and the README. A rule often lives in both `SKILL.md`
+   and one of its references.
+6. Fix the first group in every place you found, in one commit. Push it and
+   start the next round.
 
 ## What you fix without asking
 
@@ -55,9 +56,9 @@ runs on request, with `/review-results`.
 - Three fix rounds have run.
 - The same finding comes back after you fixed it.
 - Only findings for the user are left.
-- No review was posted for the head commit. A pull request that changes
-  `.github/workflows/claude-code-review.yml` gets none by design, and the
-  check passes with a warning. Report that instead of waiting.
+- No review was posted for the head commit. By design, the review skips
+  drafts, pull requests from forks or bots, and pull requests that change
+  `.github/workflows/claude-code-review.yml`. Report that instead of waiting.
 
 ## The report
 
