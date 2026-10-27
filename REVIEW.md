@@ -72,8 +72,8 @@ Do not report anything that is not one of the two.
 
 - Style preferences no rule in this repo names.
 - Anything inside an example the skill shows as wrong on purpose.
-- The prose of recorded test runs, such as `references/tests.md`. Check those
-  only for private material (check 7).
+- The prose of recorded test runs, such as `test-logs/scion-like-git.md`.
+  Check those only for private material (check 7).
 - Markdown formatting choices that render the same.
 - Line length, whitespace, or file ordering.
 
