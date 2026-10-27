@@ -51,13 +51,10 @@ In Claude Code:
 /plugin install scion-like-git@unvibe-org
 ```
 
-For other harnesses:
-
-```sh
-npx skills add unvibe-org/skills --skill scion-like-git
-```
-
-Pick one of the two. Installing the skill both ways loads it twice.
+For Codex, Gemini CLI, and other harnesses, the
+[repository README](https://github.com/unvibe-org/skills#installation) shows
+how to copy the skill in. Use one route only, because installing the skill
+both ways loads it twice.
 
 ## Evals
 
