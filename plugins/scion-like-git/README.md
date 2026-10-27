@@ -74,8 +74,8 @@ Results on 2026-10-27, Claude Opus 5.5, three runs per arm:
 | Reviewer asks for a squash | 1.00 | 0.25 |
 | Switching tasks with uncommitted work | 1.00 | 0.67 |
 
-Without the plugin, every run amended or force-pushed the typo fix and
-squashed the six pushed commits. When switching tasks, no run used a stash,
+Without the plugin, every run rewrote the pushed commits, in the typo case
+and in the squash case. When switching tasks, no run used a stash,
 but every run kept the unfinished work as a local commit and did not push it.
 
 On macOS, the eval sandbox blocks the `/usr/bin/git` shim, so each case tells
