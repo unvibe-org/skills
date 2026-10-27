@@ -17,8 +17,9 @@ tasks. It:
 - parks unfinished work as a pushed `wip:` commit, never in `git stash`
 - leaves changes it did not make untouched
 
-The first time it runs in a clone, it sets three local git options and
-offers to turn on automatic branch deletion on GitHub.
+The first time it runs in a clone, it offers to set three local git options
+and to turn on automatic branch deletion on GitHub, and it skips what you
+decline.
 
 ## Usage
 
