@@ -57,6 +57,8 @@ For other harnesses:
 npx skills add unvibe-org/skills --skill scion-like-git
 ```
 
+Pick one of the two. Installing the skill both ways loads it twice.
+
 ## Evals
 
 `evals/` holds three cases taken from the scenarios the skill was written
