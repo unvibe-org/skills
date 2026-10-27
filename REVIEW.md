@@ -9,7 +9,9 @@ This repo publishes agent skills. Each skill is a Claude Code plugin under
 `plugins/<name>/`: its metadata in `.claude-plugin/plugin.json`, its
 instructions in `skills/<name>/SKILL.md`, and optional detail under
 `skills/<name>/references/`. Every plugin is listed in
-`.claude-plugin/marketplace.json` and in `README.md`. A `SKILL.md` is read by an
+`.claude-plugin/marketplace.json` and in `README.md`. A log of how a skill was
+tested lives in `test-logs/<name>.md`, outside the plugin, so it is not
+installed with the skill. A `SKILL.md` is read by an
 agent working for a stranger; `README.md` is read by a developer deciding
 whether to install. The repo is public. Apply the rules in `AGENTS.md`; this
 file only says how strictly to apply them and where to look.
