@@ -19,5 +19,5 @@ for i in 1 2 3 4 5 6; do
   git add src/coupons.py && git commit -qm "coupons wip $i"
 done
 git push -q -u origin feature/coupons
-printf '# Coupons\n\nWork in progress.\n' > PR.md
+printf '# Feature branch\n\nWork in progress.\n' > PR.md
 git add PR.md && git commit -qm "describe the pull request" && git push -q

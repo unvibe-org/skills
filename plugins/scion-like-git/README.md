@@ -12,9 +12,10 @@ made by [unvibe](https://unvibe.org) and is not affiliated with Anthropic.
   new worktree when the working copy already holds other work.
 - Commits and pushes together, in small commits whose subject states the
   intent, and stages files by name.
-- Never rewrites commits that are already on origin: no amend, rebase, squash,
-  reset, or force-push. A fix to a pushed commit message goes into the pull
-  request description, and a squash happens on merge.
+- Does not rewrite commits that are already on origin: no amend, rebase,
+  squash, reset, or force-push. A fix to a pushed commit message goes into the
+  pull request description, and a squash happens on merge. The agent rewrites
+  only when the same person repeats the request after hearing this rule.
 - Parks unfinished work as a pushed `wip:` commit, never in `git stash`.
 - Never skips hooks with `--no-verify`, and stops and asks when a hook fails on
   code it did not change.
@@ -25,8 +26,10 @@ branches, or refs, or that discards working-copy changes.
 
 ## What it runs
 
-The plugin contains one skill and no hooks, MCP servers, or scripts. The skill
-tells the agent which git commands to use. The first time the skill is used in
+The plugin contains one skill and no hooks, MCP servers, or scripts that run
+when the skill is used. The shell scripts under `evals/` only build throwaway
+repositories for `claude plugin eval`. The skill tells the agent which git
+commands to use. The first time the skill is used in
 a clone, it asks the agent to set three local git options:
 
 ```sh
@@ -63,7 +66,7 @@ repository with a local bare origin, so nothing reaches a network. Run them
 with and without the plugin:
 
 ```sh
-claude plugin eval . --scaffold --allow-tools Bash Edit Write
+claude plugin eval . --scaffold --allow-tools Bash Edit Write --judge-model sonnet
 ```
 
 Results on 2026-10-27, Claude Opus 5.5, three runs per arm:
