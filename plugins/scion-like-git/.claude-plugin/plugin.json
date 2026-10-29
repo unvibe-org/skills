@@ -1,7 +1,7 @@
 {
   "name": "scion-like-git",
   "description": "Git rules for coding agents, inspired by Scion: every task starts from the newest main, commit means push, append-only history, disposable worktrees, short-lived branches, small commits with intent.",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "author": {
     "name": "unvibe",
     "email": "hello@unvibe.org"
