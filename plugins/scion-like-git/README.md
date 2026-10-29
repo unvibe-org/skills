@@ -11,7 +11,7 @@ branches, or switches tasks. It:
 
 - starts each new task from the newest `main`: before it reads any code, it
   switches the checkout to `main` and pulls, or fetches when it works in a
-  worktree, then starts the task's own branch there
+  worktree, then starts the task's own branch from `origin/main`
 - starts in a new worktree only when the working copy holds changes it did
   not make or it has just parked unfinished work, and continues on a task's
   branch when the request builds on that branch's work

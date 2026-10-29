@@ -27,8 +27,9 @@ If `git config --get scion-like-git.configured` prints nothing, run
    | Linked worktree | `git fetch` |
    | Main worktree, on any branch | `git switch main && git pull --ff-only` |
 
-   Then start a branch from `origin/main`, never from local `main`, which can
-   hold commits that are not on origin:
+   Then start the task's branch from `origin/main`, never from local `main`,
+   which can hold commits that are not on origin. For the second and third
+   rows:
 
    ```sh
    git switch --no-track -c <branch> origin/main
