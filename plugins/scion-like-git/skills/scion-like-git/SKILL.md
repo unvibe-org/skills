@@ -1,6 +1,6 @@
 ---
 name: scion-like-git
-description: "Use before any git command that creates or moves commits, branches, or refs (commit, push, merge, rebase, amend, reset, stash, new branches, worktrees), or that discards working-copy changes (restore, checkout -- <path>, clean). Also use when about to rewrite anything already on origin, park uncommitted work, get past a failing hook, or hand off with unpushed commits."
+description: "Use at the start of every new task or session, before reading or changing code, and before any git command that creates or moves commits, branches, or refs (commit, push, merge, rebase, amend, reset, stash, new branches, worktrees), or that discards working-copy changes (restore, checkout -- <path>, clean). Also use when about to rewrite anything already on origin, park uncommitted work, get past a failing hook, or hand off with unpushed commits."
 ---
 
 # Scion-like Git
@@ -13,14 +13,31 @@ If `git config --get scion-like-git.configured` prints nothing, run
 
 ## Every task
 
-1. **Start a branch** from a freshly fetched `origin/main`, or continue on the
-   task's own branch if it already has one. Name a new branch the way
-   the repository names branches (`CONTRIBUTING.md`, `AGENTS.md`, recent
-   branches on origin), or else `<type>/<slug>`, such as `fix/empty-cart-total`.
-   If the working copy already holds other work, start in a new worktree:
+1. **Start from the newest `main`.** The first request of a session is a new
+   task, unless it names a branch or pull request, or builds on work that
+   exists only on the current branch. Then stay on that branch. For a new
+   task, update the clone before you read or change any code, whatever branch
+   it is on:
+
+   | Working copy | Update with |
+   |---|---|
+   | Main checkout, no uncommitted changes | `git switch main && git pull --ff-only` |
+   | Linked worktree, no uncommitted changes | `git fetch` |
+   | Uncommitted changes | `git fetch`, then a new worktree |
+
+   If `pull --ff-only` refuses, leave `main` as it is, branch from
+   `origin/main` as in a worktree, and name the local commits on `main` in
+   the hand-off.
+
+   Then start a branch from the newest `main`: `git switch -c <branch>` on
+   `main`, `git switch --no-track -c <branch> origin/main` in a worktree.
+   Name it the way the repository names branches (`CONTRIBUTING.md`,
+   `AGENTS.md`, recent branches on origin), or else `<type>/<slug>`, such as
+   `fix/empty-cart-total`. A new worktree for a working copy with uncommitted
+   changes:
 
    ```sh
-   git fetch && git worktree add --no-track -b <branch> ../<branch-with-dashes> origin/main
+   git worktree add --no-track -b <branch> ../<branch-with-dashes> origin/main
    ```
 
    `--no-track` keeps a plain `git push` from going to `main`.
