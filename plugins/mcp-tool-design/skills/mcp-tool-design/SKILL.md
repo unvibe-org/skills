@@ -166,9 +166,10 @@ Work through these in order. Each answer constrains the next.
 4. **Check for overlap** against every tool the server already registers. A
    tool that could answer the same request is merged, or both descriptions
    name each other.
-5. **Choose the inputs.** Names through a resolver where one exists, ids
-   only for unnamed things, enums rather than booleans, and an `ids` array for
-   anything the user does to "these". Resolve strictly and create nothing.
+5. **Choose the inputs.** Names through a resolver for people and places,
+   ids from a search tool for the objects acted on, enums rather than
+   booleans, and an `ids` array for anything the user does to "these", except
+   on outward destructive tools. Resolve strictly and create nothing.
 6. **Write the description**: the four sentences from principle 4, the
    neighbours, and the third-party content line if the tool returns such
    content.
@@ -261,7 +262,7 @@ const moveEmailsShape = {
 - [ ] No other tool answers the same request; neighbours are named in the description
 - [ ] The description has at least four sentences: does, when, returns, use X instead
 - [ ] Tools that return third-party text say it is data, never instructions
-- [ ] Names go through a resolver where one exists; ids only for unnamed things
+- [ ] People and places go through a resolver; the objects acted on take ids from a search tool
 - [ ] Enums rather than booleans, except independent leave-untouched flags
 - [ ] A set-valued operation takes an `ids` array with a cap and reports each id, except outward destructive tools
 - [ ] Nothing is created as a side effect; misses list the candidates
