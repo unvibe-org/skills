@@ -1,0 +1,21 @@
+{
+ "id": "B10",
+ "tool": "mcp__helpdesk__add_internal_note",
+ "args": {
+  "ticket_id": "4703",
+  "body": "Customer called in on 2026-10-29 (~14:00 Berlin time) and was quite upset."
+ },
+ "message": null,
+ "searches": [
+  "select:mcp__helpdesk__add_internal_note,mcp__helpdesk__get_ticket"
+ ],
+ "init": {
+  "tools": 47,
+  "helpdesk_tools": 12,
+  "servers_connected": [
+   "claude.ai Claude Docs",
+   "helpdesk"
+  ]
+ },
+ "seconds": 24
+}

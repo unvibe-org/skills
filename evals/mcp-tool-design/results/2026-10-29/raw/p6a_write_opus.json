@@ -1,0 +1,59 @@
+[
+  {
+    "id": "E01",
+    "tool": "finish_practice",
+    "args": {
+      "run_id": "r_201",
+      "results": [
+        {"drill_id": "d1", "answer": "mil novecento novanta-nove", "correct": true},
+        {"drill_id": "d2", "answer": "zero uno sete du sinko sinko kwatro tre uno", "correct": false},
+        {"drill_id": "d3", "answer": "il venti-uno de marso", "correct": true}
+      ],
+      "self_rating": 5,
+      "duration_seconds": 720
+    },
+    "message": "Saving the round. The scale tops out at 5, so your 6 out of 5 goes in as a 5, along with about 12 minutes. Go rest that soup brain!"
+  },
+  {
+    "id": "E02",
+    "tool": null,
+    "args": null,
+    "message": "Nice work, three for three! Before I save it: on a scale of 1 (easy) to 5 (hard), how would you rate this round? I'll log it at about 15 minutes."
+  },
+  {
+    "id": "E03",
+    "tool": null,
+    "args": null,
+    "message": "Quick one before you run: how hard did that feel, 1 (easy) to 5 (hard)? Then I'll save the round (7 minutes, drill 2 skipped)."
+  },
+  {
+    "id": "E04",
+    "tool": "finish_practice",
+    "args": {
+      "run_id": "r_204",
+      "results": [
+        {"drill_id": "d1", "answer": "E sempre drito, sirka du-sento metri", "correct": true},
+        {"drill_id": "d2", "answer": "E lontan da kwi?", "correct": false},
+        {"drill_id": "d3", "answer": "Prendi la sekonda strada a destra", "correct": true}
+      ],
+      "self_rating": 4,
+      "duration_seconds": null
+    },
+    "message": "Saving your round with a difficulty of 4."
+  },
+  {
+    "id": "E05",
+    "tool": "finish_practice",
+    "args": {
+      "run_id": "r_205",
+      "results": [
+        {"drill_id": "d1", "answer": "Nos kompramo pan", "correct": true},
+        {"drill_id": "d2", "answer": "El venne a kasa tardi", "correct": true},
+        {"drill_id": "d3", "answer": "Eu no podi trovar le mie kiavi", "correct": false}
+      ],
+      "self_rating": 3,
+      "duration_seconds": 1200
+    },
+    "message": "Saving the round: ratings are whole numbers, so I've put it down as a 3, with about 20 minutes. So close on the last one, 'potei' next time!"
+  }
+]

@@ -1,0 +1,1838 @@
+[
+ {
+  "run": "short_haiku_B01",
+  "variant": "short",
+  "model": "haiku",
+  "id": "B01",
+  "prompt": "let the customer on 4812 know the refund went out today",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_haiku_B01.json"
+ },
+ {
+  "run": "short_haiku_B02",
+  "variant": "short",
+  "model": "haiku",
+  "id": "B02",
+  "prompt": "leave a note for Kim Lee on 4812 that finance aproved the refund",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_haiku_B02.json"
+ },
+ {
+  "run": "short_haiku_B03",
+  "variant": "short",
+  "model": "haiku",
+  "id": "B03",
+  "prompt": "send 5033 over to their accountant at maria.lopez@lopez-cpa.example",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_haiku_B03.json"
+ },
+ {
+  "run": "short_haiku_B04",
+  "variant": "short",
+  "model": "haiku",
+  "id": "B04",
+  "prompt": "4791 is the same as 4790, get rid of the dupe",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_haiku_B04.json"
+ },
+ {
+  "run": "short_haiku_B05",
+  "variant": "short",
+  "model": "haiku",
+  "id": "B05",
+  "prompt": "close out 4655, customer confirmed its working now",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_haiku_B05.json"
+ },
+ {
+  "run": "short_haiku_B06",
+  "variant": "short",
+  "model": "haiku",
+  "id": "B06",
+  "prompt": "5002 is pure spam, kill it",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_haiku_B06.json"
+ },
+ {
+  "run": "short_haiku_B07",
+  "variant": "short",
+  "model": "haiku",
+  "id": "B07",
+  "prompt": "give 4888 to Priya",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_haiku_B07.json"
+ },
+ {
+  "run": "short_haiku_B08",
+  "variant": "short",
+  "model": "haiku",
+  "id": "B08",
+  "prompt": "4920 needs tier 2, the webhook payloads are coming thru corrupted and thats beyond us",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_haiku_B08.json"
+ },
+ {
+  "run": "short_haiku_B09",
+  "variant": "short",
+  "model": "haiku",
+  "id": "B09",
+  "prompt": "Kim Park should take 5011 personally, she fixed the same bug last month",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_haiku_B09.json"
+ },
+ {
+  "run": "short_haiku_B10",
+  "variant": "short",
+  "model": "haiku",
+  "id": "B10",
+  "prompt": "jot down on 4703 that the customer called and was pretty upset",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_haiku_B10.json"
+ },
+ {
+  "run": "short_haiku_B11",
+  "variant": "short",
+  "model": "haiku",
+  "id": "B11",
+  "prompt": "update 4844 about the delay",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_haiku_B11.json"
+ },
+ {
+  "run": "short_haiku_B12",
+  "variant": "short",
+  "model": "haiku",
+  "id": "B12",
+  "prompt": "set 4950 to pending, waiting on the customer to send logs",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_haiku_B12.json"
+ },
+ {
+  "run": "short_haiku_C01",
+  "variant": "short",
+  "model": "haiku",
+  "id": "C01",
+  "prompt": "whats the latest on 4812?",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_haiku_C01.json"
+ },
+ {
+  "run": "short_haiku_C02",
+  "variant": "short",
+  "model": "haiku",
+  "id": "C02",
+  "prompt": "delete 5101 and 5102, those are test tickets i made",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_haiku_C02.json"
+ },
+ {
+  "run": "short_haiku_C03",
+  "variant": "short",
+  "model": "haiku",
+  "id": "C03",
+  "prompt": "4730 and 4731 are dupes of 4729, fold them in",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_haiku_C03.json"
+ },
+ {
+  "run": "short_haiku_C04",
+  "variant": "short",
+  "model": "haiku",
+  "id": "C04",
+  "prompt": "escalate 4866 to onboarding, they never got there setup call",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_haiku_C04.json"
+ },
+ {
+  "run": "short_haiku_C05",
+  "variant": "short",
+  "model": "haiku",
+  "id": "C05",
+  "prompt": "4801 4802 4803 can all be solved, the outage fix covers them",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_haiku_C05.json"
+ },
+ {
+  "run": "short_haiku_C06",
+  "variant": "short",
+  "model": "haiku",
+  "id": "C06",
+  "prompt": "log 20 min on 4999",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_haiku_C06.json"
+ },
+ {
+  "run": "short_haiku_C07",
+  "variant": "short",
+  "model": "haiku",
+  "id": "C07",
+  "prompt": "remind me about 5077 in 2 hours",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_haiku_C07.json"
+ },
+ {
+  "run": "short_haiku_C08",
+  "variant": "short",
+  "model": "haiku",
+  "id": "C08",
+  "prompt": "reply on 4840: we've reissued the invoice, should be in your inbox in a few minutes",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_haiku_C08.json"
+ },
+ {
+  "run": "short_haiku_C09",
+  "variant": "short",
+  "model": "haiku",
+  "id": "C09",
+  "prompt": "fwd 4915 to legal@wayne-logistics.example",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_haiku_C09.json"
+ },
+ {
+  "run": "short_haiku_C10",
+  "variant": "short",
+  "model": "haiku",
+  "id": "C10",
+  "prompt": "assign 4760 and 4761 to Jon Reyes",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_haiku_C10.json"
+ },
+ {
+  "run": "short_haiku_O01",
+  "variant": "short",
+  "model": "haiku",
+  "id": "O01",
+  "prompt": "email the customer on 4812 that the refund went out today, should hit their card in 3-5 business days",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_haiku_O01.json"
+ },
+ {
+  "run": "short_haiku_O02",
+  "variant": "short",
+  "model": "haiku",
+  "id": "O02",
+  "prompt": "escalate 4920 to Tier 2 pls, their API keys keep failing auth, not a billing thing",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_haiku_O02.json"
+ },
+ {
+  "run": "short_haiku_O03",
+  "variant": "short",
+  "model": "haiku",
+  "id": "O03",
+  "prompt": "remind me tuesday 10am to check 4701 again, waiting on their bank",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_haiku_O03.json"
+ },
+ {
+  "run": "short_haiku_O04",
+  "variant": "short",
+  "model": "haiku",
+  "id": "O04",
+  "prompt": "forward 5033 to their accountant, m.huber@huber-steuer.example, she needs the invoice dispute details",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_haiku_O04.json"
+ },
+ {
+  "run": "short_haiku_O05",
+  "variant": "short",
+  "model": "haiku",
+  "id": "O05",
+  "prompt": "leave a comment for Kim Lee on 4812: don't refund again, I already did it in Stripe",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_haiku_O05.json"
+ },
+ {
+  "run": "short_haiku_O06",
+  "variant": "short",
+  "model": "haiku",
+  "id": "O06",
+  "prompt": "4655 is resolved, customer confirmed the card goes through now, close it out",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_haiku_O06.json"
+ },
+ {
+  "run": "short_haiku_O07",
+  "variant": "short",
+  "model": "haiku",
+  "id": "O07",
+  "prompt": "put 4733 on Priya's plate, she's covering billing on-call tonight",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_haiku_O07.json"
+ },
+ {
+  "run": "short_haiku_O08",
+  "variant": "short",
+  "model": "haiku",
+  "id": "O08",
+  "prompt": "log 45 min on 4890 for the call I just had with them",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_haiku_O08.json"
+ },
+ {
+  "run": "short_haiku_O09",
+  "variant": "short",
+  "model": "haiku",
+  "id": "O09",
+  "prompt": "customer emailed twice, 4806 is a dupe of 4801, fold it into 4801",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_haiku_O09.json"
+ },
+ {
+  "run": "short_haiku_O10",
+  "variant": "short",
+  "model": "haiku",
+  "id": "O10",
+  "prompt": "trash 4999, it's bot spam, no real customer",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_haiku_O10.json"
+ },
+ {
+  "run": "short_haiku_O11",
+  "variant": "short",
+  "model": "haiku",
+  "id": "O11",
+  "prompt": "reply on Kim's thread about 4812 saying the refund is processed",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_haiku_O11.json"
+ },
+ {
+  "run": "short_haiku_O12",
+  "variant": "short",
+  "model": "haiku",
+  "id": "O12",
+  "prompt": "5102, the outage one, mark it resolved and add a comment that the fix is deployed",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_haiku_O12.json"
+ },
+ {
+  "run": "short_sonnet_B01",
+  "variant": "short",
+  "model": "sonnet",
+  "id": "B01",
+  "prompt": "let the customer on 4812 know the refund went out today",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_sonnet_B01.json"
+ },
+ {
+  "run": "short_sonnet_B02",
+  "variant": "short",
+  "model": "sonnet",
+  "id": "B02",
+  "prompt": "leave a note for Kim Lee on 4812 that finance aproved the refund",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_sonnet_B02.json"
+ },
+ {
+  "run": "short_sonnet_B03",
+  "variant": "short",
+  "model": "sonnet",
+  "id": "B03",
+  "prompt": "send 5033 over to their accountant at maria.lopez@lopez-cpa.example",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_sonnet_B03.json"
+ },
+ {
+  "run": "short_sonnet_B04",
+  "variant": "short",
+  "model": "sonnet",
+  "id": "B04",
+  "prompt": "4791 is the same as 4790, get rid of the dupe",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_sonnet_B04.json"
+ },
+ {
+  "run": "short_sonnet_B05",
+  "variant": "short",
+  "model": "sonnet",
+  "id": "B05",
+  "prompt": "close out 4655, customer confirmed its working now",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_sonnet_B05.json"
+ },
+ {
+  "run": "short_sonnet_B06",
+  "variant": "short",
+  "model": "sonnet",
+  "id": "B06",
+  "prompt": "5002 is pure spam, kill it",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_sonnet_B06.json"
+ },
+ {
+  "run": "short_sonnet_B07",
+  "variant": "short",
+  "model": "sonnet",
+  "id": "B07",
+  "prompt": "give 4888 to Priya",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_sonnet_B07.json"
+ },
+ {
+  "run": "short_sonnet_B08",
+  "variant": "short",
+  "model": "sonnet",
+  "id": "B08",
+  "prompt": "4920 needs tier 2, the webhook payloads are coming thru corrupted and thats beyond us",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_sonnet_B08.json"
+ },
+ {
+  "run": "short_sonnet_B09",
+  "variant": "short",
+  "model": "sonnet",
+  "id": "B09",
+  "prompt": "Kim Park should take 5011 personally, she fixed the same bug last month",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_sonnet_B09.json"
+ },
+ {
+  "run": "short_sonnet_B10",
+  "variant": "short",
+  "model": "sonnet",
+  "id": "B10",
+  "prompt": "jot down on 4703 that the customer called and was pretty upset",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_sonnet_B10.json"
+ },
+ {
+  "run": "short_sonnet_B11",
+  "variant": "short",
+  "model": "sonnet",
+  "id": "B11",
+  "prompt": "update 4844 about the delay",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_sonnet_B11.json"
+ },
+ {
+  "run": "short_sonnet_B12",
+  "variant": "short",
+  "model": "sonnet",
+  "id": "B12",
+  "prompt": "set 4950 to pending, waiting on the customer to send logs",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_sonnet_B12.json"
+ },
+ {
+  "run": "short_sonnet_C01",
+  "variant": "short",
+  "model": "sonnet",
+  "id": "C01",
+  "prompt": "whats the latest on 4812?",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_sonnet_C01.json"
+ },
+ {
+  "run": "short_sonnet_C02",
+  "variant": "short",
+  "model": "sonnet",
+  "id": "C02",
+  "prompt": "delete 5101 and 5102, those are test tickets i made",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_sonnet_C02.json"
+ },
+ {
+  "run": "short_sonnet_C03",
+  "variant": "short",
+  "model": "sonnet",
+  "id": "C03",
+  "prompt": "4730 and 4731 are dupes of 4729, fold them in",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_sonnet_C03.json"
+ },
+ {
+  "run": "short_sonnet_C04",
+  "variant": "short",
+  "model": "sonnet",
+  "id": "C04",
+  "prompt": "escalate 4866 to onboarding, they never got there setup call",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_sonnet_C04.json"
+ },
+ {
+  "run": "short_sonnet_C05",
+  "variant": "short",
+  "model": "sonnet",
+  "id": "C05",
+  "prompt": "4801 4802 4803 can all be solved, the outage fix covers them",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_sonnet_C05.json"
+ },
+ {
+  "run": "short_sonnet_C06",
+  "variant": "short",
+  "model": "sonnet",
+  "id": "C06",
+  "prompt": "log 20 min on 4999",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_sonnet_C06.json"
+ },
+ {
+  "run": "short_sonnet_C07",
+  "variant": "short",
+  "model": "sonnet",
+  "id": "C07",
+  "prompt": "remind me about 5077 in 2 hours",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_sonnet_C07.json"
+ },
+ {
+  "run": "short_sonnet_C08",
+  "variant": "short",
+  "model": "sonnet",
+  "id": "C08",
+  "prompt": "reply on 4840: we've reissued the invoice, should be in your inbox in a few minutes",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_sonnet_C08.json"
+ },
+ {
+  "run": "short_sonnet_C09",
+  "variant": "short",
+  "model": "sonnet",
+  "id": "C09",
+  "prompt": "fwd 4915 to legal@wayne-logistics.example",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_sonnet_C09.json"
+ },
+ {
+  "run": "short_sonnet_C10",
+  "variant": "short",
+  "model": "sonnet",
+  "id": "C10",
+  "prompt": "assign 4760 and 4761 to Jon Reyes",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_sonnet_C10.json"
+ },
+ {
+  "run": "short_sonnet_O01",
+  "variant": "short",
+  "model": "sonnet",
+  "id": "O01",
+  "prompt": "email the customer on 4812 that the refund went out today, should hit their card in 3-5 business days",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_sonnet_O01.json"
+ },
+ {
+  "run": "short_sonnet_O02",
+  "variant": "short",
+  "model": "sonnet",
+  "id": "O02",
+  "prompt": "escalate 4920 to Tier 2 pls, their API keys keep failing auth, not a billing thing",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_sonnet_O02.json"
+ },
+ {
+  "run": "short_sonnet_O03",
+  "variant": "short",
+  "model": "sonnet",
+  "id": "O03",
+  "prompt": "remind me tuesday 10am to check 4701 again, waiting on their bank",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_sonnet_O03.json"
+ },
+ {
+  "run": "short_sonnet_O04",
+  "variant": "short",
+  "model": "sonnet",
+  "id": "O04",
+  "prompt": "forward 5033 to their accountant, m.huber@huber-steuer.example, she needs the invoice dispute details",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_sonnet_O04.json"
+ },
+ {
+  "run": "short_sonnet_O05",
+  "variant": "short",
+  "model": "sonnet",
+  "id": "O05",
+  "prompt": "leave a comment for Kim Lee on 4812: don't refund again, I already did it in Stripe",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_sonnet_O05.json"
+ },
+ {
+  "run": "short_sonnet_O06",
+  "variant": "short",
+  "model": "sonnet",
+  "id": "O06",
+  "prompt": "4655 is resolved, customer confirmed the card goes through now, close it out",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_sonnet_O06.json"
+ },
+ {
+  "run": "short_sonnet_O07",
+  "variant": "short",
+  "model": "sonnet",
+  "id": "O07",
+  "prompt": "put 4733 on Priya's plate, she's covering billing on-call tonight",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_sonnet_O07.json"
+ },
+ {
+  "run": "short_sonnet_O08",
+  "variant": "short",
+  "model": "sonnet",
+  "id": "O08",
+  "prompt": "log 45 min on 4890 for the call I just had with them",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_sonnet_O08.json"
+ },
+ {
+  "run": "short_sonnet_O09",
+  "variant": "short",
+  "model": "sonnet",
+  "id": "O09",
+  "prompt": "customer emailed twice, 4806 is a dupe of 4801, fold it into 4801",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_sonnet_O09.json"
+ },
+ {
+  "run": "short_sonnet_O10",
+  "variant": "short",
+  "model": "sonnet",
+  "id": "O10",
+  "prompt": "trash 4999, it's bot spam, no real customer",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_sonnet_O10.json"
+ },
+ {
+  "run": "short_sonnet_O11",
+  "variant": "short",
+  "model": "sonnet",
+  "id": "O11",
+  "prompt": "reply on Kim's thread about 4812 saying the refund is processed",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_sonnet_O11.json"
+ },
+ {
+  "run": "short_sonnet_O12",
+  "variant": "short",
+  "model": "sonnet",
+  "id": "O12",
+  "prompt": "5102, the outage one, mark it resolved and add a comment that the fix is deployed",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_sonnet_O12.json"
+ },
+ {
+  "run": "short_opus_B01",
+  "variant": "short",
+  "model": "opus",
+  "id": "B01",
+  "prompt": "let the customer on 4812 know the refund went out today",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_opus_B01.json"
+ },
+ {
+  "run": "short_opus_B02",
+  "variant": "short",
+  "model": "opus",
+  "id": "B02",
+  "prompt": "leave a note for Kim Lee on 4812 that finance aproved the refund",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_opus_B02.json"
+ },
+ {
+  "run": "short_opus_B03",
+  "variant": "short",
+  "model": "opus",
+  "id": "B03",
+  "prompt": "send 5033 over to their accountant at maria.lopez@lopez-cpa.example",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_opus_B03.json"
+ },
+ {
+  "run": "short_opus_B04",
+  "variant": "short",
+  "model": "opus",
+  "id": "B04",
+  "prompt": "4791 is the same as 4790, get rid of the dupe",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_opus_B04.json"
+ },
+ {
+  "run": "short_opus_B05",
+  "variant": "short",
+  "model": "opus",
+  "id": "B05",
+  "prompt": "close out 4655, customer confirmed its working now",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_opus_B05.json"
+ },
+ {
+  "run": "short_opus_B06",
+  "variant": "short",
+  "model": "opus",
+  "id": "B06",
+  "prompt": "5002 is pure spam, kill it",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_opus_B06.json"
+ },
+ {
+  "run": "short_opus_B07",
+  "variant": "short",
+  "model": "opus",
+  "id": "B07",
+  "prompt": "give 4888 to Priya",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_opus_B07.json"
+ },
+ {
+  "run": "short_opus_B08",
+  "variant": "short",
+  "model": "opus",
+  "id": "B08",
+  "prompt": "4920 needs tier 2, the webhook payloads are coming thru corrupted and thats beyond us",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_opus_B08.json"
+ },
+ {
+  "run": "short_opus_B09",
+  "variant": "short",
+  "model": "opus",
+  "id": "B09",
+  "prompt": "Kim Park should take 5011 personally, she fixed the same bug last month",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_opus_B09.json"
+ },
+ {
+  "run": "short_opus_B10",
+  "variant": "short",
+  "model": "opus",
+  "id": "B10",
+  "prompt": "jot down on 4703 that the customer called and was pretty upset",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_opus_B10.json"
+ },
+ {
+  "run": "short_opus_B11",
+  "variant": "short",
+  "model": "opus",
+  "id": "B11",
+  "prompt": "update 4844 about the delay",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_opus_B11.json"
+ },
+ {
+  "run": "short_opus_B12",
+  "variant": "short",
+  "model": "opus",
+  "id": "B12",
+  "prompt": "set 4950 to pending, waiting on the customer to send logs",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_opus_B12.json"
+ },
+ {
+  "run": "short_opus_C01",
+  "variant": "short",
+  "model": "opus",
+  "id": "C01",
+  "prompt": "whats the latest on 4812?",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_opus_C01.json"
+ },
+ {
+  "run": "short_opus_C02",
+  "variant": "short",
+  "model": "opus",
+  "id": "C02",
+  "prompt": "delete 5101 and 5102, those are test tickets i made",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_opus_C02.json"
+ },
+ {
+  "run": "short_opus_C03",
+  "variant": "short",
+  "model": "opus",
+  "id": "C03",
+  "prompt": "4730 and 4731 are dupes of 4729, fold them in",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_opus_C03.json"
+ },
+ {
+  "run": "short_opus_C04",
+  "variant": "short",
+  "model": "opus",
+  "id": "C04",
+  "prompt": "escalate 4866 to onboarding, they never got there setup call",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_opus_C04.json"
+ },
+ {
+  "run": "short_opus_C05",
+  "variant": "short",
+  "model": "opus",
+  "id": "C05",
+  "prompt": "4801 4802 4803 can all be solved, the outage fix covers them",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_opus_C05.json"
+ },
+ {
+  "run": "short_opus_C06",
+  "variant": "short",
+  "model": "opus",
+  "id": "C06",
+  "prompt": "log 20 min on 4999",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_opus_C06.json"
+ },
+ {
+  "run": "short_opus_C07",
+  "variant": "short",
+  "model": "opus",
+  "id": "C07",
+  "prompt": "remind me about 5077 in 2 hours",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_opus_C07.json"
+ },
+ {
+  "run": "short_opus_C08",
+  "variant": "short",
+  "model": "opus",
+  "id": "C08",
+  "prompt": "reply on 4840: we've reissued the invoice, should be in your inbox in a few minutes",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_opus_C08.json"
+ },
+ {
+  "run": "short_opus_C09",
+  "variant": "short",
+  "model": "opus",
+  "id": "C09",
+  "prompt": "fwd 4915 to legal@wayne-logistics.example",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_opus_C09.json"
+ },
+ {
+  "run": "short_opus_C10",
+  "variant": "short",
+  "model": "opus",
+  "id": "C10",
+  "prompt": "assign 4760 and 4761 to Jon Reyes",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_opus_C10.json"
+ },
+ {
+  "run": "short_opus_O01",
+  "variant": "short",
+  "model": "opus",
+  "id": "O01",
+  "prompt": "email the customer on 4812 that the refund went out today, should hit their card in 3-5 business days",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_opus_O01.json"
+ },
+ {
+  "run": "short_opus_O02",
+  "variant": "short",
+  "model": "opus",
+  "id": "O02",
+  "prompt": "escalate 4920 to Tier 2 pls, their API keys keep failing auth, not a billing thing",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_opus_O02.json"
+ },
+ {
+  "run": "short_opus_O03",
+  "variant": "short",
+  "model": "opus",
+  "id": "O03",
+  "prompt": "remind me tuesday 10am to check 4701 again, waiting on their bank",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_opus_O03.json"
+ },
+ {
+  "run": "short_opus_O04",
+  "variant": "short",
+  "model": "opus",
+  "id": "O04",
+  "prompt": "forward 5033 to their accountant, m.huber@huber-steuer.example, she needs the invoice dispute details",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_opus_O04.json"
+ },
+ {
+  "run": "short_opus_O05",
+  "variant": "short",
+  "model": "opus",
+  "id": "O05",
+  "prompt": "leave a comment for Kim Lee on 4812: don't refund again, I already did it in Stripe",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_opus_O05.json"
+ },
+ {
+  "run": "short_opus_O06",
+  "variant": "short",
+  "model": "opus",
+  "id": "O06",
+  "prompt": "4655 is resolved, customer confirmed the card goes through now, close it out",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_opus_O06.json"
+ },
+ {
+  "run": "short_opus_O07",
+  "variant": "short",
+  "model": "opus",
+  "id": "O07",
+  "prompt": "put 4733 on Priya's plate, she's covering billing on-call tonight",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_opus_O07.json"
+ },
+ {
+  "run": "short_opus_O08",
+  "variant": "short",
+  "model": "opus",
+  "id": "O08",
+  "prompt": "log 45 min on 4890 for the call I just had with them",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_opus_O08.json"
+ },
+ {
+  "run": "short_opus_O09",
+  "variant": "short",
+  "model": "opus",
+  "id": "O09",
+  "prompt": "customer emailed twice, 4806 is a dupe of 4801, fold it into 4801",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_opus_O09.json"
+ },
+ {
+  "run": "short_opus_O10",
+  "variant": "short",
+  "model": "opus",
+  "id": "O10",
+  "prompt": "trash 4999, it's bot spam, no real customer",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_opus_O10.json"
+ },
+ {
+  "run": "short_opus_O11",
+  "variant": "short",
+  "model": "opus",
+  "id": "O11",
+  "prompt": "reply on Kim's thread about 4812 saying the refund is processed",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_opus_O11.json"
+ },
+ {
+  "run": "short_opus_O12",
+  "variant": "short",
+  "model": "opus",
+  "id": "O12",
+  "prompt": "5102, the outage one, mark it resolved and add a comment that the fix is deployed",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/short_opus_O12.json"
+ },
+ {
+  "run": "long_haiku_B01",
+  "variant": "long",
+  "model": "haiku",
+  "id": "B01",
+  "prompt": "let the customer on 4812 know the refund went out today",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_haiku_B01.json"
+ },
+ {
+  "run": "long_haiku_B02",
+  "variant": "long",
+  "model": "haiku",
+  "id": "B02",
+  "prompt": "leave a note for Kim Lee on 4812 that finance aproved the refund",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_haiku_B02.json"
+ },
+ {
+  "run": "long_haiku_B03",
+  "variant": "long",
+  "model": "haiku",
+  "id": "B03",
+  "prompt": "send 5033 over to their accountant at maria.lopez@lopez-cpa.example",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_haiku_B03.json"
+ },
+ {
+  "run": "long_haiku_B04",
+  "variant": "long",
+  "model": "haiku",
+  "id": "B04",
+  "prompt": "4791 is the same as 4790, get rid of the dupe",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_haiku_B04.json"
+ },
+ {
+  "run": "long_haiku_B05",
+  "variant": "long",
+  "model": "haiku",
+  "id": "B05",
+  "prompt": "close out 4655, customer confirmed its working now",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_haiku_B05.json"
+ },
+ {
+  "run": "long_haiku_B06",
+  "variant": "long",
+  "model": "haiku",
+  "id": "B06",
+  "prompt": "5002 is pure spam, kill it",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_haiku_B06.json"
+ },
+ {
+  "run": "long_haiku_B07",
+  "variant": "long",
+  "model": "haiku",
+  "id": "B07",
+  "prompt": "give 4888 to Priya",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_haiku_B07.json"
+ },
+ {
+  "run": "long_haiku_B08",
+  "variant": "long",
+  "model": "haiku",
+  "id": "B08",
+  "prompt": "4920 needs tier 2, the webhook payloads are coming thru corrupted and thats beyond us",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_haiku_B08.json"
+ },
+ {
+  "run": "long_haiku_B09",
+  "variant": "long",
+  "model": "haiku",
+  "id": "B09",
+  "prompt": "Kim Park should take 5011 personally, she fixed the same bug last month",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_haiku_B09.json"
+ },
+ {
+  "run": "long_haiku_B10",
+  "variant": "long",
+  "model": "haiku",
+  "id": "B10",
+  "prompt": "jot down on 4703 that the customer called and was pretty upset",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_haiku_B10.json"
+ },
+ {
+  "run": "long_haiku_B11",
+  "variant": "long",
+  "model": "haiku",
+  "id": "B11",
+  "prompt": "update 4844 about the delay",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_haiku_B11.json"
+ },
+ {
+  "run": "long_haiku_B12",
+  "variant": "long",
+  "model": "haiku",
+  "id": "B12",
+  "prompt": "set 4950 to pending, waiting on the customer to send logs",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_haiku_B12.json"
+ },
+ {
+  "run": "long_haiku_C01",
+  "variant": "long",
+  "model": "haiku",
+  "id": "C01",
+  "prompt": "whats the latest on 4812?",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_haiku_C01.json"
+ },
+ {
+  "run": "long_haiku_C02",
+  "variant": "long",
+  "model": "haiku",
+  "id": "C02",
+  "prompt": "delete 5101 and 5102, those are test tickets i made",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_haiku_C02.json"
+ },
+ {
+  "run": "long_haiku_C03",
+  "variant": "long",
+  "model": "haiku",
+  "id": "C03",
+  "prompt": "4730 and 4731 are dupes of 4729, fold them in",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_haiku_C03.json"
+ },
+ {
+  "run": "long_haiku_C04",
+  "variant": "long",
+  "model": "haiku",
+  "id": "C04",
+  "prompt": "escalate 4866 to onboarding, they never got there setup call",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_haiku_C04.json"
+ },
+ {
+  "run": "long_haiku_C05",
+  "variant": "long",
+  "model": "haiku",
+  "id": "C05",
+  "prompt": "4801 4802 4803 can all be solved, the outage fix covers them",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_haiku_C05.json"
+ },
+ {
+  "run": "long_haiku_C06",
+  "variant": "long",
+  "model": "haiku",
+  "id": "C06",
+  "prompt": "log 20 min on 4999",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_haiku_C06.json"
+ },
+ {
+  "run": "long_haiku_C07",
+  "variant": "long",
+  "model": "haiku",
+  "id": "C07",
+  "prompt": "remind me about 5077 in 2 hours",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_haiku_C07.json"
+ },
+ {
+  "run": "long_haiku_C08",
+  "variant": "long",
+  "model": "haiku",
+  "id": "C08",
+  "prompt": "reply on 4840: we've reissued the invoice, should be in your inbox in a few minutes",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_haiku_C08.json"
+ },
+ {
+  "run": "long_haiku_C09",
+  "variant": "long",
+  "model": "haiku",
+  "id": "C09",
+  "prompt": "fwd 4915 to legal@wayne-logistics.example",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_haiku_C09.json"
+ },
+ {
+  "run": "long_haiku_C10",
+  "variant": "long",
+  "model": "haiku",
+  "id": "C10",
+  "prompt": "assign 4760 and 4761 to Jon Reyes",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_haiku_C10.json"
+ },
+ {
+  "run": "long_haiku_O01",
+  "variant": "long",
+  "model": "haiku",
+  "id": "O01",
+  "prompt": "email the customer on 4812 that the refund went out today, should hit their card in 3-5 business days",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_haiku_O01.json"
+ },
+ {
+  "run": "long_haiku_O02",
+  "variant": "long",
+  "model": "haiku",
+  "id": "O02",
+  "prompt": "escalate 4920 to Tier 2 pls, their API keys keep failing auth, not a billing thing",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_haiku_O02.json"
+ },
+ {
+  "run": "long_haiku_O03",
+  "variant": "long",
+  "model": "haiku",
+  "id": "O03",
+  "prompt": "remind me tuesday 10am to check 4701 again, waiting on their bank",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_haiku_O03.json"
+ },
+ {
+  "run": "long_haiku_O04",
+  "variant": "long",
+  "model": "haiku",
+  "id": "O04",
+  "prompt": "forward 5033 to their accountant, m.huber@huber-steuer.example, she needs the invoice dispute details",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_haiku_O04.json"
+ },
+ {
+  "run": "long_haiku_O05",
+  "variant": "long",
+  "model": "haiku",
+  "id": "O05",
+  "prompt": "leave a comment for Kim Lee on 4812: don't refund again, I already did it in Stripe",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_haiku_O05.json"
+ },
+ {
+  "run": "long_haiku_O06",
+  "variant": "long",
+  "model": "haiku",
+  "id": "O06",
+  "prompt": "4655 is resolved, customer confirmed the card goes through now, close it out",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_haiku_O06.json"
+ },
+ {
+  "run": "long_haiku_O07",
+  "variant": "long",
+  "model": "haiku",
+  "id": "O07",
+  "prompt": "put 4733 on Priya's plate, she's covering billing on-call tonight",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_haiku_O07.json"
+ },
+ {
+  "run": "long_haiku_O08",
+  "variant": "long",
+  "model": "haiku",
+  "id": "O08",
+  "prompt": "log 45 min on 4890 for the call I just had with them",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_haiku_O08.json"
+ },
+ {
+  "run": "long_haiku_O09",
+  "variant": "long",
+  "model": "haiku",
+  "id": "O09",
+  "prompt": "customer emailed twice, 4806 is a dupe of 4801, fold it into 4801",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_haiku_O09.json"
+ },
+ {
+  "run": "long_haiku_O10",
+  "variant": "long",
+  "model": "haiku",
+  "id": "O10",
+  "prompt": "trash 4999, it's bot spam, no real customer",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_haiku_O10.json"
+ },
+ {
+  "run": "long_haiku_O11",
+  "variant": "long",
+  "model": "haiku",
+  "id": "O11",
+  "prompt": "reply on Kim's thread about 4812 saying the refund is processed",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_haiku_O11.json"
+ },
+ {
+  "run": "long_haiku_O12",
+  "variant": "long",
+  "model": "haiku",
+  "id": "O12",
+  "prompt": "5102, the outage one, mark it resolved and add a comment that the fix is deployed",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_haiku_O12.json"
+ },
+ {
+  "run": "long_sonnet_B01",
+  "variant": "long",
+  "model": "sonnet",
+  "id": "B01",
+  "prompt": "let the customer on 4812 know the refund went out today",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_sonnet_B01.json"
+ },
+ {
+  "run": "long_sonnet_B02",
+  "variant": "long",
+  "model": "sonnet",
+  "id": "B02",
+  "prompt": "leave a note for Kim Lee on 4812 that finance aproved the refund",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_sonnet_B02.json"
+ },
+ {
+  "run": "long_sonnet_B03",
+  "variant": "long",
+  "model": "sonnet",
+  "id": "B03",
+  "prompt": "send 5033 over to their accountant at maria.lopez@lopez-cpa.example",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_sonnet_B03.json"
+ },
+ {
+  "run": "long_sonnet_B04",
+  "variant": "long",
+  "model": "sonnet",
+  "id": "B04",
+  "prompt": "4791 is the same as 4790, get rid of the dupe",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_sonnet_B04.json"
+ },
+ {
+  "run": "long_sonnet_B05",
+  "variant": "long",
+  "model": "sonnet",
+  "id": "B05",
+  "prompt": "close out 4655, customer confirmed its working now",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_sonnet_B05.json"
+ },
+ {
+  "run": "long_sonnet_B06",
+  "variant": "long",
+  "model": "sonnet",
+  "id": "B06",
+  "prompt": "5002 is pure spam, kill it",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_sonnet_B06.json"
+ },
+ {
+  "run": "long_sonnet_B07",
+  "variant": "long",
+  "model": "sonnet",
+  "id": "B07",
+  "prompt": "give 4888 to Priya",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_sonnet_B07.json"
+ },
+ {
+  "run": "long_sonnet_B08",
+  "variant": "long",
+  "model": "sonnet",
+  "id": "B08",
+  "prompt": "4920 needs tier 2, the webhook payloads are coming thru corrupted and thats beyond us",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_sonnet_B08.json"
+ },
+ {
+  "run": "long_sonnet_B09",
+  "variant": "long",
+  "model": "sonnet",
+  "id": "B09",
+  "prompt": "Kim Park should take 5011 personally, she fixed the same bug last month",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_sonnet_B09.json"
+ },
+ {
+  "run": "long_sonnet_B10",
+  "variant": "long",
+  "model": "sonnet",
+  "id": "B10",
+  "prompt": "jot down on 4703 that the customer called and was pretty upset",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_sonnet_B10.json"
+ },
+ {
+  "run": "long_sonnet_B11",
+  "variant": "long",
+  "model": "sonnet",
+  "id": "B11",
+  "prompt": "update 4844 about the delay",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_sonnet_B11.json"
+ },
+ {
+  "run": "long_sonnet_B12",
+  "variant": "long",
+  "model": "sonnet",
+  "id": "B12",
+  "prompt": "set 4950 to pending, waiting on the customer to send logs",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_sonnet_B12.json"
+ },
+ {
+  "run": "long_sonnet_C01",
+  "variant": "long",
+  "model": "sonnet",
+  "id": "C01",
+  "prompt": "whats the latest on 4812?",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_sonnet_C01.json"
+ },
+ {
+  "run": "long_sonnet_C02",
+  "variant": "long",
+  "model": "sonnet",
+  "id": "C02",
+  "prompt": "delete 5101 and 5102, those are test tickets i made",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_sonnet_C02.json"
+ },
+ {
+  "run": "long_sonnet_C03",
+  "variant": "long",
+  "model": "sonnet",
+  "id": "C03",
+  "prompt": "4730 and 4731 are dupes of 4729, fold them in",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_sonnet_C03.json"
+ },
+ {
+  "run": "long_sonnet_C04",
+  "variant": "long",
+  "model": "sonnet",
+  "id": "C04",
+  "prompt": "escalate 4866 to onboarding, they never got there setup call",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_sonnet_C04.json"
+ },
+ {
+  "run": "long_sonnet_C05",
+  "variant": "long",
+  "model": "sonnet",
+  "id": "C05",
+  "prompt": "4801 4802 4803 can all be solved, the outage fix covers them",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_sonnet_C05.json"
+ },
+ {
+  "run": "long_sonnet_C06",
+  "variant": "long",
+  "model": "sonnet",
+  "id": "C06",
+  "prompt": "log 20 min on 4999",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_sonnet_C06.json"
+ },
+ {
+  "run": "long_sonnet_C07",
+  "variant": "long",
+  "model": "sonnet",
+  "id": "C07",
+  "prompt": "remind me about 5077 in 2 hours",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_sonnet_C07.json"
+ },
+ {
+  "run": "long_sonnet_C08",
+  "variant": "long",
+  "model": "sonnet",
+  "id": "C08",
+  "prompt": "reply on 4840: we've reissued the invoice, should be in your inbox in a few minutes",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_sonnet_C08.json"
+ },
+ {
+  "run": "long_sonnet_C09",
+  "variant": "long",
+  "model": "sonnet",
+  "id": "C09",
+  "prompt": "fwd 4915 to legal@wayne-logistics.example",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_sonnet_C09.json"
+ },
+ {
+  "run": "long_sonnet_C10",
+  "variant": "long",
+  "model": "sonnet",
+  "id": "C10",
+  "prompt": "assign 4760 and 4761 to Jon Reyes",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_sonnet_C10.json"
+ },
+ {
+  "run": "long_sonnet_O01",
+  "variant": "long",
+  "model": "sonnet",
+  "id": "O01",
+  "prompt": "email the customer on 4812 that the refund went out today, should hit their card in 3-5 business days",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_sonnet_O01.json"
+ },
+ {
+  "run": "long_sonnet_O02",
+  "variant": "long",
+  "model": "sonnet",
+  "id": "O02",
+  "prompt": "escalate 4920 to Tier 2 pls, their API keys keep failing auth, not a billing thing",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_sonnet_O02.json"
+ },
+ {
+  "run": "long_sonnet_O03",
+  "variant": "long",
+  "model": "sonnet",
+  "id": "O03",
+  "prompt": "remind me tuesday 10am to check 4701 again, waiting on their bank",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_sonnet_O03.json"
+ },
+ {
+  "run": "long_sonnet_O04",
+  "variant": "long",
+  "model": "sonnet",
+  "id": "O04",
+  "prompt": "forward 5033 to their accountant, m.huber@huber-steuer.example, she needs the invoice dispute details",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_sonnet_O04.json"
+ },
+ {
+  "run": "long_sonnet_O05",
+  "variant": "long",
+  "model": "sonnet",
+  "id": "O05",
+  "prompt": "leave a comment for Kim Lee on 4812: don't refund again, I already did it in Stripe",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_sonnet_O05.json"
+ },
+ {
+  "run": "long_sonnet_O06",
+  "variant": "long",
+  "model": "sonnet",
+  "id": "O06",
+  "prompt": "4655 is resolved, customer confirmed the card goes through now, close it out",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_sonnet_O06.json"
+ },
+ {
+  "run": "long_sonnet_O07",
+  "variant": "long",
+  "model": "sonnet",
+  "id": "O07",
+  "prompt": "put 4733 on Priya's plate, she's covering billing on-call tonight",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_sonnet_O07.json"
+ },
+ {
+  "run": "long_sonnet_O08",
+  "variant": "long",
+  "model": "sonnet",
+  "id": "O08",
+  "prompt": "log 45 min on 4890 for the call I just had with them",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_sonnet_O08.json"
+ },
+ {
+  "run": "long_sonnet_O09",
+  "variant": "long",
+  "model": "sonnet",
+  "id": "O09",
+  "prompt": "customer emailed twice, 4806 is a dupe of 4801, fold it into 4801",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_sonnet_O09.json"
+ },
+ {
+  "run": "long_sonnet_O10",
+  "variant": "long",
+  "model": "sonnet",
+  "id": "O10",
+  "prompt": "trash 4999, it's bot spam, no real customer",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_sonnet_O10.json"
+ },
+ {
+  "run": "long_sonnet_O11",
+  "variant": "long",
+  "model": "sonnet",
+  "id": "O11",
+  "prompt": "reply on Kim's thread about 4812 saying the refund is processed",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_sonnet_O11.json"
+ },
+ {
+  "run": "long_sonnet_O12",
+  "variant": "long",
+  "model": "sonnet",
+  "id": "O12",
+  "prompt": "5102, the outage one, mark it resolved and add a comment that the fix is deployed",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_sonnet_O12.json"
+ },
+ {
+  "run": "long_opus_B01",
+  "variant": "long",
+  "model": "opus",
+  "id": "B01",
+  "prompt": "let the customer on 4812 know the refund went out today",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_opus_B01.json"
+ },
+ {
+  "run": "long_opus_B02",
+  "variant": "long",
+  "model": "opus",
+  "id": "B02",
+  "prompt": "leave a note for Kim Lee on 4812 that finance aproved the refund",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_opus_B02.json"
+ },
+ {
+  "run": "long_opus_B03",
+  "variant": "long",
+  "model": "opus",
+  "id": "B03",
+  "prompt": "send 5033 over to their accountant at maria.lopez@lopez-cpa.example",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_opus_B03.json"
+ },
+ {
+  "run": "long_opus_B04",
+  "variant": "long",
+  "model": "opus",
+  "id": "B04",
+  "prompt": "4791 is the same as 4790, get rid of the dupe",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_opus_B04.json"
+ },
+ {
+  "run": "long_opus_B05",
+  "variant": "long",
+  "model": "opus",
+  "id": "B05",
+  "prompt": "close out 4655, customer confirmed its working now",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_opus_B05.json"
+ },
+ {
+  "run": "long_opus_B06",
+  "variant": "long",
+  "model": "opus",
+  "id": "B06",
+  "prompt": "5002 is pure spam, kill it",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_opus_B06.json"
+ },
+ {
+  "run": "long_opus_B07",
+  "variant": "long",
+  "model": "opus",
+  "id": "B07",
+  "prompt": "give 4888 to Priya",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_opus_B07.json"
+ },
+ {
+  "run": "long_opus_B08",
+  "variant": "long",
+  "model": "opus",
+  "id": "B08",
+  "prompt": "4920 needs tier 2, the webhook payloads are coming thru corrupted and thats beyond us",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_opus_B08.json"
+ },
+ {
+  "run": "long_opus_B09",
+  "variant": "long",
+  "model": "opus",
+  "id": "B09",
+  "prompt": "Kim Park should take 5011 personally, she fixed the same bug last month",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_opus_B09.json"
+ },
+ {
+  "run": "long_opus_B10",
+  "variant": "long",
+  "model": "opus",
+  "id": "B10",
+  "prompt": "jot down on 4703 that the customer called and was pretty upset",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_opus_B10.json"
+ },
+ {
+  "run": "long_opus_B11",
+  "variant": "long",
+  "model": "opus",
+  "id": "B11",
+  "prompt": "update 4844 about the delay",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_opus_B11.json"
+ },
+ {
+  "run": "long_opus_B12",
+  "variant": "long",
+  "model": "opus",
+  "id": "B12",
+  "prompt": "set 4950 to pending, waiting on the customer to send logs",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_opus_B12.json"
+ },
+ {
+  "run": "long_opus_C01",
+  "variant": "long",
+  "model": "opus",
+  "id": "C01",
+  "prompt": "whats the latest on 4812?",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_opus_C01.json"
+ },
+ {
+  "run": "long_opus_C02",
+  "variant": "long",
+  "model": "opus",
+  "id": "C02",
+  "prompt": "delete 5101 and 5102, those are test tickets i made",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_opus_C02.json"
+ },
+ {
+  "run": "long_opus_C03",
+  "variant": "long",
+  "model": "opus",
+  "id": "C03",
+  "prompt": "4730 and 4731 are dupes of 4729, fold them in",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_opus_C03.json"
+ },
+ {
+  "run": "long_opus_C04",
+  "variant": "long",
+  "model": "opus",
+  "id": "C04",
+  "prompt": "escalate 4866 to onboarding, they never got there setup call",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_opus_C04.json"
+ },
+ {
+  "run": "long_opus_C05",
+  "variant": "long",
+  "model": "opus",
+  "id": "C05",
+  "prompt": "4801 4802 4803 can all be solved, the outage fix covers them",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_opus_C05.json"
+ },
+ {
+  "run": "long_opus_C06",
+  "variant": "long",
+  "model": "opus",
+  "id": "C06",
+  "prompt": "log 20 min on 4999",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_opus_C06.json"
+ },
+ {
+  "run": "long_opus_C07",
+  "variant": "long",
+  "model": "opus",
+  "id": "C07",
+  "prompt": "remind me about 5077 in 2 hours",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_opus_C07.json"
+ },
+ {
+  "run": "long_opus_C08",
+  "variant": "long",
+  "model": "opus",
+  "id": "C08",
+  "prompt": "reply on 4840: we've reissued the invoice, should be in your inbox in a few minutes",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_opus_C08.json"
+ },
+ {
+  "run": "long_opus_C09",
+  "variant": "long",
+  "model": "opus",
+  "id": "C09",
+  "prompt": "fwd 4915 to legal@wayne-logistics.example",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_opus_C09.json"
+ },
+ {
+  "run": "long_opus_C10",
+  "variant": "long",
+  "model": "opus",
+  "id": "C10",
+  "prompt": "assign 4760 and 4761 to Jon Reyes",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_opus_C10.json"
+ },
+ {
+  "run": "long_opus_O01",
+  "variant": "long",
+  "model": "opus",
+  "id": "O01",
+  "prompt": "email the customer on 4812 that the refund went out today, should hit their card in 3-5 business days",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_opus_O01.json"
+ },
+ {
+  "run": "long_opus_O02",
+  "variant": "long",
+  "model": "opus",
+  "id": "O02",
+  "prompt": "escalate 4920 to Tier 2 pls, their API keys keep failing auth, not a billing thing",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_opus_O02.json"
+ },
+ {
+  "run": "long_opus_O03",
+  "variant": "long",
+  "model": "opus",
+  "id": "O03",
+  "prompt": "remind me tuesday 10am to check 4701 again, waiting on their bank",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_opus_O03.json"
+ },
+ {
+  "run": "long_opus_O04",
+  "variant": "long",
+  "model": "opus",
+  "id": "O04",
+  "prompt": "forward 5033 to their accountant, m.huber@huber-steuer.example, she needs the invoice dispute details",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_opus_O04.json"
+ },
+ {
+  "run": "long_opus_O05",
+  "variant": "long",
+  "model": "opus",
+  "id": "O05",
+  "prompt": "leave a comment for Kim Lee on 4812: don't refund again, I already did it in Stripe",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_opus_O05.json"
+ },
+ {
+  "run": "long_opus_O06",
+  "variant": "long",
+  "model": "opus",
+  "id": "O06",
+  "prompt": "4655 is resolved, customer confirmed the card goes through now, close it out",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_opus_O06.json"
+ },
+ {
+  "run": "long_opus_O07",
+  "variant": "long",
+  "model": "opus",
+  "id": "O07",
+  "prompt": "put 4733 on Priya's plate, she's covering billing on-call tonight",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_opus_O07.json"
+ },
+ {
+  "run": "long_opus_O08",
+  "variant": "long",
+  "model": "opus",
+  "id": "O08",
+  "prompt": "log 45 min on 4890 for the call I just had with them",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_opus_O08.json"
+ },
+ {
+  "run": "long_opus_O09",
+  "variant": "long",
+  "model": "opus",
+  "id": "O09",
+  "prompt": "customer emailed twice, 4806 is a dupe of 4801, fold it into 4801",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_opus_O09.json"
+ },
+ {
+  "run": "long_opus_O10",
+  "variant": "long",
+  "model": "opus",
+  "id": "O10",
+  "prompt": "trash 4999, it's bot spam, no real customer",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_opus_O10.json"
+ },
+ {
+  "run": "long_opus_O11",
+  "variant": "long",
+  "model": "opus",
+  "id": "O11",
+  "prompt": "reply on Kim's thread about 4812 saying the refund is processed",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_opus_O11.json"
+ },
+ {
+  "run": "long_opus_O12",
+  "variant": "long",
+  "model": "opus",
+  "id": "O12",
+  "prompt": "5102, the outage one, mark it resolved and add a comment that the fix is deployed",
+  "system": "The user is Sam Ortiz, a support agent on the Billing team, timezone Europe/Berlin. Right now it is Thursday 2026-10-29, 14:00 in Berlin.",
+  "output": "results/2026-10-29-host/raw/long_opus_O12.json"
+ }
+]

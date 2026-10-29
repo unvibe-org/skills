@@ -1,0 +1,32 @@
+{
+ "id": "O11",
+ "tool": "mcp__claude_ai_Slack__slack_search_public_and_private",
+ "args": {
+  "keywords": [
+   "4812"
+  ],
+  "natural_language_query": "Kim's thread about 4812",
+  "limit": 20
+ },
+ "message": null,
+ "searches": [
+  "select:mcp__claude_ai_Slack__slack_search_public_and_private,mcp__claude_ai_Slack__slack_read_thread,mcp__claude_ai_Slack__slack_send_message"
+ ],
+ "init": {
+  "tools": 400,
+  "helpdesk_tools": 12,
+  "servers_connected": [
+   "claude.ai Cal.com",
+   "claude.ai Claude Docs",
+   "claude.ai Gmail",
+   "claude.ai Google Calendar",
+   "claude.ai Google Drive",
+   "claude.ai Granola",
+   "claude.ai Langmail",
+   "claude.ai Slack",
+   "claude.ai betterstack",
+   "helpdesk"
+  ]
+ },
+ "seconds": 26
+}

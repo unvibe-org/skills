@@ -1,0 +1,20 @@
+{
+ "id": "O04",
+ "tool": "mcp__helpdesk__get_ticket",
+ "args": {
+  "ticket_id": "5033"
+ },
+ "message": null,
+ "searches": [
+  "select:mcp__helpdesk__get_ticket,mcp__helpdesk__forward_ticket"
+ ],
+ "init": {
+  "tools": 47,
+  "helpdesk_tools": 12,
+  "servers_connected": [
+   "claude.ai Claude Docs",
+   "helpdesk"
+  ]
+ },
+ "seconds": 25
+}

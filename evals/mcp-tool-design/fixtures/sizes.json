@@ -1,0 +1,58 @@
+{
+ "p1_args_all": {
+  "tools": 12,
+  "chars": 10733
+ },
+ "p1_args_none": {
+  "tools": 12,
+  "chars": 8269
+ },
+ "p1_args_minimal": {
+  "tools": 12,
+  "chars": 9771
+ },
+ "p4_short_12": {
+  "tools": 12,
+  "chars": 7003
+ },
+ "p4_long_12": {
+  "tools": 12,
+  "chars": 9771
+ },
+ "p4_short_35": {
+  "tools": 35,
+  "chars": 14687
+ },
+ "p4_long_35": {
+  "tools": 35,
+  "chars": 20487
+ },
+ "p2_merged": {
+  "tools": 3,
+  "chars": 4048
+ },
+ "p2_split": {
+  "tools": 12,
+  "chars": 9771
+ },
+ "p3_control": {
+  "tools": 7,
+  "chars": 3260
+ },
+ "p3_server": {
+  "tools": 7,
+  "chars": 3662
+ },
+ "p3_jit": {
+  "tools": 7,
+  "chars": 3260
+ },
+ "p3_both": {
+  "tools": 7,
+  "chars": 3662
+ },
+ "p6_practice": {
+  "tools": 7,
+  "chars": 3260
+ }
+}

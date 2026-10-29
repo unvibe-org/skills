@@ -1,0 +1,21 @@
+{
+ "id": "C06",
+ "tool": "mcp__helpdesk__log_time",
+ "args": {
+  "ticket_id": "4999",
+  "minutes": 20
+ },
+ "message": null,
+ "searches": [
+  "select:mcp__helpdesk__log_time"
+ ],
+ "init": {
+  "tools": 47,
+  "helpdesk_tools": 12,
+  "servers_connected": [
+   "claude.ai Claude Docs",
+   "helpdesk"
+  ]
+ },
+ "seconds": 24
+}

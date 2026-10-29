@@ -1,0 +1,30 @@
+{
+ "id": "C07",
+ "tool": "CronCreate",
+ "args": {
+  "cron": "3 16 29 10 *",
+  "prompt": "Reminder for Sam: follow up on 5077 (asked at 14:00 Berlin, 2 hours ago).",
+  "recurring": false
+ },
+ "message": null,
+ "searches": [
+  "select:CronCreate"
+ ],
+ "init": {
+  "tools": 400,
+  "helpdesk_tools": 12,
+  "servers_connected": [
+   "claude.ai Cal.com",
+   "claude.ai Claude Docs",
+   "claude.ai Gmail",
+   "claude.ai Google Calendar",
+   "claude.ai Google Drive",
+   "claude.ai Granola",
+   "claude.ai Langmail",
+   "claude.ai Slack",
+   "claude.ai betterstack",
+   "helpdesk"
+  ]
+ },
+ "seconds": 26
+}

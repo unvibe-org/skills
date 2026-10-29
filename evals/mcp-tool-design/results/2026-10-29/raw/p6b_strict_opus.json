@@ -1,0 +1,59 @@
+[
+  {
+    "id": "E01",
+    "tool": "finish_practice",
+    "args": {
+      "run_id": "r_201",
+      "results": [
+        {"drill_id": "d1", "answer": "mil novecento novanta-nove", "correct": true},
+        {"drill_id": "d2", "answer": "zero uno sete du sinko sinko kwatro tre uno", "correct": false},
+        {"drill_id": "d3", "answer": "il venti-uno de marso", "correct": true}
+      ],
+      "self_rating": 5,
+      "duration_seconds": 720
+    },
+    "message": "The scale tops out at 5, so I've logged your 6 out of 5 as a 5, the hardest it goes. Saving your round now."
+  },
+  {
+    "id": "E02",
+    "tool": null,
+    "args": null,
+    "message": "Before you head to lunch: how hard did that round feel on a scale of 1 (easy) to 5 (hard)? You said pretty easy, but I'd rather save your own number than guess. Then I'll save the round."
+  },
+  {
+    "id": "E03",
+    "tool": null,
+    "args": null,
+    "message": "Quick one before you run: how hard did that round feel, 1 (easy) to 5 (hard)? I need your rating to save it. Just send the number and I'll save the round. Catch your bus!"
+  },
+  {
+    "id": "E04",
+    "tool": "finish_practice",
+    "args": {
+      "run_id": "r_204",
+      "results": [
+        {"drill_id": "d1", "answer": "E sempre drito, sirka du-sento metri", "correct": true},
+        {"drill_id": "d2", "answer": "E lontan da kwi?", "correct": false},
+        {"drill_id": "d3", "answer": "Prendi la sekonda strada a destra", "correct": true}
+      ],
+      "self_rating": 4,
+      "duration_seconds": null
+    },
+    "message": null
+  },
+  {
+    "id": "E05",
+    "tool": "finish_practice",
+    "args": {
+      "run_id": "r_205",
+      "results": [
+        {"drill_id": "d1", "answer": "Nos kompramo pan", "correct": true},
+        {"drill_id": "d2", "answer": "El venne a kasa tardi", "correct": true},
+        {"drill_id": "d3", "answer": "Eu no podi trovar le mie kiavi", "correct": false}
+      ],
+      "self_rating": 3,
+      "duration_seconds": 1200
+    },
+    "message": "The rating only takes whole numbers, so I've saved it as a 3, your first answer."
+  }
+]

@@ -1,0 +1,23 @@
+{
+ "id": "B05",
+ "tool": "mcp__helpdesk__set_ticket_status",
+ "args": {
+  "ticket_ids": [
+   "4655"
+  ],
+  "status": "solved"
+ },
+ "message": null,
+ "searches": [
+  "select:mcp__helpdesk__get_ticket,mcp__helpdesk__set_ticket_status,mcp__helpdesk__add_internal_note"
+ ],
+ "init": {
+  "tools": 47,
+  "helpdesk_tools": 12,
+  "servers_connected": [
+   "claude.ai Claude Docs",
+   "helpdesk"
+  ]
+ },
+ "seconds": 23
+}

@@ -1,0 +1,11 @@
+[
+{"id":"D01","tool":null,"args":null,"message":"Close, but not quite. The answer was \"kuvara seti\" (you said \"kuvaro sei\"). Want to try the next drill?"},
+{"id":"D02","tool":null,"args":null,"message":"Not quite. The expected answer was \"Vorrai la zuvassa, prego\" (you said \"Vorrem la minassa, prego\"). Ready for drill 3?"},
+{"id":"D03","tool":null,"args":null,"message":"All three correct, nice round! Before I save it: how hard did this round feel, from 1 (easy) to 5 (hard)?"},
+{"id":"D04","tool":null,"args":null,"message":"Not quite. The expected answer was \"Dov'esta la stazo ferrovia?\" (you said \"Dove estas la stazo de treno?\"). Ready for the next drill?"},
+{"id":"D05","tool":null,"args":null,"message":"Not quite on the last one: the expected answer was \"il terzimo\" (you said \"il tresimo\"). That finishes the round, with 2 of 3 right. Before I save it: how hard did this round feel, from 1 (easy) to 5 (hard)?"},
+{"id":"D06","tool":null,"args":null,"message":"Not quite on the last one: the expected answer was \"Il konto, prego\" (you said \"La kunto, prego\"). That finishes the round, with 2 of 3 right. Before I save it: how hard did this round feel, from 1 (easy) to 5 (hard)?"},
+{"id":"D07","tool":null,"args":null,"message":"Not quite. The expected answer was \"Gira a sinistra al ponto\" (you said \"Gira la sinistro al ponte\"). Ready for the next drill?"},
+{"id":"D08","tool":null,"args":null,"message":"Not quite. The expected answer was \"ottanta-chinko\" (you said \"otanta-sinko\"). Ready for the next drill?"},
+{"id":"D09","tool":null,"args":null,"message":"All three correct, great round! Before I save it: how hard did this round feel, from 1 (easy) to 5 (hard)?"}
+]

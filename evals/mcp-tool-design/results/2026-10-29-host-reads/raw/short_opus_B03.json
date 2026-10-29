@@ -1,0 +1,38 @@
+{
+ "id": "B03",
+ "tool": "mcp__helpdesk__forward_ticket",
+ "args": {
+  "ticket_id": "5033",
+  "to_email": "maria.lopez@lopez-cpa.example",
+  "note": "Hi Maria, forwarding the conversation for Alex Morgan's billing ticket #5033 for your reference. Best regards, Sam Ortiz, Billing Support"
+ },
+ "message": null,
+ "reads": [
+  {
+   "tool": "mcp__helpdesk__get_ticket",
+   "args": {
+    "ticket_id": "5033"
+   }
+  }
+ ],
+ "searches": [
+  "select:mcp__helpdesk__get_ticket,mcp__helpdesk__forward_ticket"
+ ],
+ "init": {
+  "tools": 401,
+  "helpdesk_tools": 12,
+  "servers_connected": [
+   "claude.ai Cal.com",
+   "claude.ai Claude Docs",
+   "claude.ai Gmail",
+   "claude.ai Google Calendar",
+   "claude.ai Google Drive",
+   "claude.ai Granola",
+   "claude.ai Langmail",
+   "claude.ai Slack",
+   "claude.ai betterstack",
+   "helpdesk"
+  ]
+ },
+ "seconds": 40
+}

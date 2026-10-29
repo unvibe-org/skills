@@ -166,3 +166,58 @@ reported, and what changed:
 - Left as is: idempotent merge and delete (consistent with the rule and the
   spec), contacts as both people and objects (a judgment the agent made
   sensibly), tag and untag as one tool or two.
+
+## Against an outside rule set (2026-10-29)
+
+Six points where the skill disagrees with the MCP rules summarised in
+https://gist.github.com/tleyden/f51104b15887c6f3be713ac9c2caa070 were run as
+subagent experiments on Haiku, Sonnet, and Opus. The setup, predictions, and
+rerun steps are in `evals/mcp-tool-design/README.md`; the results are in
+`evals/mcp-tool-design/results/2026-10-29/findings.md`. In short:
+
+- Argument descriptions and description length bought nothing on these
+  cases: every variant tied, so the smaller surface wins under the rule set
+  before the runs.
+- A merged `action` tool did slightly worse than split tools (59 vs 62 of
+  66), with no call in the wrong risk class either way.
+- Cross-tool rules worked equally well in server instructions and in tool
+  results; without them all three models gave answers away.
+- Strict save validation lost no session; models wrote valid first saves and
+  asked the learner when data was missing.
+- Designer agents with the skill added a separate tool instead of the
+  requested action without asking first, and broke nothing published.
+
+A follow-up ran point 4 in search mode with the user's 9 real connected
+servers (up to 369 tools) and judged quality only. Long and short
+descriptions tied at every size. Models found the right tool by name in all
+558 searches; the only length effect was on name arguments, where long
+descriptions led models to trust the resolver with a unique first name.
+Details are in `evals/mcp-tool-design/results/2026-10-29-search/findings.md`.
+
+A second follow-up replayed the same cases in Claude Code itself (point 5).
+It is incomplete: the burst of sessions hit the usage limit and lost the
+login, so only 74 of 204 sessions, all with short descriptions, are valid.
+In those, the host made the subagent's first move in under a third of
+cases. It mostly read the ticket before acting, sent "remind me" to its own
+`CronCreate`, and passed a first name to the resolver even with short
+descriptions. Details are in
+`evals/mcp-tool-design/results/2026-10-29-host/findings.md`. A second host
+run let the reads through and was stopped after 26 sessions to save usage;
+there the host agreed with the subagents on 81% of moves. The conclusion
+across all runs is in `evals/mcp-tool-design/README.md`.
+
+Two rules were added to the skill as a result:
+
+- Principle 6, step 5, and the checklist: a name argument's description says
+  which forms the resolver accepts. In both runs models followed the
+  argument text ("full name or email") over the resolver the tool
+  description promised, and asked the user for a full name.
+- After the procedure, a rationalization row, and the checklist: when the
+  procedure gives a different shape than the one requested, or would rename,
+  remove, or split a published tool, the agent says why and asks first. In
+  point 2b all three designer agents built a separate tool instead of the
+  requested action and explained only afterwards. The "Do it now" row on
+  splitting a combined tool now reads "before the tool ships", so it does
+  not contradict this.
+
+Points 1, 2a, 3, 4, and 6 tied or went the skill's way, so they changed nothing.

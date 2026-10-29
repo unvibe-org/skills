@@ -1,0 +1,18 @@
+{
+ "id": "O06",
+ "tool": "mcp__helpdesk__get_ticket",
+ "args": {
+  "ticket_id": "4655"
+ },
+ "message": null,
+ "searches": [],
+ "init": {
+  "tools": 47,
+  "helpdesk_tools": 12,
+  "servers_connected": [
+   "claude.ai Claude Docs",
+   "helpdesk"
+  ]
+ },
+ "seconds": 21
+}

@@ -1,0 +1,362 @@
+[
+ {
+  "stage": 2,
+  "run": "s2_S_short_haiku_r1",
+  "size": "S",
+  "variant": "short",
+  "model": "haiku",
+  "repeat": 1,
+  "input": "results/2026-10-29-search/inputs/s2_S_short_haiku_r1.md",
+  "output": "results/2026-10-29-search/raw/s2_S_short_haiku_r1.json"
+ },
+ {
+  "stage": 2,
+  "run": "s2_S_long_haiku_r1",
+  "size": "S",
+  "variant": "long",
+  "model": "haiku",
+  "repeat": 1,
+  "input": "results/2026-10-29-search/inputs/s2_S_long_haiku_r1.md",
+  "output": "results/2026-10-29-search/raw/s2_S_long_haiku_r1.json"
+ },
+ {
+  "stage": 2,
+  "run": "s2_S_short_haiku_r2",
+  "size": "S",
+  "variant": "short",
+  "model": "haiku",
+  "repeat": 2,
+  "input": "results/2026-10-29-search/inputs/s2_S_short_haiku_r2.md",
+  "output": "results/2026-10-29-search/raw/s2_S_short_haiku_r2.json"
+ },
+ {
+  "stage": 2,
+  "run": "s2_S_long_haiku_r2",
+  "size": "S",
+  "variant": "long",
+  "model": "haiku",
+  "repeat": 2,
+  "input": "results/2026-10-29-search/inputs/s2_S_long_haiku_r2.md",
+  "output": "results/2026-10-29-search/raw/s2_S_long_haiku_r2.json"
+ },
+ {
+  "stage": 2,
+  "run": "s2_S_short_sonnet_r1",
+  "size": "S",
+  "variant": "short",
+  "model": "sonnet",
+  "repeat": 1,
+  "input": "results/2026-10-29-search/inputs/s2_S_short_sonnet_r1.md",
+  "output": "results/2026-10-29-search/raw/s2_S_short_sonnet_r1.json"
+ },
+ {
+  "stage": 2,
+  "run": "s2_S_long_sonnet_r1",
+  "size": "S",
+  "variant": "long",
+  "model": "sonnet",
+  "repeat": 1,
+  "input": "results/2026-10-29-search/inputs/s2_S_long_sonnet_r1.md",
+  "output": "results/2026-10-29-search/raw/s2_S_long_sonnet_r1.json"
+ },
+ {
+  "stage": 2,
+  "run": "s2_S_short_sonnet_r2",
+  "size": "S",
+  "variant": "short",
+  "model": "sonnet",
+  "repeat": 2,
+  "input": "results/2026-10-29-search/inputs/s2_S_short_sonnet_r2.md",
+  "output": "results/2026-10-29-search/raw/s2_S_short_sonnet_r2.json"
+ },
+ {
+  "stage": 2,
+  "run": "s2_S_long_sonnet_r2",
+  "size": "S",
+  "variant": "long",
+  "model": "sonnet",
+  "repeat": 2,
+  "input": "results/2026-10-29-search/inputs/s2_S_long_sonnet_r2.md",
+  "output": "results/2026-10-29-search/raw/s2_S_long_sonnet_r2.json"
+ },
+ {
+  "stage": 2,
+  "run": "s2_S_short_opus_r1",
+  "size": "S",
+  "variant": "short",
+  "model": "opus",
+  "repeat": 1,
+  "input": "results/2026-10-29-search/inputs/s2_S_short_opus_r1.md",
+  "output": "results/2026-10-29-search/raw/s2_S_short_opus_r1.json"
+ },
+ {
+  "stage": 2,
+  "run": "s2_S_long_opus_r1",
+  "size": "S",
+  "variant": "long",
+  "model": "opus",
+  "repeat": 1,
+  "input": "results/2026-10-29-search/inputs/s2_S_long_opus_r1.md",
+  "output": "results/2026-10-29-search/raw/s2_S_long_opus_r1.json"
+ },
+ {
+  "stage": 2,
+  "run": "s2_S_short_opus_r2",
+  "size": "S",
+  "variant": "short",
+  "model": "opus",
+  "repeat": 2,
+  "input": "results/2026-10-29-search/inputs/s2_S_short_opus_r2.md",
+  "output": "results/2026-10-29-search/raw/s2_S_short_opus_r2.json"
+ },
+ {
+  "stage": 2,
+  "run": "s2_S_long_opus_r2",
+  "size": "S",
+  "variant": "long",
+  "model": "opus",
+  "repeat": 2,
+  "input": "results/2026-10-29-search/inputs/s2_S_long_opus_r2.md",
+  "output": "results/2026-10-29-search/raw/s2_S_long_opus_r2.json"
+ },
+ {
+  "stage": 2,
+  "run": "s2_M_short_haiku_r1",
+  "size": "M",
+  "variant": "short",
+  "model": "haiku",
+  "repeat": 1,
+  "input": "results/2026-10-29-search/inputs/s2_M_short_haiku_r1.md",
+  "output": "results/2026-10-29-search/raw/s2_M_short_haiku_r1.json"
+ },
+ {
+  "stage": 2,
+  "run": "s2_M_long_haiku_r1",
+  "size": "M",
+  "variant": "long",
+  "model": "haiku",
+  "repeat": 1,
+  "input": "results/2026-10-29-search/inputs/s2_M_long_haiku_r1.md",
+  "output": "results/2026-10-29-search/raw/s2_M_long_haiku_r1.json"
+ },
+ {
+  "stage": 2,
+  "run": "s2_M_short_haiku_r2",
+  "size": "M",
+  "variant": "short",
+  "model": "haiku",
+  "repeat": 2,
+  "input": "results/2026-10-29-search/inputs/s2_M_short_haiku_r2.md",
+  "output": "results/2026-10-29-search/raw/s2_M_short_haiku_r2.json"
+ },
+ {
+  "stage": 2,
+  "run": "s2_M_long_haiku_r2",
+  "size": "M",
+  "variant": "long",
+  "model": "haiku",
+  "repeat": 2,
+  "input": "results/2026-10-29-search/inputs/s2_M_long_haiku_r2.md",
+  "output": "results/2026-10-29-search/raw/s2_M_long_haiku_r2.json"
+ },
+ {
+  "stage": 2,
+  "run": "s2_M_short_sonnet_r1",
+  "size": "M",
+  "variant": "short",
+  "model": "sonnet",
+  "repeat": 1,
+  "input": "results/2026-10-29-search/inputs/s2_M_short_sonnet_r1.md",
+  "output": "results/2026-10-29-search/raw/s2_M_short_sonnet_r1.json"
+ },
+ {
+  "stage": 2,
+  "run": "s2_M_long_sonnet_r1",
+  "size": "M",
+  "variant": "long",
+  "model": "sonnet",
+  "repeat": 1,
+  "input": "results/2026-10-29-search/inputs/s2_M_long_sonnet_r1.md",
+  "output": "results/2026-10-29-search/raw/s2_M_long_sonnet_r1.json"
+ },
+ {
+  "stage": 2,
+  "run": "s2_M_short_sonnet_r2",
+  "size": "M",
+  "variant": "short",
+  "model": "sonnet",
+  "repeat": 2,
+  "input": "results/2026-10-29-search/inputs/s2_M_short_sonnet_r2.md",
+  "output": "results/2026-10-29-search/raw/s2_M_short_sonnet_r2.json"
+ },
+ {
+  "stage": 2,
+  "run": "s2_M_long_sonnet_r2",
+  "size": "M",
+  "variant": "long",
+  "model": "sonnet",
+  "repeat": 2,
+  "input": "results/2026-10-29-search/inputs/s2_M_long_sonnet_r2.md",
+  "output": "results/2026-10-29-search/raw/s2_M_long_sonnet_r2.json"
+ },
+ {
+  "stage": 2,
+  "run": "s2_M_short_opus_r1",
+  "size": "M",
+  "variant": "short",
+  "model": "opus",
+  "repeat": 1,
+  "input": "results/2026-10-29-search/inputs/s2_M_short_opus_r1.md",
+  "output": "results/2026-10-29-search/raw/s2_M_short_opus_r1.json"
+ },
+ {
+  "stage": 2,
+  "run": "s2_M_long_opus_r1",
+  "size": "M",
+  "variant": "long",
+  "model": "opus",
+  "repeat": 1,
+  "input": "results/2026-10-29-search/inputs/s2_M_long_opus_r1.md",
+  "output": "results/2026-10-29-search/raw/s2_M_long_opus_r1.json"
+ },
+ {
+  "stage": 2,
+  "run": "s2_M_short_opus_r2",
+  "size": "M",
+  "variant": "short",
+  "model": "opus",
+  "repeat": 2,
+  "input": "results/2026-10-29-search/inputs/s2_M_short_opus_r2.md",
+  "output": "results/2026-10-29-search/raw/s2_M_short_opus_r2.json"
+ },
+ {
+  "stage": 2,
+  "run": "s2_M_long_opus_r2",
+  "size": "M",
+  "variant": "long",
+  "model": "opus",
+  "repeat": 2,
+  "input": "results/2026-10-29-search/inputs/s2_M_long_opus_r2.md",
+  "output": "results/2026-10-29-search/raw/s2_M_long_opus_r2.json"
+ },
+ {
+  "stage": 2,
+  "run": "s2_L_short_haiku_r1",
+  "size": "L",
+  "variant": "short",
+  "model": "haiku",
+  "repeat": 1,
+  "input": "results/2026-10-29-search/inputs/s2_L_short_haiku_r1.md",
+  "output": "results/2026-10-29-search/raw/s2_L_short_haiku_r1.json"
+ },
+ {
+  "stage": 2,
+  "run": "s2_L_long_haiku_r1",
+  "size": "L",
+  "variant": "long",
+  "model": "haiku",
+  "repeat": 1,
+  "input": "results/2026-10-29-search/inputs/s2_L_long_haiku_r1.md",
+  "output": "results/2026-10-29-search/raw/s2_L_long_haiku_r1.json"
+ },
+ {
+  "stage": 2,
+  "run": "s2_L_short_haiku_r2",
+  "size": "L",
+  "variant": "short",
+  "model": "haiku",
+  "repeat": 2,
+  "input": "results/2026-10-29-search/inputs/s2_L_short_haiku_r2.md",
+  "output": "results/2026-10-29-search/raw/s2_L_short_haiku_r2.json"
+ },
+ {
+  "stage": 2,
+  "run": "s2_L_long_haiku_r2",
+  "size": "L",
+  "variant": "long",
+  "model": "haiku",
+  "repeat": 2,
+  "input": "results/2026-10-29-search/inputs/s2_L_long_haiku_r2.md",
+  "output": "results/2026-10-29-search/raw/s2_L_long_haiku_r2.json"
+ },
+ {
+  "stage": 2,
+  "run": "s2_L_short_sonnet_r1",
+  "size": "L",
+  "variant": "short",
+  "model": "sonnet",
+  "repeat": 1,
+  "input": "results/2026-10-29-search/inputs/s2_L_short_sonnet_r1.md",
+  "output": "results/2026-10-29-search/raw/s2_L_short_sonnet_r1.json"
+ },
+ {
+  "stage": 2,
+  "run": "s2_L_long_sonnet_r1",
+  "size": "L",
+  "variant": "long",
+  "model": "sonnet",
+  "repeat": 1,
+  "input": "results/2026-10-29-search/inputs/s2_L_long_sonnet_r1.md",
+  "output": "results/2026-10-29-search/raw/s2_L_long_sonnet_r1.json"
+ },
+ {
+  "stage": 2,
+  "run": "s2_L_short_sonnet_r2",
+  "size": "L",
+  "variant": "short",
+  "model": "sonnet",
+  "repeat": 2,
+  "input": "results/2026-10-29-search/inputs/s2_L_short_sonnet_r2.md",
+  "output": "results/2026-10-29-search/raw/s2_L_short_sonnet_r2.json"
+ },
+ {
+  "stage": 2,
+  "run": "s2_L_long_sonnet_r2",
+  "size": "L",
+  "variant": "long",
+  "model": "sonnet",
+  "repeat": 2,
+  "input": "results/2026-10-29-search/inputs/s2_L_long_sonnet_r2.md",
+  "output": "results/2026-10-29-search/raw/s2_L_long_sonnet_r2.json"
+ },
+ {
+  "stage": 2,
+  "run": "s2_L_short_opus_r1",
+  "size": "L",
+  "variant": "short",
+  "model": "opus",
+  "repeat": 1,
+  "input": "results/2026-10-29-search/inputs/s2_L_short_opus_r1.md",
+  "output": "results/2026-10-29-search/raw/s2_L_short_opus_r1.json"
+ },
+ {
+  "stage": 2,
+  "run": "s2_L_long_opus_r1",
+  "size": "L",
+  "variant": "long",
+  "model": "opus",
+  "repeat": 1,
+  "input": "results/2026-10-29-search/inputs/s2_L_long_opus_r1.md",
+  "output": "results/2026-10-29-search/raw/s2_L_long_opus_r1.json"
+ },
+ {
+  "stage": 2,
+  "run": "s2_L_short_opus_r2",
+  "size": "L",
+  "variant": "short",
+  "model": "opus",
+  "repeat": 2,
+  "input": "results/2026-10-29-search/inputs/s2_L_short_opus_r2.md",
+  "output": "results/2026-10-29-search/raw/s2_L_short_opus_r2.json"
+ },
+ {
+  "stage": 2,
+  "run": "s2_L_long_opus_r2",
+  "size": "L",
+  "variant": "long",
+  "model": "opus",
+  "repeat": 2,
+  "input": "results/2026-10-29-search/inputs/s2_L_long_opus_r2.md",
+  "output": "results/2026-10-29-search/raw/s2_L_long_opus_r2.json"
+ }
+]

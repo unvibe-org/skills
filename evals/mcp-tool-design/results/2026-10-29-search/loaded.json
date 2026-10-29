@@ -1,0 +1,3910 @@
+{
+ "s2_S_short_haiku_r1": {
+  "B01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B02": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B03": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "B04": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "B05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B06": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "B07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B08": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "B09": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B10": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B11": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "B12": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C01": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "C02": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "C03": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "C04": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "C05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C06": [
+   "mcp__helpdesk__log_time"
+  ],
+  "C07": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "C08": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "C09": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "C10": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O02": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "O03": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "O04": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "O05": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O06": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O08": [
+   "mcp__helpdesk__log_time"
+  ],
+  "O09": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "O10": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "O11": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O12": [
+   "mcp__helpdesk__set_ticket_status"
+  ]
+ },
+ "s2_S_long_haiku_r1": {
+  "B01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B02": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B03": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "B04": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "B05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B06": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "B07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B08": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "B09": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B10": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B11": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "B12": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C01": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "C02": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "C03": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "C04": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "C05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C06": [
+   "mcp__helpdesk__log_time"
+  ],
+  "C07": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "C08": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "C09": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "C10": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O02": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "O03": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "O04": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "O05": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O06": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O08": [
+   "mcp__helpdesk__log_time"
+  ],
+  "O09": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "O10": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "O11": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O12": [
+   "mcp__helpdesk__set_ticket_status"
+  ]
+ },
+ "s2_S_short_haiku_r2": {
+  "B01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B02": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B03": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "B04": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "B05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B06": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "B07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B08": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "B09": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B10": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B11": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B12": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C01": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "C02": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "C03": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "C04": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "C05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C06": [
+   "mcp__helpdesk__log_time"
+  ],
+  "C07": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "C08": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "C09": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "C10": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O02": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "O03": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "O04": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "O05": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O06": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O08": [
+   "mcp__helpdesk__log_time"
+  ],
+  "O09": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "O10": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "O11": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O12": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__add_internal_note"
+  ]
+ },
+ "s2_S_long_haiku_r2": {
+  "B01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B02": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B03": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "B04": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "B05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B06": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "B07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B08": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "B09": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B10": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B11": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B12": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C01": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "C02": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "C03": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "C04": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "C05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C06": [
+   "mcp__helpdesk__log_time"
+  ],
+  "C07": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "C08": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "C09": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "C10": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O02": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "O03": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "O04": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "O05": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O06": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O08": [
+   "mcp__helpdesk__log_time"
+  ],
+  "O09": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "O10": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "O11": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O12": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__add_internal_note"
+  ]
+ },
+ "s2_S_short_sonnet_r1": {
+  "B01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B02": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B03": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "B04": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "B05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B06": [
+   "mcp__helpdesk__delete_tickets",
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B08": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "B09": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B10": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B11": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B12": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C01": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "C02": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "C03": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "C04": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "C05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C06": [
+   "mcp__helpdesk__log_time"
+  ],
+  "C07": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "C08": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "C09": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "C10": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O02": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "O03": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "O04": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "O05": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O06": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O08": [
+   "mcp__helpdesk__log_time"
+  ],
+  "O09": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "O10": [
+   "mcp__helpdesk__delete_tickets",
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O11": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O12": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__add_internal_note"
+  ]
+ },
+ "s2_S_long_sonnet_r1": {
+  "B01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B02": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B03": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "B04": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "B05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B06": [
+   "mcp__helpdesk__delete_tickets",
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B08": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "B09": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B10": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B11": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B12": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C01": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "C02": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "C03": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "C04": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "C05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C06": [
+   "mcp__helpdesk__log_time"
+  ],
+  "C07": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "C08": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "C09": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "C10": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O02": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "O03": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "O04": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "O05": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O06": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O08": [
+   "mcp__helpdesk__log_time"
+  ],
+  "O09": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "O10": [
+   "mcp__helpdesk__delete_tickets",
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O11": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O12": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__add_internal_note"
+  ]
+ },
+ "s2_S_short_sonnet_r2": {
+  "B01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B02": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B03": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "B04": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "B05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B06": [
+   "mcp__helpdesk__delete_tickets",
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B08": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "B09": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B10": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B11": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B12": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C01": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "C02": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "C03": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "C04": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "C05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C06": [
+   "mcp__helpdesk__log_time"
+  ],
+  "C07": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "C08": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "C09": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "C10": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O02": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "O03": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "O04": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "O05": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O06": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O08": [
+   "mcp__helpdesk__log_time"
+  ],
+  "O09": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "O10": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "O11": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O12": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__add_internal_note"
+  ]
+ },
+ "s2_S_long_sonnet_r2": {
+  "B01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B02": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B03": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "B04": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "B05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B06": [
+   "mcp__helpdesk__delete_tickets",
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B08": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "B09": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B10": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B11": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B12": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C01": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "C02": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "C03": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "C04": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "C05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C06": [
+   "mcp__helpdesk__log_time"
+  ],
+  "C07": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "C08": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "C09": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "C10": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O02": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "O03": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "O04": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "O05": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O06": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O08": [
+   "mcp__helpdesk__log_time"
+  ],
+  "O09": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "O10": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "O11": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O12": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__add_internal_note"
+  ]
+ },
+ "s2_S_short_opus_r1": {
+  "B01": [
+   "mcp__helpdesk__reply_to_ticket",
+   "mcp__helpdesk__get_ticket"
+  ],
+  "B02": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B03": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "B04": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "B05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B06": [
+   "mcp__helpdesk__delete_tickets",
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B08": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "B09": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B10": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B11": [
+   "mcp__helpdesk__get_ticket",
+   "mcp__helpdesk__reply_to_ticket",
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B12": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C01": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "C02": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "C03": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "C04": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "C05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C06": [
+   "mcp__helpdesk__log_time"
+  ],
+  "C07": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "C08": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "C09": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "C10": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O01": [
+   "mcp__helpdesk__reply_to_ticket",
+   "mcp__helpdesk__get_ticket"
+  ],
+  "O02": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "O03": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "O04": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "O05": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O06": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O08": [
+   "mcp__helpdesk__log_time"
+  ],
+  "O09": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "O10": [
+   "mcp__helpdesk__delete_tickets",
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O11": [
+   "mcp__helpdesk__get_ticket",
+   "mcp__helpdesk__add_internal_note",
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O12": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__add_internal_note",
+   "mcp__helpdesk__reply_to_ticket"
+  ]
+ },
+ "s2_S_long_opus_r1": {
+  "B01": [
+   "mcp__helpdesk__reply_to_ticket",
+   "mcp__helpdesk__get_ticket"
+  ],
+  "B02": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B03": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "B04": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "B05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B06": [
+   "mcp__helpdesk__delete_tickets",
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B08": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "B09": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B10": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B11": [
+   "mcp__helpdesk__get_ticket",
+   "mcp__helpdesk__reply_to_ticket",
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B12": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C01": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "C02": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "C03": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "C04": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "C05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C06": [
+   "mcp__helpdesk__log_time"
+  ],
+  "C07": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "C08": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "C09": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "C10": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O01": [
+   "mcp__helpdesk__reply_to_ticket",
+   "mcp__helpdesk__get_ticket"
+  ],
+  "O02": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "O03": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "O04": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "O05": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O06": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O08": [
+   "mcp__helpdesk__log_time"
+  ],
+  "O09": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "O10": [
+   "mcp__helpdesk__delete_tickets",
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O11": [
+   "mcp__helpdesk__get_ticket",
+   "mcp__helpdesk__add_internal_note",
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O12": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__add_internal_note",
+   "mcp__helpdesk__reply_to_ticket"
+  ]
+ },
+ "s2_S_short_opus_r2": {
+  "B01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B02": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B03": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "B04": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "B05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B06": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "B07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B08": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "B09": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B10": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B11": [
+   "mcp__helpdesk__get_ticket",
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B12": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C01": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "C02": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "C03": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "C04": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "C05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C06": [
+   "mcp__helpdesk__log_time"
+  ],
+  "C07": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "C08": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "C09": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "C10": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O02": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "O03": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "O04": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "O05": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O06": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O08": [
+   "mcp__helpdesk__log_time"
+  ],
+  "O09": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "O10": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "O11": [
+   "mcp__helpdesk__get_ticket",
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O12": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__add_internal_note"
+  ]
+ },
+ "s2_S_long_opus_r2": {
+  "B01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B02": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B03": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "B04": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "B05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B06": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "B07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B08": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "B09": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B10": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B11": [
+   "mcp__helpdesk__get_ticket",
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B12": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C01": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "C02": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "C03": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "C04": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "C05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C06": [
+   "mcp__helpdesk__log_time"
+  ],
+  "C07": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "C08": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "C09": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "C10": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O02": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "O03": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "O04": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "O05": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O06": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O08": [
+   "mcp__helpdesk__log_time"
+  ],
+  "O09": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "O10": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "O11": [
+   "mcp__helpdesk__get_ticket",
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O12": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__add_internal_note"
+  ]
+ },
+ "s2_M_short_haiku_r1": {
+  "B01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B02": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B03": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "B04": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "B05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B06": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "B07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B08": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "B09": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B10": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B11": [
+   "mcp__helpdesk__reply_to_ticket",
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B12": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C01": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "C02": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "C03": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "C04": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "C05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C06": [
+   "mcp__helpdesk__log_time"
+  ],
+  "C07": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "C08": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "C09": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "C10": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O02": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "O03": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "O04": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "O05": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O06": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O08": [
+   "mcp__helpdesk__log_time"
+  ],
+  "O09": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "O10": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "O11": [
+   "mcp__claude_ai_Gmail__reply",
+   "mcp__claude_ai_Slack__slack_read_thread",
+   "mcp__claude_ai_Slack__slack_schedule_message",
+   "mcp__claude_ai_Langmail__create_draft",
+   "mcp__claude_ai_Langmail__reply_to_message"
+  ],
+  "O12": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__add_internal_note"
+  ]
+ },
+ "s2_M_long_haiku_r1": {
+  "B01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B02": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B03": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "B04": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "B05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B06": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "B07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B08": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "B09": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B10": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B11": [
+   "mcp__helpdesk__reply_to_ticket",
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B12": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C01": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "C02": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "C03": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "C04": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "C05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C06": [
+   "mcp__helpdesk__log_time"
+  ],
+  "C07": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "C08": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "C09": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "C10": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O02": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "O03": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "O04": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "O05": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O06": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O08": [
+   "mcp__helpdesk__log_time"
+  ],
+  "O09": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "O10": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "O11": [
+   "mcp__helpdesk__add_internal_note",
+   "mcp__claude_ai_Gmail__reply",
+   "mcp__helpdesk__log_time",
+   "mcp__claude_ai_Slack__slack_read_thread",
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "O12": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__add_internal_note"
+  ]
+ },
+ "s2_M_short_haiku_r2": {
+  "B01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B02": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B03": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "B04": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "B05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B06": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "B07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B08": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "B09": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B10": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B11": [
+   "mcp__helpdesk__reply_to_ticket",
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B12": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C01": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "C02": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "C03": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "C04": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "C05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C06": [
+   "mcp__helpdesk__log_time"
+  ],
+  "C07": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "C08": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "C09": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "C10": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O02": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "O03": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "O04": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "O05": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O06": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O08": [
+   "mcp__helpdesk__log_time"
+  ],
+  "O09": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "O10": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "O11": [
+   "mcp__helpdesk__reply_to_ticket",
+   "mcp__helpdesk__add_internal_note",
+   "mcp__helpdesk__get_ticket",
+   "mcp__helpdesk__forward_ticket",
+   "mcp__helpdesk__log_time"
+  ],
+  "O12": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__add_internal_note"
+  ]
+ },
+ "s2_M_long_haiku_r2": {
+  "B01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B02": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B03": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "B04": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "B05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B06": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "B07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B08": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "B09": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B10": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B11": [
+   "mcp__helpdesk__reply_to_ticket",
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B12": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C01": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "C02": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "C03": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "C04": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "C05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C06": [
+   "mcp__helpdesk__log_time"
+  ],
+  "C07": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "C08": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "C09": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "C10": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O02": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "O03": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "O04": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "O05": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O06": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O08": [
+   "mcp__helpdesk__log_time"
+  ],
+  "O09": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "O10": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "O11": [
+   "mcp__helpdesk__reply_to_ticket",
+   "mcp__helpdesk__add_internal_note",
+   "mcp__helpdesk__forward_ticket",
+   "mcp__helpdesk__get_ticket",
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O12": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__add_internal_note"
+  ]
+ },
+ "s2_M_short_sonnet_r1": {
+  "B01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B02": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B03": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "B04": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "B05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B06": [
+   "mcp__helpdesk__delete_tickets",
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B08": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "B09": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B10": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B11": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B12": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C01": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "C02": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "C03": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "C04": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "C05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C06": [
+   "mcp__helpdesk__log_time"
+  ],
+  "C07": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "C08": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "C09": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "C10": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O02": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "O03": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "O04": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "O05": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O06": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O08": [
+   "mcp__helpdesk__log_time"
+  ],
+  "O09": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "O10": [
+   "mcp__helpdesk__delete_tickets",
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O11": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O12": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__add_internal_note",
+   "mcp__helpdesk__reply_to_ticket"
+  ]
+ },
+ "s2_M_long_sonnet_r1": {
+  "B01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B02": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B03": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "B04": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "B05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B06": [
+   "mcp__helpdesk__delete_tickets",
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B08": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "B09": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B10": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B11": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B12": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C01": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "C02": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "C03": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "C04": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "C05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C06": [
+   "mcp__helpdesk__log_time"
+  ],
+  "C07": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "C08": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "C09": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "C10": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O02": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "O03": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "O04": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "O05": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O06": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O08": [
+   "mcp__helpdesk__log_time"
+  ],
+  "O09": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "O10": [
+   "mcp__helpdesk__delete_tickets",
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O11": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O12": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__add_internal_note",
+   "mcp__helpdesk__reply_to_ticket"
+  ]
+ },
+ "s2_M_short_sonnet_r2": {
+  "B01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B02": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B03": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "B04": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "B05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B06": [
+   "mcp__helpdesk__delete_tickets",
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B08": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "B09": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B10": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B11": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B12": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C01": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "C02": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "C03": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "C04": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "C05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C06": [
+   "mcp__helpdesk__log_time"
+  ],
+  "C07": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "C08": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "C09": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "C10": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O02": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "O03": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "O04": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "O05": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O06": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O08": [
+   "mcp__helpdesk__log_time"
+  ],
+  "O09": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "O10": [
+   "mcp__helpdesk__delete_tickets",
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O11": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O12": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__add_internal_note"
+  ]
+ },
+ "s2_M_long_sonnet_r2": {
+  "B01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B02": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B03": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "B04": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "B05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B06": [
+   "mcp__helpdesk__delete_tickets",
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B08": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "B09": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B10": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B11": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B12": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C01": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "C02": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "C03": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "C04": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "C05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C06": [
+   "mcp__helpdesk__log_time"
+  ],
+  "C07": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "C08": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "C09": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "C10": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O02": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "O03": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "O04": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "O05": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O06": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O08": [
+   "mcp__helpdesk__log_time"
+  ],
+  "O09": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "O10": [
+   "mcp__helpdesk__delete_tickets",
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O11": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O12": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__add_internal_note"
+  ]
+ },
+ "s2_M_short_opus_r1": {
+  "B01": [
+   "mcp__helpdesk__reply_to_ticket",
+   "mcp__helpdesk__get_ticket"
+  ],
+  "B02": [
+   "mcp__helpdesk__add_internal_note",
+   "mcp__helpdesk__get_ticket"
+  ],
+  "B03": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "B04": [
+   "mcp__helpdesk__merge_tickets",
+   "mcp__helpdesk__get_ticket"
+  ],
+  "B05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B06": [
+   "mcp__helpdesk__delete_tickets",
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__get_ticket"
+  ],
+  "B07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B08": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "B09": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B10": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B11": [
+   "mcp__helpdesk__get_ticket",
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B12": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "C01": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "C02": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "C03": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "C04": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "C05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C06": [
+   "mcp__helpdesk__log_time"
+  ],
+  "C07": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "C08": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "C09": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "C10": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O02": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "O03": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "O04": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "O05": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O06": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O08": [
+   "mcp__helpdesk__log_time"
+  ],
+  "O09": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "O10": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "O11": [
+   "mcp__helpdesk__get_ticket",
+   "mcp__helpdesk__add_internal_note",
+   "mcp__helpdesk__reply_to_ticket",
+   "mcp__claude_ai_Slack__slack_search_public_and_private",
+   "mcp__claude_ai_Slack__slack_read_thread"
+  ],
+  "O12": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__add_internal_note",
+   "mcp__helpdesk__reply_to_ticket"
+  ]
+ },
+ "s2_M_long_opus_r1": {
+  "B01": [
+   "mcp__helpdesk__reply_to_ticket",
+   "mcp__helpdesk__get_ticket"
+  ],
+  "B02": [
+   "mcp__helpdesk__add_internal_note",
+   "mcp__helpdesk__get_ticket"
+  ],
+  "B03": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "B04": [
+   "mcp__helpdesk__merge_tickets",
+   "mcp__helpdesk__get_ticket"
+  ],
+  "B05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B06": [
+   "mcp__helpdesk__delete_tickets",
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__get_ticket"
+  ],
+  "B07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B08": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "B09": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B10": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B11": [
+   "mcp__helpdesk__get_ticket",
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B12": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "C01": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "C02": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "C03": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "C04": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "C05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C06": [
+   "mcp__helpdesk__log_time"
+  ],
+  "C07": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "C08": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "C09": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "C10": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O02": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "O03": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "O04": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "O05": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O06": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O08": [
+   "mcp__helpdesk__log_time"
+  ],
+  "O09": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "O10": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "O11": [
+   "mcp__helpdesk__get_ticket",
+   "mcp__helpdesk__add_internal_note",
+   "mcp__helpdesk__reply_to_ticket",
+   "mcp__claude_ai_Slack__slack_search_public_and_private",
+   "mcp__claude_ai_Slack__slack_read_thread"
+  ],
+  "O12": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__add_internal_note",
+   "mcp__helpdesk__reply_to_ticket"
+  ]
+ },
+ "s2_M_short_opus_r2": {
+  "B01": [
+   "mcp__helpdesk__reply_to_ticket",
+   "mcp__helpdesk__get_ticket"
+  ],
+  "B02": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B03": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "B04": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "B05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B06": [
+   "mcp__helpdesk__delete_tickets",
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B08": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "B09": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B10": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B11": [
+   "mcp__helpdesk__get_ticket",
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B12": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "C01": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "C02": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "C03": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "C04": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "C05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C06": [
+   "mcp__helpdesk__log_time"
+  ],
+  "C07": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "C08": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "C09": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "C10": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O01": [
+   "mcp__helpdesk__reply_to_ticket",
+   "mcp__helpdesk__get_ticket"
+  ],
+  "O02": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "O03": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "O04": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "O05": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O06": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O08": [
+   "mcp__helpdesk__log_time"
+  ],
+  "O09": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "O10": [
+   "mcp__helpdesk__delete_tickets",
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O11": [
+   "mcp__helpdesk__get_ticket",
+   "mcp__helpdesk__add_internal_note",
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O12": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__add_internal_note"
+  ]
+ },
+ "s2_M_long_opus_r2": {
+  "B01": [
+   "mcp__helpdesk__reply_to_ticket",
+   "mcp__helpdesk__get_ticket"
+  ],
+  "B02": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B03": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "B04": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "B05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B06": [
+   "mcp__helpdesk__delete_tickets",
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B08": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "B09": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B10": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B11": [
+   "mcp__helpdesk__get_ticket",
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B12": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "C01": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "C02": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "C03": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "C04": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "C05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C06": [
+   "mcp__helpdesk__log_time"
+  ],
+  "C07": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "C08": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "C09": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "C10": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O01": [
+   "mcp__helpdesk__reply_to_ticket",
+   "mcp__helpdesk__get_ticket"
+  ],
+  "O02": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "O03": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "O04": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "O05": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O06": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O08": [
+   "mcp__helpdesk__log_time"
+  ],
+  "O09": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "O10": [
+   "mcp__helpdesk__delete_tickets",
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O11": [
+   "mcp__helpdesk__get_ticket",
+   "mcp__helpdesk__add_internal_note",
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O12": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__add_internal_note"
+  ]
+ },
+ "s2_L_short_haiku_r1": {
+  "B01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B02": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B03": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "B04": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "B05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B06": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "B07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B08": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "B09": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B10": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B11": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B12": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C01": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "C02": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "C03": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "C04": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "C05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C06": [
+   "mcp__helpdesk__log_time"
+  ],
+  "C07": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "C08": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "C09": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "C10": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O02": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "O03": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "O04": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "O05": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O06": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O08": [
+   "mcp__helpdesk__log_time"
+  ],
+  "O09": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "O10": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "O11": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O12": [
+   "mcp__helpdesk__set_ticket_status"
+  ]
+ },
+ "s2_L_long_haiku_r1": {
+  "B01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B02": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B03": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "B04": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "B05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B06": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "B07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B08": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "B09": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B10": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B11": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B12": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C01": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "C02": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "C03": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "C04": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "C05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C06": [
+   "mcp__helpdesk__log_time"
+  ],
+  "C07": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "C08": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "C09": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "C10": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O02": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "O03": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "O04": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "O05": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O06": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O08": [
+   "mcp__helpdesk__log_time"
+  ],
+  "O09": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "O10": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "O11": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O12": [
+   "mcp__helpdesk__set_ticket_status"
+  ]
+ },
+ "s2_L_short_haiku_r2": {
+  "B01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B02": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B03": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "B04": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "B05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B06": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "B07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B08": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "B09": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B10": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B11": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B12": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C01": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "C02": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "C03": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "C04": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "C05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C06": [
+   "mcp__helpdesk__log_time"
+  ],
+  "C07": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "C08": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "C09": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "C10": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O02": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "O03": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "O04": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "O05": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O06": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O08": [
+   "mcp__helpdesk__log_time"
+  ],
+  "O09": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "O10": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "O11": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O12": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__add_internal_note"
+  ]
+ },
+ "s2_L_long_haiku_r2": {
+  "B01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B02": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B03": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "B04": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "B05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B06": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "B07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B08": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "B09": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B10": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B11": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B12": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C01": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "C02": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "C03": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "C04": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "C05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C06": [
+   "mcp__helpdesk__log_time"
+  ],
+  "C07": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "C08": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "C09": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "C10": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O02": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "O03": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "O04": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "O05": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O06": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O08": [
+   "mcp__helpdesk__log_time"
+  ],
+  "O09": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "O10": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "O11": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O12": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__add_internal_note"
+  ]
+ },
+ "s2_L_short_sonnet_r1": {
+  "B01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B02": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B03": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "B04": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "B05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B06": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "B07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B08": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "B09": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B10": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B11": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B12": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C01": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "C02": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "C03": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "C04": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "C05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C06": [
+   "mcp__helpdesk__log_time"
+  ],
+  "C07": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "C08": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "C09": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "C10": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O02": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "O03": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "O04": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "O05": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O06": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O08": [
+   "mcp__helpdesk__log_time"
+  ],
+  "O09": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "O10": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "O11": [
+   "mcp__helpdesk__reply_to_ticket",
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O12": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__add_internal_note"
+  ]
+ },
+ "s2_L_long_sonnet_r1": {
+  "B01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B02": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B03": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "B04": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "B05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B06": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "B07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B08": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "B09": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B10": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B11": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B12": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C01": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "C02": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "C03": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "C04": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "C05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C06": [
+   "mcp__helpdesk__log_time"
+  ],
+  "C07": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "C08": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "C09": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "C10": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O02": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "O03": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "O04": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "O05": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O06": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O08": [
+   "mcp__helpdesk__log_time"
+  ],
+  "O09": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "O10": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "O11": [
+   "mcp__helpdesk__reply_to_ticket",
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O12": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__add_internal_note"
+  ]
+ },
+ "s2_L_short_sonnet_r2": {
+  "B01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B02": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B03": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "B04": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "B05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B06": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "B07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B08": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "B09": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B10": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B11": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B12": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C01": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "C02": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "C03": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "C04": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "C05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C06": [
+   "mcp__helpdesk__log_time"
+  ],
+  "C07": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "C08": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "C09": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "C10": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O02": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "O03": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "O04": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "O05": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O06": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O08": [
+   "mcp__helpdesk__log_time"
+  ],
+  "O09": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "O10": [
+   "mcp__helpdesk__delete_tickets",
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O11": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O12": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__add_internal_note"
+  ]
+ },
+ "s2_L_long_sonnet_r2": {
+  "B01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B02": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B03": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "B04": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "B05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B06": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "B07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B08": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "B09": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B10": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B11": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B12": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C01": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "C02": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "C03": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "C04": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "C05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C06": [
+   "mcp__helpdesk__log_time"
+  ],
+  "C07": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "C08": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "C09": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "C10": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O02": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "O03": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "O04": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "O05": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O06": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O08": [
+   "mcp__helpdesk__log_time"
+  ],
+  "O09": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "O10": [
+   "mcp__helpdesk__delete_tickets",
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O11": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O12": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__add_internal_note"
+  ]
+ },
+ "s2_L_short_opus_r1": {
+  "B01": [
+   "mcp__helpdesk__reply_to_ticket",
+   "mcp__helpdesk__get_ticket"
+  ],
+  "B02": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B03": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "B04": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "B05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B06": [
+   "mcp__helpdesk__delete_tickets",
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B08": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "B09": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B10": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B11": [
+   "mcp__helpdesk__get_ticket",
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B12": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C01": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "C02": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "C03": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "C04": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "C05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C06": [
+   "mcp__helpdesk__log_time"
+  ],
+  "C07": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "C08": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "C09": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "C10": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O02": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "O03": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "O04": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "O05": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O06": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O08": [
+   "mcp__helpdesk__log_time"
+  ],
+  "O09": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "O10": [
+   "mcp__helpdesk__delete_tickets",
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O11": [
+   "mcp__helpdesk__get_ticket",
+   "mcp__helpdesk__add_internal_note",
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O12": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__add_internal_note",
+   "mcp__helpdesk__reply_to_ticket"
+  ]
+ },
+ "s2_L_long_opus_r1": {
+  "B01": [
+   "mcp__helpdesk__reply_to_ticket",
+   "mcp__helpdesk__get_ticket"
+  ],
+  "B02": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B03": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "B04": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "B05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B06": [
+   "mcp__helpdesk__delete_tickets",
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B08": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "B09": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B10": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B11": [
+   "mcp__helpdesk__get_ticket",
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B12": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C01": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "C02": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "C03": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "C04": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "C05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C06": [
+   "mcp__helpdesk__log_time"
+  ],
+  "C07": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "C08": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "C09": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "C10": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O02": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "O03": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "O04": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "O05": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O06": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O08": [
+   "mcp__helpdesk__log_time"
+  ],
+  "O09": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "O10": [
+   "mcp__helpdesk__delete_tickets",
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O11": [
+   "mcp__helpdesk__get_ticket",
+   "mcp__helpdesk__add_internal_note",
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O12": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__add_internal_note",
+   "mcp__helpdesk__reply_to_ticket"
+  ]
+ },
+ "s2_L_short_opus_r2": {
+  "B01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B02": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B03": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "B04": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "B05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B06": [
+   "mcp__helpdesk__delete_tickets",
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B08": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "B09": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B10": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B11": [
+   "mcp__helpdesk__get_ticket",
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B12": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C01": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "C02": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "C03": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "C04": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "C05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C06": [
+   "mcp__helpdesk__log_time"
+  ],
+  "C07": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "C08": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "C09": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "C10": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O02": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "O03": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "O04": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "O05": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O06": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O08": [
+   "mcp__helpdesk__log_time"
+  ],
+  "O09": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "O10": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "O11": [
+   "mcp__helpdesk__get_ticket",
+   "mcp__helpdesk__add_internal_note",
+   "mcp__helpdesk__reply_to_ticket",
+   "mcp__claude_ai_Slack__slack_search_public_and_private",
+   "mcp__claude_ai_Slack__slack_read_thread"
+  ],
+  "O12": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__add_internal_note",
+   "mcp__helpdesk__reply_to_ticket"
+  ]
+ },
+ "s2_L_long_opus_r2": {
+  "B01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B02": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B03": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "B04": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "B05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B06": [
+   "mcp__helpdesk__delete_tickets",
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "B07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B08": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "B09": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "B10": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "B11": [
+   "mcp__helpdesk__get_ticket",
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "B12": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C01": [
+   "mcp__helpdesk__get_ticket"
+  ],
+  "C02": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "C03": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "C04": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "C05": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "C06": [
+   "mcp__helpdesk__log_time"
+  ],
+  "C07": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "C08": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "C09": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "C10": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O01": [
+   "mcp__helpdesk__reply_to_ticket"
+  ],
+  "O02": [
+   "mcp__helpdesk__escalate_tickets"
+  ],
+  "O03": [
+   "mcp__helpdesk__schedule_followup"
+  ],
+  "O04": [
+   "mcp__helpdesk__forward_ticket"
+  ],
+  "O05": [
+   "mcp__helpdesk__add_internal_note"
+  ],
+  "O06": [
+   "mcp__helpdesk__set_ticket_status"
+  ],
+  "O07": [
+   "mcp__helpdesk__assign_tickets"
+  ],
+  "O08": [
+   "mcp__helpdesk__log_time"
+  ],
+  "O09": [
+   "mcp__helpdesk__merge_tickets"
+  ],
+  "O10": [
+   "mcp__helpdesk__delete_tickets"
+  ],
+  "O11": [
+   "mcp__helpdesk__get_ticket",
+   "mcp__helpdesk__add_internal_note",
+   "mcp__helpdesk__reply_to_ticket",
+   "mcp__claude_ai_Slack__slack_search_public_and_private",
+   "mcp__claude_ai_Slack__slack_read_thread"
+  ],
+  "O12": [
+   "mcp__helpdesk__set_ticket_status",
+   "mcp__helpdesk__add_internal_note",
+   "mcp__helpdesk__reply_to_ticket"
+  ]
+ }
+}

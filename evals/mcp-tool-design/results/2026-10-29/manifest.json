@@ -1,0 +1,407 @@
+[
+ {
+  "run": "p1_all_haiku",
+  "point": "p1",
+  "variant": "all",
+  "model": "haiku",
+  "fixture": "fixtures/p1_args_all.json",
+  "input": "results/2026-10-29/inputs/p1_all.md",
+  "output": "results/2026-10-29/raw/p1_all_haiku.json"
+ },
+ {
+  "run": "p1_all_sonnet",
+  "point": "p1",
+  "variant": "all",
+  "model": "sonnet",
+  "fixture": "fixtures/p1_args_all.json",
+  "input": "results/2026-10-29/inputs/p1_all.md",
+  "output": "results/2026-10-29/raw/p1_all_sonnet.json"
+ },
+ {
+  "run": "p1_all_opus",
+  "point": "p1",
+  "variant": "all",
+  "model": "opus",
+  "fixture": "fixtures/p1_args_all.json",
+  "input": "results/2026-10-29/inputs/p1_all.md",
+  "output": "results/2026-10-29/raw/p1_all_opus.json"
+ },
+ {
+  "run": "p1_none_haiku",
+  "point": "p1",
+  "variant": "none",
+  "model": "haiku",
+  "fixture": "fixtures/p1_args_none.json",
+  "input": "results/2026-10-29/inputs/p1_none.md",
+  "output": "results/2026-10-29/raw/p1_none_haiku.json"
+ },
+ {
+  "run": "p1_none_sonnet",
+  "point": "p1",
+  "variant": "none",
+  "model": "sonnet",
+  "fixture": "fixtures/p1_args_none.json",
+  "input": "results/2026-10-29/inputs/p1_none.md",
+  "output": "results/2026-10-29/raw/p1_none_sonnet.json"
+ },
+ {
+  "run": "p1_none_opus",
+  "point": "p1",
+  "variant": "none",
+  "model": "opus",
+  "fixture": "fixtures/p1_args_none.json",
+  "input": "results/2026-10-29/inputs/p1_none.md",
+  "output": "results/2026-10-29/raw/p1_none_opus.json"
+ },
+ {
+  "run": "p1_minimal_haiku",
+  "point": "p1",
+  "variant": "minimal",
+  "model": "haiku",
+  "fixture": "fixtures/p1_args_minimal.json",
+  "input": "results/2026-10-29/inputs/p1_minimal.md",
+  "output": "results/2026-10-29/raw/p1_minimal_haiku.json"
+ },
+ {
+  "run": "p1_minimal_sonnet",
+  "point": "p1",
+  "variant": "minimal",
+  "model": "sonnet",
+  "fixture": "fixtures/p1_args_minimal.json",
+  "input": "results/2026-10-29/inputs/p1_minimal.md",
+  "output": "results/2026-10-29/raw/p1_minimal_sonnet.json"
+ },
+ {
+  "run": "p1_minimal_opus",
+  "point": "p1",
+  "variant": "minimal",
+  "model": "opus",
+  "fixture": "fixtures/p1_args_minimal.json",
+  "input": "results/2026-10-29/inputs/p1_minimal.md",
+  "output": "results/2026-10-29/raw/p1_minimal_opus.json"
+ },
+ {
+  "run": "p4_short_12_haiku",
+  "point": "p4",
+  "variant": "short_12",
+  "model": "haiku",
+  "fixture": "fixtures/p4_short_12.json",
+  "input": "results/2026-10-29/inputs/p4_short_12.md",
+  "output": "results/2026-10-29/raw/p4_short_12_haiku.json"
+ },
+ {
+  "run": "p4_short_12_sonnet",
+  "point": "p4",
+  "variant": "short_12",
+  "model": "sonnet",
+  "fixture": "fixtures/p4_short_12.json",
+  "input": "results/2026-10-29/inputs/p4_short_12.md",
+  "output": "results/2026-10-29/raw/p4_short_12_sonnet.json"
+ },
+ {
+  "run": "p4_short_12_opus",
+  "point": "p4",
+  "variant": "short_12",
+  "model": "opus",
+  "fixture": "fixtures/p4_short_12.json",
+  "input": "results/2026-10-29/inputs/p4_short_12.md",
+  "output": "results/2026-10-29/raw/p4_short_12_opus.json"
+ },
+ {
+  "run": "p4_long_12_haiku",
+  "point": "p4",
+  "variant": "long_12",
+  "model": "haiku",
+  "fixture": "fixtures/p4_long_12.json",
+  "input": "results/2026-10-29/inputs/p4_long_12.md",
+  "output": "results/2026-10-29/raw/p4_long_12_haiku.json"
+ },
+ {
+  "run": "p4_long_12_sonnet",
+  "point": "p4",
+  "variant": "long_12",
+  "model": "sonnet",
+  "fixture": "fixtures/p4_long_12.json",
+  "input": "results/2026-10-29/inputs/p4_long_12.md",
+  "output": "results/2026-10-29/raw/p4_long_12_sonnet.json"
+ },
+ {
+  "run": "p4_long_12_opus",
+  "point": "p4",
+  "variant": "long_12",
+  "model": "opus",
+  "fixture": "fixtures/p4_long_12.json",
+  "input": "results/2026-10-29/inputs/p4_long_12.md",
+  "output": "results/2026-10-29/raw/p4_long_12_opus.json"
+ },
+ {
+  "run": "p4_short_35_haiku",
+  "point": "p4",
+  "variant": "short_35",
+  "model": "haiku",
+  "fixture": "fixtures/p4_short_35.json",
+  "input": "results/2026-10-29/inputs/p4_short_35.md",
+  "output": "results/2026-10-29/raw/p4_short_35_haiku.json"
+ },
+ {
+  "run": "p4_short_35_sonnet",
+  "point": "p4",
+  "variant": "short_35",
+  "model": "sonnet",
+  "fixture": "fixtures/p4_short_35.json",
+  "input": "results/2026-10-29/inputs/p4_short_35.md",
+  "output": "results/2026-10-29/raw/p4_short_35_sonnet.json"
+ },
+ {
+  "run": "p4_short_35_opus",
+  "point": "p4",
+  "variant": "short_35",
+  "model": "opus",
+  "fixture": "fixtures/p4_short_35.json",
+  "input": "results/2026-10-29/inputs/p4_short_35.md",
+  "output": "results/2026-10-29/raw/p4_short_35_opus.json"
+ },
+ {
+  "run": "p4_long_35_haiku",
+  "point": "p4",
+  "variant": "long_35",
+  "model": "haiku",
+  "fixture": "fixtures/p4_long_35.json",
+  "input": "results/2026-10-29/inputs/p4_long_35.md",
+  "output": "results/2026-10-29/raw/p4_long_35_haiku.json"
+ },
+ {
+  "run": "p4_long_35_sonnet",
+  "point": "p4",
+  "variant": "long_35",
+  "model": "sonnet",
+  "fixture": "fixtures/p4_long_35.json",
+  "input": "results/2026-10-29/inputs/p4_long_35.md",
+  "output": "results/2026-10-29/raw/p4_long_35_sonnet.json"
+ },
+ {
+  "run": "p4_long_35_opus",
+  "point": "p4",
+  "variant": "long_35",
+  "model": "opus",
+  "fixture": "fixtures/p4_long_35.json",
+  "input": "results/2026-10-29/inputs/p4_long_35.md",
+  "output": "results/2026-10-29/raw/p4_long_35_opus.json"
+ },
+ {
+  "run": "p2_merged_haiku",
+  "point": "p2",
+  "variant": "merged",
+  "model": "haiku",
+  "fixture": "fixtures/p2_merged.json",
+  "input": "results/2026-10-29/inputs/p2_merged.md",
+  "output": "results/2026-10-29/raw/p2_merged_haiku.json"
+ },
+ {
+  "run": "p2_merged_sonnet",
+  "point": "p2",
+  "variant": "merged",
+  "model": "sonnet",
+  "fixture": "fixtures/p2_merged.json",
+  "input": "results/2026-10-29/inputs/p2_merged.md",
+  "output": "results/2026-10-29/raw/p2_merged_sonnet.json"
+ },
+ {
+  "run": "p2_merged_opus",
+  "point": "p2",
+  "variant": "merged",
+  "model": "opus",
+  "fixture": "fixtures/p2_merged.json",
+  "input": "results/2026-10-29/inputs/p2_merged.md",
+  "output": "results/2026-10-29/raw/p2_merged_opus.json"
+ },
+ {
+  "run": "p3_control_haiku",
+  "point": "p3",
+  "variant": "control",
+  "model": "haiku",
+  "fixture": "fixtures/p3_control.json",
+  "input": "results/2026-10-29/inputs/p3_control.md",
+  "output": "results/2026-10-29/raw/p3_control_haiku.json"
+ },
+ {
+  "run": "p3_control_sonnet",
+  "point": "p3",
+  "variant": "control",
+  "model": "sonnet",
+  "fixture": "fixtures/p3_control.json",
+  "input": "results/2026-10-29/inputs/p3_control.md",
+  "output": "results/2026-10-29/raw/p3_control_sonnet.json"
+ },
+ {
+  "run": "p3_control_opus",
+  "point": "p3",
+  "variant": "control",
+  "model": "opus",
+  "fixture": "fixtures/p3_control.json",
+  "input": "results/2026-10-29/inputs/p3_control.md",
+  "output": "results/2026-10-29/raw/p3_control_opus.json"
+ },
+ {
+  "run": "p3_server_haiku",
+  "point": "p3",
+  "variant": "server",
+  "model": "haiku",
+  "fixture": "fixtures/p3_server.json",
+  "input": "results/2026-10-29/inputs/p3_server.md",
+  "output": "results/2026-10-29/raw/p3_server_haiku.json"
+ },
+ {
+  "run": "p3_server_sonnet",
+  "point": "p3",
+  "variant": "server",
+  "model": "sonnet",
+  "fixture": "fixtures/p3_server.json",
+  "input": "results/2026-10-29/inputs/p3_server.md",
+  "output": "results/2026-10-29/raw/p3_server_sonnet.json"
+ },
+ {
+  "run": "p3_server_opus",
+  "point": "p3",
+  "variant": "server",
+  "model": "opus",
+  "fixture": "fixtures/p3_server.json",
+  "input": "results/2026-10-29/inputs/p3_server.md",
+  "output": "results/2026-10-29/raw/p3_server_opus.json"
+ },
+ {
+  "run": "p3_jit_haiku",
+  "point": "p3",
+  "variant": "jit",
+  "model": "haiku",
+  "fixture": "fixtures/p3_jit.json",
+  "input": "results/2026-10-29/inputs/p3_jit.md",
+  "output": "results/2026-10-29/raw/p3_jit_haiku.json"
+ },
+ {
+  "run": "p3_jit_sonnet",
+  "point": "p3",
+  "variant": "jit",
+  "model": "sonnet",
+  "fixture": "fixtures/p3_jit.json",
+  "input": "results/2026-10-29/inputs/p3_jit.md",
+  "output": "results/2026-10-29/raw/p3_jit_sonnet.json"
+ },
+ {
+  "run": "p3_jit_opus",
+  "point": "p3",
+  "variant": "jit",
+  "model": "opus",
+  "fixture": "fixtures/p3_jit.json",
+  "input": "results/2026-10-29/inputs/p3_jit.md",
+  "output": "results/2026-10-29/raw/p3_jit_opus.json"
+ },
+ {
+  "run": "p3_both_haiku",
+  "point": "p3",
+  "variant": "both",
+  "model": "haiku",
+  "fixture": "fixtures/p3_both.json",
+  "input": "results/2026-10-29/inputs/p3_both.md",
+  "output": "results/2026-10-29/raw/p3_both_haiku.json"
+ },
+ {
+  "run": "p3_both_sonnet",
+  "point": "p3",
+  "variant": "both",
+  "model": "sonnet",
+  "fixture": "fixtures/p3_both.json",
+  "input": "results/2026-10-29/inputs/p3_both.md",
+  "output": "results/2026-10-29/raw/p3_both_sonnet.json"
+ },
+ {
+  "run": "p3_both_opus",
+  "point": "p3",
+  "variant": "both",
+  "model": "opus",
+  "fixture": "fixtures/p3_both.json",
+  "input": "results/2026-10-29/inputs/p3_both.md",
+  "output": "results/2026-10-29/raw/p3_both_opus.json"
+ },
+ {
+  "run": "p6a_write_haiku",
+  "point": "p6a",
+  "variant": "write",
+  "model": "haiku",
+  "fixture": "fixtures/p6_practice.json",
+  "input": "results/2026-10-29/inputs/p6a_write.md",
+  "output": "results/2026-10-29/raw/p6a_write_haiku.json"
+ },
+ {
+  "run": "p6a_write_sonnet",
+  "point": "p6a",
+  "variant": "write",
+  "model": "sonnet",
+  "fixture": "fixtures/p6_practice.json",
+  "input": "results/2026-10-29/inputs/p6a_write.md",
+  "output": "results/2026-10-29/raw/p6a_write_sonnet.json"
+ },
+ {
+  "run": "p6a_write_opus",
+  "point": "p6a",
+  "variant": "write",
+  "model": "opus",
+  "fixture": "fixtures/p6_practice.json",
+  "input": "results/2026-10-29/inputs/p6a_write.md",
+  "output": "results/2026-10-29/raw/p6a_write_opus.json"
+ },
+ {
+  "run": "p6b_strict_haiku",
+  "point": "p6b",
+  "variant": "strict",
+  "model": "haiku",
+  "fixture": "fixtures/p6_practice.json",
+  "input": "results/2026-10-29/inputs/p6b_strict.md",
+  "output": "results/2026-10-29/raw/p6b_strict_haiku.json"
+ },
+ {
+  "run": "p6b_strict_sonnet",
+  "point": "p6b",
+  "variant": "strict",
+  "model": "sonnet",
+  "fixture": "fixtures/p6_practice.json",
+  "input": "results/2026-10-29/inputs/p6b_strict.md",
+  "output": "results/2026-10-29/raw/p6b_strict_sonnet.json"
+ },
+ {
+  "run": "p6b_strict_opus",
+  "point": "p6b",
+  "variant": "strict",
+  "model": "opus",
+  "fixture": "fixtures/p6_practice.json",
+  "input": "results/2026-10-29/inputs/p6b_strict.md",
+  "output": "results/2026-10-29/raw/p6b_strict_opus.json"
+ },
+ {
+  "run": "p6b_repair_haiku",
+  "point": "p6b",
+  "variant": "repair",
+  "model": "haiku",
+  "fixture": "fixtures/p6_practice.json",
+  "input": "results/2026-10-29/inputs/p6b_repair.md",
+  "output": "results/2026-10-29/raw/p6b_repair_haiku.json"
+ },
+ {
+  "run": "p6b_repair_sonnet",
+  "point": "p6b",
+  "variant": "repair",
+  "model": "sonnet",
+  "fixture": "fixtures/p6_practice.json",
+  "input": "results/2026-10-29/inputs/p6b_repair.md",
+  "output": "results/2026-10-29/raw/p6b_repair_sonnet.json"
+ },
+ {
+  "run": "p6b_repair_opus",
+  "point": "p6b",
+  "variant": "repair",
+  "model": "opus",
+  "fixture": "fixtures/p6_practice.json",
+  "input": "results/2026-10-29/inputs/p6b_repair.md",
+  "output": "results/2026-10-29/raw/p6b_repair_opus.json"
+ }
+]

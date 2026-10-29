@@ -1,0 +1,29 @@
+{
+ "id": "O05",
+ "tool": "mcp__helpdesk__add_internal_note",
+ "args": {
+  "ticket_id": "4812",
+  "body": "@Kim Lee: Please don't refund again. I already issued the refund in Stripe. – Sam"
+ },
+ "message": null,
+ "searches": [
+  "select:mcp__helpdesk__add_internal_note,mcp__helpdesk__get_ticket"
+ ],
+ "init": {
+  "tools": 400,
+  "helpdesk_tools": 12,
+  "servers_connected": [
+   "claude.ai Cal.com",
+   "claude.ai Claude Docs",
+   "claude.ai Gmail",
+   "claude.ai Google Calendar",
+   "claude.ai Google Drive",
+   "claude.ai Granola",
+   "claude.ai Langmail",
+   "claude.ai Slack",
+   "claude.ai betterstack",
+   "helpdesk"
+  ]
+ },
+ "seconds": 31
+}

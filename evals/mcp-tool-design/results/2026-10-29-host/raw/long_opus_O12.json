@@ -1,0 +1,20 @@
+{
+ "id": "O12",
+ "tool": "mcp__helpdesk__get_ticket",
+ "args": {
+  "ticket_id": "5102"
+ },
+ "message": null,
+ "searches": [
+  "select:mcp__helpdesk__get_ticket,mcp__helpdesk__set_ticket_status,mcp__helpdesk__add_internal_note,mcp__helpdesk__reply_to_ticket"
+ ],
+ "init": {
+  "tools": 47,
+  "helpdesk_tools": 12,
+  "servers_connected": [
+   "claude.ai Claude Docs",
+   "helpdesk"
+  ]
+ },
+ "seconds": 24
+}

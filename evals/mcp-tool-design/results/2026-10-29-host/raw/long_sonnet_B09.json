@@ -1,0 +1,23 @@
+{
+ "id": "B09",
+ "tool": "mcp__helpdesk__assign_tickets",
+ "args": {
+  "ticket_ids": [
+   "5011"
+  ],
+  "assignee": "Kim Park"
+ },
+ "message": null,
+ "searches": [
+  "select:mcp__helpdesk__assign_tickets,mcp__helpdesk__get_ticket"
+ ],
+ "init": {
+  "tools": 47,
+  "helpdesk_tools": 12,
+  "servers_connected": [
+   "claude.ai Claude Docs",
+   "helpdesk"
+  ]
+ },
+ "seconds": 24
+}

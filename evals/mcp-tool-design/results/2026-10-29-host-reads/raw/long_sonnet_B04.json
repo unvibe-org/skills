@@ -1,0 +1,45 @@
+{
+ "id": "B04",
+ "tool": "mcp__helpdesk__merge_tickets",
+ "args": {
+  "target_id": "4790",
+  "source_ids": [
+   "4791"
+  ]
+ },
+ "message": "Same customer, same message, same assignee. I'll merge 4791 into 4790.",
+ "reads": [
+  {
+   "tool": "mcp__helpdesk__get_ticket",
+   "args": {
+    "ticket_id": "4790"
+   }
+  },
+  {
+   "tool": "mcp__helpdesk__get_ticket",
+   "args": {
+    "ticket_id": "4791"
+   }
+  }
+ ],
+ "searches": [
+  "select:mcp__helpdesk__get_ticket,mcp__helpdesk__merge_tickets,mcp__helpdesk__delete_tickets"
+ ],
+ "init": {
+  "tools": 401,
+  "helpdesk_tools": 12,
+  "servers_connected": [
+   "claude.ai Cal.com",
+   "claude.ai Claude Docs",
+   "claude.ai Gmail",
+   "claude.ai Google Calendar",
+   "claude.ai Google Drive",
+   "claude.ai Granola",
+   "claude.ai Langmail",
+   "claude.ai Slack",
+   "claude.ai betterstack",
+   "helpdesk"
+  ]
+ },
+ "seconds": 34
+}

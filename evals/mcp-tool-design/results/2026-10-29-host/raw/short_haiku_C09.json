@@ -1,0 +1,29 @@
+{
+ "id": "C09",
+ "tool": "mcp__helpdesk__forward_ticket",
+ "args": {
+  "ticket_id": "4915",
+  "to_email": "legal@wayne-logistics.example"
+ },
+ "message": null,
+ "searches": [
+  "select:mcp__helpdesk__forward_ticket"
+ ],
+ "init": {
+  "tools": 400,
+  "helpdesk_tools": 12,
+  "servers_connected": [
+   "claude.ai Cal.com",
+   "claude.ai Claude Docs",
+   "claude.ai Gmail",
+   "claude.ai Google Calendar",
+   "claude.ai Google Drive",
+   "claude.ai Granola",
+   "claude.ai Langmail",
+   "claude.ai Slack",
+   "claude.ai betterstack",
+   "helpdesk"
+  ]
+ },
+ "seconds": 25
+}

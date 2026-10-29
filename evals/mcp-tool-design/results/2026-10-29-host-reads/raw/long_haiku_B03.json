@@ -1,0 +1,34 @@
+{
+ "id": "B03",
+ "tool": "mcp__claude_ai_Gmail__search_threads",
+ "args": {
+  "query": "5033"
+ },
+ "message": null,
+ "reads": [
+  {
+   "tool": "mcp__helpdesk__get_ticket",
+   "args": {
+    "ticket_id": "5033"
+   }
+  }
+ ],
+ "searches": [],
+ "init": {
+  "tools": 401,
+  "helpdesk_tools": 12,
+  "servers_connected": [
+   "claude.ai Cal.com",
+   "claude.ai Claude Docs",
+   "claude.ai Gmail",
+   "claude.ai Google Calendar",
+   "claude.ai Google Drive",
+   "claude.ai Granola",
+   "claude.ai Langmail",
+   "claude.ai Slack",
+   "claude.ai betterstack",
+   "helpdesk"
+  ]
+ },
+ "seconds": 27
+}

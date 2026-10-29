@@ -1,0 +1,113 @@
+diff --color -ruN fixtures/p2b_repo/CHANGELOG.md p2b_out/haiku/CHANGELOG.md
+--- fixtures/p2b_repo/CHANGELOG.md	2026-10-29 15:55:34
++++ p2b_out/haiku/CHANGELOG.md	2026-10-29 15:59:58
+@@ -1,5 +1,8 @@
+ # Changelog
+ 
++## Unreleased
++- `trash_files` moves up to 50 files to Trash (destructive; Trash empties after 30 days). It is a separate tool, not a `manage_file` action, so rename and move stay non-destructive.
++
+ ## 1.4.0
+ - `manage_file` gains `move`.
+ 
+diff --color -ruN fixtures/p2b_repo/README.md p2b_out/haiku/README.md
+--- fixtures/p2b_repo/README.md	2026-10-29 15:55:34
++++ p2b_out/haiku/README.md	2026-10-29 15:59:57
+@@ -12,3 +12,4 @@
+ |---|---|
+ | `search_files` | Find files by name or text |
+ | `manage_file` | Rename a file or move it to another folder |
++| `trash_files` | Move files to Trash, which empties itself after 30 days |
+diff --color -ruN fixtures/p2b_repo/src/server.ts p2b_out/haiku/src/server.ts
+--- fixtures/p2b_repo/src/server.ts	2026-10-29 15:55:34
++++ p2b_out/haiku/src/server.ts	2026-10-29 15:59:55
+@@ -1,10 +1,12 @@
+ import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js'
+ import { registerSearchFiles } from './tools/searchFiles.js'
+ import { registerManageFile } from './tools/manageFile.js'
++import { registerTrashFiles } from './tools/trashFiles.js'
+ 
+ export const server = new McpServer(
+   { name: 'files-mcp', version: '1.4.0' },
+-  { instructions: 'Find files with search_files, then act on them with manage_file.' }
++  { instructions: 'Find files with search_files, then act on them with manage_file (rename, move), or throw them away with trash_files.' }
+ )
+ registerSearchFiles(server)
+ registerManageFile(server)
++registerTrashFiles(server)
+diff --color -ruN fixtures/p2b_repo/src/tools/manageFile.ts p2b_out/haiku/src/tools/manageFile.ts
+--- fixtures/p2b_repo/src/tools/manageFile.ts	2026-10-29 15:55:34
++++ p2b_out/haiku/src/tools/manageFile.ts	2026-10-29 15:59:53
+@@ -7,7 +7,7 @@
+     'manage_file',
+     {
+       description:
+-        'Rename a file or move it to another folder. Use it for "rename this" or "move it to Taxes". Returns the file\'s new name and folder. To find a file use search_files.',
++        'Rename a file or move it to another folder. Use it for "rename this" or "move it to Taxes". Returns the file\'s new name and folder. To find a file use search_files. To throw a file away use trash_files.',
+       inputSchema: {
+         action: z.enum(['rename', 'move']),
+         fileId: z.string().describe('File id as returned by search_files.'),
+diff --color -ruN fixtures/p2b_repo/src/tools/trashFiles.ts p2b_out/haiku/src/tools/trashFiles.ts
+--- fixtures/p2b_repo/src/tools/trashFiles.ts	1970-01-01 01:00:00
++++ p2b_out/haiku/src/tools/trashFiles.ts	2026-10-29 15:59:52
+@@ -0,0 +1,38 @@
++import { z } from 'zod'
++import type { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js'
++import { drive } from '../drive.js'
++
++export function registerTrashFiles(server: McpServer) {
++  server.registerTool(
++    'trash_files',
++    {
++      description:
++        'Move files to Trash, which empties itself after 30 days. Use it for "throw this away", "trash these", or "delete this"; there is no permanent delete. Returns a summary line and the outcome for each id, so a partly failed batch still reports what was trashed. To rename or move a file use manage_file instead, and to find files use search_files first.',
++      inputSchema: {
++        ids: z
++          .array(z.string().min(1))
++          .min(1)
++          .max(50)
++          .describe('File ids to trash, as returned by search_files. Up to 50 per call.'),
++      },
++      annotations: { readOnlyHint: false, destructiveHint: true, idempotentHint: false, openWorldHint: false },
++    },
++    async ({ ids }) => {
++      const trashed: string[] = []
++      const failed: string[] = []
++      for (const id of ids) {
++        try {
++          await drive.trash(id)
++          trashed.push(id)
++        } catch (err) {
++          failed.push(`${id}: not trashed (${(err as Error).message})`)
++        }
++      }
++      const lines = [`Trashed ${trashed.length} of ${ids.length} files.`, ...trashed.map((id) => `${id}: trashed`), ...failed]
++      return {
++        isError: trashed.length === 0,
++        content: [{ type: 'text' as const, text: lines.join('\n') }],
++      }
++    }
++  )
++}
+diff --color -ruN fixtures/p2b_repo/test/manageFile.test.ts p2b_out/haiku/test/manageFile.test.ts
+--- fixtures/p2b_repo/test/manageFile.test.ts	2026-10-29 15:55:34
++++ p2b_out/haiku/test/manageFile.test.ts	2026-10-29 15:59:56
+@@ -7,9 +7,16 @@
+   expect(manage?.inputSchema.properties.action.enum).toEqual(['rename', 'move'])
+ })
+ 
+-test('public tool surface is unchanged', async () => {
++test('public tool surface is search_files, manage_file and trash_files', async () => {
+   const names = (await listTools(server)).map((t) => t.name).sort()
+-  expect(names).toEqual(['manage_file', 'search_files'])
++  expect(names).toEqual(['manage_file', 'search_files', 'trash_files'])
++})
++
++test('trash_files is destructive and is not an action of manage_file', async () => {
++  const tools = await listTools(server)
++  const trash = tools.find((t) => t.name === 'trash_files')
++  expect(trash?.annotations.destructiveHint).toBe(true)
++  expect(tools.find((t) => t.name === 'manage_file')?.annotations.destructiveHint).toBe(false)
+ })
+ 
+ declare function listTools(s: unknown): Promise<any[]>

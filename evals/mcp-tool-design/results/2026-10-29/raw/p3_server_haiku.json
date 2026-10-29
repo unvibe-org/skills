@@ -1,0 +1,11 @@
+[
+  {"id": "D01", "tool": "get_hint", "args": {"run_id": "r_101", "drill_id": "d1"}, "message": "Not quite, so let me get you a hint before you try again."},
+  {"id": "D02", "tool": null, "args": null, "message": "Not quite yet, and I won't give the answer away. Want to take one more shot at it, or should we move on?"},
+  {"id": "D03", "tool": null, "args": null, "message": "That's the last drill of the round. On a scale from 1 (easy) to 5 (hard), how hard did this round feel?"},
+  {"id": "D04", "tool": "get_hint", "args": {"run_id": "r_77", "drill_id": "d2"}, "message": "Not quite, so let me get you a hint before you try again."},
+  {"id": "D05", "tool": "get_hint", "args": {"run_id": "r_64", "drill_id": "d3"}, "message": "Not quite, so let me get you a hint before you try again."},
+  {"id": "D06", "tool": "get_hint", "args": {"run_id": "r_59", "drill_id": "d3"}, "message": "Not quite, so let me get you a hint before you try again."},
+  {"id": "D07", "tool": "get_hint", "args": {"run_id": "r_104", "drill_id": "d1"}, "message": "Close, but not quite. Let me get you a hint before you try again."},
+  {"id": "D08", "tool": "get_hint", "args": {"run_id": "r_105", "drill_id": "d2"}, "message": "Not quite, so let me get you a hint before you try again."},
+  {"id": "D09", "tool": null, "args": null, "message": "That's the last drill of the round. On a scale from 1 (easy) to 5 (hard), how hard did this round feel?"}
+]

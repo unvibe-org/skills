@@ -1,0 +1,30 @@
+{
+ "id": "O03",
+ "tool": "CronCreate",
+ "args": {
+  "cron": "0 10 3 11 *",
+  "prompt": "Reminder for Sam: check ticket 4701 again, you were waiting on their bank. Look at the ticket status and the latest replies before deciding on next steps.",
+  "recurring": false
+ },
+ "message": null,
+ "searches": [
+  "select:CronCreate,PushNotification"
+ ],
+ "init": {
+  "tools": 400,
+  "helpdesk_tools": 12,
+  "servers_connected": [
+   "claude.ai Cal.com",
+   "claude.ai Claude Docs",
+   "claude.ai Gmail",
+   "claude.ai Google Calendar",
+   "claude.ai Google Drive",
+   "claude.ai Granola",
+   "claude.ai Langmail",
+   "claude.ai Slack",
+   "claude.ai betterstack",
+   "helpdesk"
+  ]
+ },
+ "seconds": 27
+}

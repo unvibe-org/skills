@@ -1,0 +1,352 @@
+[
+  {
+    "name": "mcp__claude_ai_Gmail__apply_sensitive_message_label",
+    "server": "Gmail",
+    "description": "Prefer `trash_message` or `mark_message_spam` instead.\n\nAdds a sensitive label (Trash or Spam) to a single message in the authenticated user's Gmail account.\n\nUse `apply_sensitive_message_label` when applying Trash or Spam to exactly 1 message. To apply sensitive labels to multiple messages, use `batch_apply_sensitive_message_labels` instead. If the message belongs to a thread that should be labeled as a whole, prefer `trash_thread` or `mark_thread_spam`.\n\nTo find the message ID, use the `get_thread` tool. To find the draft message ID, use tools like `list_drafts`.\n",
+    "params": ["labelOption", "messageId"],
+    "required": ["messageId", "labelOption"]
+  },
+  {
+    "name": "mcp__claude_ai_Gmail__apply_sensitive_thread_label",
+    "server": "Gmail",
+    "description": "Prefer `trash_thread` or `mark_thread_spam` instead.\n\nAdds a sensitive label (Trash or Spam) to a single thread in the authenticated user's Gmail account. This operation affects all messages currently in the thread.\n\nUse `apply_sensitive_thread_label` when applying Trash or Spam to exactly 1 thread. To apply sensitive labels to multiple threads, use `batch_apply_sensitive_thread_labels` instead.\n",
+    "params": ["labelOption", "threadId"],
+    "required": ["threadId", "labelOption"]
+  },
+  {
+    "name": "mcp__claude_ai_Gmail__create_draft",
+    "server": "Gmail",
+    "description": "Creates a new draft email in the authenticated user's Gmail account.\n\nThis tool takes recipient addresses (`to`, `cc`, `bcc`), a `subject`, and body content as inputs. Plain text body content can be provided in `body` (do NOT format `body` with Markdown), and rich-text HTML content can be provided in `htmlBody` (use valid HTML tags for formatting; if both are provided, `body` serves as the plain-text alternative). If the draft is created as a reply to an existing message, the ID of the original message should be passed to the tool in the `replyToMessageId` field. Set `includeSignature` to true to append the user's configured Gmail web signature to the draft.\n\nReturns a Draft object with the `id`, `threadId`, and `viewUrl` fields populated.\n",
+    "params": ["attachments", "bcc", "body", "cc", "htmlBody", "includeSignature", "replyToMessageId", "subject", "to"],
+    "required": []
+  },
+  {
+    "name": "mcp__claude_ai_Gmail__create_label",
+    "server": "Gmail",
+    "description": "Creates a new label in the authenticated user's Gmail account.\nSupports creating nested labels (sub-labels) using a forward slash (e.g., 'Projects/Alpha/Sprint-1').\nBy default, parent labels will be automatically created if they do not exist.\n",
+    "params": ["autoCreateParentLabels", "color", "colorPreset", "displayName", "labelListVisibility", "messageListVisibility"],
+    "required": ["displayName"]
+  },
+  {
+    "name": "mcp__claude_ai_Gmail__delete_draft",
+    "server": "Gmail",
+    "description": "Deletes a draft email in the authenticated user's Gmail account using its draft ID.",
+    "params": ["draftId"],
+    "required": ["draftId"]
+  },
+  {
+    "name": "mcp__claude_ai_Gmail__delete_label",
+    "server": "Gmail",
+    "description": "Deletes a label in the authenticated user's Gmail account.",
+    "params": ["labelId"],
+    "required": ["labelId"]
+  },
+  {
+    "name": "mcp__claude_ai_Gmail__forward",
+    "server": "Gmail",
+    "description": "Forwards a specific email message in the authenticated user's Gmail account. Optional comments can be added before the forwarded message using `forwardText` for plain text (do NOT format with Markdown) or `htmlBody` for rich HTML. Additional attachments can be included via the `attachments` field (in addition to any attachments on the original message), but the combined size cannot exceed 25MB. Set `includeSignature` to true to append the user's configured Gmail web signature to the forwarded message.\n\nReturns a Message object with the `id`, `threadId`, and `labelIds` fields populated.\n",
+    "params": ["attachments", "bcc", "cc", "forwardText", "htmlBody", "includeSignature", "messageId", "to"],
+    "required": ["messageId"]
+  },
+  {
+    "name": "mcp__claude_ai_Gmail__get_draft",
+    "server": "Gmail",
+    "description": "Retrieves a specific draft email from the authenticated user's Gmail account by ID, including its `viewUrl` for viewing and editing in the Gmail Web UI.\n\nThe optional `messageFormat` parameter controls the format of the draft returned. Use `MINIMAL` to return snippet and key headers, `METADATA_ONLY` to exclude snippet, subject, and body, `FULL_CONTENT` for the complete draft, or `RAW` for the raw MIME message content.\n",
+    "params": ["draftId", "messageFormat"],
+    "required": ["draftId"]
+  },
+  {
+    "name": "mcp__claude_ai_Gmail__get_message",
+    "server": "Gmail",
+    "description": "Retrieves a specific email message from the authenticated user's Gmail account by its unique message ID, including its `viewUrl`.\n\nUse this tool to inspect a single, individual email when you already know its message ID. If the user wants to read a specific email in detail, check the exact wording of a message, or examine attachment metadata for a single email, this is the right tool. It is not suitable for retrieving entire conversations or viewing back-and-forth discussion threads; use the 'get_thread' tool instead.\nNote: This tool does not support retrieving draft messages. To view drafts, use the 'list_drafts' tool instead.\nKey indicators include if the user asks for the full content of a specific message ID returned by a previous search, or if the query asks to inspect a specific individual email rather than an entire thread.\nExample user prompts are: \"Get the full text of message ID 18f123456789abcd.\", \"Read the latest message in that thread from Alice.\", and \"What are the attachment names in the email I just received from HR?\" \n\nThe optional `messageFormat` parameter controls the format of the message returned. By default (or with `FULL_CONTENT`), it returns the full content of the message. We recommend using `PLAIN_TEXT`, which returns the plain text body without the HTML body. Use `MINIMAL` to include only subject and snippet (excluding body). Use `METADATA_ONLY` to include only basic metadata (message ID, thread ID, viewUrl, labels, timestamp, and size estimate).\n",
+    "params": ["messageFormat", "messageId"],
+    "required": ["messageId"]
+  },
+  {
+    "name": "mcp__claude_ai_Gmail__get_thread",
+    "server": "Gmail",
+    "description": "Retrieves a specific email thread from the authenticated user's Gmail account, including its `viewUrl` and a list of its messages (each with their own `viewUrl`).\n\nNote: This tool does not support retrieving drafts. Any draft messages within a thread are omitted. To view drafts, use the `list_drafts` tool instead.\n\nThe optional `messageFormat` parameter controls the format of the messages returned. By default (or with `FULL_CONTENT`), it returns the full content of messages. We recommend using `PLAIN_TEXT`, which returns the plain text body without the HTML body. Use `MINIMAL` to include only subject and snippet (excluding body). Use `METADATA_ONLY` to include only basic metadata (message ID, thread ID, viewUrl, labels, timestamp, and size estimate).\n",
+    "params": ["messageFormat", "threadId"],
+    "required": ["threadId"]
+  },
+  {
+    "name": "mcp__claude_ai_Gmail__label_message",
+    "server": "Gmail",
+    "description": "Adds one or more labels to a specific message in the authenticated user's Gmail account.\n\nTo find the message ID, use the `get_thread` tool. If unsure of a user label's ID, use the `list_labels` tool first to discover available labels and their IDs.\nTo move a message to a different inbox category tab, add the target `CATEGORY_*` label (e.g. `CATEGORY_PERSONAL` for Primary); Gmail automatically removes the previous category.\nTo move a specific message to Trash or mark it as Spam, please use the `trash_message` or `mark_message_spam` tool instead.\n",
+    "params": ["labelIds", "messageId"],
+    "required": ["messageId", "labelIds"]
+  },
+  {
+    "name": "mcp__claude_ai_Gmail__label_thread",
+    "server": "Gmail",
+    "description": "Adds labels to an entire thread in the authenticated user's Gmail account. This operation affects all messages currently in the thread and any future messages added to it.\n\nIf unsure of a user label's ID, use the `list_labels` tool first to discover available labels and their IDs. To move a thread to a different inbox category tab, add the target `CATEGORY_*` label (e.g. `CATEGORY_PERSONAL` for Primary); Gmail automatically removes the previous category. To move a thread to Trash or mark it as Spam, please use the `trash_thread` or `mark_thread_spam` tool instead.\n",
+    "params": ["labelIds", "threadId"],
+    "required": ["threadId", "labelIds"]
+  },
+  {
+    "name": "mcp__claude_ai_Gmail__list_drafts",
+    "server": "Gmail",
+    "description": "Lists draft emails from the authenticated user's Gmail account, optionally filtered by a query string.\n\nNote: An empty JSON object `{}` represents zero matching items, not an error.\n",
+    "params": ["pageSize", "pageToken", "query", "view"],
+    "required": []
+  },
+  {
+    "name": "mcp__claude_ai_Gmail__list_labels",
+    "server": "Gmail",
+    "description": "Lists all labels available in the authenticated user's Gmail account. Use this tool to discover the `id` of a label before calling `label_thread`, `unlabel_thread`, `label_message`, or `unlabel_message`. Note: the system labels, `DRAFT` and `SENT`, cannot be set on messages and are read only.\n\nInbox category tabs are represented by system labels: `CATEGORY_PERSONAL` (Primary), `CATEGORY_SOCIAL` (Social), `CATEGORY_PROMOTIONS` (Promotions), `CATEGORY_UPDATES` (Updates), and `CATEGORY_FORUMS` (Forums). A message has at most one category: adding a category label moves the message to that tab and automatically removes its previous category, and removing a category label without adding another moves the message to Primary.\n\nNote: An empty JSON object `{}` represents zero matching items, not an error.\n",
+    "params": [],
+    "required": []
+  },
+  {
+    "name": "mcp__claude_ai_Gmail__mark_message_spam",
+    "server": "Gmail",
+    "description": "Marks a specific message as Spam in the authenticated user's Gmail account.\n\nTo find the message ID, use the `get_thread` tool.\n",
+    "params": ["messageId"],
+    "required": ["messageId"]
+  },
+  {
+    "name": "mcp__claude_ai_Gmail__mark_thread_spam",
+    "server": "Gmail",
+    "description": "Marks an entire thread as Spam in the authenticated user's Gmail account. This operation affects all messages currently in the thread.\n\nUse `mark_thread_spam` when marking a thread as spam, even if it currently contains only 1 message. Marking spam at the thread level ensures all current messages in the thread are marked as Spam.\n",
+    "params": ["threadId"],
+    "required": ["threadId"]
+  },
+  {
+    "name": "mcp__claude_ai_Gmail__reply",
+    "server": "Gmail",
+    "description": "Replies to a specific email message in the authenticated user's Gmail account. Supports replying to only the sender or to all recipients (reply-all) via the `replyAll` parameter.\n\nRequires the `messageId` of the message to reply to. Plain text body content can be provided in `body` (do NOT format `body` with Markdown), and rich-text HTML content in `htmlBody` (use valid HTML tags). If `htmlBody` is not provided, then `body` is required. If `body` is not provided, then `htmlBody` is required. Attachments can be included via the `attachments` field, but the combined size cannot exceed 25MB. Set `includeSignature` to true to append the user's configured Gmail web signature to the reply. To reply to an existing thread, retrieve the thread via `get_thread` first to find the `messageId` of the latest message in that thread.\n\nReturns a Message object with the `id`, `threadId`, and `labelIds` fields populated.\n",
+    "params": ["attachments", "bcc", "body", "cc", "htmlBody", "includeSignature", "messageId", "replyAll", "to"],
+    "required": ["messageId"]
+  },
+  {
+    "name": "mcp__claude_ai_Gmail__search_threads",
+    "server": "Gmail",
+    "description": "Lists email threads from the authenticated user's Gmail account.\n\nThis tool can filter threads based on a query string and supports pagination. It returns a list of threads, each with its thread `id`, `messageCount` (total messages in the thread), `viewUrl`, and a subset of up to 5 related messages (each with its own message `id`, `viewUrl`, `sender`, recipients, `date`, and `labelIds`). Use this tool to find thread `id`s matching a query before reading full threads or performing actions on matching emails or threads. The `view` parameter controls which additional fields are populated in the returned message subset. By default (or with `THREAD_VIEW_MINIMAL`), it includes `subject` and `snippet`. Use `THREAD_VIEW_METADATA_ONLY` to exclude `subject` and `snippet`. Full message bodies, attachment metadata, and messages beyond the 5-message subset are not returned by this tool; use the 'get_thread' tool with a thread ID to retrieve all messages (and their message IDs) in a thread or to fetch full message bodies. Threads with excluded criteria may still appear in the results. This occurs because Gmail identifies matching messages first. For example, if you search for -is:starred, Gmail will find an entire thread if it contains at least one unstarred message, even if other emails in that same conversation are starred.\n\nTo list threads in a specific inbox category tab, use the `category:` operator with `primary`, `social`, `promotions`, `updates`, or `forums` (e.g. `in:inbox category:promotions`).\n\nWhen filtering by date, `after:` and `before:` both evaluate against midnight (00:00:00) of the specified date (`after:` is inclusive, `before:` is exclusive). To search through a specific day D (or for a date range), set `before:` to the day after (e.g. `after:2026/02/01 before:2026/02/02` for Feb 1, or `after:2026/02/01 before:2026/02/06` for Feb 1–5).\n\nWhen searching for numbers, a space or dash (`-`) separates numbers while a dot (`.`) is treated as a decimal (e.g., `01.2047-100` is parsed as two numbers: `01.2047` and `100`). To search for hyphenated or dotted identifiers (such as order numbers, tracking IDs, or invoice codes like `INV-12345`), enclose them in double quotes (e.g. \"INV-12345\" or \"01.2047-100\") so the dash is not interpreted as a negation operator.\n\nNote: An empty JSON object `{}` represents zero matching items, not an error.\n",
+    "params": ["includeTrash", "pageSize", "pageToken", "query", "view"],
+    "required": []
+  },
+  {
+    "name": "mcp__claude_ai_Gmail__send_message",
+    "server": "Gmail",
+    "description": "Sends a new email message immediately from the authenticated user's Gmail account.\n\nTo send an existing draft message, provide the `draftId`. To send a new message, provide recipients in `to`, `cc`, or `bcc`, a `subject`, and message content in `body` or `htmlBody` (plain text in `body`, rich HTML in `htmlBody`; do NOT format `body` with Markdown). To thread the message under an existing thread or conversation, provide `replyThreadId` (preferred for send-only clients) or `replyToMessageId`. If sending a new message, attachments can be included via the `attachments` field, but the combined size cannot exceed 25MB. Set `includeSignature` to true to append the user's configured Gmail web signature when sending a new message (ignored if `draftId` is provided).\n\nReturns a Message object with the `id`, `threadId`, and `labelIds` fields populated.\n",
+    "params": ["attachments", "bcc", "body", "cc", "draftId", "htmlBody", "includeSignature", "replyThreadId", "replyToMessageId", "subject", "to"],
+    "required": []
+  },
+  {
+    "name": "mcp__claude_ai_Gmail__trash_message",
+    "server": "Gmail",
+    "description": "Moves a specific message to the Trash (soft delete) in the authenticated user's Gmail account.\n\nThis is the default tool (along with `trash_thread`) when a user asks to 'delete', 'remove', or 'get rid of' a message without explicitly requesting permanent, irreversible deletion. Use `trash_message` when targeting a specific message within a thread. To trash an entire thread or a single-message thread, prefer `trash_thread`.\n\nTo find the message ID, use the `get_thread` tool. To find the draft message ID, use tools like `list_drafts`.\n",
+    "params": ["messageId"],
+    "required": ["messageId"]
+  },
+  {
+    "name": "mcp__claude_ai_Gmail__trash_thread",
+    "server": "Gmail",
+    "description": "Moves an entire thread to the Trash (soft delete) in the authenticated user's Gmail account. This operation affects all messages currently in the thread.\n\nThis is the default tool (along with `trash_message`) when a user asks to 'delete', 'remove', or 'get rid of' an email or thread without explicitly requesting permanent, irreversible deletion. Use `trash_thread` when trashing a thread, even if it currently contains only 1 message. Trashing at the thread level ensures all current messages in the thread are moved to Trash.\n",
+    "params": ["threadId"],
+    "required": ["threadId"]
+  },
+  {
+    "name": "mcp__claude_ai_Gmail__unlabel_message",
+    "server": "Gmail",
+    "description": "Removes one or more labels from a specific message in the authenticated user's Gmail account. To find the message ID, use the `get_thread` tool. If unsure of a user label's ID, use the `list_labels` tool first to discover available labels and their IDs.",
+    "params": ["labelIds", "messageId"],
+    "required": ["messageId", "labelIds"]
+  },
+  {
+    "name": "mcp__claude_ai_Gmail__unlabel_thread",
+    "server": "Gmail",
+    "description": "Removes labels from an entire thread in the authenticated user's Gmail account. This operation affects all messages currently in the thread.\n\nUse `unlabel_thread` when removing labels from an email or thread (such as marking it as read by removing `UNREAD`, archiving it by removing `INBOX`, or removing user-defined labels), even if the thread currently contains only 1 message. If unsure of a user label's ID, use the `list_labels` tool first.\n",
+    "params": ["labelIds", "threadId"],
+    "required": ["threadId", "labelIds"]
+  },
+  {
+    "name": "mcp__claude_ai_Gmail__unmark_message_spam",
+    "server": "Gmail",
+    "description": "Unmarks a specific message as Spam in the authenticated user's Gmail account.\n\nTo find the message ID, use the `get_thread` tool.\n",
+    "params": ["messageId"],
+    "required": ["messageId"]
+  },
+  {
+    "name": "mcp__claude_ai_Gmail__unmark_thread_spam",
+    "server": "Gmail",
+    "description": "Unmarks an entire thread as Spam in the authenticated user's Gmail account.\n",
+    "params": ["threadId"],
+    "required": ["threadId"]
+  },
+  {
+    "name": "mcp__claude_ai_Gmail__untrash_message",
+    "server": "Gmail",
+    "description": "Removes a specific message from the Trash in the authenticated user's Gmail account.\n\nTo find the message ID, use the `get_thread` tool.\n",
+    "params": ["messageId"],
+    "required": ["messageId"]
+  },
+  {
+    "name": "mcp__claude_ai_Gmail__untrash_thread",
+    "server": "Gmail",
+    "description": "Removes an entire thread from the Trash in the authenticated user's Gmail account.\n",
+    "params": ["threadId"],
+    "required": ["threadId"]
+  },
+  {
+    "name": "mcp__claude_ai_Gmail__update_draft",
+    "server": "Gmail",
+    "description": "Updates an existing draft email in the authenticated user's Gmail account. This operation supports merge semantics: fields provided in the request (non-empty) will overwrite the corresponding fields in the draft, while omitted (or empty) fields will preserve their existing values. Plain text body content can be provided in `body` (do NOT format `body` with Markdown), and rich-text HTML content can be provided in `htmlBody` (use valid HTML tags for formatting; if only one is provided, the other is cleared to keep content in sync). WARNING: Attachments are NOT merged. If the draft contains attachments, they will be removed unless they are explicitly re-provided in the `attachments` field of this request.\n\nReturns a Draft object with the `id`, `threadId`, and `viewUrl` fields populated.\n",
+    "params": ["attachments", "bcc", "body", "cc", "draftId", "htmlBody", "subject", "to"],
+    "required": ["draftId"]
+  },
+  {
+    "name": "mcp__claude_ai_Gmail__update_label",
+    "server": "Gmail",
+    "description": "Modifies an existing label's name, color, and visibility settings in the user's Gmail account.\n",
+    "params": ["color", "colorPreset", "displayName", "labelId", "labelListVisibility", "messageListVisibility"],
+    "required": ["labelId"]
+  },
+  {
+    "name": "mcp__claude_ai_Gmail__update_message_labels",
+    "server": "Gmail",
+    "description": "Atomically adds and/or removes labels from a specific message in the authenticated user's Gmail account.\n\nRequires at least one of `addLabelIds` or `removeLabelIds` to be provided. Moving an email between labels can be accomplished in a single call by specifying the target label in `addLabelIds` and the current label in `removeLabelIds`.\nFor inbox category tabs, adding the target `CATEGORY_*` label (e.g. `CATEGORY_PERSONAL` for Primary) is sufficient; Gmail automatically removes the previous category.\n",
+    "params": ["addLabelIds", "messageId", "removeLabelIds"],
+    "required": ["messageId"]
+  },
+  {
+    "name": "mcp__claude_ai_Google_Calendar__create_event",
+    "server": "Google_Calendar",
+    "description": "Creates an event on the given calendar.",
+    "params": ["addGoogleMeetUrl", "allDay", "attachments", "attendeeEmails", "attendees", "availability", "calendarId", "colorId", "description", "endTime", "eventType", "googleMeetUrl", "guestPermissions", "location", "notificationLevel", "overrideReminders", "recurrenceData", "startTime", "summary", "timeZone", "useDefaultReminders", "visibility", "workingLocationProperties"],
+    "required": ["summary", "startTime", "endTime"]
+  },
+  {
+    "name": "mcp__claude_ai_Google_Calendar__delete_event",
+    "server": "Google_Calendar",
+    "description": "Deletes an event on the given calendar.",
+    "params": ["calendarId", "eventId", "notificationLevel"],
+    "required": ["eventId"]
+  },
+  {
+    "name": "mcp__claude_ai_Google_Calendar__get_event",
+    "server": "Google_Calendar",
+    "description": "Returns a single event on the given calendar.",
+    "params": ["calendarId", "eventId"],
+    "required": ["eventId"]
+  },
+  {
+    "name": "mcp__claude_ai_Google_Calendar__list_calendars",
+    "server": "Google_Calendar",
+    "description": "Returns the calendars this user owns or has subscribed to. These are the calendars that show up in the calendar list if the user opens Google Calendar. This tool returns a subset of all accessible calendars; other calendars shared with the user can be accessed directly by their `calendar_id` (email identifier) without subscribing to them first. Use this tool to resolve calendar identifying data (for example, 'my family calendar') into its corresponding `calendar_id` (email identifier).",
+    "params": ["pageSize", "pageToken"],
+    "required": []
+  },
+  {
+    "name": "mcp__claude_ai_Google_Calendar__list_events",
+    "server": "Google_Calendar",
+    "description": "Returns events on the given calendar matching all specified constraints. Time constraints should not be specified unless requested by the user. For open-ended keyword or topic-based searches on the primary calendar, the search_events tool must be used instead.",
+    "params": ["calendarId", "endTime", "eventType", "eventTypeFilter", "fullText", "orderBy", "pageSize", "pageToken", "startTime", "timeZone"],
+    "required": []
+  },
+  {
+    "name": "mcp__claude_ai_Google_Calendar__respond_to_event",
+    "server": "Google_Calendar",
+    "description": "Responds to an event on a calendar.",
+    "params": ["calendarId", "eventId", "notificationLevel", "responseComment", "responseStatus"],
+    "required": ["eventId", "responseStatus"]
+  },
+  {
+    "name": "mcp__claude_ai_Google_Calendar__search_events",
+    "server": "Google_Calendar",
+    "description": "Searches events on the user's primary calendar using semantic search.",
+    "params": ["pageSize", "pageToken", "query"],
+    "required": ["query"]
+  },
+  {
+    "name": "mcp__claude_ai_Google_Calendar__suggest_time",
+    "server": "Google_Calendar",
+    "description": "Suggests time periods across one or more calendars.",
+    "params": ["attendeeEmails", "durationMinutes", "endTime", "preferences", "startTime", "timeZone"],
+    "required": ["attendeeEmails", "startTime", "endTime"]
+  },
+  {
+    "name": "mcp__claude_ai_Google_Calendar__update_event",
+    "server": "Google_Calendar",
+    "description": "Updates an event on the given calendar.",
+    "params": ["addGoogleMeetUrl", "addedAttachments", "addedAttendeeEmails", "addedAttendees", "allDay", "availability", "calendarId", "colorId", "description", "endTime", "eventId", "googleMeetUrl", "guestPermissions", "location", "notificationLevel", "overrideReminders", "removedAttachmentFileUrls", "removedAttendeeEmails", "startTime", "summary", "timeZone", "useDefaultReminders", "visibility"],
+    "required": ["eventId"]
+  },
+  {
+    "name": "mcp__claude_ai_Google_Drive__copy_file",
+    "server": "Google_Drive",
+    "description": "Call this tool to copy an existing File in Google Drive.\nThe tool allows specifying a new title and a parent folder for the copy.\nIf the title is not specified, the copy title will be 'Copy of {original title}'.\nIf the parent folder is not specified, the copy will be created in the same folder as the original file, unless the requesting user does not have write access to that folder, in which case the copy will be created in the user's root folder.\nPregenerated file IDs (`pregeneratedId`, obtained from `generate_ids`) are supported when copying non-Google Workspace files.\nReturns the newly created File object upon successful copying.\n",
+    "params": ["fileId", "parentId", "pregeneratedId", "title"],
+    "required": ["fileId"]
+  },
+  {
+    "name": "mcp__claude_ai_Google_Drive__create_file",
+    "server": "Google_Drive",
+    "description": "Call this tool to create or upload a File to Google Drive.\n\nIf uploading content, prefer `textContent` for text content. For non-UTF8 contents, use the `base64Content` field and base64 encode the data to set on that field.\n\nReturns a single File object upon successful creation.\n\nThe following Google first-party mime types can be created without providing content:\n\n - `application/vnd.google-apps.document` \n - `application/vnd.google-apps.spreadsheet` \n - `application/vnd.google-apps.presentation` \n\nFolders can be created by setting the mime type to `application/vnd.google-apps.folder`.\n\nWhen uploading content, the `contentMimeType` field is required and should match the type of the content being uploaded.\n\nBy default, supported content will be converted to Google first-party mime types.\n\nTo disable conversions for first-party mime types, set `disableConversionToGoogleType` to true.\n\nPregenerated file IDs (`pregeneratedId`) are supported for non-Google Workspace files and folders (`application/vnd.google-apps.folder`). When uploading content with `pregeneratedId`, `disableConversionToGoogleType` must be set to true.\n",
+    "params": ["base64Content", "content", "contentMimeType", "disableConversionToGoogleType", "inheritedPermissionsDisabled", "mimeType", "parentId", "pregeneratedId", "textContent", "title"],
+    "required": ["title"]
+  },
+  {
+    "name": "mcp__claude_ai_Google_Drive__download_file_content",
+    "server": "Google_Drive",
+    "description": "Call this tool to download the content of a Drive file as a base64 encoded string.\n\nIf the file is a Google Drive first-party mime type, the `exportMimeType` field specifies the desired export mime type. When the field is unset, defaults to plain text types (e.g. `text/plain`, `text/csv`).\n\nIf the file is not found, try using other tools like `search_files` to find the file the user is requesting.\n\nIf the user wants a natural language representation of their Drive content, use the `read_file_content` tool (`read_file_content` should be smaller and easier to parse).\n",
+    "params": ["exportMimeType", "fileId", "revisionId"],
+    "required": ["fileId"]
+  },
+  {
+    "name": "mcp__claude_ai_Google_Drive__get_file_metadata",
+    "server": "Google_Drive",
+    "description": "Call this tool to find general metadata about a user's Drive file.\n\nContext window token management can be tuned via `snippetVerbosity` (default is `SnippetVerbosity.DETAILED`) or if only metadata is needed, use `excludeContentSnippets`.\n\nIf the file is not found, try using other tools like `search_files` to find the file the user is requesting.\n",
+    "params": ["excludeContentSnippets", "fileId", "snippetVerbosity"],
+    "required": ["fileId"]
+  },
+  {
+    "name": "mcp__claude_ai_Google_Drive__get_file_permissions",
+    "server": "Google_Drive",
+    "description": "Call this tool to list the permissions of a Drive File.\n",
+    "params": ["fileId"],
+    "required": ["fileId"]
+  },
+  {
+    "name": "mcp__claude_ai_Google_Drive__list_recent_files",
+    "server": "Google_Drive",
+    "description": "Call this tool to find recent files for a user specified a sort order. Default sort order is `recency` if orderBy is not set or set to an unsupported value.\n\nContext window token management can be tuned via `snippetVerbosity` (default is `SnippetVerbosity.DETAILED`) or if only metadata is needed, use `excludeContentSnippets`.\n\nSupported sort orders are:\n\n - `recency`: The most recent timestamp from the file's date-time fields.\n - `lastModified`: The last time the file was modified by anyone.\n - `lastModifiedByMe`: The last time the file was modified by the user.\n\nThe default page size is 10. Utilize `next_page_token` to paginate through the results.\n",
+    "params": ["excludeContentSnippets", "orderBy", "pageSize", "pageToken", "snippetVerbosity"],
+    "required": []
+  },
+  {
+    "name": "mcp__claude_ai_Google_Drive__read_file_content",
+    "server": "Google_Drive",
+    "description": "Call this tool to fetch a natural language representation of a known Drive file, and if specified, its comments.\n\nREQUIREMENTS & WORKFLOW:\n - `fileId` is required. You MUST pass an exact Drive file ID returned by a previous discovery tool (`search_files` or `list_recent_files`) or provided explicitly in the user prompt.\n - NEVER guess, invent, or hallucinate a `fileId` string from a file title or name.\n - If given a file title, name, or topic without an explicit `fileId`, you MUST FIRST call `search_files` to find the file and retrieve its `fileId` before invoking this tool.\n\nThe file content may be incomplete for very large files. The text representation will change over time, so don't make assumptions about the particular format of the text returned by this tool. If supported and specified, comment tags will be included in the content.\n\nSupported Mime Types:\n\n - `application/vnd.google-apps.document` (supports comments)\n - `application/vnd.google-apps.presentation` (supports comments)\n - `application/vnd.google-apps.spreadsheet` (supports comments)\n - `application/pdf` \n - `application/msword` \n - `application/vnd.openxmlformats-officedocument.wordprocessingml.document` \n - `application/vnd.openxmlformats-officedocument.spreadsheetml.sheet` \n - `application/vnd.openxmlformats-officedocument.presentationml.presentation` \n - `application/vnd.oasis.opendocument.spreadsheet` \n - `application/vnd.oasis.opendocument.presentation` \n - `application/x-vnd.oasis.opendocument.text` \n - `image/png` \n - `image/jpeg` \n - `image/jpg` \n\nIf the file is not found, try using other tools like `search_files` to find the file the user is requesting using keywords.\n",
+    "params": ["fileId", "includeComments"],
+    "required": ["fileId"]
+  },
+  {
+    "name": "mcp__claude_ai_Google_Drive__search_files",
+    "server": "Google_Drive",
+    "description": "Search for Drive files using a structured query (syntax: `query_term operator values`). Only terms in this list are supported.\nCombine clauses with `and`, `or`, `not`, and parentheses. String values must be single-quoted; escape embedded quotes as `\\'`.\nContext window token management can be tuned via `snippetVerbosity` (default is `SnippetVerbosity.DETAILED`) or if only metadata is needed, use `excludeContentSnippets`.\n\nPrefer `title contains` over `title =` unless an explicit title is provided. Do NOT include document type terms (e.g., 'presentation', 'slides', 'deck', 'document', 'doc', 'spreadsheet', 'sheet', 'pdf', 'folder') inside `title contains '...'` or `fullText contains '...'` clauses. Separate title keywords from file type terms and map them to `mimeType` clauses in the query.\n\nQuery terms & operators:\n\n - `title` (ops: contains, =, !=) — file title\n - `fullText` (ops: contains) — title or body text\n - `mimeType` (ops: contains, =, !=) — MIME type\n - `modifiedTime`, `viewedByMeTime`, `createdTime` (ops: `<=`, `<`, `=`, `!=`, `>`, `>=`). Use RFC 3339 UTC, e.g., `2012-06-04T12:00:00-08:00`. Date types not comparable.\n - `parentId` (ops: `=`, `!=`). Use `'root'` for the user's \"My Drive\".\n - `owner` (ops: `=`, `!=`). Use `'me'` for the requesting user.\n - `sharedWithMe` (ops: `=`, `!=`). Values: `true` or `false`.\n - `starred` (ops: `=`, `!=`). Values: `true` or `false`.\n - `folderProperties` (ops: `in`): `'syncedComputer'` (synced computer), `'syncFolder'` (synced folder).\n\nOther operators: `and`, `or`, `not`, `in`.\n\nExamples:\n\n - `title contains 'hello' and title contains 'goodbye'`\n - `modifiedTime > '2024-01-01T00:00:00Z' and (mimeType contains 'image/' or mimeType contains 'video/')`\n - `parentId = '1234567'`\n - `fullText contains 'hello'`\n - `owner = 'test@example.org'`\n - `sharedWithMe = true`\n - `starred = true`\n - `owner = 'me'` (for files owned by the user)\n\nUse `next_page_token` to paginate. Duplicate results can occur across page boundaries. An empty response means no more results.\n",
+    "params": ["excludeContentSnippets", "pageSize", "pageToken", "query", "snippetVerbosity"],
+    "required": []
+  },
+  {
+    "name": "mcp__claude_ai_Google_Drive__share_file",
+    "server": "Google_Drive",
+    "description": "Call this tool to share a Google Drive file with a user, group, or Google Chat space.\n\nIf the user or group already has permission to the file, this tool will update their permission level to match the role in this request, if the new role is higher than their current role, or update the expiration time if `expiration_time` is provided.\n",
+    "params": ["chatSpaceId", "emailAddress", "expirationTime", "fileId", "role"],
+    "required": ["fileId", "role"]
+  },
+  {
+    "name": "mcp__claude_ai_Google_Drive__trash_file",
+    "server": "Google_Drive",
+    "description": "Moves a Google Drive file to the user's trash.\nIt does not permanently delete the file.Returns an empty response upon successful completion.\n",
+    "params": ["fileId"],
+    "required": ["fileId"]
+  },
+  {
+    "name": "mcp__claude_ai_Google_Drive__update_file",
+    "server": "Google_Drive",
+    "description": "Call this tool to update the metadata of, or lock/unlock, a Google Drive file.\n\nIf the file is not found, try using other tools like `search_files` to find the file the user is attempting to update.\nFor moving files, use `search_files` to identify the destination parent id.\nFor folders, `folderColorRgb` changes the folder color. It must be an RGB hex string in the format `#RRGGBB` and is snapped to the nearest color in Drive's folder color palette.\n",
+    "params": ["description", "downloadRestriction", "fileId", "folderColorRgb", "inheritedPermissionsDisabled", "parentId", "readOnly", "readOnlyReason", "starred", "title", "writersCanShare"],
+    "required": ["fileId"]
+  }
+]

@@ -1,0 +1,15 @@
+{
+ "id": "C06",
+ "tool": null,
+ "args": null,
+ "message": "Not logged in · Please run /login",
+ "searches": [],
+ "init": {
+  "tools": 37,
+  "helpdesk_tools": 12,
+  "servers_connected": [
+   "helpdesk"
+  ]
+ },
+ "seconds": 20
+}

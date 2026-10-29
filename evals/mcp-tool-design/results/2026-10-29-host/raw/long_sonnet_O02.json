@@ -1,0 +1,24 @@
+{
+ "id": "O02",
+ "tool": "mcp__helpdesk__escalate_tickets",
+ "args": {
+  "ticket_ids": [
+   "4920"
+  ],
+  "team": "Tier 2",
+  "reason": "Customer's API keys keep failing authentication. This is a technical/API auth issue, not a billing matter."
+ },
+ "message": null,
+ "searches": [
+  "select:mcp__helpdesk__escalate_tickets,mcp__helpdesk__get_ticket,mcp__helpdesk__add_internal_note"
+ ],
+ "init": {
+  "tools": 47,
+  "helpdesk_tools": 12,
+  "servers_connected": [
+   "claude.ai Claude Docs",
+   "helpdesk"
+  ]
+ },
+ "seconds": 23
+}

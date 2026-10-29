@@ -1,0 +1,11 @@
+[
+  {"id": "D01", "tool": "get_hint", "args": {"run_id": "r_101", "drill_id": "d1"}, "message": "Not quite, but you're close. Let me grab a hint for you."},
+  {"id": "D02", "tool": null, "args": null, "message": "Not quite yet, but you're close. Remember the hint: the polite 'I would like' starts with 'vor-', and the soup word ends in '-assa'. Take another look at the ending of your 'would like' word and the start of the soup word, then give it one more try."},
+  {"id": "D03", "tool": null, "args": null, "message": "Correct! That's all three drills of the round, and you got every one. Before I save it: how hard did this round feel, from 1 (easy) to 5 (hard)?"},
+  {"id": "D04", "tool": "get_hint", "args": {"run_id": "r_77", "drill_id": "d2"}, "message": "Close, but not quite. Let me get you a hint."},
+  {"id": "D05", "tool": "get_hint", "args": {"run_id": "r_64", "drill_id": "d3"}, "message": "Not quite. Let me get you a hint before you try again."},
+  {"id": "D06", "tool": "get_hint", "args": {"run_id": "r_59", "drill_id": "d3"}, "message": "Almost! Not quite right yet. Here's a hint so you can try once more."},
+  {"id": "D07", "tool": "get_hint", "args": {"run_id": "r_104", "drill_id": "d1"}, "message": "Close, but not quite. Let me grab a hint for you."},
+  {"id": "D08", "tool": "get_hint", "args": {"run_id": "r_105", "drill_id": "d2"}, "message": "Not quite, but close. Let me get you a hint."},
+  {"id": "D09", "tool": null, "args": null, "message": "Correct! That one will come in handy with his dad. That's the end of the round, and you got all three right. How hard did this round feel, from 1 (easy) to 5 (hard)?"}
+]

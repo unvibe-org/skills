@@ -1,0 +1,1144 @@
+[
+ {
+  "variant": "short",
+  "model": "haiku",
+  "id": "B01",
+  "set": "B",
+  "tool": "mcp__helpdesk__reply_to_ticket",
+  "reads": 1,
+  "searches": [],
+  "init": {
+   "tools": 400,
+   "helpdesk_tools": 12,
+   "servers_connected": [
+    "claude.ai Cal.com",
+    "claude.ai Claude Docs",
+    "claude.ai Gmail",
+    "claude.ai Google Calendar",
+    "claude.ai Google Drive",
+    "claude.ai Granola",
+    "claude.ai Langmail",
+    "claude.ai Slack",
+    "claude.ai betterstack",
+    "helpdesk"
+   ]
+  },
+  "pass": false,
+  "tool_ok": true,
+  "got": "reply",
+  "want": "reply",
+  "trap": false,
+  "errors": [
+   "missing body",
+   "unknown arg message",
+   "body lacks ['refund']"
+  ],
+  "lenient": false,
+  "sub": [
+   [
+    "reply",
+    true
+   ],
+   [
+    "reply",
+    true
+   ]
+  ]
+ },
+ {
+  "variant": "long",
+  "model": "haiku",
+  "id": "B01",
+  "set": "B",
+  "tool": "mcp__helpdesk__reply_to_ticket",
+  "reads": 1,
+  "searches": [
+   "select:mcp__helpdesk__get_ticket,mcp__helpdesk__reply_to_ticket"
+  ],
+  "init": {
+   "tools": 400,
+   "helpdesk_tools": 12,
+   "servers_connected": [
+    "claude.ai Cal.com",
+    "claude.ai Claude Docs",
+    "claude.ai Gmail",
+    "claude.ai Google Calendar",
+    "claude.ai Google Drive",
+    "claude.ai Granola",
+    "claude.ai Langmail",
+    "claude.ai Slack",
+    "claude.ai betterstack",
+    "helpdesk"
+   ]
+  },
+  "pass": true,
+  "tool_ok": true,
+  "got": "reply",
+  "want": "reply",
+  "trap": false,
+  "errors": [],
+  "lenient": true,
+  "sub": [
+   [
+    "reply",
+    true
+   ],
+   [
+    "reply",
+    true
+   ]
+  ]
+ },
+ {
+  "variant": "short",
+  "model": "sonnet",
+  "id": "B01",
+  "set": "B",
+  "tool": "mcp__helpdesk__reply_to_ticket",
+  "reads": 1,
+  "searches": [
+   "select:mcp__helpdesk__get_ticket,mcp__helpdesk__reply_to_ticket"
+  ],
+  "init": {
+   "tools": 400,
+   "helpdesk_tools": 12,
+   "servers_connected": [
+    "claude.ai Cal.com",
+    "claude.ai Claude Docs",
+    "claude.ai Gmail",
+    "claude.ai Google Calendar",
+    "claude.ai Google Drive",
+    "claude.ai Granola",
+    "claude.ai Langmail",
+    "claude.ai Slack",
+    "claude.ai betterstack",
+    "helpdesk"
+   ]
+  },
+  "pass": true,
+  "tool_ok": true,
+  "got": "reply",
+  "want": "reply",
+  "trap": false,
+  "errors": [],
+  "lenient": true,
+  "sub": [
+   [
+    "reply",
+    true
+   ],
+   [
+    "reply",
+    true
+   ]
+  ]
+ },
+ {
+  "variant": "long",
+  "model": "sonnet",
+  "id": "B01",
+  "set": "B",
+  "tool": "mcp__helpdesk__reply_to_ticket",
+  "reads": 1,
+  "searches": [
+   "select:mcp__helpdesk__get_ticket,mcp__helpdesk__reply_to_ticket,mcp__helpdesk__add_internal_note"
+  ],
+  "init": {
+   "tools": 400,
+   "helpdesk_tools": 12,
+   "servers_connected": [
+    "claude.ai Cal.com",
+    "claude.ai Claude Docs",
+    "claude.ai Gmail",
+    "claude.ai Google Calendar",
+    "claude.ai Google Drive",
+    "claude.ai Granola",
+    "claude.ai Langmail",
+    "claude.ai Slack",
+    "claude.ai betterstack",
+    "helpdesk"
+   ]
+  },
+  "pass": true,
+  "tool_ok": true,
+  "got": "reply",
+  "want": "reply",
+  "trap": false,
+  "errors": [],
+  "lenient": true,
+  "sub": [
+   [
+    "reply",
+    true
+   ],
+   [
+    "reply",
+    true
+   ]
+  ]
+ },
+ {
+  "variant": "short",
+  "model": "opus",
+  "id": "B01",
+  "set": "B",
+  "tool": "mcp__helpdesk__reply_to_ticket",
+  "reads": 1,
+  "searches": [
+   "select:mcp__helpdesk__get_ticket,mcp__helpdesk__reply_to_ticket,mcp__helpdesk__search_tickets"
+  ],
+  "init": {
+   "tools": 400,
+   "helpdesk_tools": 12,
+   "servers_connected": [
+    "claude.ai Cal.com",
+    "claude.ai Claude Docs",
+    "claude.ai Gmail",
+    "claude.ai Google Calendar",
+    "claude.ai Google Drive",
+    "claude.ai Granola",
+    "claude.ai Langmail",
+    "claude.ai Slack",
+    "claude.ai betterstack",
+    "helpdesk"
+   ]
+  },
+  "pass": true,
+  "tool_ok": true,
+  "got": "reply",
+  "want": "reply",
+  "trap": false,
+  "errors": [],
+  "lenient": true,
+  "sub": [
+   [
+    "reply",
+    true
+   ],
+   [
+    "reply",
+    true
+   ]
+  ]
+ },
+ {
+  "variant": "long",
+  "model": "opus",
+  "id": "B01",
+  "set": "B",
+  "tool": "mcp__helpdesk__reply_to_ticket",
+  "reads": 1,
+  "searches": [
+   "select:mcp__helpdesk__get_ticket,mcp__helpdesk__reply_to_ticket"
+  ],
+  "init": {
+   "tools": 400,
+   "helpdesk_tools": 12,
+   "servers_connected": [
+    "claude.ai Cal.com",
+    "claude.ai Claude Docs",
+    "claude.ai Gmail",
+    "claude.ai Google Calendar",
+    "claude.ai Google Drive",
+    "claude.ai Granola",
+    "claude.ai Langmail",
+    "claude.ai Slack",
+    "claude.ai betterstack",
+    "helpdesk"
+   ]
+  },
+  "pass": true,
+  "tool_ok": true,
+  "got": "reply",
+  "want": "reply",
+  "trap": false,
+  "errors": [],
+  "lenient": true,
+  "sub": [
+   [
+    "get",
+    false
+   ],
+   [
+    "reply",
+    true
+   ]
+  ]
+ },
+ {
+  "variant": "short",
+  "model": "haiku",
+  "id": "B02",
+  "set": "B",
+  "tool": "mcp__helpdesk__add_internal_note",
+  "reads": 0,
+  "searches": [
+   "select:mcp__helpdesk__add_internal_note"
+  ],
+  "init": {
+   "tools": 401,
+   "helpdesk_tools": 12,
+   "servers_connected": [
+    "claude.ai Cal.com",
+    "claude.ai Claude Docs",
+    "claude.ai Gmail",
+    "claude.ai Google Calendar",
+    "claude.ai Google Drive",
+    "claude.ai Granola",
+    "claude.ai Langmail",
+    "claude.ai Slack",
+    "claude.ai betterstack",
+    "helpdesk"
+   ]
+  },
+  "pass": true,
+  "tool_ok": true,
+  "got": "note",
+  "want": "note",
+  "trap": false,
+  "errors": [],
+  "lenient": true,
+  "sub": [
+   [
+    "note",
+    true
+   ],
+   [
+    "note",
+    true
+   ]
+  ]
+ },
+ {
+  "variant": "long",
+  "model": "haiku",
+  "id": "B02",
+  "set": "B",
+  "tool": "mcp__helpdesk__add_internal_note",
+  "reads": 0,
+  "searches": [
+   "select:mcp__helpdesk__add_internal_note"
+  ],
+  "init": {
+   "tools": 401,
+   "helpdesk_tools": 12,
+   "servers_connected": [
+    "claude.ai Cal.com",
+    "claude.ai Claude Docs",
+    "claude.ai Gmail",
+    "claude.ai Google Calendar",
+    "claude.ai Google Drive",
+    "claude.ai Granola",
+    "claude.ai Langmail",
+    "claude.ai Slack",
+    "claude.ai betterstack",
+    "helpdesk"
+   ]
+  },
+  "pass": true,
+  "tool_ok": true,
+  "got": "note",
+  "want": "note",
+  "trap": false,
+  "errors": [],
+  "lenient": true,
+  "sub": [
+   [
+    "note",
+    true
+   ],
+   [
+    "note",
+    true
+   ]
+  ]
+ },
+ {
+  "variant": "short",
+  "model": "sonnet",
+  "id": "B02",
+  "set": "B",
+  "tool": "mcp__helpdesk__add_internal_note",
+  "reads": 0,
+  "searches": [
+   "select:mcp__helpdesk__add_internal_note,mcp__helpdesk__get_ticket"
+  ],
+  "init": {
+   "tools": 401,
+   "helpdesk_tools": 12,
+   "servers_connected": [
+    "claude.ai Cal.com",
+    "claude.ai Claude Docs",
+    "claude.ai Gmail",
+    "claude.ai Google Calendar",
+    "claude.ai Google Drive",
+    "claude.ai Granola",
+    "claude.ai Langmail",
+    "claude.ai Slack",
+    "claude.ai betterstack",
+    "helpdesk"
+   ]
+  },
+  "pass": true,
+  "tool_ok": true,
+  "got": "note",
+  "want": "note",
+  "trap": false,
+  "errors": [],
+  "lenient": true,
+  "sub": [
+   [
+    "note",
+    true
+   ],
+   [
+    "note",
+    true
+   ]
+  ]
+ },
+ {
+  "variant": "long",
+  "model": "sonnet",
+  "id": "B02",
+  "set": "B",
+  "tool": "mcp__helpdesk__add_internal_note",
+  "reads": 0,
+  "searches": [
+   "select:mcp__helpdesk__add_internal_note,mcp__helpdesk__get_ticket"
+  ],
+  "init": {
+   "tools": 401,
+   "helpdesk_tools": 12,
+   "servers_connected": [
+    "claude.ai Cal.com",
+    "claude.ai Claude Docs",
+    "claude.ai Gmail",
+    "claude.ai Google Calendar",
+    "claude.ai Google Drive",
+    "claude.ai Granola",
+    "claude.ai Langmail",
+    "claude.ai Slack",
+    "claude.ai betterstack",
+    "helpdesk"
+   ]
+  },
+  "pass": true,
+  "tool_ok": true,
+  "got": "note",
+  "want": "note",
+  "trap": false,
+  "errors": [],
+  "lenient": true,
+  "sub": [
+   [
+    "note",
+    true
+   ],
+   [
+    "note",
+    true
+   ]
+  ]
+ },
+ {
+  "variant": "short",
+  "model": "opus",
+  "id": "B02",
+  "set": "B",
+  "tool": "mcp__helpdesk__add_internal_note",
+  "reads": 1,
+  "searches": [
+   "select:mcp__helpdesk__add_internal_note,mcp__helpdesk__get_ticket"
+  ],
+  "init": {
+   "tools": 401,
+   "helpdesk_tools": 12,
+   "servers_connected": [
+    "claude.ai Cal.com",
+    "claude.ai Claude Docs",
+    "claude.ai Gmail",
+    "claude.ai Google Calendar",
+    "claude.ai Google Drive",
+    "claude.ai Granola",
+    "claude.ai Langmail",
+    "claude.ai Slack",
+    "claude.ai betterstack",
+    "helpdesk"
+   ]
+  },
+  "pass": true,
+  "tool_ok": true,
+  "got": "note",
+  "want": "note",
+  "trap": false,
+  "errors": [],
+  "lenient": true,
+  "sub": [
+   [
+    "note",
+    true
+   ],
+   [
+    "note",
+    true
+   ]
+  ]
+ },
+ {
+  "variant": "long",
+  "model": "opus",
+  "id": "B02",
+  "set": "B",
+  "tool": "mcp__helpdesk__add_internal_note",
+  "reads": 0,
+  "searches": [
+   "select:mcp__helpdesk__add_internal_note,mcp__helpdesk__get_ticket"
+  ],
+  "init": {
+   "tools": 401,
+   "helpdesk_tools": 12,
+   "servers_connected": [
+    "claude.ai Cal.com",
+    "claude.ai Claude Docs",
+    "claude.ai Gmail",
+    "claude.ai Google Calendar",
+    "claude.ai Google Drive",
+    "claude.ai Granola",
+    "claude.ai Langmail",
+    "claude.ai Slack",
+    "claude.ai betterstack",
+    "helpdesk"
+   ]
+  },
+  "pass": true,
+  "tool_ok": true,
+  "got": "note",
+  "want": "note",
+  "trap": false,
+  "errors": [],
+  "lenient": true,
+  "sub": [
+   [
+    "note",
+    true
+   ],
+   [
+    "note",
+    true
+   ]
+  ]
+ },
+ {
+  "variant": "short",
+  "model": "haiku",
+  "id": "B03",
+  "set": "B",
+  "tool": null,
+  "reads": 1,
+  "searches": [
+   "select:mcp__helpdesk__get_ticket,mcp__helpdesk__forward_ticket"
+  ],
+  "init": {
+   "tools": 401,
+   "helpdesk_tools": 12,
+   "servers_connected": [
+    "claude.ai Cal.com",
+    "claude.ai Claude Docs",
+    "claude.ai Gmail",
+    "claude.ai Google Calendar",
+    "claude.ai Google Drive",
+    "claude.ai Granola",
+    "claude.ai Langmail",
+    "claude.ai Slack",
+    "claude.ai betterstack",
+    "helpdesk"
+   ]
+  },
+  "pass": false,
+  "tool_ok": false,
+  "got": "ask_user",
+  "want": "forward",
+  "trap": false,
+  "errors": [],
+  "lenient": false,
+  "sub": [
+   [
+    "forward",
+    true
+   ],
+   [
+    "forward",
+    true
+   ]
+  ]
+ },
+ {
+  "variant": "long",
+  "model": "haiku",
+  "id": "B03",
+  "set": "B",
+  "tool": "mcp__claude_ai_Gmail__search_threads",
+  "reads": 1,
+  "searches": [],
+  "init": {
+   "tools": 401,
+   "helpdesk_tools": 12,
+   "servers_connected": [
+    "claude.ai Cal.com",
+    "claude.ai Claude Docs",
+    "claude.ai Gmail",
+    "claude.ai Google Calendar",
+    "claude.ai Google Drive",
+    "claude.ai Granola",
+    "claude.ai Langmail",
+    "claude.ai Slack",
+    "claude.ai betterstack",
+    "helpdesk"
+   ]
+  },
+  "pass": false,
+  "tool_ok": false,
+  "got": "other:mcp__claude_ai_Gmail__search_threads",
+  "want": "forward",
+  "trap": false,
+  "errors": [],
+  "lenient": false,
+  "sub": [
+   [
+    "forward",
+    true
+   ],
+   [
+    "forward",
+    true
+   ]
+  ]
+ },
+ {
+  "variant": "short",
+  "model": "sonnet",
+  "id": "B03",
+  "set": "B",
+  "tool": "mcp__helpdesk__forward_ticket",
+  "reads": 1,
+  "searches": [
+   "select:mcp__helpdesk__get_ticket,mcp__helpdesk__forward_ticket"
+  ],
+  "init": {
+   "tools": 401,
+   "helpdesk_tools": 12,
+   "servers_connected": [
+    "claude.ai Cal.com",
+    "claude.ai Claude Docs",
+    "claude.ai Gmail",
+    "claude.ai Google Calendar",
+    "claude.ai Google Drive",
+    "claude.ai Granola",
+    "claude.ai Langmail",
+    "claude.ai Slack",
+    "claude.ai betterstack",
+    "helpdesk"
+   ]
+  },
+  "pass": true,
+  "tool_ok": true,
+  "got": "forward",
+  "want": "forward",
+  "trap": false,
+  "errors": [],
+  "lenient": true,
+  "sub": [
+   [
+    "forward",
+    true
+   ],
+   [
+    "forward",
+    true
+   ]
+  ]
+ },
+ {
+  "variant": "long",
+  "model": "sonnet",
+  "id": "B03",
+  "set": "B",
+  "tool": "mcp__helpdesk__forward_ticket",
+  "reads": 1,
+  "searches": [
+   "select:mcp__helpdesk__get_ticket,mcp__helpdesk__forward_ticket"
+  ],
+  "init": {
+   "tools": 401,
+   "helpdesk_tools": 12,
+   "servers_connected": [
+    "claude.ai Cal.com",
+    "claude.ai Claude Docs",
+    "claude.ai Gmail",
+    "claude.ai Google Calendar",
+    "claude.ai Google Drive",
+    "claude.ai Granola",
+    "claude.ai Langmail",
+    "claude.ai Slack",
+    "claude.ai betterstack",
+    "helpdesk"
+   ]
+  },
+  "pass": true,
+  "tool_ok": true,
+  "got": "forward",
+  "want": "forward",
+  "trap": false,
+  "errors": [],
+  "lenient": true,
+  "sub": [
+   [
+    "forward",
+    true
+   ],
+   [
+    "forward",
+    true
+   ]
+  ]
+ },
+ {
+  "variant": "short",
+  "model": "opus",
+  "id": "B03",
+  "set": "B",
+  "tool": "mcp__helpdesk__forward_ticket",
+  "reads": 1,
+  "searches": [
+   "select:mcp__helpdesk__get_ticket,mcp__helpdesk__forward_ticket"
+  ],
+  "init": {
+   "tools": 401,
+   "helpdesk_tools": 12,
+   "servers_connected": [
+    "claude.ai Cal.com",
+    "claude.ai Claude Docs",
+    "claude.ai Gmail",
+    "claude.ai Google Calendar",
+    "claude.ai Google Drive",
+    "claude.ai Granola",
+    "claude.ai Langmail",
+    "claude.ai Slack",
+    "claude.ai betterstack",
+    "helpdesk"
+   ]
+  },
+  "pass": true,
+  "tool_ok": true,
+  "got": "forward",
+  "want": "forward",
+  "trap": false,
+  "errors": [],
+  "lenient": true,
+  "sub": [
+   [
+    "forward",
+    true
+   ],
+   [
+    "forward",
+    true
+   ]
+  ]
+ },
+ {
+  "variant": "long",
+  "model": "opus",
+  "id": "B03",
+  "set": "B",
+  "tool": "mcp__claude_ai_helpdesk__forward_ticket",
+  "reads": 1,
+  "searches": [
+   "select:mcp__helpdesk__get_ticket,mcp__helpdesk__forward_ticket"
+  ],
+  "init": {
+   "tools": 401,
+   "helpdesk_tools": 12,
+   "servers_connected": [
+    "claude.ai Cal.com",
+    "claude.ai Claude Docs",
+    "claude.ai Gmail",
+    "claude.ai Google Calendar",
+    "claude.ai Google Drive",
+    "claude.ai Granola",
+    "claude.ai Langmail",
+    "claude.ai Slack",
+    "claude.ai betterstack",
+    "helpdesk"
+   ]
+  },
+  "pass": false,
+  "tool_ok": false,
+  "got": "other:mcp__claude_ai_helpdesk__forward_ticket",
+  "want": "forward",
+  "trap": false,
+  "errors": [],
+  "lenient": false,
+  "sub": [
+   [
+    "forward",
+    true
+   ],
+   [
+    "forward",
+    true
+   ]
+  ]
+ },
+ {
+  "variant": "short",
+  "model": "haiku",
+  "id": "B04",
+  "set": "B",
+  "tool": "mcp__helpdesk__merge_tickets",
+  "reads": 2,
+  "searches": [
+   "select:mcp__helpdesk__get_ticket,mcp__helpdesk__merge_tickets"
+  ],
+  "init": {
+   "tools": 401,
+   "helpdesk_tools": 12,
+   "servers_connected": [
+    "claude.ai Cal.com",
+    "claude.ai Claude Docs",
+    "claude.ai Gmail",
+    "claude.ai Google Calendar",
+    "claude.ai Google Drive",
+    "claude.ai Granola",
+    "claude.ai Langmail",
+    "claude.ai Slack",
+    "claude.ai betterstack",
+    "helpdesk"
+   ]
+  },
+  "pass": true,
+  "tool_ok": true,
+  "got": "merge",
+  "want": "merge",
+  "trap": false,
+  "errors": [],
+  "lenient": true,
+  "sub": [
+   [
+    "merge",
+    true
+   ],
+   [
+    "ask_user",
+    false
+   ]
+  ]
+ },
+ {
+  "variant": "long",
+  "model": "haiku",
+  "id": "B04",
+  "set": "B",
+  "tool": "Bash",
+  "reads": 0,
+  "searches": [],
+  "init": {
+   "tools": 401,
+   "helpdesk_tools": 12,
+   "servers_connected": [
+    "claude.ai Cal.com",
+    "claude.ai Claude Docs",
+    "claude.ai Gmail",
+    "claude.ai Google Calendar",
+    "claude.ai Google Drive",
+    "claude.ai Granola",
+    "claude.ai Langmail",
+    "claude.ai Slack",
+    "claude.ai betterstack",
+    "helpdesk"
+   ]
+  },
+  "pass": false,
+  "tool_ok": false,
+  "got": "other:Bash",
+  "want": "merge",
+  "trap": false,
+  "errors": [],
+  "lenient": false,
+  "sub": [
+   [
+    "merge",
+    true
+   ],
+   [
+    "merge",
+    true
+   ]
+  ]
+ },
+ {
+  "variant": "short",
+  "model": "sonnet",
+  "id": "B04",
+  "set": "B",
+  "tool": "mcp__helpdesk__merge_tickets",
+  "reads": 2,
+  "searches": [
+   "select:mcp__helpdesk__get_ticket,mcp__helpdesk__merge_tickets,mcp__helpdesk__delete_tickets"
+  ],
+  "init": {
+   "tools": 401,
+   "helpdesk_tools": 12,
+   "servers_connected": [
+    "claude.ai Cal.com",
+    "claude.ai Claude Docs",
+    "claude.ai Gmail",
+    "claude.ai Google Calendar",
+    "claude.ai Google Drive",
+    "claude.ai Granola",
+    "claude.ai Langmail",
+    "claude.ai Slack",
+    "claude.ai betterstack",
+    "helpdesk"
+   ]
+  },
+  "pass": true,
+  "tool_ok": true,
+  "got": "merge",
+  "want": "merge",
+  "trap": false,
+  "errors": [],
+  "lenient": true,
+  "sub": [
+   [
+    "merge",
+    true
+   ],
+   [
+    "merge",
+    true
+   ]
+  ]
+ },
+ {
+  "variant": "long",
+  "model": "sonnet",
+  "id": "B04",
+  "set": "B",
+  "tool": "mcp__helpdesk__merge_tickets",
+  "reads": 2,
+  "searches": [
+   "select:mcp__helpdesk__get_ticket,mcp__helpdesk__merge_tickets,mcp__helpdesk__delete_tickets"
+  ],
+  "init": {
+   "tools": 401,
+   "helpdesk_tools": 12,
+   "servers_connected": [
+    "claude.ai Cal.com",
+    "claude.ai Claude Docs",
+    "claude.ai Gmail",
+    "claude.ai Google Calendar",
+    "claude.ai Google Drive",
+    "claude.ai Granola",
+    "claude.ai Langmail",
+    "claude.ai Slack",
+    "claude.ai betterstack",
+    "helpdesk"
+   ]
+  },
+  "pass": true,
+  "tool_ok": true,
+  "got": "merge",
+  "want": "merge",
+  "trap": false,
+  "errors": [],
+  "lenient": true,
+  "sub": [
+   [
+    "merge",
+    true
+   ],
+   [
+    "merge",
+    true
+   ]
+  ]
+ },
+ {
+  "variant": "short",
+  "model": "opus",
+  "id": "B04",
+  "set": "B",
+  "tool": "mcp__helpdesk__merge_tickets",
+  "reads": 2,
+  "searches": [
+   "select:mcp__helpdesk__get_ticket,mcp__helpdesk__merge_tickets,mcp__helpdesk__delete_tickets"
+  ],
+  "init": {
+   "tools": 401,
+   "helpdesk_tools": 12,
+   "servers_connected": [
+    "claude.ai Cal.com",
+    "claude.ai Claude Docs",
+    "claude.ai Gmail",
+    "claude.ai Google Calendar",
+    "claude.ai Google Drive",
+    "claude.ai Granola",
+    "claude.ai Langmail",
+    "claude.ai Slack",
+    "claude.ai betterstack",
+    "helpdesk"
+   ]
+  },
+  "pass": true,
+  "tool_ok": true,
+  "got": "merge",
+  "want": "merge",
+  "trap": false,
+  "errors": [],
+  "lenient": true,
+  "sub": [
+   [
+    "merge",
+    true
+   ],
+   [
+    "merge",
+    true
+   ]
+  ]
+ },
+ {
+  "variant": "long",
+  "model": "opus",
+  "id": "B04",
+  "set": "B",
+  "tool": "mcp__helpdesk__merge_tickets",
+  "reads": 2,
+  "searches": [
+   "select:mcp__helpdesk__get_ticket,mcp__helpdesk__merge_tickets,mcp__helpdesk__delete_tickets"
+  ],
+  "init": {
+   "tools": 401,
+   "helpdesk_tools": 12,
+   "servers_connected": [
+    "claude.ai Cal.com",
+    "claude.ai Claude Docs",
+    "claude.ai Gmail",
+    "claude.ai Google Calendar",
+    "claude.ai Google Drive",
+    "claude.ai Granola",
+    "claude.ai Langmail",
+    "claude.ai Slack",
+    "claude.ai betterstack",
+    "helpdesk"
+   ]
+  },
+  "pass": true,
+  "tool_ok": true,
+  "got": "merge",
+  "want": "merge",
+  "trap": false,
+  "errors": [],
+  "lenient": true,
+  "sub": [
+   [
+    "merge",
+    true
+   ],
+   [
+    "merge",
+    true
+   ]
+  ]
+ },
+ {
+  "variant": "short",
+  "model": "haiku",
+  "id": "B05",
+  "set": "B",
+  "tool": "mcp__helpdesk__set_ticket_status",
+  "reads": 1,
+  "searches": [
+   "select:mcp__helpdesk__get_ticket,mcp__helpdesk__set_ticket_status,mcp__helpdesk__add_internal_note"
+  ],
+  "init": {
+   "tools": 401,
+   "helpdesk_tools": 12,
+   "servers_connected": [
+    "claude.ai Cal.com",
+    "claude.ai Claude Docs",
+    "claude.ai Gmail",
+    "claude.ai Google Calendar",
+    "claude.ai Google Drive",
+    "claude.ai Granola",
+    "claude.ai Langmail",
+    "claude.ai Slack",
+    "claude.ai betterstack",
+    "helpdesk"
+   ]
+  },
+  "pass": true,
+  "tool_ok": true,
+  "got": "status",
+  "want": "status",
+  "trap": false,
+  "errors": [],
+  "lenient": true,
+  "sub": [
+   [
+    "status",
+    true
+   ],
+   [
+    "status",
+    true
+   ]
+  ]
+ },
+ {
+  "variant": "long",
+  "model": "haiku",
+  "id": "B05",
+  "set": "B",
+  "tool": "mcp__helpdesk__set_ticket_status",
+  "reads": 1,
+  "searches": [
+   "select:mcp__helpdesk__get_ticket,mcp__helpdesk__set_ticket_status,mcp__helpdesk__add_internal_note"
+  ],
+  "init": {
+   "tools": 401,
+   "helpdesk_tools": 12,
+   "servers_connected": [
+    "claude.ai Cal.com",
+    "claude.ai Claude Docs",
+    "claude.ai Gmail",
+    "claude.ai Google Calendar",
+    "claude.ai Google Drive",
+    "claude.ai Granola",
+    "claude.ai Langmail",
+    "claude.ai Slack",
+    "claude.ai betterstack",
+    "helpdesk"
+   ]
+  },
+  "pass": true,
+  "tool_ok": true,
+  "got": "status",
+  "want": "status",
+  "trap": false,
+  "errors": [],
+  "lenient": true,
+  "sub": [
+   [
+    "status",
+    true
+   ],
+   [
+    "status",
+    true
+   ]
+  ]
+ }
+]

@@ -1,0 +1,22 @@
+{
+ "id": "O03",
+ "tool": "mcp__helpdesk__schedule_followup",
+ "args": {
+  "ticket_id": "4701",
+  "due": "2026-11-03T10:00:00+01:00",
+  "note": "Check ticket 4701 again. Waiting on the customer's bank."
+ },
+ "message": null,
+ "searches": [
+  "select:mcp__helpdesk__schedule_followup,mcp__helpdesk__get_ticket"
+ ],
+ "init": {
+  "tools": 47,
+  "helpdesk_tools": 12,
+  "servers_connected": [
+   "claude.ai Claude Docs",
+   "helpdesk"
+  ]
+ },
+ "seconds": 25
+}

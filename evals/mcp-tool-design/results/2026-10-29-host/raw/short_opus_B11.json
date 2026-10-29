@@ -1,0 +1,24 @@
+{
+ "id": "B11",
+ "tool": null,
+ "args": null,
+ "message": "You've hit your 5-hour limit · resets 8:30pm (Europe/Berlin)",
+ "searches": [],
+ "init": {
+  "tools": 400,
+  "helpdesk_tools": 12,
+  "servers_connected": [
+   "claude.ai Cal.com",
+   "claude.ai Claude Docs",
+   "claude.ai Gmail",
+   "claude.ai Google Calendar",
+   "claude.ai Google Drive",
+   "claude.ai Granola",
+   "claude.ai Langmail",
+   "claude.ai Slack",
+   "claude.ai betterstack",
+   "helpdesk"
+  ]
+ },
+ "seconds": 20
+}

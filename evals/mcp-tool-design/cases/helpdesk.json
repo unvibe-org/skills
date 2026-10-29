@@ -1,0 +1,322 @@
+[
+  {
+    "id": "A01",
+    "set": "A",
+    "request": "can u pull up the Acme refund ticket? want to see where its at",
+    "context": null,
+    "intent": "search",
+    "expect": { "query_words": ["acme", "refund"] },
+    "trap": null,
+    "note": "No id is given, so the ticket has to be found by its description before it can be read."
+  },
+  {
+    "id": "A02",
+    "set": "A",
+    "request": "remind me to chase the Globex invoice ticket tues 9am",
+    "context": null,
+    "intent": "search",
+    "expect": { "query_words": ["globex", "invoice"] },
+    "trap": "followup",
+    "note": "A reminder needs a ticket id and none is given, so the first move is finding the Globex invoice ticket."
+  },
+  {
+    "id": "A03",
+    "set": "A",
+    "request": "log 45 min on that Initech double charge thing, took forver",
+    "context": null,
+    "intent": "search",
+    "expect": { "query_words": ["initech", "charge"] },
+    "trap": "log_time",
+    "note": "Time can only be logged against a known ticket; the Initech ticket has to be found first."
+  },
+  {
+    "id": "A04",
+    "set": "A",
+    "request": "find the SSO ticket Kim Park is working on",
+    "context": null,
+    "intent": "search",
+    "expect": { "query_words": ["sso"], "assignee": "Kim Park" },
+    "trap": null,
+    "note": "Search by text and assignee; the full name Kim Park rules out Kim Lee."
+  },
+  {
+    "id": "A05",
+    "set": "A",
+    "request": "log an hour and a half on the acme one",
+    "context": "Assistant showed search results:\n4812 · Acme Corp · Refund not received · open · Kim Lee\n4815 · Umbrella Ltd · Card declined on renewal · pending · Sam Ortiz",
+    "intent": "log_time",
+    "expect": { "ticket_ids": ["4812"], "minutes": 90 },
+    "trap": null,
+    "note": "The Acme ticket is 4812 from the earlier results; an hour and a half is 90 minutes."
+  },
+  {
+    "id": "A06",
+    "set": "A",
+    "request": "remind me to follow up on 5120 tomorrow 10am",
+    "context": null,
+    "intent": "followup",
+    "expect": { "ticket_ids": ["5120"], "due": "2026-10-30T10:00:00+01:00" },
+    "trap": null,
+    "note": "Tomorrow is Friday 2026-10-30; Berlin is on CET (+01:00) after 2026-10-25."
+  },
+  {
+    "id": "A07",
+    "set": "A",
+    "request": "assign the umbrella one to Kim Lee",
+    "context": "Assistant showed search results:\n4977 · Umbrella Ltd · Invoice shows wrong VAT number · open · unassigned\n4981 · Stark Retail · Cannot download receipts · open · Jon Reyes",
+    "intent": "assign",
+    "expect": { "ticket_ids": ["4977"], "assignee": "Kim Lee" },
+    "trap": null,
+    "note": "The Umbrella ticket is 4977 from the shown results, and Kim Lee is named in full."
+  },
+  {
+    "id": "A08",
+    "set": "A",
+    "request": "set a followup on 4630 for monday 3pm, customer said theyd have the bank statment by then",
+    "context": null,
+    "intent": "followup",
+    "expect": { "ticket_ids": ["4630"], "due": "2026-11-02T15:00:00+01:00" },
+    "trap": null,
+    "note": "Monday after Thursday 2026-10-29 is 2026-11-02; 3pm CET is 15:00+01:00."
+  },
+  {
+    "id": "A09",
+    "set": "A",
+    "request": "4701 - ping me tuesday 9am to check if the refund landed",
+    "context": null,
+    "intent": "followup",
+    "expect": { "ticket_ids": ["4701"], "due": "2026-11-03T09:00:00+01:00" },
+    "trap": null,
+    "note": "The coming Tuesday is 2026-11-03; 9am CET is 09:00+01:00."
+  },
+  {
+    "id": "A10",
+    "set": "A",
+    "request": "put 45 mins on the stark one pls",
+    "context": "Assistant showed search results:\n4981 · Stark Retail · Cannot download receipts · open · Jon Reyes\n4588 · Wayne Logistics · Duplicate payment on October invoice · open · Sam Ortiz",
+    "intent": "log_time",
+    "expect": { "ticket_ids": ["4981"], "minutes": 45 },
+    "trap": null,
+    "note": "The Stark ticket is 4981 from the shown results; 45 mins is 45 minutes."
+  },
+  {
+    "id": "B01",
+    "set": "B",
+    "request": "let the customer on 4812 know the refund went out today",
+    "context": null,
+    "intent": "reply",
+    "expect": { "ticket_ids": ["4812"], "body_contains": ["refund"] },
+    "trap": "note",
+    "note": "Letting the customer know means a customer-visible reply, not an internal note."
+  },
+  {
+    "id": "B02",
+    "set": "B",
+    "request": "leave a note for Kim Lee on 4812 that finance aproved the refund",
+    "context": null,
+    "intent": "note",
+    "expect": { "ticket_ids": ["4812"], "body_contains": ["finance", "refund"] },
+    "trap": "reply",
+    "note": "A note for a colleague is internal; the customer must not get an email."
+  },
+  {
+    "id": "B03",
+    "set": "B",
+    "request": "send 5033 over to their accountant at maria.lopez@lopez-cpa.example",
+    "context": null,
+    "intent": "forward",
+    "expect": { "ticket_ids": ["5033"], "to_email": "maria.lopez@lopez-cpa.example" },
+    "trap": "reply",
+    "note": "Sending the ticket to an outside address is a forward; a reply would go to the customer."
+  },
+  {
+    "id": "B04",
+    "set": "B",
+    "request": "4791 is the same as 4790, get rid of the dupe",
+    "context": null,
+    "intent": "merge",
+    "expect": { "target_id": "4790", "source_ids": ["4791"] },
+    "trap": "delete",
+    "note": "Getting rid of a duplicate means merging it into the original, which keeps its conversation; deleting loses it."
+  },
+  {
+    "id": "B05",
+    "set": "B",
+    "request": "close out 4655, customer confirmed its working now",
+    "context": null,
+    "intent": "status",
+    "expect": { "ticket_ids": ["4655"], "status": "solved" },
+    "trap": "delete",
+    "note": "Closing out a resolved ticket sets it to solved; nothing should be removed."
+  },
+  {
+    "id": "B06",
+    "set": "B",
+    "request": "5002 is pure spam, kill it",
+    "context": null,
+    "intent": "delete",
+    "expect": { "ticket_ids": ["5002"] },
+    "trap": "status",
+    "note": "Spam is not a real request to resolve; killing it means deleting it, not marking it solved."
+  },
+  {
+    "id": "B07",
+    "set": "B",
+    "request": "give 4888 to Priya",
+    "context": null,
+    "intent": "assign",
+    "expect": { "ticket_ids": ["4888"], "assignee": "Priya Shah" },
+    "trap": "escalate",
+    "note": "Priya Shah is a person on the user's own team, so this is an assignment, not a hand-off to another team."
+  },
+  {
+    "id": "B08",
+    "set": "B",
+    "request": "4920 needs tier 2, the webhook payloads are coming thru corrupted and thats beyond us",
+    "context": null,
+    "intent": "escalate",
+    "expect": { "ticket_ids": ["4920"], "team": "Tier 2", "reason_contains": ["webhook"] },
+    "trap": "assign",
+    "note": "Naming a team, not a person, and giving a reason means escalating to the Tier 2 queue."
+  },
+  {
+    "id": "B09",
+    "set": "B",
+    "request": "Kim Park should take 5011 personally, she fixed the same bug last month",
+    "context": null,
+    "intent": "assign",
+    "expect": { "ticket_ids": ["5011"], "assignee": "Kim Park" },
+    "trap": "escalate",
+    "note": "Kim Park is in Tier 2, but the user wants her personally, so assign to her rather than escalate to the Tier 2 queue."
+  },
+  {
+    "id": "B10",
+    "set": "B",
+    "request": "jot down on 4703 that the customer called and was pretty upset",
+    "context": null,
+    "intent": "note",
+    "expect": { "ticket_ids": ["4703"], "body_contains": ["called", "upset"] },
+    "trap": "reply",
+    "note": "Recording a phone call and the customer's mood is for staff only; it must not be emailed to the customer."
+  },
+  {
+    "id": "B11",
+    "set": "B",
+    "request": "update 4844 about the delay",
+    "context": null,
+    "intent": "ask_user",
+    "expect": {},
+    "trap": "reply",
+    "note": "It is unclear whether the customer should be told or the delay recorded internally, and a reply cannot be taken back, so ask first."
+  },
+  {
+    "id": "B12",
+    "set": "B",
+    "request": "set 4950 to pending, waiting on the customer to send logs",
+    "context": null,
+    "intent": "status",
+    "expect": { "ticket_ids": ["4950"], "status": "pending" },
+    "trap": null,
+    "note": "A direct status change with the status named."
+  },
+  {
+    "id": "C01",
+    "set": "C",
+    "request": "whats the latest on 4812?",
+    "context": null,
+    "intent": "get",
+    "expect": { "ticket_ids": ["4812"] },
+    "trap": null,
+    "note": "Reading one known ticket with its conversation."
+  },
+  {
+    "id": "C02",
+    "set": "C",
+    "request": "delete 5101 and 5102, those are test tickets i made",
+    "context": null,
+    "intent": "delete",
+    "expect": { "ticket_ids": ["5101", "5102"] },
+    "trap": null,
+    "note": "The user explicitly asks to delete two test tickets."
+  },
+  {
+    "id": "C03",
+    "set": "C",
+    "request": "4730 and 4731 are dupes of 4729, fold them in",
+    "context": null,
+    "intent": "merge",
+    "expect": { "target_id": "4729", "source_ids": ["4730", "4731"] },
+    "trap": null,
+    "note": "4729 survives and the two duplicates are merged into it."
+  },
+  {
+    "id": "C04",
+    "set": "C",
+    "request": "escalate 4866 to onboarding, they never got there setup call",
+    "context": null,
+    "intent": "escalate",
+    "expect": { "ticket_ids": ["4866"], "team": "Onboarding", "reason_contains": ["setup"] },
+    "trap": null,
+    "note": "Hand the ticket to the Onboarding queue with the missed setup call as the reason."
+  },
+  {
+    "id": "C05",
+    "set": "C",
+    "request": "4801 4802 4803 can all be solved, the outage fix covers them",
+    "context": null,
+    "intent": "status",
+    "expect": { "ticket_ids": ["4801", "4802", "4803"], "status": "solved" },
+    "trap": null,
+    "note": "One status change across three tickets."
+  },
+  {
+    "id": "C06",
+    "set": "C",
+    "request": "log 20 min on 4999",
+    "context": null,
+    "intent": "log_time",
+    "expect": { "ticket_ids": ["4999"], "minutes": 20 },
+    "trap": null,
+    "note": "Time spent on a known ticket."
+  },
+  {
+    "id": "C07",
+    "set": "C",
+    "request": "remind me about 5077 in 2 hours",
+    "context": null,
+    "intent": "followup",
+    "expect": { "ticket_ids": ["5077"], "due": "2026-10-29T16:00:00+01:00" },
+    "trap": null,
+    "note": "Two hours after Thursday 14:00 CET is 16:00+01:00 the same day."
+  },
+  {
+    "id": "C08",
+    "set": "C",
+    "request": "reply on 4840: we've reissued the invoice, should be in your inbox in a few minutes",
+    "context": null,
+    "intent": "reply",
+    "expect": { "ticket_ids": ["4840"], "body_contains": ["reissued", "invoice"] },
+    "trap": null,
+    "note": "The user dictates a customer reply."
+  },
+  {
+    "id": "C09",
+    "set": "C",
+    "request": "fwd 4915 to legal@wayne-logistics.example",
+    "context": null,
+    "intent": "forward",
+    "expect": { "ticket_ids": ["4915"], "to_email": "legal@wayne-logistics.example" },
+    "trap": null,
+    "note": "Forward the ticket to the named outside address."
+  },
+  {
+    "id": "C10",
+    "set": "C",
+    "request": "assign 4760 and 4761 to Jon Reyes",
+    "context": null,
+    "intent": "assign",
+    "expect": { "ticket_ids": ["4760", "4761"], "assignee": "Jon Reyes" },
+    "trap": null,
+    "note": "Two tickets assigned to one named staff member."
+  }
+]

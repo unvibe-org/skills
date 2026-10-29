@@ -1,0 +1,170 @@
+# Search-mode results
+
+| Size | Variant | haiku | sonnet | opus | Pooled correct | First names ok | Found by search | Overlap set O |
+|---|---|---|---|---|---|---|---|---|
+| S | short | 60/68 | 60/68 | 58/68 | 178/204 (87%) | 180/204 | 204/204 | 55/72 |
+| S | long | 59/68 | 60/68 | 57/68 | 176/204 (86%) | 188/204 | 204/204 | 54/72 |
+| M | short | 61/68 | 60/68 | 58/68 | 179/204 (88%) | 179/204 | 204/204 | 55/72 |
+| M | long | 60/68 | 60/68 | 58/68 | 178/204 (87%) | 190/204 | 204/204 | 54/72 |
+| L | short | 59/68 | 61/68 | 58/68 | 178/204 (87%) | 182/204 | 204/204 | 55/72 |
+| L | long | 60/68 | 61/68 | 57/68 | 178/204 (87%) | 190/204 | 204/204 | 55/72 |
+
+Failures (size variant model repeat case: got / want):
+
+- S short haiku r1 B07: ask_user / assign
+- S short haiku r1 B11: get / ask_user
+- S short haiku r1 O07: ask_user / assign
+- S short haiku r1 O12: status / ask_user
+- S long haiku r1 B07: assign / assign ['assignee is a unique first name']
+- S long haiku r1 B11: get / ask_user
+- S long haiku r1 O07: assign / assign ['assignee is a unique first name']
+- S long haiku r1 O11: reply / ask_user
+- S long haiku r1 O12: note / ask_user
+- S short haiku r2 B07: ask_user / assign
+- S short haiku r2 O07: ask_user / assign
+- S short haiku r2 O11: reply / ask_user
+- S short haiku r2 O12: status / ask_user
+- S long haiku r2 B07: assign / assign ['assignee is a unique first name']
+- S long haiku r2 O07: assign / assign ['assignee is a unique first name']
+- S long haiku r2 O11: reply / ask_user
+- S long haiku r2 O12: note / ask_user
+- S short sonnet r1 B07: ask_user / assign
+- S short sonnet r1 O07: ask_user / assign
+- S short sonnet r1 O11: reply / ask_user
+- S short sonnet r1 O12: status / ask_user
+- S long sonnet r1 B07: assign / assign ['assignee is a unique first name']
+- S long sonnet r1 O07: assign / assign ['assignee is a unique first name']
+- S long sonnet r1 O11: reply / ask_user
+- S long sonnet r1 O12: status / ask_user
+- S short sonnet r2 B07: ask_user / assign
+- S short sonnet r2 O07: ask_user / assign
+- S short sonnet r2 O11: reply / ask_user
+- S short sonnet r2 O12: status / ask_user
+- S long sonnet r2 B07: assign / assign ['assignee is a unique first name']
+- S long sonnet r2 O07: assign / assign ['assignee is a unique first name']
+- S long sonnet r2 O11: reply / ask_user
+- S long sonnet r2 O12: status / ask_user
+- S short opus r1 B07: assign / assign ['assignee is a unique first name']
+- S short opus r1 B11: get / ask_user
+- S short opus r1 O07: assign / assign ['assignee is a unique first name']
+- S short opus r1 O11: get / ask_user
+- S short opus r1 O12: status / ask_user
+- S long opus r1 B01: get / reply
+- S long opus r1 B07: assign / assign ['assignee is a unique first name']
+- S long opus r1 B11: get / ask_user
+- S long opus r1 O07: assign / assign ['assignee is a unique first name']
+- S long opus r1 O11: note / ask_user
+- S long opus r1 O12: status / ask_user
+- S short opus r2 B07: ask_user / assign
+- S short opus r2 B11: get / ask_user
+- S short opus r2 O07: ask_user / assign
+- S short opus r2 O11: note / ask_user
+- S short opus r2 O12: status / ask_user
+- S long opus r2 B07: assign / assign ['assignee is a unique first name']
+- S long opus r2 B11: get / ask_user
+- S long opus r2 O07: assign / assign ['assignee is a unique first name']
+- S long opus r2 O11: get / ask_user
+- S long opus r2 O12: status / ask_user
+- M short haiku r1 B07: ask_user / assign
+- M short haiku r1 O07: ask_user / assign
+- M short haiku r1 O11: other:search_again / ask_user
+- M short haiku r1 O12: status / ask_user
+- M long haiku r1 B07: assign / assign ['assignee is a unique first name']
+- M long haiku r1 O07: assign / assign ['assignee is a unique first name']
+- M long haiku r1 O11: other:search_again / ask_user
+- M long haiku r1 O12: note / ask_user
+- M short haiku r2 B07: ask_user / assign
+- M short haiku r2 O07: ask_user / assign
+- M short haiku r2 O12: status / ask_user
+- M long haiku r2 B07: assign / assign ['assignee is a unique first name']
+- M long haiku r2 O07: assign / assign ['assignee is a unique first name']
+- M long haiku r2 O11: reply / ask_user
+- M long haiku r2 O12: status / ask_user
+- M short sonnet r1 B07: ask_user / assign
+- M short sonnet r1 O07: ask_user / assign
+- M short sonnet r1 O11: reply / ask_user
+- M short sonnet r1 O12: status / ask_user
+- M long sonnet r1 B07: assign / assign ['assignee is a unique first name']
+- M long sonnet r1 O07: assign / assign ['assignee is a unique first name']
+- M long sonnet r1 O11: reply / ask_user
+- M long sonnet r1 O12: status / ask_user
+- M short sonnet r2 B07: ask_user / assign
+- M short sonnet r2 O07: ask_user / assign
+- M short sonnet r2 O11: reply / ask_user
+- M short sonnet r2 O12: status / ask_user
+- M long sonnet r2 B07: assign / assign ['assignee is a unique first name']
+- M long sonnet r2 O07: assign / assign ['assignee is a unique first name']
+- M long sonnet r2 O11: reply / ask_user
+- M long sonnet r2 O12: status / ask_user
+- M short opus r1 B07: ask_user / assign
+- M short opus r1 B11: get / ask_user
+- M short opus r1 O07: ask_user / assign
+- M short opus r1 O11: other:mcp__claude_ai_Slack__slack_search_public_and_private / ask_user
+- M short opus r1 O12: status / ask_user
+- M long opus r1 B07: assign / assign ['assignee is a unique first name']
+- M long opus r1 B11: get / ask_user
+- M long opus r1 O07: assign / assign ['assignee is a unique first name']
+- M long opus r1 O11: other:mcp__claude_ai_Slack__slack_search_public_and_private / ask_user
+- M long opus r1 O12: status / ask_user
+- M short opus r2 B07: ask_user / assign
+- M short opus r2 B11: get / ask_user
+- M short opus r2 O07: ask_user / assign
+- M short opus r2 O11: get / ask_user
+- M short opus r2 O12: status / ask_user
+- M long opus r2 B07: assign / assign ['assignee is a unique first name']
+- M long opus r2 B11: get / ask_user
+- M long opus r2 O07: assign / assign ['assignee is a unique first name']
+- M long opus r2 O11: note / ask_user
+- M long opus r2 O12: status / ask_user
+- L short haiku r1 B07: ask_user / assign
+- L short haiku r1 O07: ask_user / assign
+- L short haiku r1 O11: reply / ask_user
+- L short haiku r1 O12: status / ask_user
+- L long haiku r1 B07: assign / assign ['assignee is a unique first name']
+- L long haiku r1 O07: assign / assign ['assignee is a unique first name']
+- L long haiku r1 O11: reply / ask_user
+- L long haiku r1 O12: note / ask_user
+- L short haiku r2 B04: ask_user / merge
+- L short haiku r2 B07: ask_user / assign
+- L short haiku r2 O07: ask_user / assign
+- L short haiku r2 O11: reply / ask_user
+- L short haiku r2 O12: status / ask_user
+- L long haiku r2 B07: assign / assign ['assignee is a unique first name']
+- L long haiku r2 O07: assign / assign ['assignee is a unique first name']
+- L long haiku r2 O11: reply / ask_user
+- L long haiku r2 O12: note / ask_user
+- L short sonnet r1 B07: other:search_again / assign
+- L short sonnet r1 O07: other:search_again / assign
+- L short sonnet r1 O12: status / ask_user
+- L long sonnet r1 B07: assign / assign ['assignee is a unique first name']
+- L long sonnet r1 O07: assign / assign ['assignee is a unique first name']
+- L long sonnet r1 O12: status / ask_user
+- L short sonnet r2 B07: ask_user / assign
+- L short sonnet r2 O07: ask_user / assign
+- L short sonnet r2 O11: reply / ask_user
+- L short sonnet r2 O12: status / ask_user
+- L long sonnet r2 B07: assign / assign ['assignee is a unique first name']
+- L long sonnet r2 O07: assign / assign ['assignee is a unique first name']
+- L long sonnet r2 O11: reply / ask_user
+- L long sonnet r2 O12: status / ask_user
+- L short opus r1 B07: assign / assign ['assignee is a unique first name']
+- L short opus r1 B11: get / ask_user
+- L short opus r1 O07: assign / assign ['assignee is a unique first name']
+- L short opus r1 O11: get / ask_user
+- L short opus r1 O12: status / ask_user
+- L long opus r1 B01: get / reply
+- L long opus r1 B07: assign / assign ['assignee is a unique first name']
+- L long opus r1 B11: get / ask_user
+- L long opus r1 O07: assign / assign ['assignee is a unique first name']
+- L long opus r1 O11: get / ask_user
+- L long opus r1 O12: status / ask_user
+- L short opus r2 B07: assign / assign ['assignee is a unique first name']
+- L short opus r2 B11: get / ask_user
+- L short opus r2 O07: assign / assign ['assignee is a unique first name']
+- L short opus r2 O11: other:mcp__claude_ai_Slack__slack_search_public_and_private / ask_user
+- L short opus r2 O12: status / ask_user
+- L long opus r2 B07: assign / assign ['assignee is a unique first name']
+- L long opus r2 B11: get / ask_user
+- L long opus r2 O07: assign / assign ['assignee is a unique first name']
+- L long opus r2 O11: other:mcp__claude_ai_Slack__slack_search_public_and_private / ask_user
+- L long opus r2 O12: status / ask_user

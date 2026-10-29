@@ -1,0 +1,93 @@
+diff --color -ruN fixtures/p2b_repo/CHANGELOG.md p2b_out/sonnet/CHANGELOG.md
+--- fixtures/p2b_repo/CHANGELOG.md	2026-10-29 15:55:34
++++ p2b_out/sonnet/CHANGELOG.md	2026-10-29 15:59:58
+@@ -1,5 +1,8 @@
+ # Changelog
+ 
++## Unreleased
++- New tool `trash_files`: move files to Trash. It is a separate tool, not a `manage_file` action, so rename and move stay non-destructive.
++
+ ## 1.4.0
+ - `manage_file` gains `move`.
+ 
+diff --color -ruN fixtures/p2b_repo/README.md p2b_out/sonnet/README.md
+--- fixtures/p2b_repo/README.md	2026-10-29 15:55:34
++++ p2b_out/sonnet/README.md	2026-10-29 15:59:56
+@@ -12,3 +12,4 @@
+ |---|---|
+ | `search_files` | Find files by name or text |
+ | `manage_file` | Rename a file or move it to another folder |
++| `trash_files` | Move files to Trash (it empties itself after 30 days) |
+diff --color -ruN fixtures/p2b_repo/src/server.ts p2b_out/sonnet/src/server.ts
+--- fixtures/p2b_repo/src/server.ts	2026-10-29 15:55:34
++++ p2b_out/sonnet/src/server.ts	2026-10-29 15:59:52
+@@ -1,10 +1,12 @@
+ import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js'
+ import { registerSearchFiles } from './tools/searchFiles.js'
+ import { registerManageFile } from './tools/manageFile.js'
++import { registerTrashFiles } from './tools/trashFiles.js'
+ 
+ export const server = new McpServer(
+   { name: 'files-mcp', version: '1.4.0' },
+-  { instructions: 'Find files with search_files, then act on them with manage_file.' }
++  { instructions: 'Find files with search_files, then rename or move them with manage_file, or throw them away with trash_files.' }
+ )
+ registerSearchFiles(server)
+ registerManageFile(server)
++registerTrashFiles(server)
+diff --color -ruN fixtures/p2b_repo/src/tools/trashFiles.ts p2b_out/sonnet/src/tools/trashFiles.ts
+--- fixtures/p2b_repo/src/tools/trashFiles.ts	1970-01-01 01:00:00
++++ p2b_out/sonnet/src/tools/trashFiles.ts	2026-10-29 15:59:48
+@@ -0,0 +1,31 @@
++import { z } from 'zod'
++import type { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js'
++import { drive } from '../drive.js'
++
++export function registerTrashFiles(server: McpServer) {
++  server.registerTool(
++    'trash_files',
++    {
++      description:
++        'Move files to Trash. Use it for "throw this away" or "delete these files"; to rename or move a file use manage_file instead. Trash empties itself after 30 days, so after that the files are gone for good. Returns one summary line, then each file that could not be trashed with its reason. Find the ids with search_files first.',
++      inputSchema: {
++        ids: z
++          .array(z.string().min(1))
++          .min(1)
++          .max(50)
++          .describe('File ids to move to Trash, as returned by search_files. Up to 50 per call.'),
++      },
++      annotations: { readOnlyHint: false, destructiveHint: true, idempotentHint: false, openWorldHint: false },
++    },
++    async ({ ids }) => {
++      const results = await Promise.allSettled(ids.map((id) => drive.trash(id)))
++      const failed = results.flatMap((r, i) =>
++        r.status === 'rejected' ? [`${ids[i]}: ${(r.reason as Error).message}`] : []
++      )
++      const done = ids.length - failed.length
++      const lines = [`Moved ${done} of ${ids.length} files to Trash.`]
++      if (failed.length) lines.push('Not trashed:', ...failed, 'Check the ids with search_files and retry those.')
++      return { content: [{ type: 'text' as const, text: lines.join('\n') }], isError: done === 0 }
++    }
++  )
++}
+diff --color -ruN fixtures/p2b_repo/test/manageFile.test.ts p2b_out/sonnet/test/manageFile.test.ts
+--- fixtures/p2b_repo/test/manageFile.test.ts	2026-10-29 15:55:34
++++ p2b_out/sonnet/test/manageFile.test.ts	2026-10-29 15:59:55
+@@ -7,9 +7,15 @@
+   expect(manage?.inputSchema.properties.action.enum).toEqual(['rename', 'move'])
+ })
+ 
+-test('public tool surface is unchanged', async () => {
++test('trash_files is destructive and manage_file is not', async () => {
++  const tools = await listTools(server)
++  expect(tools.find((t) => t.name === 'trash_files')?.annotations.destructiveHint).toBe(true)
++  expect(tools.find((t) => t.name === 'manage_file')?.annotations.destructiveHint).toBe(false)
++})
++
++test('public tool surface only gained trash_files', async () => {
+   const names = (await listTools(server)).map((t) => t.name).sort()
+-  expect(names).toEqual(['manage_file', 'search_files'])
++  expect(names).toEqual(['manage_file', 'search_files', 'trash_files'])
+ })
+ 
+ declare function listTools(s: unknown): Promise<any[]>

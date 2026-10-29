@@ -1,0 +1,22 @@
+{
+ "id": "O08",
+ "tool": "mcp__helpdesk__log_time",
+ "args": {
+  "ticket_id": "4890",
+  "minutes": 45,
+  "note": "Call with customer"
+ },
+ "message": null,
+ "searches": [
+  "select:mcp__helpdesk__log_time,mcp__helpdesk__get_ticket"
+ ],
+ "init": {
+  "tools": 47,
+  "helpdesk_tools": 12,
+  "servers_connected": [
+   "claude.ai Claude Docs",
+   "helpdesk"
+  ]
+ },
+ "seconds": 25
+}

@@ -1,0 +1,7 @@
+[
+ {"id": "E01", "tool": null, "args": null, "message": "Your round is saved: two out of three, about 12 minutes. One note: the difficulty scale only goes up to 5, so your 6 was saved as a 5. Rest that brain, you earned it!"},
+ {"id": "E02", "tool": null, "args": null, "message": "Your round is saved: three for three, about 15 minutes, difficulty 2. Enjoy your lunch!"},
+ {"id": "E03", "tool": null, "args": null, "message": "Your round is saved, but two things didn't go in cleanly: drill 2 was not stored as skipped, and no difficulty rating was saved because I didn't ask you for one. If you have a few seconds, tell me how hard it felt from 1 (easy) to 5 (hard) and I can add it. Otherwise catch your bus, bye!"},
+ {"id": "E04", "tool": null, "args": null, "message": "Your round is saved: two out of three, with a difficulty of 4. I didn't have a time for the session, so the duration was stored as unknown. Nice work, and 'lontano' is the one to remember."},
+ {"id": "E05", "tool": null, "args": null, "message": "Your round is saved: two out of three, about 20 minutes. The difficulty scale only takes whole numbers, so your 3.5 was saved as a 4. Say so if you'd rather have it as a 3. And the irregular past of 'potere' is 'potei', worth another look next time."}
+]

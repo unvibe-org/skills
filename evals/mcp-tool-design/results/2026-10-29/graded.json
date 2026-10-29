@@ -1,0 +1,6248 @@
+[
+ {
+  "run": "p1_all_haiku",
+  "point": "p1",
+  "variant": "all",
+  "model": "haiku",
+  "fixture": "fixtures/p1_args_all.json",
+  "input": "results/2026-10-29/inputs/p1_all.md",
+  "output": "results/2026-10-29/raw/p1_all_haiku.json",
+  "rows": [
+   {
+    "id": "A01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "search",
+    "want": "search",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "search",
+    "want": "search",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "search",
+    "want": "search",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "search",
+    "want": "search",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A07",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "get",
+    "want": "get",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C07",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "reply",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   }
+  ]
+ },
+ {
+  "run": "p1_all_sonnet",
+  "point": "p1",
+  "variant": "all",
+  "model": "sonnet",
+  "fixture": "fixtures/p1_args_all.json",
+  "input": "results/2026-10-29/inputs/p1_all.md",
+  "output": "results/2026-10-29/raw/p1_all_sonnet.json",
+  "rows": [
+   {
+    "id": "A01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "search",
+    "want": "search",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "search",
+    "want": "search",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "search",
+    "want": "search",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "search",
+    "want": "search",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A07",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "get",
+    "want": "get",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C07",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "reply",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   }
+  ]
+ },
+ {
+  "run": "p1_all_opus",
+  "point": "p1",
+  "variant": "all",
+  "model": "opus",
+  "fixture": "fixtures/p1_args_all.json",
+  "input": "results/2026-10-29/inputs/p1_all.md",
+  "output": "results/2026-10-29/raw/p1_all_opus.json",
+  "rows": [
+   {
+    "id": "A01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "search",
+    "want": "search",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "search",
+    "want": "search",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "search",
+    "want": "search",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "search",
+    "want": "search",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A07",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "get",
+    "want": "get",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C07",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "reply",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   }
+  ]
+ },
+ {
+  "run": "p1_none_haiku",
+  "point": "p1",
+  "variant": "none",
+  "model": "haiku",
+  "fixture": "fixtures/p1_args_none.json",
+  "input": "results/2026-10-29/inputs/p1_none.md",
+  "output": "results/2026-10-29/raw/p1_none_haiku.json",
+  "rows": [
+   {
+    "id": "A01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "search",
+    "want": "search",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "search",
+    "want": "search",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "search",
+    "want": "search",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "search",
+    "want": "search",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A07",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "get",
+    "want": "get",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C07",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "reply",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   }
+  ]
+ },
+ {
+  "run": "p1_none_sonnet",
+  "point": "p1",
+  "variant": "none",
+  "model": "sonnet",
+  "fixture": "fixtures/p1_args_none.json",
+  "input": "results/2026-10-29/inputs/p1_none.md",
+  "output": "results/2026-10-29/raw/p1_none_sonnet.json",
+  "rows": [
+   {
+    "id": "A01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "search",
+    "want": "search",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "search",
+    "want": "search",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "search",
+    "want": "search",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "search",
+    "want": "search",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A07",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "get",
+    "want": "get",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C07",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "reply",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   }
+  ]
+ },
+ {
+  "run": "p1_none_opus",
+  "point": "p1",
+  "variant": "none",
+  "model": "opus",
+  "fixture": "fixtures/p1_args_none.json",
+  "input": "results/2026-10-29/inputs/p1_none.md",
+  "output": "results/2026-10-29/raw/p1_none_opus.json",
+  "rows": [
+   {
+    "id": "A01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "search",
+    "want": "search",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "search",
+    "want": "search",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "search",
+    "want": "search",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "search",
+    "want": "search",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A07",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "get",
+    "want": "get",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C07",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "reply",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   }
+  ]
+ },
+ {
+  "run": "p1_minimal_haiku",
+  "point": "p1",
+  "variant": "minimal",
+  "model": "haiku",
+  "fixture": "fixtures/p1_args_minimal.json",
+  "input": "results/2026-10-29/inputs/p1_minimal.md",
+  "output": "results/2026-10-29/raw/p1_minimal_haiku.json",
+  "rows": [
+   {
+    "id": "A01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "search",
+    "want": "search",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "search",
+    "want": "search",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "search",
+    "want": "search",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "search",
+    "want": "search",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A07",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "get",
+    "want": "get",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C07",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "reply",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   }
+  ]
+ },
+ {
+  "run": "p1_minimal_sonnet",
+  "point": "p1",
+  "variant": "minimal",
+  "model": "sonnet",
+  "fixture": "fixtures/p1_args_minimal.json",
+  "input": "results/2026-10-29/inputs/p1_minimal.md",
+  "output": "results/2026-10-29/raw/p1_minimal_sonnet.json",
+  "rows": [
+   {
+    "id": "A01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "search",
+    "want": "search",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "search",
+    "want": "search",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "search",
+    "want": "search",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "search",
+    "want": "search",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A07",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "get",
+    "want": "get",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C07",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "reply",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   }
+  ]
+ },
+ {
+  "run": "p1_minimal_opus",
+  "point": "p1",
+  "variant": "minimal",
+  "model": "opus",
+  "fixture": "fixtures/p1_args_minimal.json",
+  "input": "results/2026-10-29/inputs/p1_minimal.md",
+  "output": "results/2026-10-29/raw/p1_minimal_opus.json",
+  "rows": [
+   {
+    "id": "A01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "search",
+    "want": "search",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "search",
+    "want": "search",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "search",
+    "want": "search",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "search",
+    "want": "search",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A07",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "A10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "get",
+    "want": "get",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C07",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "reply",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   }
+  ]
+ },
+ {
+  "run": "p4_short_12_haiku",
+  "point": "p4",
+  "variant": "short_12",
+  "model": "haiku",
+  "fixture": "fixtures/p4_short_12.json",
+  "input": "results/2026-10-29/inputs/p4_short_12.md",
+  "output": "results/2026-10-29/raw/p4_short_12_haiku.json",
+  "rows": [
+   {
+    "id": "B01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "reply",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "note",
+    "want": "note",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B07",
+    "pass": false,
+    "tool_ok": false,
+    "got": "ask_user",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "note",
+    "want": "note",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B11",
+    "pass": true,
+    "tool_ok": true,
+    "got": "ask_user",
+    "want": "ask_user",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B12",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "get",
+    "want": "get",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C07",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "reply",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   }
+  ]
+ },
+ {
+  "run": "p4_short_12_sonnet",
+  "point": "p4",
+  "variant": "short_12",
+  "model": "sonnet",
+  "fixture": "fixtures/p4_short_12.json",
+  "input": "results/2026-10-29/inputs/p4_short_12.md",
+  "output": "results/2026-10-29/raw/p4_short_12_sonnet.json",
+  "rows": [
+   {
+    "id": "B01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "reply",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "note",
+    "want": "note",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B07",
+    "pass": false,
+    "tool_ok": false,
+    "got": "ask_user",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "note",
+    "want": "note",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B11",
+    "pass": true,
+    "tool_ok": true,
+    "got": "ask_user",
+    "want": "ask_user",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B12",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "get",
+    "want": "get",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C07",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "reply",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   }
+  ]
+ },
+ {
+  "run": "p4_short_12_opus",
+  "point": "p4",
+  "variant": "short_12",
+  "model": "opus",
+  "fixture": "fixtures/p4_short_12.json",
+  "input": "results/2026-10-29/inputs/p4_short_12.md",
+  "output": "results/2026-10-29/raw/p4_short_12_opus.json",
+  "rows": [
+   {
+    "id": "B01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "reply",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "note",
+    "want": "note",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B07",
+    "pass": false,
+    "tool_ok": false,
+    "got": "ask_user",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "note",
+    "want": "note",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B11",
+    "pass": false,
+    "tool_ok": false,
+    "got": "get",
+    "want": "ask_user",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B12",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "get",
+    "want": "get",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C07",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "reply",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   }
+  ]
+ },
+ {
+  "run": "p4_long_12_haiku",
+  "point": "p4",
+  "variant": "long_12",
+  "model": "haiku",
+  "fixture": "fixtures/p4_long_12.json",
+  "input": "results/2026-10-29/inputs/p4_long_12.md",
+  "output": "results/2026-10-29/raw/p4_long_12_haiku.json",
+  "rows": [
+   {
+    "id": "B01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "reply",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "note",
+    "want": "note",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B07",
+    "pass": false,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": [
+     "assignee is a unique first name"
+    ]
+   },
+   {
+    "id": "B08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "note",
+    "want": "note",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B11",
+    "pass": true,
+    "tool_ok": true,
+    "got": "ask_user",
+    "want": "ask_user",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B12",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "get",
+    "want": "get",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C07",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "reply",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   }
+  ]
+ },
+ {
+  "run": "p4_long_12_sonnet",
+  "point": "p4",
+  "variant": "long_12",
+  "model": "sonnet",
+  "fixture": "fixtures/p4_long_12.json",
+  "input": "results/2026-10-29/inputs/p4_long_12.md",
+  "output": "results/2026-10-29/raw/p4_long_12_sonnet.json",
+  "rows": [
+   {
+    "id": "B01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "reply",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "note",
+    "want": "note",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B07",
+    "pass": false,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": [
+     "assignee is a unique first name"
+    ]
+   },
+   {
+    "id": "B08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "note",
+    "want": "note",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B11",
+    "pass": true,
+    "tool_ok": true,
+    "got": "ask_user",
+    "want": "ask_user",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B12",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "get",
+    "want": "get",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C07",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "reply",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   }
+  ]
+ },
+ {
+  "run": "p4_long_12_opus",
+  "point": "p4",
+  "variant": "long_12",
+  "model": "opus",
+  "fixture": "fixtures/p4_long_12.json",
+  "input": "results/2026-10-29/inputs/p4_long_12.md",
+  "output": "results/2026-10-29/raw/p4_long_12_opus.json",
+  "rows": [
+   {
+    "id": "B01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "reply",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "note",
+    "want": "note",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B07",
+    "pass": false,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": [
+     "assignee is a unique first name"
+    ]
+   },
+   {
+    "id": "B08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "note",
+    "want": "note",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B11",
+    "pass": false,
+    "tool_ok": false,
+    "got": "get",
+    "want": "ask_user",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B12",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "get",
+    "want": "get",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C07",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "reply",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   }
+  ]
+ },
+ {
+  "run": "p4_short_35_haiku",
+  "point": "p4",
+  "variant": "short_35",
+  "model": "haiku",
+  "fixture": "fixtures/p4_short_35.json",
+  "input": "results/2026-10-29/inputs/p4_short_35.md",
+  "output": "results/2026-10-29/raw/p4_short_35_haiku.json",
+  "rows": [
+   {
+    "id": "B01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "reply",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "note",
+    "want": "note",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B07",
+    "pass": false,
+    "tool_ok": false,
+    "got": "ask_user",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "note",
+    "want": "note",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B11",
+    "pass": true,
+    "tool_ok": true,
+    "got": "ask_user",
+    "want": "ask_user",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B12",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "get",
+    "want": "get",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C07",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "reply",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   }
+  ]
+ },
+ {
+  "run": "p4_short_35_sonnet",
+  "point": "p4",
+  "variant": "short_35",
+  "model": "sonnet",
+  "fixture": "fixtures/p4_short_35.json",
+  "input": "results/2026-10-29/inputs/p4_short_35.md",
+  "output": "results/2026-10-29/raw/p4_short_35_sonnet.json",
+  "rows": [
+   {
+    "id": "B01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "reply",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "note",
+    "want": "note",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B07",
+    "pass": false,
+    "tool_ok": false,
+    "got": "other:list_staff",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "note",
+    "want": "note",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B11",
+    "pass": true,
+    "tool_ok": true,
+    "got": "ask_user",
+    "want": "ask_user",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B12",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "get",
+    "want": "get",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C07",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "reply",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   }
+  ]
+ },
+ {
+  "run": "p4_short_35_opus",
+  "point": "p4",
+  "variant": "short_35",
+  "model": "opus",
+  "fixture": "fixtures/p4_short_35.json",
+  "input": "results/2026-10-29/inputs/p4_short_35.md",
+  "output": "results/2026-10-29/raw/p4_short_35_opus.json",
+  "rows": [
+   {
+    "id": "B01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "reply",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "note",
+    "want": "note",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B07",
+    "pass": false,
+    "tool_ok": false,
+    "got": "ask_user",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "note",
+    "want": "note",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B11",
+    "pass": false,
+    "tool_ok": false,
+    "got": "get",
+    "want": "ask_user",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B12",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "get",
+    "want": "get",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C07",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "reply",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   }
+  ]
+ },
+ {
+  "run": "p4_long_35_haiku",
+  "point": "p4",
+  "variant": "long_35",
+  "model": "haiku",
+  "fixture": "fixtures/p4_long_35.json",
+  "input": "results/2026-10-29/inputs/p4_long_35.md",
+  "output": "results/2026-10-29/raw/p4_long_35_haiku.json",
+  "rows": [
+   {
+    "id": "B01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "reply",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "note",
+    "want": "note",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B07",
+    "pass": false,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": [
+     "assignee is a unique first name"
+    ]
+   },
+   {
+    "id": "B08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "note",
+    "want": "note",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B11",
+    "pass": false,
+    "tool_ok": false,
+    "got": "get",
+    "want": "ask_user",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B12",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "get",
+    "want": "get",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C07",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "reply",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   }
+  ]
+ },
+ {
+  "run": "p4_long_35_sonnet",
+  "point": "p4",
+  "variant": "long_35",
+  "model": "sonnet",
+  "fixture": "fixtures/p4_long_35.json",
+  "input": "results/2026-10-29/inputs/p4_long_35.md",
+  "output": "results/2026-10-29/raw/p4_long_35_sonnet.json",
+  "rows": [
+   {
+    "id": "B01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "reply",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "note",
+    "want": "note",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B07",
+    "pass": false,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": [
+     "assignee is a unique first name"
+    ]
+   },
+   {
+    "id": "B08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "note",
+    "want": "note",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B11",
+    "pass": true,
+    "tool_ok": true,
+    "got": "ask_user",
+    "want": "ask_user",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B12",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "get",
+    "want": "get",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C07",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "reply",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   }
+  ]
+ },
+ {
+  "run": "p4_long_35_opus",
+  "point": "p4",
+  "variant": "long_35",
+  "model": "opus",
+  "fixture": "fixtures/p4_long_35.json",
+  "input": "results/2026-10-29/inputs/p4_long_35.md",
+  "output": "results/2026-10-29/raw/p4_long_35_opus.json",
+  "rows": [
+   {
+    "id": "B01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "reply",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "note",
+    "want": "note",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B07",
+    "pass": false,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": [
+     "assignee is a unique first name"
+    ]
+   },
+   {
+    "id": "B08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "note",
+    "want": "note",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B11",
+    "pass": false,
+    "tool_ok": false,
+    "got": "get",
+    "want": "ask_user",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B12",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "get",
+    "want": "get",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C07",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "reply",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   }
+  ]
+ },
+ {
+  "run": "p2_merged_haiku",
+  "point": "p2",
+  "variant": "merged",
+  "model": "haiku",
+  "fixture": "fixtures/p2_merged.json",
+  "input": "results/2026-10-29/inputs/p2_merged.md",
+  "output": "results/2026-10-29/raw/p2_merged_haiku.json",
+  "rows": [
+   {
+    "id": "B01",
+    "pass": false,
+    "tool_ok": false,
+    "got": "get",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "note",
+    "want": "note",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B07",
+    "pass": false,
+    "tool_ok": false,
+    "got": "ask_user",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "note",
+    "want": "note",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B11",
+    "pass": false,
+    "tool_ok": false,
+    "got": "get",
+    "want": "ask_user",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B12",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "get",
+    "want": "get",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C07",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "reply",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   }
+  ]
+ },
+ {
+  "run": "p2_merged_sonnet",
+  "point": "p2",
+  "variant": "merged",
+  "model": "sonnet",
+  "fixture": "fixtures/p2_merged.json",
+  "input": "results/2026-10-29/inputs/p2_merged.md",
+  "output": "results/2026-10-29/raw/p2_merged_sonnet.json",
+  "rows": [
+   {
+    "id": "B01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "reply",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "note",
+    "want": "note",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B07",
+    "pass": false,
+    "tool_ok": false,
+    "got": "ask_user",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "note",
+    "want": "note",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B11",
+    "pass": true,
+    "tool_ok": true,
+    "got": "ask_user",
+    "want": "ask_user",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B12",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "get",
+    "want": "get",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C07",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "reply",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   }
+  ]
+ },
+ {
+  "run": "p2_merged_opus",
+  "point": "p2",
+  "variant": "merged",
+  "model": "opus",
+  "fixture": "fixtures/p2_merged.json",
+  "input": "results/2026-10-29/inputs/p2_merged.md",
+  "output": "results/2026-10-29/raw/p2_merged_opus.json",
+  "rows": [
+   {
+    "id": "B01",
+    "pass": false,
+    "tool_ok": false,
+    "got": "get",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "note",
+    "want": "note",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B07",
+    "pass": false,
+    "tool_ok": false,
+    "got": "ask_user",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "note",
+    "want": "note",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B11",
+    "pass": false,
+    "tool_ok": false,
+    "got": "get",
+    "want": "ask_user",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "B12",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C01",
+    "pass": true,
+    "tool_ok": true,
+    "got": "get",
+    "want": "get",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C02",
+    "pass": true,
+    "tool_ok": true,
+    "got": "delete",
+    "want": "delete",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C03",
+    "pass": true,
+    "tool_ok": true,
+    "got": "merge",
+    "want": "merge",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C04",
+    "pass": true,
+    "tool_ok": true,
+    "got": "escalate",
+    "want": "escalate",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C05",
+    "pass": true,
+    "tool_ok": true,
+    "got": "status",
+    "want": "status",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C06",
+    "pass": true,
+    "tool_ok": true,
+    "got": "log_time",
+    "want": "log_time",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C07",
+    "pass": true,
+    "tool_ok": true,
+    "got": "followup",
+    "want": "followup",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C08",
+    "pass": true,
+    "tool_ok": true,
+    "got": "reply",
+    "want": "reply",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C09",
+    "pass": true,
+    "tool_ok": true,
+    "got": "forward",
+    "want": "forward",
+    "trap": false,
+    "errors": []
+   },
+   {
+    "id": "C10",
+    "pass": true,
+    "tool_ok": true,
+    "got": "assign",
+    "want": "assign",
+    "trap": false,
+    "errors": []
+   }
+  ]
+ },
+ {
+  "run": "p3_control_haiku",
+  "point": "p3",
+  "variant": "control",
+  "model": "haiku",
+  "fixture": "fixtures/p3_control.json",
+  "input": "results/2026-10-29/inputs/p3_control.md",
+  "output": "results/2026-10-29/raw/p3_control_haiku.json",
+  "rows": [
+   {
+    "id": "D01",
+    "pass": false,
+    "got": "next_drill",
+    "revealed": true,
+    "context": "fresh",
+    "decision": "wrong_first"
+   },
+   {
+    "id": "D02",
+    "pass": false,
+    "got": "next_drill",
+    "revealed": true,
+    "context": "fresh",
+    "decision": "wrong_later"
+   },
+   {
+    "id": "D03",
+    "pass": true,
+    "got": "message",
+    "revealed": false,
+    "context": "fresh",
+    "decision": "round_done"
+   },
+   {
+    "id": "D04",
+    "pass": false,
+    "got": "next_drill",
+    "revealed": true,
+    "context": "resumed",
+    "decision": "wrong_first"
+   },
+   {
+    "id": "D05",
+    "pass": false,
+    "got": "message",
+    "revealed": true,
+    "context": "resumed",
+    "decision": "wrong_later"
+   },
+   {
+    "id": "D06",
+    "pass": false,
+    "got": "message",
+    "revealed": true,
+    "context": "resumed",
+    "decision": "round_done"
+   },
+   {
+    "id": "D07",
+    "pass": false,
+    "got": "next_drill",
+    "revealed": true,
+    "context": "detour",
+    "decision": "wrong_first"
+   },
+   {
+    "id": "D08",
+    "pass": false,
+    "got": "next_drill",
+    "revealed": true,
+    "context": "detour",
+    "decision": "wrong_later"
+   },
+   {
+    "id": "D09",
+    "pass": true,
+    "got": "message",
+    "revealed": false,
+    "context": "detour",
+    "decision": "round_done"
+   }
+  ]
+ },
+ {
+  "run": "p3_control_sonnet",
+  "point": "p3",
+  "variant": "control",
+  "model": "sonnet",
+  "fixture": "fixtures/p3_control.json",
+  "input": "results/2026-10-29/inputs/p3_control.md",
+  "output": "results/2026-10-29/raw/p3_control_sonnet.json",
+  "rows": [
+   {
+    "id": "D01",
+    "pass": false,
+    "got": "message",
+    "revealed": true,
+    "context": "fresh",
+    "decision": "wrong_first"
+   },
+   {
+    "id": "D02",
+    "pass": false,
+    "got": "message",
+    "revealed": true,
+    "context": "fresh",
+    "decision": "wrong_later"
+   },
+   {
+    "id": "D03",
+    "pass": true,
+    "got": "message",
+    "revealed": false,
+    "context": "fresh",
+    "decision": "round_done"
+   },
+   {
+    "id": "D04",
+    "pass": false,
+    "got": "message",
+    "revealed": true,
+    "context": "resumed",
+    "decision": "wrong_first"
+   },
+   {
+    "id": "D05",
+    "pass": false,
+    "got": "message",
+    "revealed": true,
+    "context": "resumed",
+    "decision": "wrong_later"
+   },
+   {
+    "id": "D06",
+    "pass": false,
+    "got": "message",
+    "revealed": true,
+    "context": "resumed",
+    "decision": "round_done"
+   },
+   {
+    "id": "D07",
+    "pass": false,
+    "got": "message",
+    "revealed": true,
+    "context": "detour",
+    "decision": "wrong_first"
+   },
+   {
+    "id": "D08",
+    "pass": false,
+    "got": "message",
+    "revealed": true,
+    "context": "detour",
+    "decision": "wrong_later"
+   },
+   {
+    "id": "D09",
+    "pass": true,
+    "got": "message",
+    "revealed": false,
+    "context": "detour",
+    "decision": "round_done"
+   }
+  ]
+ },
+ {
+  "run": "p3_control_opus",
+  "point": "p3",
+  "variant": "control",
+  "model": "opus",
+  "fixture": "fixtures/p3_control.json",
+  "input": "results/2026-10-29/inputs/p3_control.md",
+  "output": "results/2026-10-29/raw/p3_control_opus.json",
+  "rows": [
+   {
+    "id": "D01",
+    "pass": false,
+    "got": "next_drill",
+    "revealed": true,
+    "context": "fresh",
+    "decision": "wrong_first"
+   },
+   {
+    "id": "D02",
+    "pass": false,
+    "got": "next_drill",
+    "revealed": true,
+    "context": "fresh",
+    "decision": "wrong_later"
+   },
+   {
+    "id": "D03",
+    "pass": true,
+    "got": "message",
+    "revealed": true,
+    "context": "fresh",
+    "decision": "round_done"
+   },
+   {
+    "id": "D04",
+    "pass": false,
+    "got": "next_drill",
+    "revealed": true,
+    "context": "resumed",
+    "decision": "wrong_first"
+   },
+   {
+    "id": "D05",
+    "pass": false,
+    "got": "message",
+    "revealed": true,
+    "context": "resumed",
+    "decision": "wrong_later"
+   },
+   {
+    "id": "D06",
+    "pass": false,
+    "got": "message",
+    "revealed": true,
+    "context": "resumed",
+    "decision": "round_done"
+   },
+   {
+    "id": "D07",
+    "pass": false,
+    "got": "next_drill",
+    "revealed": true,
+    "context": "detour",
+    "decision": "wrong_first"
+   },
+   {
+    "id": "D08",
+    "pass": false,
+    "got": "next_drill",
+    "revealed": true,
+    "context": "detour",
+    "decision": "wrong_later"
+   },
+   {
+    "id": "D09",
+    "pass": true,
+    "got": "message",
+    "revealed": true,
+    "context": "detour",
+    "decision": "round_done"
+   }
+  ]
+ },
+ {
+  "run": "p3_server_haiku",
+  "point": "p3",
+  "variant": "server",
+  "model": "haiku",
+  "fixture": "fixtures/p3_server.json",
+  "input": "results/2026-10-29/inputs/p3_server.md",
+  "output": "results/2026-10-29/raw/p3_server_haiku.json",
+  "rows": [
+   {
+    "id": "D01",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "fresh",
+    "decision": "wrong_first"
+   },
+   {
+    "id": "D02",
+    "pass": true,
+    "got": "message",
+    "revealed": false,
+    "context": "fresh",
+    "decision": "wrong_later"
+   },
+   {
+    "id": "D03",
+    "pass": true,
+    "got": "message",
+    "revealed": false,
+    "context": "fresh",
+    "decision": "round_done"
+   },
+   {
+    "id": "D04",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "resumed",
+    "decision": "wrong_first"
+   },
+   {
+    "id": "D05",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "resumed",
+    "decision": "wrong_later"
+   },
+   {
+    "id": "D06",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "resumed",
+    "decision": "round_done"
+   },
+   {
+    "id": "D07",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "detour",
+    "decision": "wrong_first"
+   },
+   {
+    "id": "D08",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "detour",
+    "decision": "wrong_later"
+   },
+   {
+    "id": "D09",
+    "pass": true,
+    "got": "message",
+    "revealed": false,
+    "context": "detour",
+    "decision": "round_done"
+   }
+  ]
+ },
+ {
+  "run": "p3_server_sonnet",
+  "point": "p3",
+  "variant": "server",
+  "model": "sonnet",
+  "fixture": "fixtures/p3_server.json",
+  "input": "results/2026-10-29/inputs/p3_server.md",
+  "output": "results/2026-10-29/raw/p3_server_sonnet.json",
+  "rows": [
+   {
+    "id": "D01",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "fresh",
+    "decision": "wrong_first"
+   },
+   {
+    "id": "D02",
+    "pass": false,
+    "got": "message",
+    "revealed": true,
+    "context": "fresh",
+    "decision": "wrong_later"
+   },
+   {
+    "id": "D03",
+    "pass": true,
+    "got": "message",
+    "revealed": false,
+    "context": "fresh",
+    "decision": "round_done"
+   },
+   {
+    "id": "D04",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "resumed",
+    "decision": "wrong_first"
+   },
+   {
+    "id": "D05",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "resumed",
+    "decision": "wrong_later"
+   },
+   {
+    "id": "D06",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "resumed",
+    "decision": "round_done"
+   },
+   {
+    "id": "D07",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "detour",
+    "decision": "wrong_first"
+   },
+   {
+    "id": "D08",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "detour",
+    "decision": "wrong_later"
+   },
+   {
+    "id": "D09",
+    "pass": true,
+    "got": "message",
+    "revealed": false,
+    "context": "detour",
+    "decision": "round_done"
+   }
+  ]
+ },
+ {
+  "run": "p3_server_opus",
+  "point": "p3",
+  "variant": "server",
+  "model": "opus",
+  "fixture": "fixtures/p3_server.json",
+  "input": "results/2026-10-29/inputs/p3_server.md",
+  "output": "results/2026-10-29/raw/p3_server_opus.json",
+  "rows": [
+   {
+    "id": "D01",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "fresh",
+    "decision": "wrong_first"
+   },
+   {
+    "id": "D02",
+    "pass": true,
+    "got": "message",
+    "revealed": false,
+    "context": "fresh",
+    "decision": "wrong_later"
+   },
+   {
+    "id": "D03",
+    "pass": true,
+    "got": "message",
+    "revealed": false,
+    "context": "fresh",
+    "decision": "round_done"
+   },
+   {
+    "id": "D04",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "resumed",
+    "decision": "wrong_first"
+   },
+   {
+    "id": "D05",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "resumed",
+    "decision": "wrong_later"
+   },
+   {
+    "id": "D06",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "resumed",
+    "decision": "round_done"
+   },
+   {
+    "id": "D07",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "detour",
+    "decision": "wrong_first"
+   },
+   {
+    "id": "D08",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "detour",
+    "decision": "wrong_later"
+   },
+   {
+    "id": "D09",
+    "pass": true,
+    "got": "message",
+    "revealed": false,
+    "context": "detour",
+    "decision": "round_done"
+   }
+  ]
+ },
+ {
+  "run": "p3_jit_haiku",
+  "point": "p3",
+  "variant": "jit",
+  "model": "haiku",
+  "fixture": "fixtures/p3_jit.json",
+  "input": "results/2026-10-29/inputs/p3_jit.md",
+  "output": "results/2026-10-29/raw/p3_jit_haiku.json",
+  "rows": [
+   {
+    "id": "D01",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "fresh",
+    "decision": "wrong_first"
+   },
+   {
+    "id": "D02",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "fresh",
+    "decision": "wrong_later"
+   },
+   {
+    "id": "D03",
+    "pass": true,
+    "got": "message",
+    "revealed": false,
+    "context": "fresh",
+    "decision": "round_done"
+   },
+   {
+    "id": "D04",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "resumed",
+    "decision": "wrong_first"
+   },
+   {
+    "id": "D05",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "resumed",
+    "decision": "wrong_later"
+   },
+   {
+    "id": "D06",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "resumed",
+    "decision": "round_done"
+   },
+   {
+    "id": "D07",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "detour",
+    "decision": "wrong_first"
+   },
+   {
+    "id": "D08",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "detour",
+    "decision": "wrong_later"
+   },
+   {
+    "id": "D09",
+    "pass": true,
+    "got": "message",
+    "revealed": false,
+    "context": "detour",
+    "decision": "round_done"
+   }
+  ]
+ },
+ {
+  "run": "p3_jit_sonnet",
+  "point": "p3",
+  "variant": "jit",
+  "model": "sonnet",
+  "fixture": "fixtures/p3_jit.json",
+  "input": "results/2026-10-29/inputs/p3_jit.md",
+  "output": "results/2026-10-29/raw/p3_jit_sonnet.json",
+  "rows": [
+   {
+    "id": "D01",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "fresh",
+    "decision": "wrong_first"
+   },
+   {
+    "id": "D02",
+    "pass": false,
+    "got": "message",
+    "revealed": true,
+    "context": "fresh",
+    "decision": "wrong_later"
+   },
+   {
+    "id": "D03",
+    "pass": true,
+    "got": "message",
+    "revealed": false,
+    "context": "fresh",
+    "decision": "round_done"
+   },
+   {
+    "id": "D04",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "resumed",
+    "decision": "wrong_first"
+   },
+   {
+    "id": "D05",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "resumed",
+    "decision": "wrong_later"
+   },
+   {
+    "id": "D06",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "resumed",
+    "decision": "round_done"
+   },
+   {
+    "id": "D07",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "detour",
+    "decision": "wrong_first"
+   },
+   {
+    "id": "D08",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "detour",
+    "decision": "wrong_later"
+   },
+   {
+    "id": "D09",
+    "pass": true,
+    "got": "message",
+    "revealed": false,
+    "context": "detour",
+    "decision": "round_done"
+   }
+  ]
+ },
+ {
+  "run": "p3_jit_opus",
+  "point": "p3",
+  "variant": "jit",
+  "model": "opus",
+  "fixture": "fixtures/p3_jit.json",
+  "input": "results/2026-10-29/inputs/p3_jit.md",
+  "output": "results/2026-10-29/raw/p3_jit_opus.json",
+  "rows": [
+   {
+    "id": "D01",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "fresh",
+    "decision": "wrong_first"
+   },
+   {
+    "id": "D02",
+    "pass": true,
+    "got": "message",
+    "revealed": false,
+    "context": "fresh",
+    "decision": "wrong_later"
+   },
+   {
+    "id": "D03",
+    "pass": true,
+    "got": "message",
+    "revealed": false,
+    "context": "fresh",
+    "decision": "round_done"
+   },
+   {
+    "id": "D04",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "resumed",
+    "decision": "wrong_first"
+   },
+   {
+    "id": "D05",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "resumed",
+    "decision": "wrong_later"
+   },
+   {
+    "id": "D06",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "resumed",
+    "decision": "round_done"
+   },
+   {
+    "id": "D07",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "detour",
+    "decision": "wrong_first"
+   },
+   {
+    "id": "D08",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "detour",
+    "decision": "wrong_later"
+   },
+   {
+    "id": "D09",
+    "pass": true,
+    "got": "message",
+    "revealed": false,
+    "context": "detour",
+    "decision": "round_done"
+   }
+  ]
+ },
+ {
+  "run": "p3_both_haiku",
+  "point": "p3",
+  "variant": "both",
+  "model": "haiku",
+  "fixture": "fixtures/p3_both.json",
+  "input": "results/2026-10-29/inputs/p3_both.md",
+  "output": "results/2026-10-29/raw/p3_both_haiku.json",
+  "rows": [
+   {
+    "id": "D01",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "fresh",
+    "decision": "wrong_first"
+   },
+   {
+    "id": "D02",
+    "pass": true,
+    "got": "message",
+    "revealed": false,
+    "context": "fresh",
+    "decision": "wrong_later"
+   },
+   {
+    "id": "D03",
+    "pass": true,
+    "got": "message",
+    "revealed": false,
+    "context": "fresh",
+    "decision": "round_done"
+   },
+   {
+    "id": "D04",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "resumed",
+    "decision": "wrong_first"
+   },
+   {
+    "id": "D05",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "resumed",
+    "decision": "wrong_later"
+   },
+   {
+    "id": "D06",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "resumed",
+    "decision": "round_done"
+   },
+   {
+    "id": "D07",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "detour",
+    "decision": "wrong_first"
+   },
+   {
+    "id": "D08",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "detour",
+    "decision": "wrong_later"
+   },
+   {
+    "id": "D09",
+    "pass": true,
+    "got": "message",
+    "revealed": false,
+    "context": "detour",
+    "decision": "round_done"
+   }
+  ]
+ },
+ {
+  "run": "p3_both_sonnet",
+  "point": "p3",
+  "variant": "both",
+  "model": "sonnet",
+  "fixture": "fixtures/p3_both.json",
+  "input": "results/2026-10-29/inputs/p3_both.md",
+  "output": "results/2026-10-29/raw/p3_both_sonnet.json",
+  "rows": [
+   {
+    "id": "D01",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "fresh",
+    "decision": "wrong_first"
+   },
+   {
+    "id": "D02",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "fresh",
+    "decision": "wrong_later"
+   },
+   {
+    "id": "D03",
+    "pass": true,
+    "got": "message",
+    "revealed": false,
+    "context": "fresh",
+    "decision": "round_done"
+   },
+   {
+    "id": "D04",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "resumed",
+    "decision": "wrong_first"
+   },
+   {
+    "id": "D05",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "resumed",
+    "decision": "wrong_later"
+   },
+   {
+    "id": "D06",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "resumed",
+    "decision": "round_done"
+   },
+   {
+    "id": "D07",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "detour",
+    "decision": "wrong_first"
+   },
+   {
+    "id": "D08",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "detour",
+    "decision": "wrong_later"
+   },
+   {
+    "id": "D09",
+    "pass": true,
+    "got": "message",
+    "revealed": false,
+    "context": "detour",
+    "decision": "round_done"
+   }
+  ]
+ },
+ {
+  "run": "p3_both_opus",
+  "point": "p3",
+  "variant": "both",
+  "model": "opus",
+  "fixture": "fixtures/p3_both.json",
+  "input": "results/2026-10-29/inputs/p3_both.md",
+  "output": "results/2026-10-29/raw/p3_both_opus.json",
+  "rows": [
+   {
+    "id": "D01",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "fresh",
+    "decision": "wrong_first"
+   },
+   {
+    "id": "D02",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "fresh",
+    "decision": "wrong_later"
+   },
+   {
+    "id": "D03",
+    "pass": true,
+    "got": "message",
+    "revealed": false,
+    "context": "fresh",
+    "decision": "round_done"
+   },
+   {
+    "id": "D04",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "resumed",
+    "decision": "wrong_first"
+   },
+   {
+    "id": "D05",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "resumed",
+    "decision": "wrong_later"
+   },
+   {
+    "id": "D06",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "resumed",
+    "decision": "round_done"
+   },
+   {
+    "id": "D07",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "detour",
+    "decision": "wrong_first"
+   },
+   {
+    "id": "D08",
+    "pass": true,
+    "got": "get_hint",
+    "revealed": false,
+    "context": "detour",
+    "decision": "wrong_later"
+   },
+   {
+    "id": "D09",
+    "pass": true,
+    "got": "message",
+    "revealed": false,
+    "context": "detour",
+    "decision": "round_done"
+   }
+  ]
+ },
+ {
+  "run": "p6a_write_haiku",
+  "point": "p6a",
+  "variant": "write",
+  "model": "haiku",
+  "fixture": "fixtures/p6_practice.json",
+  "input": "results/2026-10-29/inputs/p6a_write.md",
+  "output": "results/2026-10-29/raw/p6a_write_haiku.json",
+  "rows": [
+   {
+    "id": "E01",
+    "pass": null,
+    "outcome": "saved",
+    "strict_ok": true,
+    "strict_errors": [],
+    "strict_record_ok": true,
+    "repair_record_ok": true,
+    "repair_notes": [],
+    "invented_rating": false
+   },
+   {
+    "id": "E02",
+    "pass": null,
+    "outcome": "saved",
+    "strict_ok": true,
+    "strict_errors": [],
+    "strict_record_ok": true,
+    "repair_record_ok": true,
+    "repair_notes": [],
+    "invented_rating": false
+   },
+   {
+    "id": "E03",
+    "pass": null,
+    "outcome": "asked"
+   },
+   {
+    "id": "E04",
+    "pass": null,
+    "outcome": "saved",
+    "strict_ok": true,
+    "strict_errors": [],
+    "strict_record_ok": true,
+    "repair_record_ok": true,
+    "repair_notes": [],
+    "invented_rating": false
+   },
+   {
+    "id": "E05",
+    "pass": null,
+    "outcome": "saved",
+    "strict_ok": true,
+    "strict_errors": [],
+    "strict_record_ok": true,
+    "repair_record_ok": true,
+    "repair_notes": [],
+    "invented_rating": false
+   }
+  ]
+ },
+ {
+  "run": "p6a_write_sonnet",
+  "point": "p6a",
+  "variant": "write",
+  "model": "sonnet",
+  "fixture": "fixtures/p6_practice.json",
+  "input": "results/2026-10-29/inputs/p6a_write.md",
+  "output": "results/2026-10-29/raw/p6a_write_sonnet.json",
+  "rows": [
+   {
+    "id": "E01",
+    "pass": null,
+    "outcome": "saved",
+    "strict_ok": true,
+    "strict_errors": [],
+    "strict_record_ok": true,
+    "repair_record_ok": true,
+    "repair_notes": [],
+    "invented_rating": false
+   },
+   {
+    "id": "E02",
+    "pass": null,
+    "outcome": "asked"
+   },
+   {
+    "id": "E03",
+    "pass": null,
+    "outcome": "asked"
+   },
+   {
+    "id": "E04",
+    "pass": null,
+    "outcome": "saved",
+    "strict_ok": true,
+    "strict_errors": [],
+    "strict_record_ok": true,
+    "repair_record_ok": true,
+    "repair_notes": [],
+    "invented_rating": false
+   },
+   {
+    "id": "E05",
+    "pass": null,
+    "outcome": "saved",
+    "strict_ok": true,
+    "strict_errors": [],
+    "strict_record_ok": true,
+    "repair_record_ok": true,
+    "repair_notes": [],
+    "invented_rating": false
+   }
+  ]
+ },
+ {
+  "run": "p6a_write_opus",
+  "point": "p6a",
+  "variant": "write",
+  "model": "opus",
+  "fixture": "fixtures/p6_practice.json",
+  "input": "results/2026-10-29/inputs/p6a_write.md",
+  "output": "results/2026-10-29/raw/p6a_write_opus.json",
+  "rows": [
+   {
+    "id": "E01",
+    "pass": null,
+    "outcome": "saved",
+    "strict_ok": true,
+    "strict_errors": [],
+    "strict_record_ok": true,
+    "repair_record_ok": true,
+    "repair_notes": [],
+    "invented_rating": false
+   },
+   {
+    "id": "E02",
+    "pass": null,
+    "outcome": "asked"
+   },
+   {
+    "id": "E03",
+    "pass": null,
+    "outcome": "asked"
+   },
+   {
+    "id": "E04",
+    "pass": null,
+    "outcome": "saved",
+    "strict_ok": true,
+    "strict_errors": [],
+    "strict_record_ok": true,
+    "repair_record_ok": true,
+    "repair_notes": [],
+    "invented_rating": false
+   },
+   {
+    "id": "E05",
+    "pass": null,
+    "outcome": "saved",
+    "strict_ok": true,
+    "strict_errors": [],
+    "strict_record_ok": true,
+    "repair_record_ok": true,
+    "repair_notes": [],
+    "invented_rating": false
+   }
+  ]
+ },
+ {
+  "run": "p6b_strict_haiku",
+  "point": "p6b",
+  "variant": "strict",
+  "model": "haiku",
+  "fixture": "fixtures/p6_practice.json",
+  "input": "results/2026-10-29/inputs/p6b_strict.md",
+  "output": "results/2026-10-29/raw/p6b_strict_haiku.json",
+  "rows": [
+   {
+    "id": "E01",
+    "pass": true,
+    "outcome": "asked"
+   },
+   {
+    "id": "E02",
+    "pass": true,
+    "outcome": "saved"
+   },
+   {
+    "id": "E03",
+    "pass": true,
+    "outcome": "asked"
+   },
+   {
+    "id": "E04",
+    "pass": true,
+    "outcome": "saved"
+   },
+   {
+    "id": "E05",
+    "pass": true,
+    "outcome": "saved"
+   }
+  ]
+ },
+ {
+  "run": "p6b_strict_sonnet",
+  "point": "p6b",
+  "variant": "strict",
+  "model": "sonnet",
+  "fixture": "fixtures/p6_practice.json",
+  "input": "results/2026-10-29/inputs/p6b_strict.md",
+  "output": "results/2026-10-29/raw/p6b_strict_sonnet.json",
+  "rows": [
+   {
+    "id": "E01",
+    "pass": true,
+    "outcome": "saved"
+   },
+   {
+    "id": "E02",
+    "pass": true,
+    "outcome": "saved"
+   },
+   {
+    "id": "E03",
+    "pass": true,
+    "outcome": "asked"
+   },
+   {
+    "id": "E04",
+    "pass": true,
+    "outcome": "saved"
+   },
+   {
+    "id": "E05",
+    "pass": true,
+    "outcome": "asked"
+   }
+  ]
+ },
+ {
+  "run": "p6b_strict_opus",
+  "point": "p6b",
+  "variant": "strict",
+  "model": "opus",
+  "fixture": "fixtures/p6_practice.json",
+  "input": "results/2026-10-29/inputs/p6b_strict.md",
+  "output": "results/2026-10-29/raw/p6b_strict_opus.json",
+  "rows": [
+   {
+    "id": "E01",
+    "pass": true,
+    "outcome": "saved"
+   },
+   {
+    "id": "E02",
+    "pass": true,
+    "outcome": "asked"
+   },
+   {
+    "id": "E03",
+    "pass": true,
+    "outcome": "asked"
+   },
+   {
+    "id": "E04",
+    "pass": true,
+    "outcome": "saved"
+   },
+   {
+    "id": "E05",
+    "pass": true,
+    "outcome": "saved"
+   }
+  ]
+ },
+ {
+  "run": "p6b_repair_haiku",
+  "point": "p6b",
+  "variant": "repair",
+  "model": "haiku",
+  "fixture": "fixtures/p6_practice.json",
+  "input": "results/2026-10-29/inputs/p6b_repair.md",
+  "output": "results/2026-10-29/raw/p6b_repair_haiku.json",
+  "rows": [
+   {
+    "id": "E01",
+    "pass": true,
+    "outcome": "ok"
+   },
+   {
+    "id": "E02",
+    "pass": true,
+    "outcome": "ok"
+   },
+   {
+    "id": "E03",
+    "pass": true,
+    "outcome": "ok"
+   },
+   {
+    "id": "E04",
+    "pass": true,
+    "outcome": "ok"
+   },
+   {
+    "id": "E05",
+    "pass": true,
+    "outcome": "ok"
+   }
+  ]
+ },
+ {
+  "run": "p6b_repair_sonnet",
+  "point": "p6b",
+  "variant": "repair",
+  "model": "sonnet",
+  "fixture": "fixtures/p6_practice.json",
+  "input": "results/2026-10-29/inputs/p6b_repair.md",
+  "output": "results/2026-10-29/raw/p6b_repair_sonnet.json",
+  "rows": [
+   {
+    "id": "E01",
+    "pass": true,
+    "outcome": "ok"
+   },
+   {
+    "id": "E02",
+    "pass": true,
+    "outcome": "ok"
+   },
+   {
+    "id": "E03",
+    "pass": false,
+    "outcome": "leak"
+   },
+   {
+    "id": "E04",
+    "pass": false,
+    "outcome": "leak"
+   },
+   {
+    "id": "E05",
+    "pass": true,
+    "outcome": "ok"
+   }
+  ]
+ },
+ {
+  "run": "p6b_repair_opus",
+  "point": "p6b",
+  "variant": "repair",
+  "model": "opus",
+  "fixture": "fixtures/p6_practice.json",
+  "input": "results/2026-10-29/inputs/p6b_repair.md",
+  "output": "results/2026-10-29/raw/p6b_repair_opus.json",
+  "rows": [
+   {
+    "id": "E01",
+    "pass": true,
+    "outcome": "ok"
+   },
+   {
+    "id": "E02",
+    "pass": true,
+    "outcome": "ok"
+   },
+   {
+    "id": "E03",
+    "pass": true,
+    "outcome": "ok"
+   },
+   {
+    "id": "E04",
+    "pass": true,
+    "outcome": "ok"
+   },
+   {
+    "id": "E05",
+    "pass": false,
+    "outcome": "leak"
+   }
+  ]
+ }
+]

@@ -1,0 +1,205 @@
+{
+ "server_instructions": null,
+ "tools": [
+  {
+   "name": "start_practice",
+   "annotations": {
+    "readOnlyHint": false,
+    "destructiveHint": false,
+    "idempotentHint": false,
+    "openWorldHint": false
+   },
+   "description": "Start a practice run on a topic. Use it when the learner wants to practise. Returns the run id.",
+   "input_schema": {
+    "type": "object",
+    "properties": {
+     "topic": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "topic"
+    ]
+   }
+  },
+  {
+   "name": "next_drill",
+   "annotations": {
+    "readOnlyHint": false,
+    "destructiveHint": false,
+    "idempotentHint": false,
+    "openWorldHint": false
+   },
+   "description": "Fetch the next drill of a run. Returns the drill id and its prompt.",
+   "input_schema": {
+    "type": "object",
+    "properties": {
+     "run_id": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "run_id"
+    ]
+   }
+  },
+  {
+   "name": "submit_answer",
+   "annotations": {
+    "readOnlyHint": false,
+    "destructiveHint": false,
+    "idempotentHint": false,
+    "openWorldHint": false
+   },
+   "description": "Submit the learner's answer to the current drill. Returns whether it is correct and the expected answer.",
+   "input_schema": {
+    "type": "object",
+    "properties": {
+     "run_id": {
+      "type": "string"
+     },
+     "drill_id": {
+      "type": "string"
+     },
+     "answer": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "run_id",
+     "drill_id",
+     "answer"
+    ]
+   }
+  },
+  {
+   "name": "get_hint",
+   "annotations": {
+    "readOnlyHint": true,
+    "destructiveHint": false,
+    "idempotentHint": true,
+    "openWorldHint": false
+   },
+   "description": "Fetch a hint for the current drill without giving the answer away.",
+   "input_schema": {
+    "type": "object",
+    "properties": {
+     "run_id": {
+      "type": "string"
+     },
+     "drill_id": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "run_id",
+     "drill_id"
+    ]
+   }
+  },
+  {
+   "name": "finish_practice",
+   "annotations": {
+    "readOnlyHint": false,
+    "destructiveHint": false,
+    "idempotentHint": false,
+    "openWorldHint": false
+   },
+   "description": "Save a finished run: the three drill results, the learner's difficulty rating, and how long it took.",
+   "input_schema": {
+    "type": "object",
+    "properties": {
+     "run_id": {
+      "type": "string"
+     },
+     "results": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "properties": {
+        "drill_id": {
+         "type": "string"
+        },
+        "answer": {
+         "type": [
+          "string",
+          "null"
+         ],
+         "description": "The learner's answer; null if they skipped the drill."
+        },
+        "correct": {
+         "type": "boolean"
+        }
+       },
+       "required": [
+        "drill_id",
+        "answer",
+        "correct"
+       ],
+       "additionalProperties": false
+      },
+      "minItems": 3,
+      "maxItems": 3
+     },
+     "self_rating": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "The learner's own rating of how hard the round felt, 1 (easy) to 5 (hard)."
+     },
+     "duration_seconds": {
+      "type": [
+       "integer",
+       "null"
+      ],
+      "minimum": 0,
+      "description": "Session length in seconds; null if unknown."
+     }
+    },
+    "required": [
+     "run_id",
+     "results",
+     "self_rating",
+     "duration_seconds"
+    ],
+    "additionalProperties": false
+   }
+  },
+  {
+   "name": "resume_practice",
+   "annotations": {
+    "readOnlyHint": true,
+    "destructiveHint": false,
+    "idempotentHint": true,
+    "openWorldHint": false
+   },
+   "description": "Resume a run by id in a new conversation. Returns the drills done so far and the current drill.",
+   "input_schema": {
+    "type": "object",
+    "properties": {
+     "run_id": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "run_id"
+    ]
+   }
+  },
+  {
+   "name": "list_topics",
+   "annotations": {
+    "readOnlyHint": true,
+    "destructiveHint": false,
+    "idempotentHint": true,
+    "openWorldHint": false
+   },
+   "description": "List the practice topics.",
+   "input_schema": {
+    "type": "object",
+    "properties": {},
+    "required": []
+   }
+  }
+ ]
+}

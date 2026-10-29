@@ -1,0 +1,24 @@
+{
+ "id": "O07",
+ "tool": null,
+ "args": null,
+ "message": "Not logged in · Please run /login",
+ "searches": [],
+ "init": {
+  "tools": 399,
+  "helpdesk_tools": 12,
+  "servers_connected": [
+   "claude.ai Cal.com",
+   "claude.ai Claude Docs",
+   "claude.ai Gmail",
+   "claude.ai Google Calendar",
+   "claude.ai Google Drive",
+   "claude.ai Granola",
+   "claude.ai Langmail",
+   "claude.ai Slack",
+   "claude.ai betterstack",
+   "helpdesk"
+  ]
+ },
+ "seconds": 20
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "O01",
+    "set": "O",
+    "request": "email the customer on 4812 that the refund went out today, should hit their card in 3-5 business days",
+    "context": null,
+    "intent": "reply",
+    "expect": {
+      "ticket_ids": ["4812"],
+      "body_contains": ["refund", "3-5"]
+    },
+    "trap": "mail app send or reply",
+    "note": "The customer of a ticket is reached by replying on the ticket, which emails them and keeps the conversation on 4812."
+  },
+  {
+    "id": "O02",
+    "set": "O",
+    "request": "escalate 4920 to Tier 2 pls, their API keys keep failing auth, not a billing thing",
+    "context": null,
+    "intent": "escalate",
+    "expect": {
+      "ticket_ids": ["4920"],
+      "team": "Tier 2",
+      "reason_contains": ["api"]
+    },
+    "trap": "monitoring app incident escalation",
+    "note": "Tier 2 is a helpdesk team and 4920 is a customer ticket, so it goes to Tier 2's queue with the reason."
+  },
+  {
+    "id": "O03",
+    "set": "O",
+    "request": "remind me tuesday 10am to check 4701 again, waiting on their bank",
+    "context": null,
+    "intent": "followup",
+    "expect": {
+      "ticket_ids": ["4701"],
+      "due": "2026-11-03T10:00:00+01:00"
+    },
+    "trap": "calendar event or reminder",
+    "note": "A reminder to come back to a ticket is a ticket follow-up; next Tuesday is 2026-11-03 at 10:00 Berlin time."
+  },
+  {
+    "id": "O04",
+    "set": "O",
+    "request": "forward 5033 to their accountant, m.huber@huber-steuer.example, she needs the invoice dispute details",
+    "context": null,
+    "intent": "forward",
+    "expect": {
+      "ticket_ids": ["5033"],
+      "to_email": "m.huber@huber-steuer.example"
+    },
+    "trap": "mail app forward",
+    "note": "The thing being forwarded is ticket 5033, and the helpdesk forwards tickets to outside addresses."
+  },
+  {
+    "id": "O05",
+    "set": "O",
+    "request": "leave a comment for Kim Lee on 4812: don't refund again, I already did it in Stripe",
+    "context": null,
+    "intent": "note",
+    "expect": {
+      "ticket_ids": ["4812"],
+      "body_contains": ["refund", "stripe"]
+    },
+    "trap": "chat message to Kim or monitoring incident comment",
+    "note": "A comment for a colleague on a ticket is an internal note; a reply would send it to the customer."
+  },
+  {
+    "id": "O06",
+    "set": "O",
+    "request": "4655 is resolved, customer confirmed the card goes through now, close it out",
+    "context": null,
+    "intent": "status",
+    "expect": {
+      "ticket_ids": ["4655"],
+      "status": "solved"
+    },
+    "trap": "monitoring app resolve incident",
+    "note": "A customer confirming their card works is a ticket outcome, so 4655 is set to solved."
+  },
+  {
+    "id": "O07",
+    "set": "O",
+    "request": "put 4733 on Priya's plate, she's covering billing on-call tonight",
+    "context": null,
+    "intent": "assign",
+    "expect": {
+      "ticket_ids": ["4733"],
+      "assignee": "Priya Shah"
+    },
+    "trap": "monitoring app on-call schedule or escalation policy",
+    "note": "The on-call mention only explains why; the action is assigning ticket 4733 to Priya Shah."
+  },
+  {
+    "id": "O08",
+    "set": "O",
+    "request": "log 45 min on 4890 for the call I just had with them",
+    "context": null,
+    "intent": "log_time",
+    "expect": {
+      "ticket_ids": ["4890"],
+      "minutes": 45
+    },
+    "trap": "calendar event or meeting-notes entry for the call",
+    "note": "Logging minutes against a ticket number is time tracking on the ticket, not recording a meeting."
+  },
+  {
+    "id": "O09",
+    "set": "O",
+    "request": "customer emailed twice, 4806 is a dupe of 4801, fold it into 4801",
+    "context": null,
+    "intent": "merge",
+    "expect": {
+      "target_id": "4801",
+      "source_ids": ["4806"]
+    },
+    "trap": "mail app thread cleanup or trashing the duplicate email",
+    "note": "Both ids are tickets and folding a duplicate into another is a merge with 4801 surviving."
+  },
+  {
+    "id": "O10",
+    "set": "O",
+    "request": "trash 4999, it's bot spam, no real customer",
+    "context": null,
+    "intent": "delete",
+    "expect": {
+      "ticket_ids": ["4999"]
+    },
+    "trap": "mail app trash or mark as spam",
+    "note": "4999 is a ticket id, and getting rid of a spam ticket is a ticket delete."
+  },
+  {
+    "id": "O11",
+    "set": "O",
+    "request": "reply on Kim's thread about 4812 saying the refund is processed",
+    "context": null,
+    "intent": "ask_user",
+    "expect": {},
+    "trap": "chat thread reply or customer reply on the ticket",
+    "note": "Kim is staff, so 'Kim's thread' may be a chat thread, an email thread, or an internal note on 4812 (and there are two Kims); a ticket reply would wrongly reach the customer."
+  },
+  {
+    "id": "O12",
+    "set": "O",
+    "request": "5102, the outage one, mark it resolved and add a comment that the fix is deployed",
+    "context": null,
+    "intent": "ask_user",
+    "expect": {},
+    "trap": "monitoring app resolve incident and incident comment",
+    "note": "5102 could be a customer ticket about the outage or the outage incident in the monitoring app; both resolve and take comments."
+  }
+]

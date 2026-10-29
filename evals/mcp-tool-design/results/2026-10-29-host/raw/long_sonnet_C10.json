@@ -1,0 +1,24 @@
+{
+ "id": "C10",
+ "tool": "mcp__helpdesk__assign_tickets",
+ "args": {
+  "ticket_ids": [
+   "4760",
+   "4761"
+  ],
+  "assignee": "Jon Reyes"
+ },
+ "message": null,
+ "searches": [
+  "select:mcp__helpdesk__assign_tickets"
+ ],
+ "init": {
+  "tools": 47,
+  "helpdesk_tools": 12,
+  "servers_connected": [
+   "claude.ai Claude Docs",
+   "helpdesk"
+  ]
+ },
+ "seconds": 22
+}

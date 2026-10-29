@@ -1,0 +1,30 @@
+{
+ "id": "C07",
+ "tool": "CronCreate",
+ "args": {
+  "cron": "2 16 29 10 *",
+  "prompt": "Reminder for Sam: it's been 2 hours. Remind them about 5077.",
+  "recurring": false
+ },
+ "message": null,
+ "searches": [
+  "select:CronCreate"
+ ],
+ "init": {
+  "tools": 400,
+  "helpdesk_tools": 12,
+  "servers_connected": [
+   "claude.ai Cal.com",
+   "claude.ai Claude Docs",
+   "claude.ai Gmail",
+   "claude.ai Google Calendar",
+   "claude.ai Google Drive",
+   "claude.ai Granola",
+   "claude.ai Langmail",
+   "claude.ai Slack",
+   "claude.ai betterstack",
+   "helpdesk"
+  ]
+ },
+ "seconds": 26
+}

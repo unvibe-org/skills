@@ -1,0 +1,37 @@
+{
+ "id": "B01",
+ "tool": "mcp__helpdesk__reply_to_ticket",
+ "args": {
+  "ticket_id": "4812",
+  "body": "Hi Alex,\n\nThanks for your patience. I'm writing to let you know that your refund was issued today (29 October). Depending on your bank or card provider, it can take a few business days to show up on your statement.\n\nIf it hasn't arrived after that, just reply here and I'll look into it.\n\nBest regards,\nSam Ortiz\nBilling Team"
+ },
+ "message": null,
+ "reads": [
+  {
+   "tool": "mcp__helpdesk__get_ticket",
+   "args": {
+    "ticket_id": "4812"
+   }
+  }
+ ],
+ "searches": [
+  "select:mcp__helpdesk__get_ticket,mcp__helpdesk__reply_to_ticket,mcp__helpdesk__add_internal_note"
+ ],
+ "init": {
+  "tools": 400,
+  "helpdesk_tools": 12,
+  "servers_connected": [
+   "claude.ai Cal.com",
+   "claude.ai Claude Docs",
+   "claude.ai Gmail",
+   "claude.ai Google Calendar",
+   "claude.ai Google Drive",
+   "claude.ai Granola",
+   "claude.ai Langmail",
+   "claude.ai Slack",
+   "claude.ai betterstack",
+   "helpdesk"
+  ]
+ },
+ "seconds": 32
+}

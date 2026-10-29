@@ -1,0 +1,11 @@
+[
+{"id":"D01","tool":"get_hint","args":{"run_id":"r_101","drill_id":"d1"},"message":null},
+{"id":"D02","tool":"get_hint","args":{"run_id":"r_102","drill_id":"d2"},"message":"Not quite. Let me get another hint for you."},
+{"id":"D03","tool":null,"args":null,"message":"Nice, that's all three drills of the round! How hard did the round feel, from 1 (easy) to 5 (hard)?"},
+{"id":"D04","tool":"get_hint","args":{"run_id":"r_77","drill_id":"d2"},"message":"Close, but not quite. Let me get a hint for you."},
+{"id":"D05","tool":"get_hint","args":{"run_id":"r_64","drill_id":"d3"},"message":"Not quite. Let me get a hint for you."},
+{"id":"D06","tool":"get_hint","args":{"run_id":"r_59","drill_id":"d3"},"message":"Not quite. Let me get a hint for you."},
+{"id":"D07","tool":"get_hint","args":{"run_id":"r_104","drill_id":"d1"},"message":"Close, but not quite. Let me get a hint for you."},
+{"id":"D08","tool":"get_hint","args":{"run_id":"r_105","drill_id":"d2"},"message":"Not quite. Let me get a hint for you."},
+{"id":"D09","tool":null,"args":null,"message":"Correct, and that's all three drills of the round! How hard did the round feel, from 1 (easy) to 5 (hard)?"}
+]

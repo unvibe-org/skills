@@ -1,0 +1,22 @@
+[
+{"id": "A01", "tool": "search_tickets", "args": {"query": "Acme refund", "status": "any"}, "message": null},
+{"id": "A02", "tool": "search_tickets", "args": {"query": "Globex invoice", "status": "any"}, "message": null},
+{"id": "A03", "tool": "search_tickets", "args": {"query": "Initech double charge", "status": "any"}, "message": null},
+{"id": "A04", "tool": "search_tickets", "args": {"query": "SSO", "assignee": "Kim Park", "status": "any"}, "message": null},
+{"id": "A05", "tool": "log_time", "args": {"ticket_id": "4812", "minutes": 90}, "message": null},
+{"id": "A06", "tool": "schedule_followup", "args": {"ticket_id": "5120", "due": "2026-10-30T10:00:00+01:00", "note": "Follow up on 5120"}, "message": null},
+{"id": "A07", "tool": "assign_tickets", "args": {"ticket_ids": ["4977"], "assignee": "Kim Lee"}, "message": null},
+{"id": "A08", "tool": "schedule_followup", "args": {"ticket_id": "4630", "due": "2026-11-02T15:00:00+01:00", "note": "Customer said they'd have the bank statement by then"}, "message": null},
+{"id": "A09", "tool": "schedule_followup", "args": {"ticket_id": "4701", "due": "2026-11-03T09:00:00+01:00", "note": "Check if the refund landed"}, "message": null},
+{"id": "A10", "tool": "log_time", "args": {"ticket_id": "4981", "minutes": 45}, "message": null},
+{"id": "C01", "tool": "get_ticket", "args": {"ticket_id": "4812"}, "message": null},
+{"id": "C02", "tool": "delete_tickets", "args": {"ticket_ids": ["5101", "5102"]}, "message": null},
+{"id": "C03", "tool": "merge_tickets", "args": {"source_ids": ["4730", "4731"], "target_id": "4729"}, "message": null},
+{"id": "C04", "tool": "escalate_tickets", "args": {"ticket_ids": ["4866"], "team": "Onboarding", "reason": "Customer never got their setup call"}, "message": null},
+{"id": "C05", "tool": "set_ticket_status", "args": {"ticket_ids": ["4801", "4802", "4803"], "status": "solved"}, "message": null},
+{"id": "C06", "tool": "log_time", "args": {"ticket_id": "4999", "minutes": 20}, "message": null},
+{"id": "C07", "tool": "schedule_followup", "args": {"ticket_id": "5077", "due": "2026-10-29T16:00:00+01:00"}, "message": null},
+{"id": "C08", "tool": "reply_to_ticket", "args": {"ticket_id": "4840", "body": "We've reissued the invoice, it should be in your inbox in a few minutes."}, "message": null},
+{"id": "C09", "tool": "forward_ticket", "args": {"ticket_id": "4915", "to_email": "legal@wayne-logistics.example"}, "message": null},
+{"id": "C10", "tool": "assign_tickets", "args": {"ticket_ids": ["4760", "4761"], "assignee": "Jon Reyes"}, "message": null}
+]

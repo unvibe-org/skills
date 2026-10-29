@@ -1,0 +1,2147 @@
+{
+  "D": [
+    {
+      "id": "D01",
+      "context": "fresh",
+      "decision": "wrong_first",
+      "run_id": "r_101",
+      "transcript": [
+        {
+          "role": "learner",
+          "text": "Can we do a bit of numbers practice? Prices at the market keep tripping me up."
+        },
+        {
+          "role": "call",
+          "intent": "start",
+          "data": {
+            "topic": "numbers"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "run_id": "r_101",
+            "topic": "numbers"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Sure, I started a numbers run for you. Here comes the first drill."
+        },
+        {
+          "role": "call",
+          "intent": "next_drill",
+          "data": {
+            "run_id": "r_101"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d1",
+            "prompt": "Say 47 in the language you are learning"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Drill 1: Say 47 in the language you are learning."
+        },
+        {
+          "role": "learner",
+          "text": "ok um... kuvaro sei?"
+        },
+        {
+          "role": "call",
+          "intent": "submit",
+          "data": {
+            "run_id": "r_101",
+            "drill_id": "d1",
+            "answer": "kuvaro sei"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d1",
+            "correct": false,
+            "expected": "kuvara seti"
+          }
+        }
+      ]
+    },
+    {
+      "id": "D02",
+      "context": "fresh",
+      "decision": "wrong_later",
+      "run_id": "r_102",
+      "transcript": [
+        {
+          "role": "learner",
+          "text": "let's practice ordering food"
+        },
+        {
+          "role": "call",
+          "intent": "start",
+          "data": {
+            "topic": "ordering food"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "run_id": "r_102",
+            "topic": "ordering food"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Started an ordering-food run. First drill:"
+        },
+        {
+          "role": "call",
+          "intent": "next_drill",
+          "data": {
+            "run_id": "r_102"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d1",
+            "prompt": "Ask the waiter for the menu"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Drill 1: Ask the waiter for the menu."
+        },
+        {
+          "role": "learner",
+          "text": "Meno davi, prego"
+        },
+        {
+          "role": "call",
+          "intent": "submit",
+          "data": {
+            "run_id": "r_102",
+            "drill_id": "d1",
+            "answer": "Meno davi, prego"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d1",
+            "correct": true,
+            "expected": "Meno davi, prego"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Correct! On to drill 2."
+        },
+        {
+          "role": "call",
+          "intent": "next_drill",
+          "data": {
+            "run_id": "r_102"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d2",
+            "prompt": "Say 'I would like the soup, please'"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Drill 2: Say 'I would like the soup, please'."
+        },
+        {
+          "role": "learner",
+          "text": "hmm can I get a hint? I always forget the 'would like' part"
+        },
+        {
+          "role": "call",
+          "intent": "hint",
+          "data": {
+            "run_id": "r_102",
+            "drill_id": "d2"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d2",
+            "hint": "The polite 'I would like' starts with 'vor-' and the soup word ends in '-assa'."
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Hint: the polite 'I would like' starts with 'vor-', and the word for soup ends in '-assa'."
+        },
+        {
+          "role": "learner",
+          "text": "Vorrem la minassa, prego"
+        },
+        {
+          "role": "call",
+          "intent": "submit",
+          "data": {
+            "run_id": "r_102",
+            "drill_id": "d2",
+            "answer": "Vorrem la minassa, prego"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d2",
+            "correct": false,
+            "expected": "Vorrai la zuvassa, prego"
+          }
+        }
+      ]
+    },
+    {
+      "id": "D03",
+      "context": "fresh",
+      "decision": "round_done",
+      "run_id": "r_103",
+      "transcript": [
+        {
+          "role": "learner",
+          "text": "I want to work on past tense today. Go."
+        },
+        {
+          "role": "call",
+          "intent": "start",
+          "data": {
+            "topic": "past tense"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "run_id": "r_103",
+            "topic": "past tense"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Past tense run started. Here's the first one."
+        },
+        {
+          "role": "call",
+          "intent": "next_drill",
+          "data": {
+            "run_id": "r_103"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d1",
+            "prompt": "Put 'I eat' into the past tense"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Drill 1: Put 'I eat' into the past tense."
+        },
+        {
+          "role": "learner",
+          "text": "Eu manjeti"
+        },
+        {
+          "role": "call",
+          "intent": "submit",
+          "data": {
+            "run_id": "r_103",
+            "drill_id": "d1",
+            "answer": "Eu manjeti"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d1",
+            "correct": true,
+            "expected": "Eu manjeti"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Spot on. Drill 2 coming."
+        },
+        {
+          "role": "call",
+          "intent": "next_drill",
+          "data": {
+            "run_id": "r_103"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d2",
+            "prompt": "Put 'they go to the market' into the past tense"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Drill 2: Put 'they go to the market' into the past tense."
+        },
+        {
+          "role": "learner",
+          "text": "ugh, 'go' is irregular right? hint please"
+        },
+        {
+          "role": "call",
+          "intent": "hint",
+          "data": {
+            "run_id": "r_103",
+            "drill_id": "d2"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d2",
+            "hint": "Yes, 'go' is irregular here: the past stem starts with 'fo-', not 'va-'."
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Yes, it's irregular: the past stem starts with 'fo-', not 'va-'."
+        },
+        {
+          "role": "learner",
+          "text": "Elo forono al merkado"
+        },
+        {
+          "role": "call",
+          "intent": "submit",
+          "data": {
+            "run_id": "r_103",
+            "drill_id": "d2",
+            "answer": "Elo forono al merkado"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d2",
+            "correct": true,
+            "expected": "Elo forono al merkado"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Correct! Last drill of the round."
+        },
+        {
+          "role": "call",
+          "intent": "next_drill",
+          "data": {
+            "run_id": "r_103"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d3",
+            "prompt": "Put 'we are tired' into the past tense"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Drill 3: Put 'we are tired' into the past tense."
+        },
+        {
+          "role": "learner",
+          "text": "Nos erami stanki"
+        },
+        {
+          "role": "call",
+          "intent": "submit",
+          "data": {
+            "run_id": "r_103",
+            "drill_id": "d3",
+            "answer": "Nos erami stanki"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d3",
+            "correct": true,
+            "expected": "Nos erami stanki"
+          }
+        }
+      ]
+    },
+    {
+      "id": "D04",
+      "context": "resumed",
+      "decision": "wrong_first",
+      "run_id": "r_77",
+      "transcript": [
+        {
+          "role": "learner",
+          "text": "Hi! Yesterday I stopped halfway through a practice run, the id was r_77. Can we pick it up?"
+        },
+        {
+          "role": "call",
+          "intent": "resume",
+          "data": {
+            "run_id": "r_77"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "run_id": "r_77",
+            "topic": "directions",
+            "drills_done": [
+              {
+                "drill_id": "d1",
+                "answer": "Gira a sinistra al ponto",
+                "correct": true
+              }
+            ],
+            "current_drill": {
+              "drill_id": "d2",
+              "prompt": "Ask 'where is the train station?'"
+            }
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Welcome back! Run r_77 is on directions. You already got drill 1 right. Next up is drill 2: Ask 'where is the train station?'"
+        },
+        {
+          "role": "learner",
+          "text": "Dove estas la stazo de treno?"
+        },
+        {
+          "role": "call",
+          "intent": "submit",
+          "data": {
+            "run_id": "r_77",
+            "drill_id": "d2",
+            "answer": "Dove estas la stazo de treno?"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d2",
+            "correct": false,
+            "expected": "Dov'esta la stazo ferrovia?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "D05",
+      "context": "resumed",
+      "decision": "wrong_later",
+      "run_id": "r_64",
+      "transcript": [
+        {
+          "role": "learner",
+          "text": "continue run r_64 pls"
+        },
+        {
+          "role": "call",
+          "intent": "resume",
+          "data": {
+            "run_id": "r_64"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "run_id": "r_64",
+            "topic": "numbers",
+            "drills_done": [
+              {
+                "drill_id": "d1",
+                "answer": "trenta-du",
+                "correct": true
+              }
+            ],
+            "current_drill": {
+              "drill_id": "d2",
+              "prompt": "Write out 1,350 in words"
+            }
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Resumed r_64 (numbers). Drill 1 is done and correct. Drill 2: Write out 1,350 in words."
+        },
+        {
+          "role": "learner",
+          "text": "mil trecento cinquanta"
+        },
+        {
+          "role": "call",
+          "intent": "submit",
+          "data": {
+            "run_id": "r_64",
+            "drill_id": "d2",
+            "answer": "mil trecento cinquanta"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d2",
+            "correct": true,
+            "expected": "mil trecento cinquanta"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Correct! Here's drill 3."
+        },
+        {
+          "role": "call",
+          "intent": "next_drill",
+          "data": {
+            "run_id": "r_64"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d3",
+            "prompt": "Say the ordinal 'the 3rd', as in 'the 3rd floor'"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Drill 3: Say the ordinal 'the 3rd', as in 'the 3rd floor'."
+        },
+        {
+          "role": "learner",
+          "text": "il tresimo"
+        },
+        {
+          "role": "call",
+          "intent": "submit",
+          "data": {
+            "run_id": "r_64",
+            "drill_id": "d3",
+            "answer": "il tresimo"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d3",
+            "correct": false,
+            "expected": "il terzimo"
+          }
+        }
+      ]
+    },
+    {
+      "id": "D06",
+      "context": "resumed",
+      "decision": "round_done",
+      "run_id": "r_59",
+      "transcript": [
+        {
+          "role": "learner",
+          "text": "Hey, new chat but I want to finish my ordering food session. It's r_59 I think."
+        },
+        {
+          "role": "call",
+          "intent": "resume",
+          "data": {
+            "run_id": "r_59"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "run_id": "r_59",
+            "topic": "ordering food",
+            "drills_done": [
+              {
+                "drill_id": "d1",
+                "answer": "Meno davi, prego",
+                "correct": true
+              }
+            ],
+            "current_drill": {
+              "drill_id": "d2",
+              "prompt": "Ask whether the dish contains nuts"
+            }
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Found it: r_59, ordering food. Drill 1 is already done. Drill 2: Ask whether the dish contains nuts."
+        },
+        {
+          "role": "learner",
+          "text": "oh that's a useful one, I'm allergic. Kontene noci?"
+        },
+        {
+          "role": "call",
+          "intent": "submit",
+          "data": {
+            "run_id": "r_59",
+            "drill_id": "d2",
+            "answer": "Kontene noci?"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d2",
+            "correct": true,
+            "expected": "Kontene noci?"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Correct, and a good one to have ready. Last drill:"
+        },
+        {
+          "role": "call",
+          "intent": "next_drill",
+          "data": {
+            "run_id": "r_59"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d3",
+            "prompt": "Ask for the bill"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Drill 3: Ask for the bill."
+        },
+        {
+          "role": "learner",
+          "text": "La kunto, prego"
+        },
+        {
+          "role": "call",
+          "intent": "submit",
+          "data": {
+            "run_id": "r_59",
+            "drill_id": "d3",
+            "answer": "La kunto, prego"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d3",
+            "correct": false,
+            "expected": "Il konto, prego"
+          }
+        }
+      ]
+    },
+    {
+      "id": "D07",
+      "context": "detour",
+      "decision": "wrong_first",
+      "run_id": "r_104",
+      "transcript": [
+        {
+          "role": "learner",
+          "text": "I'm flying out on Friday and I'm terrified of getting lost. Can we do directions?"
+        },
+        {
+          "role": "call",
+          "intent": "start",
+          "data": {
+            "topic": "directions"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "run_id": "r_104",
+            "topic": "directions"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Directions run started. Before the first drill, anything you want to warm up with?"
+        },
+        {
+          "role": "learner",
+          "text": "Actually yeah, random question. What's the difference between a roundabout and a traffic circle? My guidebook uses both."
+        },
+        {
+          "role": "assistant",
+          "text": "In everyday use they mean the same thing: a circular junction where traffic flows around a center island. Some engineers use 'roundabout' for the modern kind where entering traffic yields, and 'traffic circle' for older, larger ones, but for asking directions you can treat them as the same."
+        },
+        {
+          "role": "learner",
+          "text": "Good to know. Also which topics do you even have? I forget."
+        },
+        {
+          "role": "call",
+          "intent": "topics",
+          "data": {}
+        },
+        {
+          "role": "result",
+          "data": {
+            "topics": [
+              "past tense",
+              "ordering food",
+              "numbers",
+              "directions"
+            ]
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "There are four: past tense, ordering food, numbers, and directions."
+        },
+        {
+          "role": "learner",
+          "text": "ok cool. my hotel is apparently 'near the old harbor', which is super vague lol"
+        },
+        {
+          "role": "assistant",
+          "text": "Ha, it is. When you land, it can help to have the street name written down and to ask people for a landmark, like a church or a big square, rather than the street itself."
+        },
+        {
+          "role": "learner",
+          "text": "smart. my sister said people there point a lot instead of explaining"
+        },
+        {
+          "role": "assistant",
+          "text": "That happens in a lot of places. Listening for 'left', 'right', and 'straight' plus a landmark will get you most of the way."
+        },
+        {
+          "role": "learner",
+          "text": "alright, I'm ready, give me the first drill"
+        },
+        {
+          "role": "call",
+          "intent": "next_drill",
+          "data": {
+            "run_id": "r_104"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d1",
+            "prompt": "Say 'turn left at the bridge'"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Drill 1: Say 'turn left at the bridge'."
+        },
+        {
+          "role": "learner",
+          "text": "Gira la sinistro al ponte"
+        },
+        {
+          "role": "call",
+          "intent": "submit",
+          "data": {
+            "run_id": "r_104",
+            "drill_id": "d1",
+            "answer": "Gira la sinistro al ponte"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d1",
+            "correct": false,
+            "expected": "Gira a sinistra al ponto"
+          }
+        }
+      ]
+    },
+    {
+      "id": "D08",
+      "context": "detour",
+      "decision": "wrong_later",
+      "run_id": "r_105",
+      "transcript": [
+        {
+          "role": "learner",
+          "text": "numbers please"
+        },
+        {
+          "role": "call",
+          "intent": "start",
+          "data": {
+            "topic": "numbers"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "run_id": "r_105",
+            "topic": "numbers"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Numbers run started. First drill:"
+        },
+        {
+          "role": "call",
+          "intent": "next_drill",
+          "data": {
+            "run_id": "r_105"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d1",
+            "prompt": "Say 12 in the language you are learning"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Drill 1: Say 12 in the language you are learning."
+        },
+        {
+          "role": "learner",
+          "text": "dodi"
+        },
+        {
+          "role": "call",
+          "intent": "submit",
+          "data": {
+            "run_id": "r_105",
+            "drill_id": "d1",
+            "answer": "dodi"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d1",
+            "correct": true,
+            "expected": "dodi"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Correct!"
+        },
+        {
+          "role": "learner",
+          "text": "wait, quick tangent. what's the difference between cardinal and ordinal numbers again? my textbook keeps saying both"
+        },
+        {
+          "role": "assistant",
+          "text": "Cardinal numbers count things: one, two, three. Ordinal numbers give a position: first, second, third. You'll use ordinals for floors, dates, and 'take the second street'."
+        },
+        {
+          "role": "learner",
+          "text": "oh ok that makes sense. is 'dozen' a number or something else?"
+        },
+        {
+          "role": "assistant",
+          "text": "It's a counting word for a group of twelve. It behaves more like a noun ('a dozen eggs') than like a plain number."
+        },
+        {
+          "role": "learner",
+          "text": "lol my grandma always buys eggs by the dozen. anyway, how many rounds should I do per day, realistically?"
+        },
+        {
+          "role": "assistant",
+          "text": "One or two short rounds a day tends to stick better than one long session a week. Consistency matters more than length."
+        },
+        {
+          "role": "learner",
+          "text": "ok. can you remind me what other topics there are, for tomorrow?"
+        },
+        {
+          "role": "call",
+          "intent": "topics",
+          "data": {}
+        },
+        {
+          "role": "result",
+          "data": {
+            "topics": [
+              "past tense",
+              "ordering food",
+              "numbers",
+              "directions"
+            ]
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Besides numbers, there's past tense, ordering food, and directions."
+        },
+        {
+          "role": "learner",
+          "text": "ordering food tomorrow then. ok let's continue with the numbers"
+        },
+        {
+          "role": "call",
+          "intent": "next_drill",
+          "data": {
+            "run_id": "r_105"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d2",
+            "prompt": "Say 85 in the language you are learning"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Drill 2: Say 85 in the language you are learning."
+        },
+        {
+          "role": "learner",
+          "text": "otanta-sinko"
+        },
+        {
+          "role": "call",
+          "intent": "submit",
+          "data": {
+            "run_id": "r_105",
+            "drill_id": "d2",
+            "answer": "otanta-sinko"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d2",
+            "correct": false,
+            "expected": "ottanta-chinko"
+          }
+        }
+      ]
+    },
+    {
+      "id": "D09",
+      "context": "detour",
+      "decision": "round_done",
+      "run_id": "r_106",
+      "transcript": [
+        {
+          "role": "learner",
+          "text": "ordering food practice, I have a dinner with my partner's parents next week and I want to not embarrass myself"
+        },
+        {
+          "role": "call",
+          "intent": "start",
+          "data": {
+            "topic": "ordering food"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "run_id": "r_106",
+            "topic": "ordering food"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Good motivation! I started an ordering-food run. Ready for the first drill?"
+        },
+        {
+          "role": "learner",
+          "text": "almost. what does 'a la carte' actually mean? it's on every menu"
+        },
+        {
+          "role": "assistant",
+          "text": "It means ordering individual dishes from the menu, each priced on its own, as opposed to a fixed set menu."
+        },
+        {
+          "role": "learner",
+          "text": "and is it rude to ask for changes to a dish?"
+        },
+        {
+          "role": "assistant",
+          "text": "Small changes, like no onions or dressing on the side, are usually fine if you ask politely. Rebuilding the whole dish is where it can get awkward."
+        },
+        {
+          "role": "learner",
+          "text": "ok. also his dad is a wine guy and I know nothing about wine"
+        },
+        {
+          "role": "assistant",
+          "text": "You don't need to. Asking him what he'd recommend is a nice way to let him enjoy that, and it takes the pressure off you."
+        },
+        {
+          "role": "learner",
+          "text": "haha true. which topics are there besides food btw?"
+        },
+        {
+          "role": "call",
+          "intent": "topics",
+          "data": {}
+        },
+        {
+          "role": "result",
+          "data": {
+            "topics": [
+              "past tense",
+              "ordering food",
+              "numbers",
+              "directions"
+            ]
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Past tense, numbers, and directions, plus ordering food."
+        },
+        {
+          "role": "learner",
+          "text": "ok, food first. hit me"
+        },
+        {
+          "role": "call",
+          "intent": "next_drill",
+          "data": {
+            "run_id": "r_106"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d1",
+            "prompt": "Ask the waiter for a table for four"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Drill 1: Ask the waiter for a table for four."
+        },
+        {
+          "role": "learner",
+          "text": "Una tavola per kwatro, prego"
+        },
+        {
+          "role": "call",
+          "intent": "submit",
+          "data": {
+            "run_id": "r_106",
+            "drill_id": "d1",
+            "answer": "Una tavola per kwatro, prego"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d1",
+            "correct": true,
+            "expected": "Una tavola per kwatro, prego"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Correct! Drill 2:"
+        },
+        {
+          "role": "call",
+          "intent": "next_drill",
+          "data": {
+            "run_id": "r_106"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d2",
+            "prompt": "Say 'We would like to order now'"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Drill 2: Say 'We would like to order now'."
+        },
+        {
+          "role": "learner",
+          "text": "Vorremo ordinare adeso"
+        },
+        {
+          "role": "call",
+          "intent": "submit",
+          "data": {
+            "run_id": "r_106",
+            "drill_id": "d2",
+            "answer": "Vorremo ordinare adeso"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d2",
+            "correct": true,
+            "expected": "Vorremo ordinare adeso"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Nice. Last one of the round:"
+        },
+        {
+          "role": "call",
+          "intent": "next_drill",
+          "data": {
+            "run_id": "r_106"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d3",
+            "prompt": "Ask what the waiter recommends"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Drill 3: Ask what the waiter recommends."
+        },
+        {
+          "role": "learner",
+          "text": "ooh good one for the dad. hint?"
+        },
+        {
+          "role": "call",
+          "intent": "hint",
+          "data": {
+            "run_id": "r_106",
+            "drill_id": "d3"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d3",
+            "hint": "Use the polite 'you' form; the verb for 'recommend' starts with 'konsi-'."
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Use the polite 'you' form; the verb for 'recommend' starts with 'konsi-'."
+        },
+        {
+          "role": "learner",
+          "text": "Kosa ci konsilia?"
+        },
+        {
+          "role": "call",
+          "intent": "submit",
+          "data": {
+            "run_id": "r_106",
+            "drill_id": "d3",
+            "answer": "Kosa ci konsilia?"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d3",
+            "correct": true,
+            "expected": "Kosa ci konsilia?"
+          }
+        }
+      ]
+    }
+  ],
+  "E": [
+    {
+      "id": "E01",
+      "run_id": "r_201",
+      "transcript": [
+        {
+          "role": "learner",
+          "text": "numbers again. yesterday's round destroyed me"
+        },
+        {
+          "role": "call",
+          "intent": "start",
+          "data": {
+            "topic": "numbers"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "run_id": "r_201",
+            "topic": "numbers"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Numbers run started. Let's get revenge. Drill 1:"
+        },
+        {
+          "role": "call",
+          "intent": "next_drill",
+          "data": {
+            "run_id": "r_201"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d1",
+            "prompt": "Say 1,999 in the language you are learning"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Drill 1: Say 1,999 in the language you are learning."
+        },
+        {
+          "role": "learner",
+          "text": "oh come on. hint"
+        },
+        {
+          "role": "call",
+          "intent": "hint",
+          "data": {
+            "run_id": "r_201",
+            "drill_id": "d1"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d1",
+            "hint": "Build it as 'thousand' + 'nine hundred' + 'ninety-nine'; there is no 'one' before 'thousand'."
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Build it as 'thousand' + 'nine hundred' + 'ninety-nine', and there's no 'one' before 'thousand'."
+        },
+        {
+          "role": "learner",
+          "text": "mil novecento novanta-nove"
+        },
+        {
+          "role": "call",
+          "intent": "submit",
+          "data": {
+            "run_id": "r_201",
+            "drill_id": "d1",
+            "answer": "mil novecento novanta-nove"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d1",
+            "correct": true,
+            "expected": "mil novecento novanta-nove"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Correct! Drill 2:"
+        },
+        {
+          "role": "call",
+          "intent": "next_drill",
+          "data": {
+            "run_id": "r_201"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d2",
+            "prompt": "Say the phone number 0172 554 31 digit by digit"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Drill 2: Say the phone number 0172 554 31 digit by digit."
+        },
+        {
+          "role": "learner",
+          "text": "zero uno sete du sinko sinko kwatro tre uno"
+        },
+        {
+          "role": "call",
+          "intent": "submit",
+          "data": {
+            "run_id": "r_201",
+            "drill_id": "d2",
+            "answer": "zero uno sete du sinko sinko kwatro tre uno"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d2",
+            "correct": false,
+            "expected": "zero uno sette du chinko chinko kwatro tre uno"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "That one was marked incorrect. Let's keep moving. Drill 3:"
+        },
+        {
+          "role": "call",
+          "intent": "next_drill",
+          "data": {
+            "run_id": "r_201"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d3",
+            "prompt": "Say 'the 21st of March'"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Drill 3: Say 'the 21st of March'."
+        },
+        {
+          "role": "learner",
+          "text": "il venti-uno de marso"
+        },
+        {
+          "role": "call",
+          "intent": "submit",
+          "data": {
+            "run_id": "r_201",
+            "drill_id": "d3",
+            "answer": "il venti-uno de marso"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d3",
+            "correct": true,
+            "expected": "il venti-uno de marso"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Correct! That's the end of the round: two out of three."
+        },
+        {
+          "role": "learner",
+          "text": "ok I'm done, my brain is soup. that was like a 6 out of 5 honestly. that took like 12 minutes and it felt like an hour"
+        }
+      ],
+      "truth": {
+        "results": [
+          {
+            "drill_id": "d1",
+            "answer": "mil novecento novanta-nove",
+            "correct": true,
+            "skipped": false
+          },
+          {
+            "drill_id": "d2",
+            "answer": "zero uno sete du sinko sinko kwatro tre uno",
+            "correct": false,
+            "skipped": false
+          },
+          {
+            "drill_id": "d3",
+            "answer": "il venti-uno de marso",
+            "correct": true,
+            "skipped": false
+          }
+        ],
+        "rating_said": "like a 6 out of 5",
+        "rating_truth": 5,
+        "duration_said": "that took like 12 minutes",
+        "duration_seconds_truth": 720
+      }
+    },
+    {
+      "id": "E02",
+      "run_id": "r_202",
+      "transcript": [
+        {
+          "role": "learner",
+          "text": "Can we do ordering food? Quick one before lunch, fittingly."
+        },
+        {
+          "role": "call",
+          "intent": "start",
+          "data": {
+            "topic": "ordering food"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "run_id": "r_202",
+            "topic": "ordering food"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Fitting indeed. Ordering-food run started. Drill 1:"
+        },
+        {
+          "role": "call",
+          "intent": "next_drill",
+          "data": {
+            "run_id": "r_202"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d1",
+            "prompt": "Say 'A coffee with milk, please'"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Drill 1: Say 'A coffee with milk, please'."
+        },
+        {
+          "role": "learner",
+          "text": "Un kafe kon lato, prego"
+        },
+        {
+          "role": "call",
+          "intent": "submit",
+          "data": {
+            "run_id": "r_202",
+            "drill_id": "d1",
+            "answer": "Un kafe kon lato, prego"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d1",
+            "correct": true,
+            "expected": "Un kafe kon lato, prego"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Correct! Drill 2:"
+        },
+        {
+          "role": "call",
+          "intent": "next_drill",
+          "data": {
+            "run_id": "r_202"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d2",
+            "prompt": "Ask if they have a vegetarian dish"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Drill 2: Ask if they have a vegetarian dish."
+        },
+        {
+          "role": "learner",
+          "text": "Avete un piato vejetariano?"
+        },
+        {
+          "role": "call",
+          "intent": "submit",
+          "data": {
+            "run_id": "r_202",
+            "drill_id": "d2",
+            "answer": "Avete un piato vejetariano?"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d2",
+            "correct": true,
+            "expected": "Avete un piato vejetariano?"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Correct again. Last one:"
+        },
+        {
+          "role": "call",
+          "intent": "next_drill",
+          "data": {
+            "run_id": "r_202"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d3",
+            "prompt": "Say 'Can we pay separately?'"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Drill 3: Say 'Can we pay separately?'"
+        },
+        {
+          "role": "learner",
+          "text": "Posiamo pagare separato?"
+        },
+        {
+          "role": "call",
+          "intent": "submit",
+          "data": {
+            "run_id": "r_202",
+            "drill_id": "d3",
+            "answer": "Posiamo pagare separato?"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d3",
+            "correct": true,
+            "expected": "Posiamo pagare separato?"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Three for three. That's the round!"
+        },
+        {
+          "role": "learner",
+          "text": "Yay. Done for now, that was pretty easy honestly. About a quarter hour I think, then lunch."
+        }
+      ],
+      "truth": {
+        "results": [
+          {
+            "drill_id": "d1",
+            "answer": "Un kafe kon lato, prego",
+            "correct": true,
+            "skipped": false
+          },
+          {
+            "drill_id": "d2",
+            "answer": "Avete un piato vejetariano?",
+            "correct": true,
+            "skipped": false
+          },
+          {
+            "drill_id": "d3",
+            "answer": "Posiamo pagare separato?",
+            "correct": true,
+            "skipped": false
+          }
+        ],
+        "rating_said": "pretty easy",
+        "rating_truth": 2,
+        "duration_said": "About a quarter hour",
+        "duration_seconds_truth": 900
+      }
+    },
+    {
+      "id": "E03",
+      "run_id": "r_203",
+      "transcript": [
+        {
+          "role": "learner",
+          "text": "ok it's 14:02, my bus is at quarter past, let's squeeze in some past tense"
+        },
+        {
+          "role": "call",
+          "intent": "start",
+          "data": {
+            "topic": "past tense"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "run_id": "r_203",
+            "topic": "past tense"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Let's be quick then. Past tense run started. Drill 1:"
+        },
+        {
+          "role": "call",
+          "intent": "next_drill",
+          "data": {
+            "run_id": "r_203"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d1",
+            "prompt": "Put 'I see the sea' into the past tense"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Drill 1: Put 'I see the sea' into the past tense."
+        },
+        {
+          "role": "learner",
+          "text": "Eu vidi il mar"
+        },
+        {
+          "role": "call",
+          "intent": "submit",
+          "data": {
+            "run_id": "r_203",
+            "drill_id": "d1",
+            "answer": "Eu vidi il mar"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d1",
+            "correct": true,
+            "expected": "Eu vidi il mar"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Correct! Drill 2:"
+        },
+        {
+          "role": "call",
+          "intent": "next_drill",
+          "data": {
+            "run_id": "r_203"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d2",
+            "prompt": "Put 'you (plural) have to leave' into the past tense"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Drill 2: Put 'you (plural) have to leave' into the past tense."
+        },
+        {
+          "role": "learner",
+          "text": "no idea, plural you + modal verb, nope. skip this one"
+        },
+        {
+          "role": "assistant",
+          "text": "No problem, skipping it. Drill 3:"
+        },
+        {
+          "role": "call",
+          "intent": "next_drill",
+          "data": {
+            "run_id": "r_203"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d3",
+            "prompt": "Put 'she writes a letter' into the past tense"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Drill 3: Put 'she writes a letter' into the past tense."
+        },
+        {
+          "role": "learner",
+          "text": "Ela skriva una letra"
+        },
+        {
+          "role": "call",
+          "intent": "submit",
+          "data": {
+            "run_id": "r_203",
+            "drill_id": "d3",
+            "answer": "Ela skriva una letra"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d3",
+            "correct": false,
+            "expected": "Ela skrisse una letra"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "That one was marked incorrect. That's the end of the round."
+        },
+        {
+          "role": "learner",
+          "text": "dang. ok now it's 14:09, gotta grab my stuff. I'm done, bye!"
+        }
+      ],
+      "truth": {
+        "results": [
+          {
+            "drill_id": "d1",
+            "answer": "Eu vidi il mar",
+            "correct": true,
+            "skipped": false
+          },
+          {
+            "drill_id": "d2",
+            "answer": null,
+            "correct": false,
+            "skipped": true
+          },
+          {
+            "drill_id": "d3",
+            "answer": "Ela skriva una letra",
+            "correct": false,
+            "skipped": false
+          }
+        ],
+        "rating_said": null,
+        "rating_truth": null,
+        "duration_said": null,
+        "duration_seconds_truth": 420
+      }
+    },
+    {
+      "id": "E04",
+      "run_id": "r_204",
+      "transcript": [
+        {
+          "role": "learner",
+          "text": "directions"
+        },
+        {
+          "role": "call",
+          "intent": "start",
+          "data": {
+            "topic": "directions"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "run_id": "r_204",
+            "topic": "directions"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Directions run started. Drill 1:"
+        },
+        {
+          "role": "call",
+          "intent": "next_drill",
+          "data": {
+            "run_id": "r_204"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d1",
+            "prompt": "Say 'it is straight ahead, about 200 meters'"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Drill 1: Say 'it is straight ahead, about 200 meters'."
+        },
+        {
+          "role": "learner",
+          "text": "E sempre drito, sirka du-sento metri"
+        },
+        {
+          "role": "call",
+          "intent": "submit",
+          "data": {
+            "run_id": "r_204",
+            "drill_id": "d1",
+            "answer": "E sempre drito, sirka du-sento metri"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d1",
+            "correct": true,
+            "expected": "E sempre drito, sirka du-sento metri"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Correct! Drill 2:"
+        },
+        {
+          "role": "call",
+          "intent": "next_drill",
+          "data": {
+            "run_id": "r_204"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d2",
+            "prompt": "Ask 'is it far from here?'"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Drill 2: Ask 'is it far from here?'"
+        },
+        {
+          "role": "learner",
+          "text": "E lontan da kwi?"
+        },
+        {
+          "role": "call",
+          "intent": "submit",
+          "data": {
+            "run_id": "r_204",
+            "drill_id": "d2",
+            "answer": "E lontan da kwi?"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d2",
+            "correct": false,
+            "expected": "E lontano da kwi?"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Marked incorrect, but close. Drill 3:"
+        },
+        {
+          "role": "call",
+          "intent": "next_drill",
+          "data": {
+            "run_id": "r_204"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d3",
+            "prompt": "Say 'take the second street on the right'"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Drill 3: Say 'take the second street on the right'."
+        },
+        {
+          "role": "learner",
+          "text": "can I get a hint for 'second'?"
+        },
+        {
+          "role": "call",
+          "intent": "hint",
+          "data": {
+            "run_id": "r_204",
+            "drill_id": "d3"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d3",
+            "hint": "'Second' as an ordinal here sounds like 'sekon-' with a feminine ending to match 'street'."
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "'Second' here starts with 'sekon-' and takes a feminine ending to match 'street'."
+        },
+        {
+          "role": "learner",
+          "text": "Prendi la sekonda strada a destra"
+        },
+        {
+          "role": "call",
+          "intent": "submit",
+          "data": {
+            "run_id": "r_204",
+            "drill_id": "d3",
+            "answer": "Prendi la sekonda strada a destra"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d3",
+            "correct": true,
+            "expected": "Prendi la sekonda strada a destra"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Correct! That's the round: two out of three."
+        },
+        {
+          "role": "learner",
+          "text": "That's me done. I'd give it a 4, the 'far' one got me."
+        }
+      ],
+      "truth": {
+        "results": [
+          {
+            "drill_id": "d1",
+            "answer": "E sempre drito, sirka du-sento metri",
+            "correct": true,
+            "skipped": false
+          },
+          {
+            "drill_id": "d2",
+            "answer": "E lontan da kwi?",
+            "correct": false,
+            "skipped": false
+          },
+          {
+            "drill_id": "d3",
+            "answer": "Prendi la sekonda strada a destra",
+            "correct": true,
+            "skipped": false
+          }
+        ],
+        "rating_said": "I'd give it a 4",
+        "rating_truth": 4,
+        "duration_said": null,
+        "duration_seconds_truth": null
+      }
+    },
+    {
+      "id": "E05",
+      "run_id": "r_205",
+      "transcript": [
+        {
+          "role": "learner",
+          "text": "past tense please, I keep mixing up the irregular ones"
+        },
+        {
+          "role": "call",
+          "intent": "start",
+          "data": {
+            "topic": "past tense"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "run_id": "r_205",
+            "topic": "past tense"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Past tense run started. Drill 1:"
+        },
+        {
+          "role": "call",
+          "intent": "next_drill",
+          "data": {
+            "run_id": "r_205"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d1",
+            "prompt": "Put 'we buy bread' into the past tense"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Drill 1: Put 'we buy bread' into the past tense."
+        },
+        {
+          "role": "learner",
+          "text": "hmm. Nos kompramo pan"
+        },
+        {
+          "role": "call",
+          "intent": "submit",
+          "data": {
+            "run_id": "r_205",
+            "drill_id": "d1",
+            "answer": "Nos kompramo pan"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d1",
+            "correct": true,
+            "expected": "Nos kompramo pan"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Correct! Drill 2:"
+        },
+        {
+          "role": "call",
+          "intent": "next_drill",
+          "data": {
+            "run_id": "r_205"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d2",
+            "prompt": "Put 'he comes home late' into the past tense"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Drill 2: Put 'he comes home late' into the past tense."
+        },
+        {
+          "role": "learner",
+          "text": "give me a sec... is 'come' one of the irregular ones?"
+        },
+        {
+          "role": "assistant",
+          "text": "It is. Want a hint, or do you want to try it first?"
+        },
+        {
+          "role": "learner",
+          "text": "try first. El venne a kasa tardi"
+        },
+        {
+          "role": "call",
+          "intent": "submit",
+          "data": {
+            "run_id": "r_205",
+            "drill_id": "d2",
+            "answer": "El venne a kasa tardi"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d2",
+            "correct": true,
+            "expected": "El venne a kasa tardi"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Correct, nicely done on the irregular. Drill 3:"
+        },
+        {
+          "role": "call",
+          "intent": "next_drill",
+          "data": {
+            "run_id": "r_205"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d3",
+            "prompt": "Put 'I can't find my keys' into the past tense"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Drill 3: Put 'I can't find my keys' into the past tense."
+        },
+        {
+          "role": "learner",
+          "text": "Eu no podi trovar le mie kiavi"
+        },
+        {
+          "role": "call",
+          "intent": "submit",
+          "data": {
+            "run_id": "r_205",
+            "drill_id": "d3",
+            "answer": "Eu no podi trovar le mie kiavi"
+          }
+        },
+        {
+          "role": "result",
+          "data": {
+            "drill_id": "d3",
+            "correct": false,
+            "expected": "Eu no potei trovar le mie kiavi"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "That one was marked incorrect. That's the end of the round."
+        },
+        {
+          "role": "learner",
+          "text": "argh, so close. ok I'm done for today. difficulty... 3, maybe 3.5? took me half an hour? no, more like 20 minutes, I made tea in the middle"
+        }
+      ],
+      "truth": {
+        "results": [
+          {
+            "drill_id": "d1",
+            "answer": "Nos kompramo pan",
+            "correct": true,
+            "skipped": false
+          },
+          {
+            "drill_id": "d2",
+            "answer": "El venne a kasa tardi",
+            "correct": true,
+            "skipped": false
+          },
+          {
+            "drill_id": "d3",
+            "answer": "Eu no podi trovar le mie kiavi",
+            "correct": false,
+            "skipped": false
+          }
+        ],
+        "rating_said": "3, maybe 3.5",
+        "rating_truth": 3,
+        "duration_said": "half an hour? no, more like 20 minutes",
+        "duration_seconds_truth": 1200
+      }
+    }
+  ]
+}

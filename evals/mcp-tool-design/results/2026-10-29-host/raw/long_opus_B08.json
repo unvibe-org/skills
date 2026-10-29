@@ -1,0 +1,24 @@
+{
+ "id": "B08",
+ "tool": "mcp__helpdesk__escalate_tickets",
+ "args": {
+  "ticket_ids": [
+   "4920"
+  ],
+  "team": "Tier 2",
+  "reason": "Webhook payloads are arriving corrupted. This is a technical integration issue beyond what Billing can resolve."
+ },
+ "message": null,
+ "searches": [
+  "select:mcp__helpdesk__get_ticket,mcp__helpdesk__escalate_tickets"
+ ],
+ "init": {
+  "tools": 47,
+  "helpdesk_tools": 12,
+  "servers_connected": [
+   "claude.ai Claude Docs",
+   "helpdesk"
+  ]
+ },
+ "seconds": 23
+}

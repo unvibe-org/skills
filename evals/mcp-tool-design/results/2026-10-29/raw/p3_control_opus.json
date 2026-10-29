@@ -1,0 +1,11 @@
+[
+  {"id": "D01", "tool": "next_drill", "args": {"run_id": "r_101"}, "message": "Close, but not quite. It's 'kuvara seti' (you had 'kuvaro sei'). Watch the '-a' ending and the 't' in 'seti'. Here's drill 2:"},
+  {"id": "D02", "tool": "next_drill", "args": {"run_id": "r_102"}, "message": "Good try, you got the structure right. The expected answer is 'Vorrai la zuvassa, prego': 'vorrai' for 'I would like', and the soup is 'zuvassa'. On to the last drill:"},
+  {"id": "D03", "tool": null, "args": null, "message": "Correct, 'Nos erami stanki' is right! That's all three drills, and you got every one. Before I save the round: how hard did it feel, on a scale from 1 (easy) to 5 (hard)?"},
+  {"id": "D04", "tool": "next_drill", "args": {"run_id": "r_77"}, "message": "Not quite. The expected answer is 'Dov'esta la stazo ferrovia?': 'dov'esta' is contracted, and the train station is 'stazo ferrovia'. Here's the next drill:"},
+  {"id": "D05", "tool": null, "args": null, "message": "Almost! The 3rd is 'il terzimo', not 'il tresimo'. Ordinals often change their stem, so it's worth memorising that one. That finishes the round: 2 out of 3 correct. Before I save it, how hard did it feel, from 1 (easy) to 5 (hard)?"},
+  {"id": "D06", "tool": null, "args": null, "message": "Close! It's 'Il konto, prego': 'konto' is masculine, so it takes 'il' rather than 'la'. That wraps up the round: 2 out of 3 correct, including the allergy question. Before I save it, how hard did it feel, from 1 (easy) to 5 (hard)?"},
+  {"id": "D07", "tool": "next_drill", "args": {"run_id": "r_104"}, "message": "Nearly there! The expected answer is 'Gira a sinistra al ponto': it's 'a sinistra' (to the left), and bridge is 'ponto'. Here's drill 2:"},
+  {"id": "D08", "tool": "next_drill", "args": {"run_id": "r_105"}, "message": "Close! 85 is 'ottanta-chinko': double 't' in 'ottanta', and five is 'chinko'. Last drill of the round:"},
+  {"id": "D09", "tool": null, "args": null, "message": "Correct, 'Kosa ci konsilia?' is perfect, and his dad will like that one. That's 3 out of 3 for the round! Before I save it, how hard did it feel, from 1 (easy) to 5 (hard)?"}
+]

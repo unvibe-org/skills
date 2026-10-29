@@ -1,0 +1,7 @@
+[
+  {"id": "E01", "tool": null, "args": null, "message": "Saved the round: two out of three, about 12 minutes. The rating went in as 5, since the scale tops out at 5. The phone number drill is worth another go next time."},
+  {"id": "E02", "tool": null, "args": null, "message": "Saved: three out of three, about a quarter hour. Nice work, and enjoy your lunch."},
+  {"id": "E03", "tool": null, "args": null, "message": "Saved: one right, one skipped, one wrong, about seven minutes. Have a good bus ride. The 'she writes a letter' drill is worth revisiting."},
+  {"id": "E04", "tool": null, "args": null, "message": "Saved: two out of three, rated 4. Worth revisiting 'lontano' for 'far'."},
+  {"id": "E05", "tool": null, "args": null, "message": "Saved: two out of three, difficulty 4 (3.5 rounds to 4 on the 1 to 5 scale). The 'can' past form 'potei' is the one to revisit."}
+]
