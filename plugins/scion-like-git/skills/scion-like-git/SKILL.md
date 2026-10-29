@@ -67,7 +67,8 @@ If `git config --get scion-like-git.configured` prints nothing, run
    only in the clone: no unpushed commits, stashes, or local-only branches.
    Do not restate a clean branch state; the user's terminal, IDE, and harness
    already show it. Report only what the rules here say to name in the
-   hand-off: local commits on `main`, and changes you did not make.
+   hand-off: local commits on `main`, parked `wip:` work, and changes you did
+   not make.
 
 ## When it comes up
 
@@ -86,12 +87,14 @@ Commits not yet pushed are yours to amend.
 | The same person repeats the request after hearing this rule | Do the rewrite |
 
 **Switching tasks mid-work.** Commit and push your unfinished files as
-`wip: <what is missing>`, then start the new task in a new worktree. Never
-`git stash`. Resume on top of the wip commit. If the hooks reject it because
-the unfinished work fails its own tests, mark those tests as skipped and name
-them in the commit message. Un-skip them in the commit that finishes the
-work; the branch is not ready for review while a test you skipped is still
-skipped.
+`wip: <what is missing>` on their task branch. If they sit on `main`, move
+them to a new branch with `git switch -c <branch>` first, so the `wip:`
+commit never reaches `origin/main`. Then start the new task in a new
+worktree. Never `git stash`. Resume on top of the wip commit. If the hooks
+reject it because the unfinished work fails its own tests, mark those tests
+as skipped and name them in the commit message. Un-skip them in the commit
+that finishes the work; the branch is not ready for review while a test you
+skipped is still skipped.
 
 **Changes you did not make.** Your work is the files you created or changed
 for your task. Anything else in the working copy belongs to someone else.
