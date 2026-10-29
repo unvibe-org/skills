@@ -326,6 +326,11 @@ clean working copy. The table now lists parked work in its first row and
 says to use the first row that fits. Scenarios 3, 11 and 12 passed 3 of 3
 each with that wording.
 
+A second review found that the new first step had dropped "continue on the
+task's own branch", so resuming parked work on a branch other than the
+current one read as a new task. The exception now covers work on any branch
+that is not yet on `main`. Scenarios 11 and 12 passed 3 of 3 each again.
+
 ### Packaging checks
 
 - **Install:** `npx skills add <path> --skill scion-like-git -a claude-code

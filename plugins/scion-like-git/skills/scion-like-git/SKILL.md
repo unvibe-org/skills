@@ -15,15 +15,15 @@ If `git config --get scion-like-git.configured` prints nothing, run
 
 1. **Start from the newest `main`.** The first request of a session is a new
    task, unless it names a branch or pull request, or builds on work that is
-   on the current branch and not yet on `main`. Then stay on that branch. For
-   a new task, update the clone before you read or change any code, whatever
-   branch it is on. Use the first row that fits:
+   on a branch and not yet on `main`, such as parked `wip:` work. Then
+   continue on that branch. For a new task, update the clone before you read
+   or change any code, whatever branch it is on. Use the first row that fits:
 
    | Working copy | Update with |
    |---|---|
    | Uncommitted changes, or work you just parked as `wip:` | `git fetch`, then a new worktree |
    | Linked worktree | `git fetch` |
-   | Main checkout | `git switch main && git pull --ff-only` |
+   | Main worktree, on any branch | `git switch main && git pull --ff-only` |
 
    If `pull --ff-only` refuses, leave `main` as it is, branch from
    `origin/main` as in a worktree, and name the local commits on `main` in
