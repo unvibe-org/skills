@@ -13,7 +13,8 @@ branches, or switches tasks. It:
   switches the checkout to `main` and pulls, or fetches when it works in a
   worktree, then starts the task's own branch there
 - starts in a new worktree only when the working copy has uncommitted
-  changes, and stays on the current branch when you ask to continue its work
+  changes or it has just parked unfinished work, and stays on the current
+  branch when the request builds on that branch's work
 - commits and pushes together, in small commits that state their intent
 - does not amend, rebase, squash, or force-push commits already on origin,
   unless you repeat the request after hearing the rule

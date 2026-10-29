@@ -308,7 +308,7 @@ both arms: every run stayed on `feature/coupons`.
 The skill got a first step that treats the first request of a session as a
 new task unless it builds on the current branch, a table of how to update
 the clone by kind of working copy, a new worktree only for uncommitted
-changes, and a description that loads the skill before code is read. The
+changes or work just parked as `wip:`, and a description that loads the skill before code is read. The
 fixture got fixed commit dates, so a grader can check that the local `main`
 reached the tip of `main` on origin.
 
@@ -319,6 +319,12 @@ With version 1.2.0:
 | 11. Stale checkout | Pass, 6 of 6 | Switched to `main`, pulled, branched; local `main` at origin's tip in every run. The no-plugin arm of the second run scored 0.40: no run updated `main`, and one made the fix on `feature/coupons`. |
 | 12. Follow-up | Pass, 3 of 3 | Stayed on `feature/coupons`; one run said the coupons exist only there |
 | 2, 3, 4 (eval cases) | Pass, 3 of 3 each | No rewrite, no stash |
+
+A review then found that the worktree row contradicted "Switching tasks
+mid-work", which parks the work and then starts in a new worktree from a
+clean working copy. The table now lists parked work in its first row and
+says to use the first row that fits. Scenarios 3, 11 and 12 passed 3 of 3
+each with that wording.
 
 ### Packaging checks
 

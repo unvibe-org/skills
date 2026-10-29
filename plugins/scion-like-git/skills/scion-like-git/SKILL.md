@@ -14,16 +14,16 @@ If `git config --get scion-like-git.configured` prints nothing, run
 ## Every task
 
 1. **Start from the newest `main`.** The first request of a session is a new
-   task, unless it names a branch or pull request, or builds on work that
-   exists only on the current branch. Then stay on that branch. For a new
-   task, update the clone before you read or change any code, whatever branch
-   it is on:
+   task, unless it names a branch or pull request, or builds on work that is
+   on the current branch and not yet on `main`. Then stay on that branch. For
+   a new task, update the clone before you read or change any code, whatever
+   branch it is on. Use the first row that fits:
 
    | Working copy | Update with |
    |---|---|
-   | Main checkout, no uncommitted changes | `git switch main && git pull --ff-only` |
-   | Linked worktree, no uncommitted changes | `git fetch` |
-   | Uncommitted changes | `git fetch`, then a new worktree |
+   | Uncommitted changes, or work you just parked as `wip:` | `git fetch`, then a new worktree |
+   | Linked worktree | `git fetch` |
+   | Main checkout | `git switch main && git pull --ff-only` |
 
    If `pull --ff-only` refuses, leave `main` as it is, branch from
    `origin/main` as in a worktree, and name the local commits on `main` in
@@ -33,8 +33,7 @@ If `git config --get scion-like-git.configured` prints nothing, run
    `main`, `git switch --no-track -c <branch> origin/main` in a worktree.
    Name it the way the repository names branches (`CONTRIBUTING.md`,
    `AGENTS.md`, recent branches on origin), or else `<type>/<slug>`, such as
-   `fix/empty-cart-total`. A new worktree for a working copy with uncommitted
-   changes:
+   `fix/empty-cart-total`. A new worktree, for the first row:
 
    ```sh
    git worktree add --no-track -b <branch> ../<branch-with-dashes> origin/main
