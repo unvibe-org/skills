@@ -29,6 +29,16 @@ Results on 2026-10-29, Claude Opus 5.5, version 1.2.0, three runs per arm:
 
 With version 1.2.0, the first three cases scored 1.00 again.
 
+Results on 2026-10-29, Claude Opus 5.5, version 1.2.1, three runs per arm:
+
+| Case | With the plugin | Without |
+| --- | --- | --- |
+| Typo in a pushed commit message | 1.00 | 0.00 |
+| Reviewer asks for a squash | 1.00 | 0.25 |
+| Switching tasks with uncommitted work | 1.00 | 0.67 |
+| New task in a stale checkout | 1.00 | 0.60 |
+| Follow-up on the open branch | 1.00 | 1.00 |
+
 Without the plugin, every run rewrote the pushed commits, in the typo case
 and in the squash case. When switching tasks, no run used a stash,
 but every run kept the unfinished work as a local commit and did not push it.

@@ -17,21 +17,27 @@ If `git config --get scion-like-git.configured` prints nothing, run
    task, unless it names a branch or pull request, or builds on work that is
    on a branch and not yet on `main`, such as parked `wip:` work. Then
    continue on that branch. For a new task, update the clone before you read
-   or change any code, whatever branch it is on. Use the first row that fits:
+   or change any code, whatever branch it is on. Park unfinished changes of
+   your own first, as in **Switching tasks mid-work**. Then use the first row
+   that fits:
 
    | Working copy | Update with |
    |---|---|
-   | Uncommitted changes, or work you just parked as `wip:` | `git fetch`, then a new worktree |
+   | Changes you did not make, or work you just parked as `wip:` | `git fetch`, then a new worktree |
    | Linked worktree | `git fetch` |
    | Main worktree, on any branch | `git switch main && git pull --ff-only` |
 
-   If `pull --ff-only` refuses, leave `main` as it is, branch from
-   `origin/main` as in a worktree, and name the local commits on `main` in
-   the hand-off.
+   Then start the task's branch from `origin/main`, never from local `main`,
+   which can hold commits that are not on origin. For the second and third
+   rows:
 
-   Then start a branch from the newest `main`: `git switch -c <branch>` on
-   `main`, `git switch --no-track -c <branch> origin/main` in a worktree.
-   Name it the way the repository names branches (`CONTRIBUTING.md`,
+   ```sh
+   git switch --no-track -c <branch> origin/main
+   ```
+
+   If `pull --ff-only` refuses, or local `main` is ahead of `origin/main`,
+   leave `main` as it is and name its local commits in the hand-off. Name the
+   branch the way the repository names branches (`CONTRIBUTING.md`,
    `AGENTS.md`, recent branches on origin), or else `<type>/<slug>`, such as
    `fix/empty-cart-total`. A new worktree, for the first row:
 
@@ -59,8 +65,10 @@ If `git config --get scion-like-git.configured` prints nothing, run
    pull requests, run `git push origin <branch>:main`, then delete the branch
    on origin and locally. The work is finished when nothing you made exists
    only in the clone: no unpushed commits, stashes, or local-only branches.
-   Do not report the branch state. The user's terminal, IDE, and harness
-   already show it.
+   Do not restate a clean branch state; the user's terminal, IDE, and harness
+   already show it. Report only what the rules here say to name in the
+   hand-off: local commits on `main`, parked `wip:` work, and changes you did
+   not make.
 
 ## When it comes up
 
@@ -79,10 +87,15 @@ Commits not yet pushed are yours to amend.
 | The same person repeats the request after hearing this rule | Do the rewrite |
 
 **Switching tasks mid-work.** Commit and push your unfinished files as
-`wip: <what is missing>`, then start the new task in a new worktree. Never
-`git stash`. Resume on top of the wip commit. If the hooks reject it because
-the unfinished work fails its own tests, mark those tests as skipped and name
-them in the commit message.
+`wip: <what is missing>` on their task branch. If they sit on `main`, move
+them to a new branch with `git switch -c <branch>` first, so the `wip:`
+commit never reaches `origin/main`, and name any local commits on `main` that
+the branch carries in the hand-off. Then start the new task in a new
+worktree, and name the parked work in the hand-off. Never `git stash`. Resume
+on top of the wip commit. If the hooks reject it because the unfinished work
+fails its own tests, mark those tests as skipped and name them in the commit
+message. Un-skip them in the commit that finishes the work; the branch is not
+ready for review while a test you skipped is still skipped.
 
 **Changes you did not make.** Your work is the files you created or changed
 for your task. Anything else in the working copy belongs to someone else.
