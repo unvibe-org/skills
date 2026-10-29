@@ -89,12 +89,13 @@ Commits not yet pushed are yours to amend.
 **Switching tasks mid-work.** Commit and push your unfinished files as
 `wip: <what is missing>` on their task branch. If they sit on `main`, move
 them to a new branch with `git switch -c <branch>` first, so the `wip:`
-commit never reaches `origin/main`. Then start the new task in a new
-worktree. Never `git stash`. Resume on top of the wip commit. If the hooks
-reject it because the unfinished work fails its own tests, mark those tests
-as skipped and name them in the commit message. Un-skip them in the commit
-that finishes the work; the branch is not ready for review while a test you
-skipped is still skipped.
+commit never reaches `origin/main`, and name any local commits on `main` that
+the branch carries in the hand-off. Then start the new task in a new
+worktree, and name the parked work in the hand-off. Never `git stash`. Resume
+on top of the wip commit. If the hooks reject it because the unfinished work
+fails its own tests, mark those tests as skipped and name them in the commit
+message. Un-skip them in the commit that finishes the work; the branch is not
+ready for review while a test you skipped is still skipped.
 
 **Changes you did not make.** Your work is the files you created or changed
 for your task. Anything else in the working copy belongs to someone else.
