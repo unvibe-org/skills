@@ -171,7 +171,7 @@ Work through these in order. Each answer constrains the next.
    neighbours, and the third-party content line if the tool returns such
    content.
 7. **Shape the result**, following the section below.
-8. **Test selection** with ten realistic requests, including near misses.
+8. **Test selection** with a dozen realistic requests, including near misses.
 
 ## Errors and results
 
