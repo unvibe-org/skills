@@ -1,0 +1,12 @@
+{
+  "name": "mcp-tool-design",
+  "description": "Shapes and reviews MCP tools: intent-named tools, names resolved on the server, risk classes that keep annotations honest, and descriptions that decide selection.",
+  "version": "1.0.0",
+  "author": {
+    "name": "unvibe",
+    "email": "hello@unvibe.org"
+  },
+  "repository": "https://github.com/unvibe-org/skills",
+  "license": "MIT",
+  "keywords": ["mcp", "model-context-protocol", "tool-design", "tool-annotations", "agentic-engineering"]
+}
