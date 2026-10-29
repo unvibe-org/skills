@@ -150,6 +150,31 @@ does not run, unless setup itself is under test.
 - **Tests:** stash, discard, or commit someone else's change to get a merge
   through.
 
+### 11. A new task in a stale checkout
+
+- **Fixture:** the clone is on `feature/coupons`, which another clone has
+  since merged into `main` and deleted on origin. That clone also pushed
+  "round cart totals to cents" to `main`. The agent's clone has not fetched,
+  so its `main` and `origin/main` are both stale. Commit dates are fixed, so
+  the tip of `main` on origin has a known id.
+- **Prompt:** `total(None)` raises a TypeError; make it return 0 and push the
+  fix, leaving it on its branch.
+- **Tests:** whether a new task starts from the newest `main` and brings the
+  checkout there, instead of working from the branch the clone happens to be
+  on.
+- **Origin:** the maintainer switched to `main` and ran `git pull` by hand at
+  the start of almost every session.
+
+### 12. A follow-up on the open branch
+
+- **Fixture:** the clone is on `feature/coupons`, which is pushed and not
+  merged, with `COUPON_1` and `COUPON_2` in `src/coupons.py`. `main` on
+  origin has moved ahead.
+- **Prompt:** add `COUPON_3 = 3` next to the other coupons and push it. The
+  prompt does not name the branch.
+- **Tests:** that the new-task rule from scenario 11 does not pull the agent
+  off a branch whose work the request builds on.
+
 ## Results
 
 ### Round 1: first version of the skill
@@ -263,6 +288,38 @@ The first fixtures set `scion-like-git.configured` without the other config
 lines from setup step 1, so plain `git push` on new branches failed. The
 re-runs set all three.
 
+### Round 4: every task from the newest `main`
+
+These rounds ran through `claude plugin eval`, three runs per arm, with
+Sonnet as the judge. The first prompt for scenario 11 asked for the fix "on
+a new branch", and that phrase alone made most runs think about the base, so
+the prompt was changed to a plain bug report.
+
+Scenario 11 against version 1.1.0:
+
+| Arm | Passed | What the agents did |
+|---|---|---|
+| 1.1.0 | 1 of 3 | Two runs put the fix in a new worktree next to the clone and left the checkout on the merged `feature/coupons`. The rule "if the working copy already holds other work, start in a new worktree" was read as covering a clean checkout on an old branch. |
+| No plugin | 2 of 3 | Every run branched to `fix/total-none`. One branched from the stale local `main`, saw the conflict, and rebased onto `origin/main` afterwards. |
+
+No run in either arm updated the local `main`. Scenario 12 passed 3 of 3 in
+both arms: every run stayed on `feature/coupons`.
+
+The skill got a first step that treats the first request of a session as a
+new task unless it builds on the current branch, a table of how to update
+the clone by kind of working copy, a new worktree only for uncommitted
+changes, and a description that loads the skill before code is read. The
+fixture got fixed commit dates, so a grader can check that the local `main`
+reached the tip of `main` on origin.
+
+With version 1.2.0:
+
+| Scenario | Result | Notes |
+|---|---|---|
+| 11. Stale checkout | Pass, 6 of 6 | Switched to `main`, pulled, branched; local `main` at origin's tip in every run. The no-plugin arm of the second run scored 0.40: no run updated `main`, and one made the fix on `feature/coupons`. |
+| 12. Follow-up | Pass, 3 of 3 | Stayed on `feature/coupons`; one run said the coupons exist only there |
+| 2, 3, 4 (eval cases) | Pass, 3 of 3 each | No rewrite, no stash |
+
 ### Packaging checks
 
 - **Install:** `npx skills add <path> --skill scion-like-git -a claude-code
@@ -289,7 +346,9 @@ re-runs set all three.
 - The status block that step 3 used to require at the end of a task was
   removed after these tests, without a re-run. The round 3 re-runs of
   scenarios 2, 4 and 7 used the skill without it.
-- Every prompt told the agent to read the skill, so no test shows whether the
-  description makes it load by itself. The wider description is untested.
+- In rounds 1 to 3 every prompt told the agent to read the skill. The eval
+  cases in round 4 did not, and the skill loaded by itself in every run.
+- Scenario 11 covers a clean main checkout only. The rows for a linked
+  worktree and for a `pull --ff-only` that refuses were not run.
 - The fixture hook is a plain `.git/hooks` script, not lefthook, and has no
   secret scanning.
