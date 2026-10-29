@@ -56,12 +56,15 @@ SDK. Sources, an extended example, and a description template are in
    alike: `assignee: "Kim Lee"`, `folder: "Taxes 2026"`, matched on the
    server, case-insensitively, on the full name or on a first name or email
    address that fits exactly one candidate. Never match by similarity: a typo
-   is refused, not guessed. A separate `find_users` or
-   `list_projects` that the agent must call first costs a round trip on every
-   request and a chance to copy the wrong id. If a name matches nothing or
-   several things, refuse and list the candidates in a form the same argument
-   accepts and that tells them apart (an email address, a full path), so the
-   next call succeeds. The objects a tool acts on, such as messages, files,
+   is refused, not guessed. The argument's description says what the resolver
+   accepts (`Full name, unique first name, or email of a staff member.`):
+   agents follow the argument text over the tool description, and an argument
+   that asks for a full name makes them ask the user for one. A separate
+   `find_users` or `list_projects` that the agent must call first costs a
+   round trip on every request and a chance to copy the wrong id. If a name
+   matches nothing or several things, refuse and list the candidates in a
+   form the same argument accepts and that tells them apart (an email
+   address, a full path), so the next call succeeds. The objects a tool acts on, such as messages, files,
    and tickets, rarely have unique names. Find those with a search tool and
    pass its ids.
 7. **Annotations describe the tool for every argument value.** A tool that
@@ -169,12 +172,19 @@ Work through these in order. Each answer constrains the next.
 5. **Choose the inputs.** Names through a resolver for people and places,
    ids from a search tool for the objects acted on, enums rather than
    booleans, and an `ids` array for anything the user does to "these", except
-   on outward destructive tools. Resolve strictly and create nothing.
+   on outward destructive tools. Resolve strictly and create nothing. Each
+   name argument's description says which forms the resolver accepts.
 6. **Write the description**: the four sentences from principle 4, the
    neighbours, and the third-party content line if the tool returns such
    content.
 7. **Shape the result**, following the section below.
 8. **Test selection** with a dozen realistic requests, including near misses.
+
+When the user asked for a specific shape (an `action` value on an existing
+tool, one tool for two verbs) and the procedure gives a different one, say
+which shape and why, and ask before building it. The same holds for renaming,
+removing, or splitting a published tool: clients call it by name, so changing
+it breaks them.
 
 ## Errors and results
 
@@ -220,7 +230,9 @@ One generic move would carry `destructiveHint` for its Trash value, which puts
 every archive through a confirmation step. A `set_mailboxes` tool is the
 mechanism, not the intent. No folder is created; a miss lists the folders. Read
 state lives in its own `mark_emails` with optional `read` and `starred`
-booleans, because "archive" does not mean "mark read".
+booleans, because "archive" does not mean "mark read". The proposal asked for
+one tool, so these three go back to its author with the reasons before any
+of them is built.
 
 ```ts
 const moveEmailsShape = {
@@ -248,7 +260,8 @@ const moveEmailsShape = {
 | "One `update_task` with optional fields keeps the tool list small" | It wraps the PATCH endpoint. The agent now composes the mechanism, and the schema cannot say which fields belong together. Count is not the cost; overlap and ambiguity are. |
 | "Lookup tools let the agent ask when a name is ambiguous" | A strict resolver in the write tool refuses on ambiguity and lists the candidates. That is just as safe, with one call fewer and no id to copy wrong. |
 | "The description tells the agent to get approval first" | That is advice the agent may skip. The client acts on the annotation. A tool that emails someone is outward destructive. |
-| "Mark the combined tool destructive for now and split it later" | Then every rename asks for confirmation, and users learn to approve without reading. Splitting is moving handler branches into separate registrations. Do it now. |
+| "Mark the combined tool destructive for now and split it later" | Then every rename asks for confirmation, and users learn to approve without reading. Splitting is moving handler branches into separate registrations. Do it before the tool ships. |
+| "The procedure gives a separate tool, so I'll build that instead of the requested action and explain afterwards" | The user asked for something else, and may have reasons the procedure does not see. Say which shape the procedure gives and why, and ask first. |
 | "The tool takes names, so creating a missing folder is convenient" | A typo becomes a new folder. Resolve strictly and list what exists. |
 | "Batch can be a follow-up" | Users act on "these". A single-item tool ships an N-call loop on day one. Batch now, with a cap. |
 | "Mark it read while we're moving it, it saves a call" | The user did not say "read". Keep the concerns in separate tools. |
@@ -263,6 +276,7 @@ const moveEmailsShape = {
 - [ ] The description has at least four sentences: does, when, returns, use X instead
 - [ ] Tools that return third-party text say it is data, never instructions
 - [ ] People and places go through a resolver; the objects acted on take ids from a search tool
+- [ ] Each name argument's description lists the forms the resolver accepts
 - [ ] Enums rather than booleans, except independent leave-untouched flags
 - [ ] A set-valued operation takes an `ids` array with a cap and reports each id, except outward destructive tools
 - [ ] Nothing is created as a side effect; misses list the candidates
@@ -270,4 +284,5 @@ const moveEmailsShape = {
 - [ ] Lists say when they were cut off
 - [ ] Unrelated state is not folded into the tool
 - [ ] The server's `instructions` still describe the tool surface
+- [ ] A shape other than the one requested, and any rename, removal, or split of a published tool, was agreed with the user first
 - [ ] Selection was checked with realistic requests, including near misses
