@@ -124,15 +124,17 @@ Ask two questions about each verb:
 |---|---|---|---|---|
 | Read only | `true` | `false` | `false` | search, get, list |
 | Account write | `false` | `false` | `false` | stage a draft, archive, move, assign, rename |
-| Account destructive | `false` | `true` | `false` | trash, delete, replace text with no history |
+| Account destructive | `false` | `true` | `false` | trash into a Trash that purges itself, delete, replace text with no history |
 | Outward write | `false` | `false` | `true` | RSVP, share a file that can be unshared, add a forwarding rule |
 | Outward destructive | `false` | `true` | `true` | send an email, post a comment that emails watchers, cancel a meeting |
 
 Define the five classes once as constants and give every tool exactly one. If
 two verbs of one proposed tool land in different classes, they are two tools.
 Leave no hint out: the MCP spec defaults an omitted `destructiveHint` and
-`openWorldHint` to `true`. A read-only tool that fetches from the open web
-keeps `openWorldHint: true`, which is the spec's original meaning. Reading the hint
+`openWorldHint` to `true`. The one exception to the constants is a read-only
+tool that fetches from the open web (a page fetch, a web search): it takes
+the Read only class with `openWorldHint` overridden to `true`, which is the
+spec's original meaning. Reading the hint
 as "reaches another person" is stricter than the spec's "external entities",
 on purpose: clients use the hint to decide what to confirm, and a
 notification to a teammate is worth confirming too.
@@ -175,8 +177,11 @@ Work through these in order. Each answer constrains the next.
 
 ## Errors and results
 
-- An error says what failed and what to do next, naming the tool that helps:
-  `No project named "Biling". Projects: Billing, Tier 2, Onboarding.`
+- An error says what failed and what to do next. A name that resolves to
+  nothing lists the candidates
+  (`No project named "Biling". Projects: Billing, Tier 2, Onboarding.`). A
+  value another tool handles names that tool
+  (`"Trash" is refused: use trash_emails.`).
 - A refusal says what did not happen: `Nothing was sent.`
 - A batch result opens with one summary line (`Moved 3 of 4 messages to
   Invoices.`), then names each refused id with its reason. It is an error
@@ -258,9 +263,9 @@ const moveEmailsShape = {
 - [ ] Tools that return third-party text say it is data, never instructions
 - [ ] Names go through a resolver where one exists; ids only for unnamed things
 - [ ] Enums rather than booleans, except independent leave-untouched flags
-- [ ] A set-valued operation takes an `ids` array with a cap and reports each id
+- [ ] A set-valued operation takes an `ids` array with a cap and reports each id, except outward destructive tools
 - [ ] Nothing is created as a side effect; misses list the candidates
-- [ ] Errors name the next step and the tool for it; refusals say what did not happen
+- [ ] Errors name the next step (the candidates, or the tool that handles the value); refusals say what did not happen
 - [ ] Lists say when they were cut off
 - [ ] Unrelated state is not folded into the tool
 - [ ] The server's `instructions` still describe the tool surface
