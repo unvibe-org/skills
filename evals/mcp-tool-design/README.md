@@ -222,7 +222,7 @@ Run few in parallel (`PARALLEL` in `host.py`): a burst of 8 at a time used up
 the usage limit and lost the login in the first run.
 
 ```sh
-python3 host.py prepare results/<dir>
+python3 host.py prepare results/<dir> reads   # block: the first host run; reads: the second
 python3 host.py run results/<dir> <scratch dir outside the repo>
 python3 host.py grade results/<dir> results/<search dir>
 ```

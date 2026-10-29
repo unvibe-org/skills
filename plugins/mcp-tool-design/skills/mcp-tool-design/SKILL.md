@@ -231,8 +231,8 @@ every archive through a confirmation step. A `set_mailboxes` tool is the
 mechanism, not the intent. No folder is created; a miss lists the folders. Read
 state lives in its own `mark_emails` with optional `read` and `starred`
 booleans, because "archive" does not mean "mark read". The proposal asked for
-one tool, so these three go back to its author with the reasons before any
-of them is built.
+one tool, so these four, `mark_emails` included, go back to the user with
+the reasons before any of them is built.
 
 ```ts
 const moveEmailsShape = {

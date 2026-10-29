@@ -56,9 +56,9 @@ Applying the decision procedure:
    "archive" does not mean "mark read". A `mark_emails` tool (`ids`, optional
    `read` and `starred` booleans, account write) owns that.
 8. **Ask first.** The proposal named one `move_email` tool; the procedure
-   gives four. Bring the four and the reasons above back to the author before
+   gives four. Bring the four and the reasons above back to the user before
    building them. Had `move_email` already been published, renaming or
-   removing it would also be the author's call, because clients call it by
+   removing it would also be the user's call, because clients call it by
    name.
 
 The resulting surface:
