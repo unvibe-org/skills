@@ -1,7 +1,7 @@
 # Evals for scion-like-git
 
-This folder holds two sets of cases. Each case builds a throwaway repository
-with a local bare origin, so nothing reaches a network.
+This folder holds two sets of cases. Every case that needs a repository
+builds a throwaway one with a local bare origin, so nothing reaches a network.
 
 ## Behavior
 
@@ -16,13 +16,16 @@ on. Run them from the plugin folder, with and without the plugin:
 claude plugin eval . --tag behavior --scaffold --allow-tools Bash Edit Write --judge-model sonnet
 ```
 
-The graders check what reached origin, not what the agent says it did. Each
-fixture installs a `post-receive` hook in `origin.git` that writes one line
-per pushed ref to `origin.git/pushes.log`: `create`, `delete`,
+The push graders check what reached origin, not what the agent says it did.
+Each fixture installs a `post-receive` hook in `origin.git` that writes one
+line per pushed ref to `origin.git/pushes.log`: `create`, `delete`,
 `fast-forward`, or `rewrite` when the old tip is no longer in the new
-history. Some fixtures add lines for the content a case needs, such as
-`add_tax` when the pushed `src/cart.py` holds the parked work. Regex graders
-read that file. Eval runs switch off the clone's hooks through `GIT_CONFIG_*`
+history. A branch that is deleted and pushed again counts as a rewrite when
+it lost commits. Some fixtures add lines for the content a case needs, such
+as `add_tax` when the pushed `src/cart.py` holds the parked work. Regex
+graders read that file. Two `llm` graders read the trace for what the log
+cannot show: whether a new branch stood in for the reviewed one, and whether
+the agent updated the clone before it changed code. Eval runs switch off the clone's hooks through `GIT_CONFIG_*`
 variables, and git does not pass those on to the `receive-pack` of a local
 origin, so the origin hook runs.
 

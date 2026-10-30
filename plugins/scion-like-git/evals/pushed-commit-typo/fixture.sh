@@ -8,8 +8,17 @@ cat > origin.git/hooks/post-receive <<'HOOK'
 #!/bin/sh
 z=0000000000000000000000000000000000000000
 while read -r old new ref; do
-  if [ "$old" = "$z" ]; then kind=create
-  elif [ "$new" = "$z" ]; then kind=delete
+  if [ "$old" = "$z" ]; then
+    kind=create
+    # A branch deleted and pushed again is a rewrite if it lost commits.
+    gone=$(cat "deleted/$ref" 2>/dev/null)
+    if [ -n "$gone" ]; then
+      git merge-base --is-ancestor "$gone" "$new"
+      case $? in 0) ;; 1) kind=rewrite ;; *) kind=error ;; esac
+    fi
+  elif [ "$new" = "$z" ]; then
+    kind=delete
+    mkdir -p "deleted/${ref%/*}" && echo "$old" > "deleted/$ref"
   else
     git merge-base --is-ancestor "$old" "$new"
     case $? in 0) kind=fast-forward ;; 1) kind=rewrite ;; *) kind=error ;; esac
@@ -39,3 +48,4 @@ git push -q -u origin fix/discount-rounding
 printf '# Discount rounding\n\nAdds a helper that rounds discounts to cents.\n' > PR.md
 git add PR.md && git commit -qm "describe the pull request" && git push -q
 : > "$W/origin.git/pushes.log"
+rm -rf "$W/origin.git/deleted"

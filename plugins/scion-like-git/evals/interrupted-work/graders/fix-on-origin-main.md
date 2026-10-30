@@ -1,6 +1,6 @@
 ---
 type: regex
-pattern: '^cart-changed refs/heads/main$'
+pattern: '^none-fix refs/heads/main$'
 flags: m
 target:
   source: file

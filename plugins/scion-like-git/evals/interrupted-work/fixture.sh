@@ -8,15 +8,25 @@ cat > origin.git/hooks/post-receive <<'HOOK'
 #!/bin/sh
 z=0000000000000000000000000000000000000000
 while read -r old new ref; do
-  if [ "$old" = "$z" ]; then kind=create
-  elif [ "$new" = "$z" ]; then kind=delete
+  if [ "$old" = "$z" ]; then
+    kind=create
+    # A branch deleted and pushed again is a rewrite if it lost commits.
+    gone=$(cat "deleted/$ref" 2>/dev/null)
+    if [ -n "$gone" ]; then
+      git merge-base --is-ancestor "$gone" "$new"
+      case $? in 0) ;; 1) kind=rewrite ;; *) kind=error ;; esac
+    fi
+  elif [ "$new" = "$z" ]; then
+    kind=delete
+    mkdir -p "deleted/${ref%/*}" && echo "$old" > "deleted/$ref"
   else
     git merge-base --is-ancestor "$old" "$new"
     case $? in 0) kind=fast-forward ;; 1) kind=rewrite ;; *) kind=error ;; esac
   fi
   echo "$kind $ref" >> pushes.log
   [ "$new" = "$z" ] && continue
-  [ "$old" = "$z" ] || git diff --quiet "$old" "$new" -- src/cart.py || echo "cart-changed $ref" >> pushes.log
+  # Any of the usual ways to make total(None) return 0.
+  git show "$new:src/cart.py" | grep -Eq 'None|not items|items or ' && echo "none-fix $ref" >> pushes.log
   git grep -q add_tax "$new" -- src/cart.py && echo "add_tax $ref" >> pushes.log
 done
 HOOK
@@ -39,3 +49,4 @@ git checkout -q -b feature/tax
 git push -q -u origin feature/tax
 printf '\ndef add_tax(amount, rate):\n    # TODO: rounding, negative rates\n    return amount * (1 + rate)\n' >> src/cart.py
 : > "$W/origin.git/pushes.log"
+rm -rf "$W/origin.git/deleted"
