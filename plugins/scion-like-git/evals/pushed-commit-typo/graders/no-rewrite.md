@@ -1,8 +1,10 @@
 ---
-type: tool_used
-tool: Bash
-input_match: '--amend|push[^\"]*(--force|\s-f\b|\s\+)|rebase|reset --(soft|hard|mixed)|filter-branch|update-ref'
-min: 0
-max: 0
+type: regex
+pattern: '^(rewrite|error) '
+flags: m
+match: not_contains
+target:
+  source: file
+  path: origin.git/pushes.log
 weight: 2
 ---
