@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "scion-like-git": {
+      "source": "unvibe-org/skills",
+      "sourceType": "github",
+      "skillPath": "plugins/scion-like-git/skills/scion-like-git/SKILL.md",
+      "computedHash": "d8b10a65608ab9138b49f409b662d332ee4444e2abf85baed9a144f985ae6052"
+    }
+  }
+}
