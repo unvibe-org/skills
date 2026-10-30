@@ -25,9 +25,9 @@ it lost commits. Some fixtures add lines for the content a case needs, such
 as `add_tax` when the pushed `src/cart.py` holds the parked work. Regex
 graders read that file. Two `llm` graders read the trace for what the log
 cannot show: whether a new branch stood in for the reviewed one, and whether
-the agent updated the clone before it changed code. Eval runs switch off the clone's hooks through `GIT_CONFIG_*`
-variables, and git does not pass those on to the `receive-pack` of a local
-origin, so the origin hook runs.
+the agent updated the clone before it changed code. Eval runs switch off the
+clone's hooks through `GIT_CONFIG_*` variables, and git does not pass those
+on to the `receive-pack` of a local origin, so the origin hook runs.
 
 Results on 2026-10-27, Claude Opus 5.5, three runs per arm:
 
