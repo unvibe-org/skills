@@ -84,16 +84,3 @@ intent) plus a one-time repository setup. Not affiliated with Anthropic.
 ```bash
 npx skills add unvibe-org/skills --skill scion-like-git  # other harnesses
 ```
-
-### mcp-tool-design
-
-Shapes and reviews the tools an MCP server exposes: one tool per user intent
-instead of one per endpoint, names resolved on the server instead of ids,
-five risk classes that keep `destructiveHint` and `openWorldHint` honest, and
-descriptions, errors, and batch results that help the agent choose and
-recover. Comes with a decision procedure for new tools and a review
-checklist.
-
-```bash
-npx skills add unvibe-org/skills --skill mcp-tool-design  # other harnesses
-```
