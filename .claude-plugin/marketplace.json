@@ -132,6 +132,25 @@
         "agentic-engineering",
         "workflow"
       ]
+    },
+    {
+      "name": "high-signal-researcher",
+      "description": "A Claude Code subagent that researches a question on the web using only high-signal sources: first-hand accounts by developers, Hacker News and Lobsters discussions, and primary documentation.",
+      "version": "1.0.0",
+      "author": {
+        "name": "unvibe",
+        "email": "hello@unvibe.org"
+      },
+      "source": "./plugins/high-signal-researcher",
+      "category": "research",
+      "keywords": [
+        "research",
+        "web-search",
+        "hacker-news",
+        "sources",
+        "subagent",
+        "agentic-engineering"
+      ]
     }
   ]
 }
