@@ -1,0 +1,12 @@
+{
+  "name": "high-signal-researcher",
+  "description": "A Claude Code subagent that researches a question on the web using only high-signal sources: first-hand accounts by developers, Hacker News and Lobsters discussions, and primary documentation. Every claim in its report carries author, date, and source tier.",
+  "version": "1.0.0",
+  "author": {
+    "name": "unvibe",
+    "email": "hello@unvibe.org"
+  },
+  "repository": "https://github.com/unvibe-org/skills",
+  "license": "MIT",
+  "keywords": ["research", "web-search", "hacker-news", "sources", "subagent", "agentic-engineering"]
+}

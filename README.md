@@ -84,3 +84,20 @@ intent) plus a one-time repository setup. Not affiliated with Anthropic.
 ```bash
 npx skills add unvibe-org/skills --skill scion-like-git  # other harnesses
 ```
+
+## Available Agents
+
+These plugins ship a Claude Code subagent instead of a skill. They work in
+Claude Code only, and `npx skills` cannot install them.
+
+### high-signal-researcher
+
+Researches a question on the web using only high-signal sources: first-hand
+accounts by developers, Hacker News and Lobsters discussions, and primary
+documentation. Skips marketing pages and SEO content, prefers sources from the
+last six months, and labels every finding as corroborated, single source,
+vendor claim, or folk practice.
+
+```bash
+/plugin install high-signal-researcher@unvibe-org
+```
