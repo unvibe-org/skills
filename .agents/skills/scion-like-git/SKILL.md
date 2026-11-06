@@ -39,11 +39,8 @@ If `git config --get scion-like-git.configured` prints nothing, run
    leave `main` as it is and name its local commits in the hand-off. Name the
    branch the way the repository names branches (`CONTRIBUTING.md`,
    `AGENTS.md`, recent branches on origin), or else `<type>/<slug>`, such as
-   `fix/empty-cart-total`. A new worktree, for the first row:
-
-   ```sh
-   git worktree add --no-track -b <branch> ../<branch-with-dashes> origin/main
-   ```
+   `fix/empty-cart-total`. For the first row, create a new worktree on the
+   task's branch, started from `origin/main` with `--no-track`.
 
    `--no-track` keeps a plain `git push` from going to `main`.
 
